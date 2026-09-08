@@ -72,8 +72,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 2551,
-      "sha256": "a0c4915963568d353d045cb1108b6e2f97ed44fb59dbf43d7dd7178e43755be2"
+      "bytes": 3157,
+      "sha256": "854a990d3a9498b754990880881e8e022cd61d455ffe53a45b02940d72e49a71"
+    },
+    {
+      "path": "RESULTS_COVERAGE.json",
+      "bytes": 302783,
+      "sha256": "b4d54b578bd9ad73f04ee51e026ea41b06679a68768e1ff87a9bef849efb1a2b"
     },
     {
       "path": "SNAPSHOT_SUMMARY.json",
@@ -379,6 +384,11 @@
       "path": "snapshot/kan_attention_theory/candidate_validation/results/model_benchmark.json",
       "bytes": 37933,
       "sha256": "1934d40083af946a8cd0ca851be4490f74ce46ec824ae60a962140f91e6a6693"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/candidate_validation/results/ppl.json",
+      "bytes": 798142,
+      "sha256": "d39825f98ca5536d382ac3f19c8ee4ff50348cd9205edba05f9edb599aceff98"
     },
     {
       "path": "snapshot/kan_attention_theory/candidate_validation/results/ppl_fp64.json",
@@ -691,6 +701,11 @@
       "sha256": "204b5a63f2d5dceb1d83b6c173bd2642a8c115f58a2a8c32ae308fa78c5617b8"
     },
     {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/causal_witness.json",
+      "bytes": 782067,
+      "sha256": "6ef59f704b5a149c15c2b4e60a5436c61654292df78e8d888307beada22d2017"
+    },
+    {
       "path": "snapshot/kan_attention_theory/causal_direction/results/completion.json",
       "bytes": 852,
       "sha256": "e0ebf86208b7f76a94c2095c0b0304d9aded4310c262236699e3abd7fb44e353"
@@ -884,6 +899,366 @@
       "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_long_split_kl_s47.json",
       "bytes": 104906,
       "sha256": "e2875e23236aae341a42a49c504b6c27c05e78482b36f3d6013985505a811526"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_calibrated_s11.json",
+      "bytes": 815823,
+      "sha256": "0ff48fedd6d66db158ad5b486d3b4ab5e0fa6eaddab50052715b1051d57f21d5"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_calibrated_s29.json",
+      "bytes": 815755,
+      "sha256": "e4e0ca89343dc885386317671bde73886126e90e25f4ec5098da28281e14cb8b"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_calibrated_s47.json",
+      "bytes": 816002,
+      "sha256": "811d7de9630def00d3ff2c3b3d4193ec8718fff496fd02ba42629700f86cb8a5"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_exp_kl_s11.json",
+      "bytes": 810885,
+      "sha256": "49293ecc666db649d07bd80c708b046a6b9b8be6c91a95efc6355103cf22d531"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_exp_kl_s29.json",
+      "bytes": 811015,
+      "sha256": "170760ca9d60e341238a099476320903a3af7928b1a15b665d28982777688096"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_exp_kl_s47.json",
+      "bytes": 810887,
+      "sha256": "a6e43cfc8d5f530b33bbd8a331a0343995bf8587578e26f3eac0bd80038044bc"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_favor_s11.json",
+      "bytes": 804440,
+      "sha256": "89a87a71cba33adc99295ad0b4f9626c14972963f5a9c34922edd073276facd6"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_favor_s29.json",
+      "bytes": 804317,
+      "sha256": "911ac5169f34f22b6a0c3c7a77f1d7bf07da060703ffb73aabd344d26b6cb2b4"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_favor_s47.json",
+      "bytes": 804677,
+      "sha256": "0cb40273621d74fc13c944212046804904d491b57938d0c44f8f1d6f04933fe9"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_gate_s11.json",
+      "bytes": 815610,
+      "sha256": "078717ac5fcf105a8328e4a6494f17b7af1dfc874e0814977ec72585d4a9b50b"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_gate_s29.json",
+      "bytes": 815742,
+      "sha256": "377847616061c6650514e1b3bdb43e46108fef639a7dc668cac228dd044dc552"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_gate_s47.json",
+      "bytes": 815901,
+      "sha256": "fc2f8a503935b979e121d3a7a9b71fbd294ead89eb38e1bbb2051d97f5644001"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_global_bal_s11.json",
+      "bytes": 810774,
+      "sha256": "e6dec55a7027b63e0d294ff5f189ab67c3699345df52a9ac0464be56e11aa1eb"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_global_bal_s29.json",
+      "bytes": 810707,
+      "sha256": "f0f1553e2abc020103ba556e32af589a51000421c3c738155d5adb611be8cca5"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_global_bal_s47.json",
+      "bytes": 810698,
+      "sha256": "64204385cb12bd4b128ee02de0edc04007ee225fc2a4f8037d41e77e97e20ba9"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_global_raw_s11.json",
+      "bytes": 810774,
+      "sha256": "801756048c0d0de4b144d7ad421e0175f759b97ab136639b17245b46e9f07b04"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_global_raw_s29.json",
+      "bytes": 810934,
+      "sha256": "466dae78cfe7bd966e71eae9dad088d7d30714c377c4919bfd90367555c53817"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_global_raw_s47.json",
+      "bytes": 810556,
+      "sha256": "8e3c87cb3fffdb87d88cf901f8920deb2d5829a4bd74e75c58689b707fb23d8e"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_hedgehog_s11.json",
+      "bytes": 810493,
+      "sha256": "76d5785e2f50069087f3456a93c323f650a4ac0803bea6b4e4e6122d2aba86d3"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_hedgehog_s29.json",
+      "bytes": 810622,
+      "sha256": "02ed1b6905022916086e7ec8aebb4ccbfe2796a7955dfb0560b894cea84a2b9a"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_hedgehog_s47.json",
+      "bytes": 810230,
+      "sha256": "44d4b1bf9caee841d57660c5c616ef166ecbd4465ac6f6b9c6d2700e4075fefc"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_learned_prf_s11.json",
+      "bytes": 808949,
+      "sha256": "a7c1af0767e21380a4ae7fbeee3e69a68aa6e020a1d63415c849e541ae30b873"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_learned_prf_s29.json",
+      "bytes": 809078,
+      "sha256": "5993989fbc8e21ce842997c761bcdb6f555c0dd414471767ff11b5c94c1b4e72"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_learned_prf_s47.json",
+      "bytes": 809269,
+      "sha256": "06230d07efab0d5565a3006801b2fd2233e9fb9430258d20f79ec0bbe82ece4a"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_softplus_kl_s11.json",
+      "bytes": 811294,
+      "sha256": "673a3aa38d2a62484e30aae918ab6ed5373da92f3735a63982f39b3d20d3f803"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_softplus_kl_s29.json",
+      "bytes": 811251,
+      "sha256": "5c4f342c484ff653367166e641ae4c57ce1cc792d3c06308b529d29954aedbfb"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_softplus_kl_s47.json",
+      "bytes": 811328,
+      "sha256": "60b8e53e267eb8f390e95df7be1fcd8636e3751010f8355861a5c711eec4eede"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_split_01_s11.json",
+      "bytes": 818735,
+      "sha256": "cd4dd8bc3af0453599dece75d842a5cfcaa53a7c748ca50458abebd2cf9c7f78"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_split_01_s29.json",
+      "bytes": 818553,
+      "sha256": "d1dc1845a9fa7fa8ca68ef50b3125dde50f0cdf2d470e2c383f2b03064af7f13"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_split_01_s47.json",
+      "bytes": 818821,
+      "sha256": "9936687a3fbd97e6e53d89d11d6312a1e062b5e8e9b7c6c4025f7d375059ad05"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_split_1_s11.json",
+      "bytes": 552241,
+      "sha256": "5c609680dcf34d602e82dd53e458134502fcce239eab8cc83228a21647f68b39"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_split_1_s29.json",
+      "bytes": 552197,
+      "sha256": "65b790ab952b5abfe79a2abc727ede690567b2696188d4dc5dc42b12fbae47b5"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_split_1_s47.json",
+      "bytes": 552138,
+      "sha256": "b224564b2d8def55aa1e1cbdafb2c883b8a491372e6ea80ada102f33fa7c08d6"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_split_kl_s11.json",
+      "bytes": 543160,
+      "sha256": "9678279871d5b68dabcf44df1aacca2925678e283f32280a50b57a73060e7445"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_split_kl_s29.json",
+      "bytes": 543352,
+      "sha256": "e7164bfaed06f7a241b67899207041dc08866a6ea2bdf5a191b6ed55b4e7a36a"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_prose_split_kl_s47.json",
+      "bytes": 543183,
+      "sha256": "be17f41313d3b4cc8b6b798ba320fe0906a0c45e7801d39ee045dc0d8f1da720"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_calibrated_s11.json",
+      "bytes": 952763,
+      "sha256": "4a8e764334ef7e3244deea5168ee2cc2d593630baf4c40fbdfbd5a3074d0ad6b"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_calibrated_s29.json",
+      "bytes": 952738,
+      "sha256": "bc1790b18f043bb61163fb17cadf6585fa224ff4b476cc943eb52dd56689f627"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_calibrated_s47.json",
+      "bytes": 952932,
+      "sha256": "96f06095e9fd73ca1418165ee4200b41c48afef2131a9f3924ac85cfe8692048"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_exp_kl_s11.json",
+      "bytes": 939732,
+      "sha256": "e1f8d505556214aca6b4b5690e88fe84792dd333caa713e4e930e34cfb79aec6"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_exp_kl_s29.json",
+      "bytes": 939831,
+      "sha256": "d740904b95970f3a3e8f7bbbe31691b67d88c60982e9a27540698d208285428c"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_exp_kl_s47.json",
+      "bytes": 939873,
+      "sha256": "4dd96c7194df7a2dc6647320bfaafe5849e8df32b45a7d3bd2821e2083114357"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_favor_s11.json",
+      "bytes": 926551,
+      "sha256": "97c8736719a3c4f7e60617005a39d19da0221dd6f0239990532a22a3bcb21ab4"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_favor_s29.json",
+      "bytes": 926558,
+      "sha256": "a2a05ddea65c3acf109a8cb9cc4a420cbdb83c4c9ffc4388612fa6ec76fddafe"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_favor_s47.json",
+      "bytes": 926732,
+      "sha256": "380de1f69e526f65134e2d2f60be0b3fa64ade4f69040d21cdee9870353707d9"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_gate_s11.json",
+      "bytes": 952394,
+      "sha256": "3a798da30c10d8c9e9dadcf14caf490ca81c81e8f68f539ecd70f8424932ab46"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_gate_s29.json",
+      "bytes": 952706,
+      "sha256": "d156ca61b81f07b1ae9ec4ba4baea4ee8b3bc30af21909210433287a3283e436"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_gate_s47.json",
+      "bytes": 952895,
+      "sha256": "c191006306bd54e4594a681989fd4e19b2ac61a0316ed1cdbf1a4460f36d896f"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_global_bal_s11.json",
+      "bytes": 939741,
+      "sha256": "cb934556057e322e1df3f761aade65d705037fa2b667eb55d8c747883d3b59d1"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_global_bal_s29.json",
+      "bytes": 939455,
+      "sha256": "fd3656d6f503d0ebd181df888cd11db7ccb2f45d1074cb6684a9c3edabae2ebd"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_global_bal_s47.json",
+      "bytes": 939638,
+      "sha256": "82296daa88ab0ab0bc648c90e8a8f9f8fa8af76c9dc876deb859896a15021337"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_global_raw_s11.json",
+      "bytes": 940054,
+      "sha256": "6174c74dd120fc89cf4d20457af65ce37145bea92a3ba0c48bc7be49e1f772d9"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_global_raw_s29.json",
+      "bytes": 939878,
+      "sha256": "0476a8a7f58db6fe4f5a1ab6523421c609d528cee85862a1c4c6f8412c628580"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_global_raw_s47.json",
+      "bytes": 939985,
+      "sha256": "e6f7df0414aa3485f3a4b283476f4fe72d646600b69f912fbbc626957740f0a9"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_hedgehog_s11.json",
+      "bytes": 938640,
+      "sha256": "9559904ad600e05ad950d0fc33e5b86384509800663faf242b58e12dae5e6e07"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_hedgehog_s29.json",
+      "bytes": 938203,
+      "sha256": "fe94afb2d27698458a939e3552886609f769b55600327c0e939ec856ccf3aeba"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_hedgehog_s47.json",
+      "bytes": 938235,
+      "sha256": "020f22e34291e420b2498cd49b1de5520dd42f34f781ff1fa12af7b4f5c30995"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_learned_prf_s11.json",
+      "bytes": 933284,
+      "sha256": "c8ee1e5a18748cce418f5a1e9638d8911363213dba78e94a2400c8179842cbee"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_learned_prf_s29.json",
+      "bytes": 932929,
+      "sha256": "a6d1e8aab87c03f8ce813c09e33481762a83408971487743717f5523a1c57bda"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_learned_prf_s47.json",
+      "bytes": 933526,
+      "sha256": "43d2c0370e1adaf0510f486715c75f60dfd785dc0d8101df577037ada75fe9e6"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_softplus_kl_s11.json",
+      "bytes": 941197,
+      "sha256": "8271d1466198373eb05ac7dc2247d0c1df93ca8589731576d6cfd30d87f7e67c"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_softplus_kl_s29.json",
+      "bytes": 941036,
+      "sha256": "eacb61133660680b797ef3bc9dbdaace48dfece1c1bcb71c53d7df91a7439cd6"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_softplus_kl_s47.json",
+      "bytes": 941090,
+      "sha256": "a275bfadc63cb1f0fdb949412180d1a62bbce34c721baaba9ba923979c44dc9f"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_split_01_s11.json",
+      "bytes": 956010,
+      "sha256": "971f7c5998f2bca346def4876437a61952de1ae4e0c538c916562eadc44b856e"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_split_01_s29.json",
+      "bytes": 956405,
+      "sha256": "ccf46ba58c0c8753458d0de228f816c0a8a20fc45accdb5d1d31808c463b398d"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_split_01_s47.json",
+      "bytes": 956213,
+      "sha256": "04d1d6fd2b70050c0c4d1f5865ab7869c8a31773838008028036a51ef2498fab"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_split_1_s11.json",
+      "bytes": 549145,
+      "sha256": "ec4ece9e0920c36a52ef33fa26ce4b3317a10eaad365c2ef30572b234e549bd8"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_split_1_s29.json",
+      "bytes": 549331,
+      "sha256": "2280f8341c4c840df7ca9a99f7ce54ba3925341f4da1dbbb4a1f05651729599d"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_split_1_s47.json",
+      "bytes": 549260,
+      "sha256": "cbbd968e459c819ea20bb016f8e39ba41adcfc5510d17d6d7fef8168ebd1e766"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_split_kl_s11.json",
+      "bytes": 542400,
+      "sha256": "5b760b3885af5989ec01c58df6b33cd2100d6e1b57f078571fadef4b146625e6"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_split_kl_s29.json",
+      "bytes": 542937,
+      "sha256": "12a57b2fc5af7e6560b3aca0f97fd43710ac201dffae37f584be3f7f3469e353"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/kernel_confirm_wiki_split_kl_s47.json",
+      "bytes": 541881,
+      "sha256": "7da1654d83462b65522bc71709b6d2cd60dabca671c4d46e925170c772626bc5"
     },
     {
       "path": "snapshot/kan_attention_theory/causal_direction/results/microbenchmark.json",
@@ -1551,6 +1926,11 @@
       "sha256": "ae1ad6e3b7fa937183b68f897f82026154b333caebc349c4b3f7e5971fb6c2d1"
     },
     {
+      "path": "snapshot/kan_attention_theory/causal_direction/results/rotation_diagnostic.json",
+      "bytes": 1649021,
+      "sha256": "15810fc92c25448222712f7f88e31814ff1b42cb939bec07c1f8f384aea6f076"
+    },
+    {
       "path": "snapshot/kan_attention_theory/causal_direction/results/stage_data_extract_confirm.json",
       "bytes": 116,
       "sha256": "07436e78bdd3215eedaf87da7b09a3007c0a51def9190eb0f391b1ff3490fbe1"
@@ -1741,9 +2121,19 @@
       "sha256": "89a4ec8811fbd3a5a5e32e7d335002f4fdeecfa8a4001a4ed487eb5e891d1bf5"
     },
     {
+      "path": "snapshot/kan_attention_theory/deployment_validation/results/ppl.json",
+      "bytes": 343200,
+      "sha256": "ab285f13e2150c819649b83f309fa45228bf620712899afa8f021ddfa35cfeb5"
+    },
+    {
       "path": "snapshot/kan_attention_theory/deployment_validation/results/ppl_fp64.json",
       "bytes": 15864,
       "sha256": "417151e4fc178c71868ff1dda033be16f918337cccee5ead963d9a82b4635758"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/deployment_validation/results/ppl_optimized.json",
+      "bytes": 748836,
+      "sha256": "fc2fd253a86b250556aff8ae571d698814d281012dcc8cd46500c8fdd60235ed"
     },
     {
       "path": "snapshot/kan_attention_theory/deployment_validation/results/runtime_checks.json",
@@ -1886,6 +2276,16 @@
       "sha256": "eee826bc788d8361b53e99c502e01b497723fb215c2287df439e4acfaca18d26"
     },
     {
+      "path": "snapshot/kan_attention_theory/distribution_operator/results/disjoint_ab_summary.json",
+      "bytes": 13810160,
+      "sha256": "b8b5bcd261985ea065f1970c81e0daf42c597bf40cca549b1d32cd34019063b9"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/distribution_operator/results/disjoint_ba_summary.json",
+      "bytes": 13802288,
+      "sha256": "6e1205432dac341d96feaa7da49ed21d78fe371107a11429e56d3428fa9b8a40"
+    },
+    {
       "path": "snapshot/kan_attention_theory/distribution_operator/results/disjoint_protocol.json",
       "bytes": 2711,
       "sha256": "28ef55a8f0e0b6125fe5cf779e5fb1c31ab397384c260f32076e81cc12ebbb66"
@@ -1894,6 +2294,31 @@
       "path": "snapshot/kan_attention_theory/distribution_operator/results/distribution_diagnostics.json",
       "bytes": 28063,
       "sha256": "cf5a89a7a86ee24c4854dd396f14d80f53a8377073f31844e784fb8d70aa2b54"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/distribution_operator/results/internal_summary.json",
+      "bytes": 20651837,
+      "sha256": "674dbd22f446593b2faaf4bdb54136d7e69f1ba6bc8303824eca8ececea28e5a"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/distribution_operator/results/moment_train_summary.json",
+      "bytes": 13799111,
+      "sha256": "bbe7c5af8615a8a7faba19f17379032500a721c8994e513a1de69a3a813d55ce"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/distribution_operator/results/official_summary.json",
+      "bytes": 12341589,
+      "sha256": "8fd65841f3a082dac0db4a16ff8d8eca738e56425adcc3988a514a2271c9ec4b"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/distribution_operator/results/partitions.json",
+      "bytes": 864852,
+      "sha256": "fa3a258e33971ab752e54694f10fa433cee9d61b8522c7183f4be82dede530eb"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/distribution_operator/results/positive_kernel_coefficients.json",
+      "bytes": 2868404,
+      "sha256": "b14dbe2afa4cb95160ebda38b3de80f7787c406c4e3d66aeaab223304550b1f2"
     },
     {
       "path": "snapshot/kan_attention_theory/distribution_operator/results/protocol.json",
@@ -3036,6 +3461,111 @@
       "sha256": "27431c01d8bb0a2647c7a8dbe53a8c5d878f5f66de65e2bf2a85575dedbced5a"
     },
     {
+      "path": "snapshot/kan_attention_theory/hedgehog_matched/results/kernel_confirm_wiki_ad_kl_s11_lr0.002.json",
+      "bytes": 810011,
+      "sha256": "d6c4b541e717da02d758199a0105865d97dfea276cdd93bde8f8cae068634033"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/hedgehog_matched/results/kernel_confirm_wiki_ad_kl_s29_lr0.002.json",
+      "bytes": 810732,
+      "sha256": "9500dd616163629c4eacd5d55a8f747fdbd1f97f61a1238865770c4bf218c7d0"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/hedgehog_matched/results/kernel_confirm_wiki_ad_kl_s47_lr0.002.json",
+      "bytes": 809515,
+      "sha256": "1c1c35c286bab5c70ba9975ad736eb2f5509c82f874d6adfa0a8a434fcfd9d1e"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/hedgehog_matched/results/kernel_confirm_wiki_ad_raw_s11_lr0.002.json",
+      "bytes": 821261,
+      "sha256": "cb335e825f3ed0b6eeaed0a96f94e1d6f6a91aed88b3ea549b0b10dc4e70d4a1"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/hedgehog_matched/results/kernel_confirm_wiki_ad_raw_s29_lr0.002.json",
+      "bytes": 821255,
+      "sha256": "cee90a84f2166244b9bbe21a10c956f01465bb4fcc1829945022e902330f7dba"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/hedgehog_matched/results/kernel_confirm_wiki_ad_raw_s47_lr0.002.json",
+      "bytes": 821277,
+      "sha256": "ecb8af622178cf910d39bbf0f8140e7c620a926e5cb7bf5514f186e135030326"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/hedgehog_matched/results/kernel_confirm_wiki_hh_kl_s11_lr0.002.json",
+      "bytes": 810606,
+      "sha256": "c2ac29e24334838e13310c7a43cb3651c46a31e5775b36e12c4d562c5b5ea0da"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/hedgehog_matched/results/kernel_confirm_wiki_hh_kl_s29_lr0.002.json",
+      "bytes": 810601,
+      "sha256": "e5c55b4d1a3611b3ba6ad4d49239e27860dd13a49e6e4f59babe4625b566cc0e"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/hedgehog_matched/results/kernel_confirm_wiki_hh_kl_s47_lr0.002.json",
+      "bytes": 810394,
+      "sha256": "109477d462c89cfa1e2d7e000dbb4d0833c39b6ddb870648016fe8045a4c6b08"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/hedgehog_matched/results/kernel_confirm_wiki_hh_raw_s11_lr0.002.json",
+      "bytes": 810624,
+      "sha256": "f2b31044e6690b15348fa8fb8d0e3ec937daf2912e4e128f68ae6857a9aafed5"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/hedgehog_matched/results/kernel_confirm_wiki_hh_raw_s29_lr0.002.json",
+      "bytes": 810605,
+      "sha256": "e83f3f1a0bbed23543c4ede6d0c9a2129c8e40e2544d6c69fc0515599907049e"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/hedgehog_matched/results/kernel_confirm_wiki_hh_raw_s47_lr0.002.json",
+      "bytes": 810670,
+      "sha256": "15dc939cad7840910c9bf718649ac5849e7891a3696ab3127bfaafd8a0b100f1"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/hedgehog_matched/results/kernel_confirm_wiki_hh_softmax_kl_s11_lr0.002.json",
+      "bytes": 808085,
+      "sha256": "60affa0b15f8c62e6bd022e6734532cb00ef500ab574deb4520c0fa9a4afa270"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/hedgehog_matched/results/kernel_confirm_wiki_hh_softmax_kl_s29_lr0.002.json",
+      "bytes": 808297,
+      "sha256": "a597d65ea4a2a637193d1c873327f7a09244cbecb65d581351d416fa35cf7386"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/hedgehog_matched/results/kernel_confirm_wiki_hh_softmax_kl_s47_lr0.002.json",
+      "bytes": 808338,
+      "sha256": "25204732313188168c8d9b840e853afdcd2bbb552a97cd561573275f5b5db5d4"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/hedgehog_matched/results/kernel_confirm_wiki_product_ad_raw_s11_lr0.002.json",
+      "bytes": 817295,
+      "sha256": "7a03be6ed85a40d03dc5e712c0a78e8d9dbfa2ebb4bbf6aef82e8efc7ec61c3d"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/hedgehog_matched/results/kernel_confirm_wiki_product_ad_raw_s29_lr0.002.json",
+      "bytes": 817253,
+      "sha256": "648110f581633e5006635306d0d4de852aa240b6115c12a29f0fabfebd489f01"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/hedgehog_matched/results/kernel_confirm_wiki_product_ad_raw_s47_lr0.002.json",
+      "bytes": 817272,
+      "sha256": "d52abf1ad87aba185b870b00cc70c3fb308b6d3570f6c99d62033939cb06b323"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/hedgehog_matched/results/kernel_confirm_wiki_product_hh_raw_s11_lr0.002.json",
+      "bytes": 813029,
+      "sha256": "b0a7bde1de0af93545217806c402cd78ec9e8008de03fae0847c6c7f1df4bcac"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/hedgehog_matched/results/kernel_confirm_wiki_product_hh_raw_s29_lr0.002.json",
+      "bytes": 813154,
+      "sha256": "790814a8a997beea3c442a0dbe4385ccd4ee459b64f47a2b014380a13f999d01"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/hedgehog_matched/results/kernel_confirm_wiki_product_hh_raw_s47_lr0.002.json",
+      "bytes": 813094,
+      "sha256": "facf8a3a56c37de581310854b03355d5b6c2601943a258b334288cdc7071e0b2"
+    },
+    {
       "path": "snapshot/kan_attention_theory/hedgehog_matched/results/ppl_confirm_long_ad_kl_s11_lr0.002.json",
       "bytes": 2405,
       "sha256": "4c0112cbf3a417e0e2e6e090a2dcdd28ad69ec4dacc4ffa33a87903bdf66b4b6"
@@ -3871,6 +4401,16 @@
       "sha256": "c62ded2f82a9b50459ba5e1f0aba3bf99599b47add7280281c5f7ebaeed180f0"
     },
     {
+      "path": "snapshot/kan_attention_theory/key_parameterization_attribution/results/diagnostics_confirm_long.json",
+      "bytes": 6803456,
+      "sha256": "c583cf7e879fc827d594716320c0a6f4b9d375be3c1905ade6478c915ca1083a"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/key_parameterization_attribution/results/diagnostics_confirm_wiki.json",
+      "bytes": 15504429,
+      "sha256": "2d46bcc308ddc570658c7b85aa283d998eef8e2b41b47bb68f0ee2ebb613e62a"
+    },
+    {
       "path": "snapshot/kan_attention_theory/key_parameterization_attribution/results/kernel_confirm_long_matched_zero_ad_s11_lr0.002.json",
       "bytes": 158886,
       "sha256": "69652d5034e5d4039cf5cbb8a671101d62072b26873de394889190fe91e5e1d0"
@@ -3914,6 +4454,51 @@
       "path": "snapshot/kan_attention_theory/key_parameterization_attribution/results/kernel_confirm_long_standard_exp_s47_lr0.002.json",
       "bytes": 159501,
       "sha256": "d7337f897b9f927c1546cc15a5618335fe09ef7d5fee6a584669b2772d89ddcb"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/key_parameterization_attribution/results/kernel_confirm_wiki_matched_zero_ad_s11_lr0.002.json",
+      "bytes": 808694,
+      "sha256": "5b1ee71aeb4af98904b354ff0f2bd52634b1ed9e015229c8d93fa969b2c51b5f"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/key_parameterization_attribution/results/kernel_confirm_wiki_matched_zero_ad_s29_lr0.002.json",
+      "bytes": 808708,
+      "sha256": "4b6763be1aafe97745e3a58b3d5173074d487f072c95f99564a105b532427e33"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/key_parameterization_attribution/results/kernel_confirm_wiki_matched_zero_ad_s47_lr0.002.json",
+      "bytes": 808661,
+      "sha256": "a62c1ede57df915b9a62886c8c5f81a8449677169300dd1f35493d66bff1beb2"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/key_parameterization_attribution/results/kernel_confirm_wiki_matched_zero_exp_s11_lr0.002.json",
+      "bytes": 809799,
+      "sha256": "1450a67a49c3e3ea754d18858f196fa380cced188d87a5872dd8e967ddf27bcb"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/key_parameterization_attribution/results/kernel_confirm_wiki_matched_zero_exp_s29_lr0.002.json",
+      "bytes": 809867,
+      "sha256": "87e0661cbe42117015541a9b0bab99d5878bb051b7b800631bf79b6b0c15af7c"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/key_parameterization_attribution/results/kernel_confirm_wiki_matched_zero_exp_s47_lr0.002.json",
+      "bytes": 809872,
+      "sha256": "047b142ec2ffa03086f2122a5347d049041eed34f820b2a31a948d17d2e80256"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/key_parameterization_attribution/results/kernel_confirm_wiki_standard_exp_s11_lr0.002.json",
+      "bytes": 810148,
+      "sha256": "2cad947360f96cfb46dc6aef5098bbe46ac3ceae5e69d627ca4b44c69dfd28bf"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/key_parameterization_attribution/results/kernel_confirm_wiki_standard_exp_s29_lr0.002.json",
+      "bytes": 809846,
+      "sha256": "99453c430544d1770bf62960b67cfce79125a891fd98702bd96c509a3596742e"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/key_parameterization_attribution/results/kernel_confirm_wiki_standard_exp_s47_lr0.002.json",
+      "bytes": 809892,
+      "sha256": "99fa1469ba3f144222f6004dc1139c958a25debf8164f75b03051694845102d4"
     },
     {
       "path": "snapshot/kan_attention_theory/key_parameterization_attribution/results/plan.json",
@@ -4306,6 +4891,21 @@
       "sha256": "081b71fea8cc3e6e542a05de732252cf148415b5058fa3f7b7dce0b1df2dbd00"
     },
     {
+      "path": "snapshot/kan_attention_theory/mlp_direction/results/fresh_manifest.json",
+      "bytes": 3185607,
+      "sha256": "b8b2dc4d7bb23193eba3560f50f46bba01eb77ccbcf80ddd85144f9d4d036ff7"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/mlp_direction/results/fresh_manifest2.json",
+      "bytes": 2522374,
+      "sha256": "e26a320cf1f4847212f82619898f9eaaba404dd88e18682c67ff7ecaf12a633b"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/mlp_direction/results/fresh_manifest3.json",
+      "bytes": 2113437,
+      "sha256": "c7e94f845fa9985d445dcffb7e934ba95471c4f4436452412fd0aad16e9b7ab6"
+    },
+    {
       "path": "snapshot/kan_attention_theory/mlp_direction/results/gauge_plan.json",
       "bytes": 4573,
       "sha256": "1c24218c5f7066046563132c4e0119f33c930d4e3c010295b7ac56f38f863be6"
@@ -4319,6 +4919,21 @@
       "path": "snapshot/kan_attention_theory/mlp_direction/results/information.json",
       "bytes": 1981,
       "sha256": "00ef9e89dee18b1da1fadd9de1a93ca59acc0fe8db7bb7d9f784ab931ad0205a"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/mlp_direction/results/kernel.json",
+      "bytes": 57395419,
+      "sha256": "4a3f11247f0afd27a8bc2be46cb55406211d661ba932eede10c2377bde945a43"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/mlp_direction/results/kernel_gauge.json",
+      "bytes": 11143325,
+      "sha256": "0823657c6dba5caf8cb508921b59387ed3f0fd27f646d08d9821956f70465cc1"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/mlp_direction/results/kernel_rf.json",
+      "bytes": 9133565,
+      "sha256": "55f59565690e89e32a73d7ed36252f141b65be02fb0a6de7dd1899c92b4372fc"
     },
     {
       "path": "snapshot/kan_attention_theory/mlp_direction/results/kernel_summary.csv",
@@ -4339,6 +4954,21 @@
       "path": "snapshot/kan_attention_theory/mlp_direction/results/paired_nll.json",
       "bytes": 6523,
       "sha256": "5e9cc718a214f6a3dc6aa26ca687b79b49bf53bf64accb1a3bda301f3788b1d9"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/mlp_direction/results/ppl.json",
+      "bytes": 5902052,
+      "sha256": "2f05054a18d77e5d1eee2479f0ded51b761e02583a6108ec14caa48f074572f3"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/mlp_direction/results/ppl_gauge.json",
+      "bytes": 902408,
+      "sha256": "8f226775b5a22894d55384485331aed44665bdd9f6e3fb385fa084cc7d014c7b"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/mlp_direction/results/ppl_gauge_folded_fp32.json",
+      "bytes": 902439,
+      "sha256": "1922e2329f866c17e718f1ea76e8519a5d1c3a5a614e02cb589ad9c6d43856df"
     },
     {
       "path": "snapshot/kan_attention_theory/mlp_direction/results/ppl_summary.csv",
@@ -4501,6 +5131,16 @@
       "sha256": "8aea1f89996623dd4ebd7ce6434103d13926e9366e272b69c5c4c9a4962260c4"
     },
     {
+      "path": "snapshot/kan_attention_theory/normalized_attention_assessment/results/diagnostics_confirm_long.json",
+      "bytes": 6613138,
+      "sha256": "a5275587ec6a052747f980d32b6494c73a39633bc55d634034305c07666d962c"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/normalized_attention_assessment/results/diagnostics_confirm_wiki.json",
+      "bytes": 15387720,
+      "sha256": "498d7cc1b4bad97547b8d8d03ce97b89d51c8a8e8cadd0dee18f462b0aa6e42c"
+    },
+    {
       "path": "snapshot/kan_attention_theory/normalized_attention_assessment/results/kernel_confirm_long_favor_s11.json",
       "bytes": 158561,
       "sha256": "93ac6245b38222eb4c787a04215183b51d342741396fa787a6e5e9b8e5c1e3c9"
@@ -4514,6 +5154,21 @@
       "path": "snapshot/kan_attention_theory/normalized_attention_assessment/results/kernel_confirm_long_favor_s47.json",
       "bytes": 158785,
       "sha256": "94d5d98876641815e1501f67ae826b233f2d7efaf9cd5a482955ae4b0bc1f9dd"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/normalized_attention_assessment/results/kernel_confirm_wiki_favor_s11.json",
+      "bytes": 804718,
+      "sha256": "7b92ec555ee1a3dcfcbfcadfd4d24eb7093cec0f37d9be43243043c1fdb40d57"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/normalized_attention_assessment/results/kernel_confirm_wiki_favor_s29.json",
+      "bytes": 805194,
+      "sha256": "5056f2345e61c0f1fe7a2fb5f8d46c5967566c109093c76dcfa655ba5164e4d5"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/normalized_attention_assessment/results/kernel_confirm_wiki_favor_s47.json",
+      "bytes": 805304,
+      "sha256": "0f574d9c603adf754e4c2504ce477b053ef8bf167c71c5f080ff4641c176476e"
     },
     {
       "path": "snapshot/kan_attention_theory/normalized_attention_assessment/results/manifest.json",
@@ -4564,6 +5219,11 @@
       "path": "snapshot/kan_attention_theory/normalized_attention_assessment/results/summary.json",
       "bytes": 88428,
       "sha256": "1c3a2469c75631ee0ab507c87164697ad4ea8bceee34a230c4885cd8fd0496be"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/normalized_attention_assessment/results/tail_diagnostics.json",
+      "bytes": 3910196,
+      "sha256": "a61466e79878f1c2da04de959c6964135ed75e097bb5a537ed17a7c3e17560b8"
     },
     {
       "path": "snapshot/kan_attention_theory/normalized_attention_assessment/tail_diagnose.py",
@@ -4759,6 +5419,96 @@
       "path": "snapshot/kan_attention_theory/orbit_direction/results/kernel_orbit_long_split_kl_s47.json",
       "bytes": 123550,
       "sha256": "9c9cc8b7b9852a9f1c707de09a1a7d84e08d0bcf066ec3b2eccd2208c18a616b"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/orbit_direction/results/kernel_orbit_wiki_favor_s11.json",
+      "bytes": 467003,
+      "sha256": "bf48bdaaf4dd94c209d63a139ba7200cd7d9e73a9a4c601b2c953dd3224916eb"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/orbit_direction/results/kernel_orbit_wiki_favor_s29.json",
+      "bytes": 466964,
+      "sha256": "8703d96b1ec9a422a85601385d1e98d7fa032b32b7f905e4b2764b85018c5b39"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/orbit_direction/results/kernel_orbit_wiki_favor_s47.json",
+      "bytes": 467123,
+      "sha256": "d106c4b28c9ca946e8fdbdf5ceaf0f3b2ab1f1169ce7d2660c3209c8428e29f9"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/orbit_direction/results/kernel_orbit_wiki_orbit_split_01_s11.json",
+      "bytes": 481087,
+      "sha256": "9a04befeece9b9aac6e8939f61c3304f7c28c5b1a811ea61901e846916f1db95"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/orbit_direction/results/kernel_orbit_wiki_orbit_split_01_s29.json",
+      "bytes": 481159,
+      "sha256": "e12e7ccd54c93de45f7114d8aed17985f81bccdf976e6ea849873969d5034eed"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/orbit_direction/results/kernel_orbit_wiki_orbit_split_01_s47.json",
+      "bytes": 481122,
+      "sha256": "b4263d0e00cc9226462c90975c998cdf14183379b5f8a2886459aa141bdb01b0"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/orbit_direction/results/kernel_orbit_wiki_orbit_split_kl_s11.json",
+      "bytes": 472613,
+      "sha256": "271cfe670db715f13b9450b4356b54c7e771fc7f174c03ae4a085605cffa665e"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/orbit_direction/results/kernel_orbit_wiki_orbit_split_kl_s29.json",
+      "bytes": 472477,
+      "sha256": "b039f503ad13307dd1f7c48781e56ccbd3d09dff56941abbbd9d2f14d2941f96"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/orbit_direction/results/kernel_orbit_wiki_orbit_split_kl_s47.json",
+      "bytes": 472454,
+      "sha256": "6db5b06b6ee1d6b3a8455064c411e3a2346bf578689b5218652f07724a417829"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/orbit_direction/results/kernel_orbit_wiki_softplus_kl_s11.json",
+      "bytes": 474460,
+      "sha256": "437c95dada1adf0d0df35feb36a1b4a6012e152a82895c1d2e21ade483678a6a"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/orbit_direction/results/kernel_orbit_wiki_softplus_kl_s29.json",
+      "bytes": 474370,
+      "sha256": "c18941e60770caee632d0254380152ad8dbad490f5ed6db09a054ba7d407065d"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/orbit_direction/results/kernel_orbit_wiki_softplus_kl_s47.json",
+      "bytes": 474254,
+      "sha256": "83cdbcf0498443b969e70f8ea79e8081e38e2d5bbe52415df28be3883fe0876d"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/orbit_direction/results/kernel_orbit_wiki_split_01_s11.json",
+      "bytes": 481976,
+      "sha256": "073ad46a47775fc585e3e896d88f6ec9cad522f6dd78c6cfb980d4003ad894b6"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/orbit_direction/results/kernel_orbit_wiki_split_01_s29.json",
+      "bytes": 482108,
+      "sha256": "134bfc462978f9f3bc2f628bda42a9e5f024a99d6bcf812db2edb8766aaff17e"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/orbit_direction/results/kernel_orbit_wiki_split_01_s47.json",
+      "bytes": 482102,
+      "sha256": "f292389486c4160983bb14c3d2b4467ab7553f27a9a9764b91b0f06a5285ce29"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/orbit_direction/results/kernel_orbit_wiki_split_kl_s11.json",
+      "bytes": 473162,
+      "sha256": "75be72368cbc113aa305dc949c61c2f065e952dcfdf2e195b6c725e7456e6cbf"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/orbit_direction/results/kernel_orbit_wiki_split_kl_s29.json",
+      "bytes": 473602,
+      "sha256": "6f130d668afb81867d8cac752169a6007c3e59e0b9f450974737e05cb7c65560"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/orbit_direction/results/kernel_orbit_wiki_split_kl_s47.json",
+      "bytes": 472912,
+      "sha256": "2fc9602ce0cf2e129499c178cd8db41e79b6738ba5512c56db0e5544099e4882"
     },
     {
       "path": "snapshot/kan_attention_theory/orbit_direction/results/ppl_orbit_long_hybrid_orbit_split_01_s11.json",
@@ -5079,6 +5829,11 @@
       "path": "snapshot/kan_attention_theory/orbit_direction/results/ppl_orbit_wiki_window_swa448_sink4.json",
       "bytes": 5951,
       "sha256": "3c36ea165b8e75ed2827f541af687229d704b493556f910aa197b47d22dd4372"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/orbit_direction/results/rotation_confirmation.json",
+      "bytes": 953501,
+      "sha256": "c94ab463d7818d899c631ec8500a20e3784bc209aa66c52f61a816cd5807018d"
     },
     {
       "path": "snapshot/kan_attention_theory/orbit_direction/results/stage_assess_kernels.json",
@@ -5456,9 +6211,89 @@
       "sha256": "a2b9f3a524ee0693273b340c902da02cb475ee09ac212900a4f276e034aae9ce"
     },
     {
+      "path": "snapshot/kan_attention_theory/positive_generalization/results/internal_product_0.json",
+      "bytes": 355726,
+      "sha256": "d81954bb46f2bb6f0fba6ad12f6b5bbc56cd82d390531605b1f5ae6fdeaa838a"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/positive_generalization/results/internal_product_1.json",
+      "bytes": 356593,
+      "sha256": "9140bffbd48d0e21206e8afecd20f2b8203759880b5138fbb10e272c3db5215a"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/positive_generalization/results/internal_product_2.json",
+      "bytes": 357691,
+      "sha256": "8e14595994a46c487e5016135d94789328581aadf9d8fb85097d7bdad7831b5b"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/positive_generalization/results/internal_product_3.json",
+      "bytes": 356572,
+      "sha256": "5edab03a42a02d2b23f4f7cd77fe000119e3242c3c664fc7fa880b4d7fa37cf4"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/positive_generalization/results/internal_same_context_0.json",
+      "bytes": 428989,
+      "sha256": "8b3dd96dfcad1f4304f37e94ab612c5715fd17fc08dd4bb21c8dcedf888e9c26"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/positive_generalization/results/internal_same_context_1.json",
+      "bytes": 429591,
+      "sha256": "82442be7131fe538159bfa7540a07cf34ebec2bb2a004de7274c659509e00a28"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/positive_generalization/results/internal_same_context_2.json",
+      "bytes": 428586,
+      "sha256": "ec0506a81d9292db547d33c4a387dfee6b87b1c0775915f88e1111496d156044"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/positive_generalization/results/internal_same_context_3.json",
+      "bytes": 428612,
+      "sha256": "d3510ed50d90d1471eabc434d34bb80e1f358d5112337649cf1c33aaf5c5d22e"
+    },
+    {
       "path": "snapshot/kan_attention_theory/positive_generalization/results/method_checks.json",
       "bytes": 2199,
       "sha256": "4d79a200c80556568c114c8778dd5060349051d7e1903b9f97d815ac5f07a1cf"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/positive_generalization/results/official_product_0.json",
+      "bytes": 308828,
+      "sha256": "9cd6f9b1a41bbcc5060c1fd2e4a46e7719f8feb83433ca7bff6a36a6530551bf"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/positive_generalization/results/official_product_1.json",
+      "bytes": 308588,
+      "sha256": "2e9a861ce2cc811c0ada4436b625610488fe33a8673aa473f22f56444459ccb5"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/positive_generalization/results/official_product_2.json",
+      "bytes": 308688,
+      "sha256": "0fbc2e8c2751c0f41669ba9783ca2c8006c72fda1a0d928c791b023116149667"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/positive_generalization/results/official_product_3.json",
+      "bytes": 308509,
+      "sha256": "f000bb1b3981d182777550b05f06839041f85d18b5f13d957e092f6cc3b7492a"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/positive_generalization/results/official_same_context_0.json",
+      "bytes": 381756,
+      "sha256": "3660f483b1e00d7936df5ba363c119374297298a67c1aef4f50c855e400f6baa"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/positive_generalization/results/official_same_context_1.json",
+      "bytes": 382017,
+      "sha256": "6e4630977e08a3f9019b9293aa422503d9ef083d23d553182c19bf015cf32c42"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/positive_generalization/results/official_same_context_2.json",
+      "bytes": 381536,
+      "sha256": "0d6b085706a89c156a759e7366b627cedc66cc34b8950d6db8b6405591c1761c"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/positive_generalization/results/official_same_context_3.json",
+      "bytes": 381258,
+      "sha256": "dc1034277e6fa71e4d11aa2b566a6ddef202c0a35b92466a3a526af2c863741b"
     },
     {
       "path": "snapshot/kan_attention_theory/positive_generalization/results/protocol.json",
@@ -5804,6 +6639,96 @@
       "path": "snapshot/kan_attention_theory/query_amplitude_ablation/results/kernel_confirm_long_product_i_reduced_plain_s47_lr0.002.json",
       "bytes": 159212,
       "sha256": "a2f37b110c2fbe89cea3514eb20c65c7ce67ce4fd52c927d7b13e785efa47b61"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/query_amplitude_ablation/results/kernel_confirm_wiki_causal_i_reduced_matched_s11_lr0.002.json",
+      "bytes": 819291,
+      "sha256": "2820dd12dc37691d70e8712d71736117372d71c157b135ab1e664aa23030140d"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/query_amplitude_ablation/results/kernel_confirm_wiki_causal_i_reduced_matched_s29_lr0.002.json",
+      "bytes": 819461,
+      "sha256": "da7c66fd90298f4c913a6eb5c271dcc7ce0d35e93539579fbc58cb25bb6ab344"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/query_amplitude_ablation/results/kernel_confirm_wiki_causal_i_reduced_matched_s47_lr0.002.json",
+      "bytes": 819276,
+      "sha256": "6170feba36b4a20504da86a96d3d3e0728df1eac6e2396b14a0a689ca8ddf622"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/query_amplitude_ablation/results/kernel_confirm_wiki_causal_i_reduced_plain_s11_lr0.002.json",
+      "bytes": 818955,
+      "sha256": "71c21438fe416ef237c498a52c0ff17ab32cc2eb38b39f0a3fb1dac17b3bbd06"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/query_amplitude_ablation/results/kernel_confirm_wiki_causal_i_reduced_plain_s29_lr0.002.json",
+      "bytes": 818911,
+      "sha256": "8f7d68b80d8bacf310e93f9720adbc1391fef5cd62f618c77324f87f25a1cdbc"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/query_amplitude_ablation/results/kernel_confirm_wiki_causal_i_reduced_plain_s47_lr0.002.json",
+      "bytes": 818954,
+      "sha256": "e9040fb59c3b0f3d07f7eb03234e1f951eb61f916fad9acb6253822e8604ba43"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/query_amplitude_ablation/results/kernel_confirm_wiki_causal_kl_reduced_matched_s11_lr0.002.json",
+      "bytes": 808478,
+      "sha256": "cc1271bd6667d1f20c4d65cffc8a8837fc1a627fd2f33e4ddff7358210b07999"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/query_amplitude_ablation/results/kernel_confirm_wiki_causal_kl_reduced_matched_s29_lr0.002.json",
+      "bytes": 808545,
+      "sha256": "fb6e405eb29b11bbe8a0d11fd0903728c92ccc0e75b0ffa9008c7a5a87b9f2a6"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/query_amplitude_ablation/results/kernel_confirm_wiki_causal_kl_reduced_matched_s47_lr0.002.json",
+      "bytes": 808448,
+      "sha256": "af1a8da4c73f4dbb35eb2d7d8e12129b92ceffcb0adc3952d40ecf493008cb1c"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/query_amplitude_ablation/results/kernel_confirm_wiki_causal_kl_reduced_plain_s11_lr0.002.json",
+      "bytes": 808303,
+      "sha256": "6c354122f5959dbcc2ad2e0780ddfc9bc52335d4a0e4a2ee07287199657c761c"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/query_amplitude_ablation/results/kernel_confirm_wiki_causal_kl_reduced_plain_s29_lr0.002.json",
+      "bytes": 808381,
+      "sha256": "b402613c70593d18ea3bfbc6b32518ff48ac7e4a7b196501b0153b1b4702e092"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/query_amplitude_ablation/results/kernel_confirm_wiki_causal_kl_reduced_plain_s47_lr0.002.json",
+      "bytes": 808100,
+      "sha256": "51ec35b1337923c0c8485963aad9807890850193d705c9209c449ca59fccbc19"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/query_amplitude_ablation/results/kernel_confirm_wiki_product_i_reduced_matched_s11_lr0.002.json",
+      "bytes": 814582,
+      "sha256": "afa5d6ca3275d6db88fcaa47432299d8a27c6fbdbdeba670a5ace6efc0b72bec"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/query_amplitude_ablation/results/kernel_confirm_wiki_product_i_reduced_matched_s29_lr0.002.json",
+      "bytes": 814265,
+      "sha256": "9c2ec8ce3d01b58ce3c4996ca8f9879772c059ae71b8db05521f712df73790c9"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/query_amplitude_ablation/results/kernel_confirm_wiki_product_i_reduced_matched_s47_lr0.002.json",
+      "bytes": 814439,
+      "sha256": "7c0cd187e1464ca06568fbed09ecb50c11ed94493c1fc0e7ad493d09f62f89bc"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/query_amplitude_ablation/results/kernel_confirm_wiki_product_i_reduced_plain_s11_lr0.002.json",
+      "bytes": 814456,
+      "sha256": "17891feaa04716c83d602b4fd5163acdd70da4757567fc344a778e507d4a3937"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/query_amplitude_ablation/results/kernel_confirm_wiki_product_i_reduced_plain_s29_lr0.002.json",
+      "bytes": 814326,
+      "sha256": "c5ec6fc20542d0f857af7cdc529381591ac77c258c1c054c802dccc729278367"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/query_amplitude_ablation/results/kernel_confirm_wiki_product_i_reduced_plain_s47_lr0.002.json",
+      "bytes": 814521,
+      "sha256": "6c4a981a288664c24aa0f442038ec5b76ab76d5f8b45f4aa198f1d88be3e954f"
     },
     {
       "path": "snapshot/kan_attention_theory/query_amplitude_ablation/results/manifest.json",
@@ -6936,6 +7861,11 @@
       "sha256": "346cdd42980be9acda23825fa5614f7cfaf6dd902ba2b902b85650ad1624c7d6"
     },
     {
+      "path": "snapshot/kan_attention_theory/real_llm_pilot/results/metrics.csv",
+      "bytes": 412489,
+      "sha256": "2964c8793b3216fe498201a5bf881205256cfb5195f6eeaae762613919467ddc"
+    },
+    {
       "path": "snapshot/kan_attention_theory/real_llm_pilot/results/model_replacement.png",
       "bytes": 47306,
       "sha256": "256416360e60ccd5d5e86fba30a99128b7f44191ca9d07ba122a7a6156e9d9bf"
@@ -7086,6 +8016,11 @@
       "sha256": "5191664638d461259708c3b4044da8c186229e7afc0b500e456f379559760bcf"
     },
     {
+      "path": "snapshot/kan_attention_theory/single_pass_mulkan/results/metrics.csv",
+      "bytes": 281931,
+      "sha256": "e943fd8e106db24f79c17931f0c6754058fdc9844a60bdef1f03f60e9cd8da7d"
+    },
+    {
       "path": "snapshot/kan_attention_theory/single_pass_mulkan/results/summary.json",
       "bytes": 169962,
       "sha256": "296a6c9c9967bdc892195045100994dc5507bc9a55a017331d330fd2bbe61d2c"
@@ -7139,5 +8074,5 @@
     "__pycache__",
     "work"
   ],
-  "version": "Combined repository, 2026-09-09. Original experiment documents preserved byte-for-byte."
+  "version": "Combined handoff with all 911 results JSON/CSV files; original reports unchanged."
 }

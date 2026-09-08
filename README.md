@@ -8,6 +8,10 @@ h(q,k)=e^{s_K(k)}\operatorname{softmax}([z_Q(q),0])^\top\operatorname{softmax}([
 
 包含完整研究文档、40份历史原文、183份项目Python源码、已审计结果及21个AD/EXP/Hedgehog/FAVOR检查点。**按用户要求，不上传原始数据、QKV缓存或基础LLM权重，只保留获取方式、版本与逐文件校验信息。**
 
+已补齐旧精简包未带的186份较大指标文件：当前仓库包括原项目各阶段`results/`目录中的**全部911份JSON/CSV结果文件**，包括全部17份`summary.json`及逐文档指标。精确范围、大小与SHA256见[RESULTS_COVERAGE.json](RESULTS_COVERAGE.json)。原`ARTIFACT_INVENTORY.json`描述的是补齐前的交接包；判断当前结果覆盖范围请使用新清单。
+
+这不表示全部运行产物都已上传：大型中间特征/矩阵、所有历史检查点及完整终端日志仍未全部收录。报告、结果指标与原始激活数据是不同的材料。
+
 **下载与阅读**
 
 登录有访问权限的GitHub账号后，在仓库页面选择 **Code → Download ZIP**，一次下载整个仓库；也可以使用Git克隆。
