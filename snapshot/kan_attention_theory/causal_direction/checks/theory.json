@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "toy": {
+    "n": 256,
+    "m": 64,
+    "epsilon": 0.1,
+    "nuclear_tail_bound": 0.0028124999999999986,
+    "analytic_bound": 0.0028125000000000008,
+    "mutual_information": 0.2447816292219591,
+    "old_mi_bound": 0
+  },
+  "coarsened_rank32_tail": 1.9325559870467267e-17,
+  "note": "Numerical checks support implementation of algebra; theorem proof is separate, not empirically proved."
+}

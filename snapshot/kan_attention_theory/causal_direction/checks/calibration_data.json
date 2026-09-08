@@ -1,0 +1,6 @@
+{
+  "disjoint_from_direction_queries": true,
+  "queries_per_document": 64,
+  "documents": 4096,
+  "seconds": 246.38380934856832
+}

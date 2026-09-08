@@ -1,0 +1,498 @@
+{
+  "ppl": [
+    {
+      "dataset": "internal",
+      "method": "teacher",
+      "seed": 0,
+      "perplexity": 8.613259334202136,
+      "relative_ppl_change": 0.0,
+      "paired_bootstrap_relative_change_95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "internal",
+      "method": "exact_split",
+      "seed": 0,
+      "perplexity": 8.612552926136969,
+      "relative_ppl_change": -8.20140248606327e-05,
+      "paired_bootstrap_relative_change_95": [
+        -0.00022858215433158857,
+        6.706899951403607e-05
+      ]
+    },
+    {
+      "dataset": "internal",
+      "method": "partition",
+      "seed": 0,
+      "perplexity": 8.689070100399444,
+      "relative_ppl_change": 0.008801635159906729,
+      "paired_bootstrap_relative_change_95": [
+        0.007846053768605426,
+        0.009811284891485268
+      ]
+    },
+    {
+      "dataset": "internal",
+      "method": "galerkin",
+      "seed": 0,
+      "perplexity": 8.709132149766058,
+      "relative_ppl_change": 0.011130840468627667,
+      "paired_bootstrap_relative_change_95": [
+        0.00980945593347704,
+        0.01254274653138705
+      ]
+    },
+    {
+      "dataset": "internal",
+      "method": "favor_plus",
+      "seed": 1009,
+      "perplexity": 8.74791658654946,
+      "relative_ppl_change": 0.01563371624172727,
+      "paired_bootstrap_relative_change_95": [
+        0.014322030502983552,
+        0.017036628577063017
+      ]
+    },
+    {
+      "dataset": "internal",
+      "method": "favor_plus",
+      "seed": 1046,
+      "perplexity": 8.770964351934701,
+      "relative_ppl_change": 0.01830956338517975,
+      "paired_bootstrap_relative_change_95": [
+        0.016961212927375964,
+        0.019705840453665052
+      ]
+    },
+    {
+      "dataset": "internal",
+      "method": "favor_plus",
+      "seed": 1083,
+      "perplexity": 8.73694837284727,
+      "relative_ppl_change": 0.014360305877936463,
+      "paired_bootstrap_relative_change_95": [
+        0.013162692901807355,
+        0.01561348549219153
+      ]
+    },
+    {
+      "dataset": "internal",
+      "method": "favor_plus",
+      "seed": 1120,
+      "perplexity": 8.749445065035903,
+      "relative_ppl_change": 0.015811172698933174,
+      "paired_bootstrap_relative_change_95": [
+        0.014613039638064752,
+        0.017051634555893713
+      ]
+    },
+    {
+      "dataset": "internal",
+      "method": "favor_plus",
+      "seed": 1157,
+      "perplexity": 8.744284273907986,
+      "relative_ppl_change": 0.015212004494694398,
+      "paired_bootstrap_relative_change_95": [
+        0.01402858974983422,
+        0.01642357113861646
+      ]
+    },
+    {
+      "dataset": "internal",
+      "method": "favor_plus_640",
+      "seed": 0,
+      "perplexity": 8.742300176787568,
+      "relative_ppl_change": 0.01498165068280577,
+      "paired_bootstrap_relative_change_95": [
+        0.01387123430253968,
+        0.016160804380588107
+      ]
+    },
+    {
+      "dataset": "official",
+      "method": "teacher",
+      "seed": 0,
+      "perplexity": 8.91560761547161,
+      "relative_ppl_change": 0.0,
+      "paired_bootstrap_relative_change_95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "official",
+      "method": "exact_split",
+      "seed": 0,
+      "perplexity": 8.91477647329245,
+      "relative_ppl_change": -9.322327933281027e-05,
+      "paired_bootstrap_relative_change_95": [
+        -0.00046897884742473915,
+        0.0002884330001054813
+      ]
+    },
+    {
+      "dataset": "official",
+      "method": "partition",
+      "seed": 0,
+      "perplexity": 9.034617046571626,
+      "relative_ppl_change": 0.01334843750789294,
+      "paired_bootstrap_relative_change_95": [
+        0.009646890171825667,
+        0.017062028930961957
+      ]
+    },
+    {
+      "dataset": "official",
+      "method": "galerkin",
+      "seed": 0,
+      "perplexity": 9.048216988113118,
+      "relative_ppl_change": 0.014873845772596317,
+      "paired_bootstrap_relative_change_95": [
+        0.010655519733365908,
+        0.019168143739541316
+      ]
+    },
+    {
+      "dataset": "official",
+      "method": "favor_plus",
+      "seed": 1009,
+      "perplexity": 9.08363796323304,
+      "relative_ppl_change": 0.018846763452200488,
+      "paired_bootstrap_relative_change_95": [
+        0.014857802122198288,
+        0.023000832187578507
+      ]
+    },
+    {
+      "dataset": "official",
+      "method": "favor_plus",
+      "seed": 1046,
+      "perplexity": 9.110611272887015,
+      "relative_ppl_change": 0.021872166859049358,
+      "paired_bootstrap_relative_change_95": [
+        0.017751702806652565,
+        0.02614879269804719
+      ]
+    },
+    {
+      "dataset": "official",
+      "method": "favor_plus",
+      "seed": 1083,
+      "perplexity": 9.102560866202383,
+      "relative_ppl_change": 0.020969210265192384,
+      "paired_bootstrap_relative_change_95": [
+        0.01631296499553795,
+        0.025851433386744716
+      ]
+    },
+    {
+      "dataset": "official",
+      "method": "favor_plus",
+      "seed": 1120,
+      "perplexity": 9.078256744569835,
+      "relative_ppl_change": 0.018243190606097803,
+      "paired_bootstrap_relative_change_95": [
+        0.014036240660402927,
+        0.022454474859905576
+      ]
+    },
+    {
+      "dataset": "official",
+      "method": "favor_plus",
+      "seed": 1157,
+      "perplexity": 9.101323762321307,
+      "relative_ppl_change": 0.020830453162543616,
+      "paired_bootstrap_relative_change_95": [
+        0.016364496858335888,
+        0.025037778486871335
+      ]
+    },
+    {
+      "dataset": "official",
+      "method": "favor_plus_640",
+      "seed": 0,
+      "perplexity": 9.07746730485077,
+      "relative_ppl_change": 0.018154644793729968,
+      "paired_bootstrap_relative_change_95": [
+        0.013157158384180962,
+        0.02299412839952886
+      ]
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "dataset": "internal",
+      "comparison": "partition_minus_favor_nll",
+      "comparator": "favor_plus",
+      "seed": 1009,
+      "mean": -0.006749642081558704,
+      "paired_document_bootstrap_95": [
+        -0.007613968465011567,
+        -0.00593476154608652
+      ],
+      "documents_partition_better": 236,
+      "documents": 256
+    },
+    {
+      "dataset": "internal",
+      "comparison": "partition_minus_favor_nll",
+      "comparator": "favor_plus",
+      "seed": 1046,
+      "mean": -0.009380835108458996,
+      "paired_document_bootstrap_95": [
+        -0.010319422441534698,
+        -0.00847482365788892
+      ],
+      "documents_partition_better": 245,
+      "documents": 256
+    },
+    {
+      "dataset": "internal",
+      "comparison": "partition_minus_favor_nll",
+      "comparator": "favor_plus",
+      "seed": 1083,
+      "mean": -0.005495046731084585,
+      "paired_document_bootstrap_95": [
+        -0.006206971034407616,
+        -0.004823192523326725
+      ],
+      "documents_partition_better": 215,
+      "documents": 256
+    },
+    {
+      "dataset": "internal",
+      "comparison": "partition_minus_favor_nll",
+      "comparator": "favor_plus",
+      "seed": 1120,
+      "mean": -0.006924351677298546,
+      "paired_document_bootstrap_95": [
+        -0.007637214416172355,
+        -0.00622123422799632
+      ],
+      "documents_partition_better": 235,
+      "documents": 256
+    },
+    {
+      "dataset": "internal",
+      "comparison": "partition_minus_favor_nll",
+      "comparator": "favor_plus",
+      "seed": 1157,
+      "mean": -0.006334335543215275,
+      "paired_document_bootstrap_95": [
+        -0.0070188640849664806,
+        -0.005671840964350849
+      ],
+      "documents_partition_better": 231,
+      "documents": 256
+    },
+    {
+      "dataset": "internal",
+      "comparison": "partition_minus_favor_nll",
+      "comparator": "favor_plus_640",
+      "seed": 0,
+      "mean": -0.006107407622039318,
+      "paired_document_bootstrap_95": [
+        -0.006786189321428537,
+        -0.005462348985020071
+      ],
+      "documents_partition_better": 226,
+      "documents": 256
+    },
+    {
+      "dataset": "official",
+      "comparison": "partition_minus_favor_nll",
+      "comparator": "favor_plus",
+      "seed": 1009,
+      "mean": -0.005411231517791748,
+      "paired_document_bootstrap_95": [
+        -0.007574600875377655,
+        -0.0034013837575912476
+      ],
+      "documents_partition_better": 19,
+      "documents": 20
+    },
+    {
+      "dataset": "official",
+      "comparison": "partition_minus_favor_nll",
+      "comparator": "favor_plus",
+      "seed": 1046,
+      "mean": -0.008376270532608032,
+      "paired_document_bootstrap_95": [
+        -0.010554509460926056,
+        -0.005841614156961441
+      ],
+      "documents_partition_better": 19,
+      "documents": 20
+    },
+    {
+      "dataset": "official",
+      "comparison": "partition_minus_favor_nll",
+      "comparator": "favor_plus",
+      "seed": 1083,
+      "mean": -0.007492250204086304,
+      "paired_document_bootstrap_95": [
+        -0.010255436003208161,
+        -0.004951037019491196
+      ],
+      "documents_partition_better": 18,
+      "documents": 20
+    },
+    {
+      "dataset": "official",
+      "comparison": "partition_minus_favor_nll",
+      "comparator": "favor_plus",
+      "seed": 1120,
+      "mean": -0.004818648099899292,
+      "paired_document_bootstrap_95": [
+        -0.0064481723308563235,
+        -0.003202126324176789
+      ],
+      "documents_partition_better": 18,
+      "documents": 20
+    },
+    {
+      "dataset": "official",
+      "comparison": "partition_minus_favor_nll",
+      "comparator": "favor_plus",
+      "seed": 1157,
+      "mean": -0.007356333732604981,
+      "paired_document_bootstrap_95": [
+        -0.00970941185951233,
+        -0.005020056962966919
+      ],
+      "documents_partition_better": 19,
+      "documents": 20
+    },
+    {
+      "dataset": "official",
+      "comparison": "partition_minus_favor_nll",
+      "comparator": "favor_plus_640",
+      "seed": 0,
+      "mean": -0.004731684923171997,
+      "paired_document_bootstrap_95": [
+        -0.008099699765443802,
+        -0.0015918901562690737
+      ],
+      "documents_partition_better": 14,
+      "documents": 20
+    }
+  ],
+  "precision_checks": [
+    {
+      "method": "teacher",
+      "seed": 0,
+      "dataset": "internal",
+      "max_document_nll_difference": 0.0,
+      "mean_nll_difference": 0.0
+    },
+    {
+      "method": "teacher",
+      "seed": 0,
+      "dataset": "official",
+      "max_document_nll_difference": 0.0,
+      "mean_nll_difference": 0.0
+    },
+    {
+      "method": "partition",
+      "seed": 0,
+      "dataset": "internal",
+      "max_document_nll_difference": 0.0015799999237060547,
+      "mean_nll_difference": -0.0002180039882659912
+    },
+    {
+      "method": "partition",
+      "seed": 0,
+      "dataset": "official",
+      "max_document_nll_difference": 0.0017780065536499023,
+      "mean_nll_difference": 0.0007089078426361084
+    },
+    {
+      "method": "galerkin",
+      "seed": 0,
+      "dataset": "internal",
+      "max_document_nll_difference": 0.0072879791259765625,
+      "mean_nll_difference": -0.0013828575611114502
+    },
+    {
+      "method": "galerkin",
+      "seed": 0,
+      "dataset": "official",
+      "max_document_nll_difference": 0.004013538360595703,
+      "mean_nll_difference": -0.0015279650688171387
+    },
+    {
+      "method": "favor_plus",
+      "seed": 1009,
+      "dataset": "internal",
+      "max_document_nll_difference": 0.002559185028076172,
+      "mean_nll_difference": -0.0006260573863983154
+    },
+    {
+      "method": "favor_plus",
+      "seed": 1009,
+      "dataset": "official",
+      "max_document_nll_difference": 0.0027881860733032227,
+      "mean_nll_difference": -0.0015983879566192627
+    },
+    {
+      "method": "favor_plus",
+      "seed": 1046,
+      "dataset": "internal",
+      "max_document_nll_difference": 0.002558588981628418,
+      "mean_nll_difference": 0.0004950463771820068
+    },
+    {
+      "method": "favor_plus",
+      "seed": 1046,
+      "dataset": "official",
+      "max_document_nll_difference": 0.0019643306732177734,
+      "mean_nll_difference": -0.0006649494171142578
+    },
+    {
+      "method": "favor_plus",
+      "seed": 1083,
+      "dataset": "internal",
+      "max_document_nll_difference": 0.0007612705230712891,
+      "mean_nll_difference": 5.2601099014282227e-05
+    },
+    {
+      "method": "favor_plus",
+      "seed": 1083,
+      "dataset": "official",
+      "max_document_nll_difference": 0.0024530887603759766,
+      "mean_nll_difference": 0.0005538761615753174
+    },
+    {
+      "method": "favor_plus",
+      "seed": 1120,
+      "dataset": "internal",
+      "max_document_nll_difference": 0.0008590221405029297,
+      "mean_nll_difference": -0.00012424588203430176
+    },
+    {
+      "method": "favor_plus",
+      "seed": 1120,
+      "dataset": "official",
+      "max_document_nll_difference": 0.0014281272888183594,
+      "mean_nll_difference": -0.00012600421905517578
+    },
+    {
+      "method": "favor_plus",
+      "seed": 1157,
+      "dataset": "internal",
+      "max_document_nll_difference": 0.003314495086669922,
+      "mean_nll_difference": 0.0006983578205108643
+    },
+    {
+      "method": "favor_plus",
+      "seed": 1157,
+      "dataset": "official",
+      "max_document_nll_difference": 0.002164125442504883,
+      "mean_nll_difference": 0.00013270974159240723
+    }
+  ],
+  "bootstrap": "10000 paired document resamples, percentile 95% intervals. Approximate sample uncertainty, not certified population bounds. No token/pair independence assumption.",
+  "scope": "4/336 query heads, m64, fixed 1024-token document prefixes, no model finetuning."
+}

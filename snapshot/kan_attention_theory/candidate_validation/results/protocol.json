@@ -1,0 +1,162 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B",
+  "heads": [
+    [
+      14,
+      0
+    ],
+    [
+      14,
+      6
+    ],
+    [
+      27,
+      0
+    ],
+    [
+      27,
+      6
+    ]
+  ],
+  "m": 64,
+  "training_documents": 4096,
+  "calibration_documents": 2048,
+  "moment_documents": 2048,
+  "quadrature": "2048 independent-of-test moment keys, one key from each moment-fit document; empirical quadrature is NOT the true population integral.",
+  "neural_baselines": "Frozen existing one-pass Poisson/KL fits, 4096 documents, 2097152 unique within-document pairs/head, 73856 active parameters per QK pair; all 3 seeds.",
+  "basis_note": "Anchor basis uses 64 calibration query anchors. Neural bases reuse the frozen k-net (seed 11), soft-normalized over features. This feature normalization does NOT normalize kernel targets.",
+  "nystrom": "Positive anchor kernel SVD, Nystr\u00f6m extension, 64 modes; no test fit.",
+  "spectral_pair": "32 modes, 63 nonzero-or-zero candidate feature slots padded to 64. Global envelopes follow positive weighted averages of anchor singular-vector ratios; no sample-maximum assumption.",
+  "spectral_warning": "Exact E_r*+delta^2 pertains to true orthonormal population singular functions, not these empirical Nystrom functions. Actual heldout risk is measured.",
+  "cone": "128 deterministic accelerated projected-gradient iterations of the coefficient quadratic projection; numerical cone candidate, no assertion of exact NNLS or population optimality. This is not a neural MSE training objective.",
+  "vq": "64 Euclidean calibration key centroids, 30 Lloyd iterations. Kernel-level VQ baseline, not full end-to-end-trained Transformer-VQ architecture.",
+  "target": "exp(q^T k/sqrt(128)); all methods represented after a fixed headwise scale which is restored for raw metrics.",
+  "feature_seeds": "No test-based seed selection; m=64 primary, fixed FAVOR+ m640 compute-budget supplement.",
+  "pair_delta": [
+    162615717.05716503,
+    26646030.181035064,
+    68738817.75578584,
+    7846217.40600237
+  ],
+  "envelope_sum": [
+    162615718.05716503,
+    26646031.181035064,
+    68738818.75578584,
+    7846218.40600237
+  ],
+  "bases": [
+    {
+      "basis": "anchor",
+      "condition_number": [
+        11.893204621514133,
+        14.257715220674234,
+        185.3114271593365,
+        148.3848148073988
+      ],
+      "minimum_eigenvalue": [
+        0.4266274636444004,
+        0.4151106266789359,
+        0.09090976394944994,
+        0.11743978181189917
+      ],
+      "effective_rank_1e10": [
+        64,
+        64,
+        64,
+        64
+      ],
+      "min_mass": [
+        0.0005537704205345851,
+        0.0006100507173034983,
+        0.0016681058066719103,
+        0.001618714939822661
+      ],
+      "quadrature_nodes": 2048
+    },
+    {
+      "basis": "mlp",
+      "condition_number": [
+        182175851.24790287,
+        212877990.78893483,
+        244816.67777117004,
+        211720.8565324214
+      ],
+      "minimum_eigenvalue": [
+        2.4428950725944183e-07,
+        1.316509349095468e-07,
+        0.00020587658464411078,
+        0.00022978432260753934
+      ],
+      "effective_rank_1e10": [
+        64,
+        64,
+        64,
+        64
+      ],
+      "min_mass": [
+        5.76895372333625e-05,
+        0.00011725830053744025,
+        0.0022795129021548474,
+        0.0016358250858693473
+      ],
+      "quadrature_nodes": 2048
+    },
+    {
+      "basis": "kan",
+      "condition_number": [
+        20098134710.91048,
+        446955181.9998324,
+        45649502.969637625,
+        32060559.912637744
+      ],
+      "minimum_eigenvalue": [
+        2.174795322487389e-09,
+        1.1500499940373616e-07,
+        1.1442326184416298e-06,
+        1.5652723499321939e-06
+      ],
+      "effective_rank_1e10": [
+        63,
+        64,
+        64,
+        64
+      ],
+      "min_mass": [
+        7.047186214374496e-05,
+        8.99520718393128e-05,
+        0.003828600549640684,
+        0.0018526604118923183
+      ],
+      "quadrature_nodes": 2048
+    },
+    {
+      "basis": "mulkan",
+      "condition_number": [
+        null,
+        38230700.30409383,
+        41679.81845659088,
+        525732.2350595858
+      ],
+      "minimum_eigenvalue": [
+        -7.647663605357014e-16,
+        1.3654135037106471e-06,
+        0.0006316733415220035,
+        6.830821868065487e-05
+      ],
+      "effective_rank_1e10": [
+        40,
+        64,
+        64,
+        64
+      ],
+      "min_mass": [
+        1.3349243348554456e-06,
+        0.0001608204622374929,
+        3.0621213247386265e-05,
+        0.00038009848324327704
+      ],
+      "quadrature_nodes": 2048
+    }
+  ],
+  "seconds": 7.615179372951388
+}

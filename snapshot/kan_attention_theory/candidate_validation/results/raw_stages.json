@@ -1,0 +1,42 @@
+[
+  {
+    "stage": "raw_prepare",
+    "returncode": 0,
+    "seconds": 2.9996585194021463
+  },
+  {
+    "stage": "raw_verify",
+    "returncode": 0,
+    "seconds": 4.630253383889794
+  },
+  {
+    "stage": "raw_screen",
+    "returncode": 0,
+    "seconds": 16.363755015656352
+  },
+  {
+    "stage": "raw_full",
+    "returncode": 0,
+    "seconds": 116.56124105863273
+  },
+  {
+    "stage": "raw_ppl",
+    "returncode": 0,
+    "seconds": 91.16341452114284
+  },
+  {
+    "stage": "raw_ppl_fp64",
+    "returncode": 0,
+    "seconds": 13.636053059250116
+  },
+  {
+    "stage": "raw_benchmark",
+    "returncode": 0,
+    "seconds": 148.0099980775267
+  },
+  {
+    "stage": "raw_features",
+    "returncode": 0,
+    "seconds": 15.424065191298723
+  }
+]

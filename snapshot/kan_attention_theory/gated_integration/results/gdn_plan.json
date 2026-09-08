@@ -1,0 +1,22 @@
+{
+  "family": "gdn",
+  "kinds": [
+    "ad_norm",
+    "ad_write",
+    "exp_mlp"
+  ],
+  "seeds": [
+    11,
+    29
+  ],
+  "training_docs": 1024,
+  "batch_size": 4,
+  "steps": 256,
+  "layers": [
+    10,
+    20
+  ],
+  "parameter_count_per_head": 196608,
+  "base_sha256": "ee57e64d4f1315b2f7550df6080847daa15a6913f49890be783e894d066c8ebb",
+  "objective": "next-token cross entropy; frozen native model; not exp kernel distillation"
+}

@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "teacher",
+      "runtime": "Replacement",
+      "relative_logit_error": 0.01703302375972271,
+      "top1_equal": true,
+      "kv_bytes": 7340032,
+      "state_bytes": 0,
+      "total_bytes": 7340032,
+      "window_bytes": 0
+    },
+    {
+      "name": "split_01_s11",
+      "runtime": "Replacement",
+      "relative_logit_error": 0.0161990188062191,
+      "top1_equal": true,
+      "kv_bytes": 6815744,
+      "state_bytes": 798720,
+      "total_bytes": 7614464,
+      "window_bytes": 0
+    },
+    {
+      "name": "exp_kl_s11",
+      "runtime": "Replacement",
+      "relative_logit_error": 0.018456656485795975,
+      "top1_equal": true,
+      "kv_bytes": 6815744,
+      "state_bytes": 798720,
+      "total_bytes": 7614464,
+      "window_bytes": 0
+    },
+    {
+      "name": "calibrated_s11",
+      "runtime": "Hybrid",
+      "relative_logit_error": 0.019287165254354477,
+      "top1_equal": true,
+      "kv_bytes": 6815744,
+      "state_bytes": 798720,
+      "total_bytes": 7745536,
+      "window_bytes": 131072
+    }
+  ],
+  "note": "BF16 prefill/decode differ in accumulation paths; independent FP64 recurrence and FP32 operators verified above."
+}

@@ -1,0 +1,12 @@
+{
+  "names": [
+    "orbit_split_01_s11",
+    "orbit_split_01_s29",
+    "orbit_split_01_s47",
+    "orbit_split_kl_s11",
+    "orbit_split_kl_s29",
+    "orbit_split_kl_s47"
+  ],
+  "selection": "No new hyperparameter selection: both predeclared objectives and all3seeds reported. Rotation protocol fixed from preceding causal_direction diagnostic; new confirmation texts never previously evaluated.",
+  "scope": "Same24heads, m64,73856parameters/head,4096 updates, same base Q/K count, no LLM training."
+}

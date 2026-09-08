@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "regime": "product_i",
+      "name": "product_i_reduced_matched_s29_lr0.002",
+      "head": [
+        27,
+        9
+      ],
+      "document_ordinal": 21,
+      "head_raw_nmse": 60130.50928025569,
+      "saved_document_sse": 5395133854366.504,
+      "cpu_fp64_document_sse": 5395133854366.461,
+      "relative_recomputation_error": 7.964352907615744e-15,
+      "worst_query_position": 7543,
+      "worst_key_position": 7069,
+      "worst_target_raw_log_kernel": 3.1873894311431092,
+      "worst_prediction_raw_log_kernel": 20.131367909406706,
+      "worst_pair_share_of_document_sse": 0.24008713117564554,
+      "direct_logsumexp_discrepancy": 0.0,
+      "at_key_mean_kernel_one_over_m_error": 1.3877787807814457e-17
+    },
+    {
+      "regime": "causal_i",
+      "name": "causal_i_reduced_matched_s11_lr0.002",
+      "head": [
+        14,
+        9
+      ],
+      "document_ordinal": 19,
+      "head_raw_nmse": 6922842752660.7705,
+      "saved_document_sse": 1.828808686314738e+19,
+      "cpu_fp64_document_sse": 1.8288086863147995e+19,
+      "relative_recomputation_error": 3.3595640954554265e-14,
+      "worst_query_position": 6964,
+      "worst_key_position": 5196,
+      "worst_target_raw_log_kernel": -9.382487090214411,
+      "worst_prediction_raw_log_kernel": 21.78228104857649,
+      "worst_pair_share_of_document_sse": 0.6172466995163572,
+      "direct_logsumexp_discrepancy": 3.552713678800501e-15,
+      "at_key_mean_kernel_one_over_m_error": 1.3877787807814457e-17
+    }
+  ],
+  "scope": "Post-hoc independent CPU FP64 audit of worst long-document errors, no training or model selection. The key-mean identity is algebraic; mean key need not be on real support."
+}

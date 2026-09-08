@@ -1,0 +1,155 @@
+{
+  "passed": true,
+  "long_context": [
+    {
+      "name": "split_01_s11",
+      "layer": 14,
+      "relative_output_error_fp32_vs_explicit_fp64": 6.840765022286698e-07,
+      "zero_denominators": 0,
+      "min_denominator": 3.7943911901372473e-11,
+      "fused_feature_max_log_error": 1.9073486328125e-06
+    },
+    {
+      "name": "split_01_s11",
+      "layer": 27,
+      "relative_output_error_fp32_vs_explicit_fp64": 4.622683893938207e-07,
+      "zero_denominators": 0,
+      "min_denominator": 8.853142624922795e-15,
+      "fused_feature_max_log_error": 7.62939453125e-06
+    },
+    {
+      "name": "exp_kl_s11",
+      "layer": 14,
+      "relative_output_error_fp32_vs_explicit_fp64": 1.3972659304436945e-06,
+      "zero_denominators": 0,
+      "min_denominator": 1.1397923492437631e-17,
+      "fused_feature_max_log_error": 2.0265579223632812e-06
+    },
+    {
+      "name": "exp_kl_s11",
+      "layer": 27,
+      "relative_output_error_fp32_vs_explicit_fp64": 8.16659769280125e-07,
+      "zero_denominators": 0,
+      "min_denominator": 2.96717359761657e-21,
+      "fused_feature_max_log_error": 3.814697265625e-06
+    },
+    {
+      "name": "softplus_kl_s11",
+      "layer": 14,
+      "relative_output_error_fp32_vs_explicit_fp64": 2.6024130895916183e-07,
+      "zero_denominators": 0,
+      "min_denominator": 2.2123155929421046e-07,
+      "fused_feature_max_log_error": 3.814697265625e-06
+    },
+    {
+      "name": "softplus_kl_s11",
+      "layer": 27,
+      "relative_output_error_fp32_vs_explicit_fp64": 1.9943581929668146e-07,
+      "zero_denominators": 0,
+      "min_denominator": 2.490640242062015e-14,
+      "fused_feature_max_log_error": 7.62939453125e-06
+    },
+    {
+      "name": "calibrated_s11",
+      "layer": 14,
+      "relative_output_error_fp32_vs_explicit_fp64": 1.452723587203425e-06,
+      "zero_denominators": 0,
+      "min_denominator": 1.1397898677019255e-17,
+      "fused_feature_max_log_error": 3.814697265625e-06
+    },
+    {
+      "name": "calibrated_s11",
+      "layer": 27,
+      "relative_output_error_fp32_vs_explicit_fp64": 8.624741577920225e-07,
+      "zero_denominators": 0,
+      "min_denominator": 2.967166731371251e-21,
+      "fused_feature_max_log_error": 7.62939453125e-06
+    },
+    {
+      "name": "gate_s11",
+      "layer": 14,
+      "relative_output_error_fp32_vs_explicit_fp64": 1.4496964141593476e-06,
+      "zero_denominators": 0,
+      "min_denominator": 1.1397898677019255e-17,
+      "fused_feature_max_log_error": 2.384185791015625e-06
+    },
+    {
+      "name": "gate_s11",
+      "layer": 27,
+      "relative_output_error_fp32_vs_explicit_fp64": 8.651123118744693e-07,
+      "zero_denominators": 0,
+      "min_denominator": 2.967166731371251e-21,
+      "fused_feature_max_log_error": 3.814697265625e-06
+    },
+    {
+      "name": "favor_s11",
+      "layer": 14,
+      "relative_output_error_fp32_vs_explicit_fp64": 1.268401321655168e-06,
+      "zero_denominators": 0,
+      "min_denominator": 0.00026261183666065335,
+      "fused_feature_max_log_error": 3.814697265625e-06
+    },
+    {
+      "name": "favor_s11",
+      "layer": 27,
+      "relative_output_error_fp32_vs_explicit_fp64": 1.160918493513629e-06,
+      "zero_denominators": 0,
+      "min_denominator": 4.790281764144311e-06,
+      "fused_feature_max_log_error": 3.814697265625e-06
+    },
+    {
+      "name": "hedgehog_s11",
+      "layer": 14,
+      "relative_output_error_fp32_vs_explicit_fp64": 5.657197152315301e-07,
+      "zero_denominators": 0,
+      "min_denominator": 0.003870854852721095,
+      "fused_feature_max_log_error": 1.9073486328125e-06
+    },
+    {
+      "name": "hedgehog_s11",
+      "layer": 27,
+      "relative_output_error_fp32_vs_explicit_fp64": 3.3319756606086366e-07,
+      "zero_denominators": 0,
+      "min_denominator": 0.007250923663377762,
+      "fused_feature_max_log_error": 1.9073486328125e-06
+    },
+    {
+      "name": "learned_prf_s11",
+      "layer": 14,
+      "relative_output_error_fp32_vs_explicit_fp64": 1.2880708188752961e-06,
+      "zero_denominators": 0,
+      "min_denominator": 0.00047165268915705383,
+      "fused_feature_max_log_error": 7.62939453125e-06
+    },
+    {
+      "name": "learned_prf_s11",
+      "layer": 27,
+      "relative_output_error_fp32_vs_explicit_fp64": 8.333248327314187e-07,
+      "zero_denominators": 0,
+      "min_denominator": 4.967783024767414e-05,
+      "fused_feature_max_log_error": 3.814697265625e-06
+    }
+  ],
+  "swa": {
+    "dense_mask_relative_error": 2.0548117163343704e-07,
+    "prefill_decode_relative_error": 3.056455568639649e-07
+  },
+  "gauge_invariance": [
+    {
+      "name": "calibrated_s11",
+      "max_probability_difference": 3.497202527569243e-15
+    },
+    {
+      "name": "gate_s11",
+      "max_probability_difference": 3.2751579226442118e-15
+    },
+    {
+      "name": "global_bal_s11",
+      "max_probability_difference": 1.5543122344752192e-15
+    },
+    {
+      "name": "global_raw_s11",
+      "max_probability_difference": 1.4988010832439613e-15
+    }
+  ]
+}

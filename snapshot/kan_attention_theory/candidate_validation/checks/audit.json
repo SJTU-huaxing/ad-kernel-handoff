@@ -1,0 +1,75 @@
+{
+  "kernel_rows": 616,
+  "ppl_rows": 30,
+  "new_full_model_document_forwards": 4140,
+  "end_to_end_timing_rows": 36,
+  "feature_timing_rows": 152,
+  "max_reference_log_energy_error": 1.7763568394002505e-15,
+  "max_recomputed_old_rf_relative_error": 9.854755663973105e-15,
+  "all_neural_parameter_budgets_equal": true,
+  "disjoint_document_token_hashes": true,
+  "all_stages_passed": true,
+  "checkpoints": [
+    {
+      "method": "mlp",
+      "seed": 11,
+      "parameters": 73856
+    },
+    {
+      "method": "mlp",
+      "seed": 29,
+      "parameters": 73856
+    },
+    {
+      "method": "mlp",
+      "seed": 47,
+      "parameters": 73856
+    },
+    {
+      "method": "kan",
+      "seed": 11,
+      "parameters": 73856
+    },
+    {
+      "method": "kan",
+      "seed": 29,
+      "parameters": 73856
+    },
+    {
+      "method": "kan",
+      "seed": 47,
+      "parameters": 73856
+    },
+    {
+      "method": "mulkan",
+      "seed": 11,
+      "parameters": 73856
+    },
+    {
+      "method": "mulkan",
+      "seed": 29,
+      "parameters": 73856
+    },
+    {
+      "method": "mulkan",
+      "seed": 47,
+      "parameters": 73856
+    }
+  ],
+  "source_sha256": {
+    "audit.py": "1bee6134ff10d40a373d950ebcf53f38987eec6c764a6d412eb1486dbeaa4178",
+    "benchmark_features.py": "880cc7f0f25c5d0b3b0164d11e8d0b899b7c069a7c317063bee6f27e7ba8fe1a",
+    "benchmark_full.py": "03ea4fd14322d7d93942b07a1234474c6d3ec30ea5ff6db6bee00626e7ea9b2d",
+    "choose_candidates.py": "62d1153c5f24bb2dff0b3bbb72ffa1049a6f9e137cb46bd101972e12ea89a87c",
+    "common.py": "70430631efc5487141346684837fc01b83f76b28078710809a33dd8b1f5709a4",
+    "deploy.py": "add67dee9396912cb1211685a0d70fbd0cc5dcbf9803ad3afad16b6c9a972810",
+    "evaluate.py": "3b7dda3dfdf8959e79d2b4d42fe9e61228952ef06b6407a7782e7ea4aab938f0",
+    "finish.py": "e16377b401b2750ceaacc519c9360af00945980e44baacd0e7d1723f63a86893",
+    "finish_raw.py": "b14c104c9e98578d62898d126de09f59123bb622b7ab5979b9711cde1c48f3bb",
+    "ppl.py": "40b648d09f7d0f8500690989520fd61640d1a39f529269ef17e22e61a29130f3",
+    "prepare.py": "a54c11deb48829a6bb389ca7a552b3a8ff6bf2524f64b75ff1a518e86b0a8f5b",
+    "raw_basis.py": "7afc04046fe4ebda51df461172f09cfa240cb08bba7d9b9a5ed4125bf7c2d98a",
+    "report.py": "62a7a2e7abae4030d9a15eeda88240d2d88d7bb86a9aee4c31897247946baadd",
+    "verify.py": "b88aa32279f1335e60c9a8e596612bc7b57fe31d0c5e96348a7782b67e1dab7b"
+  }
+}

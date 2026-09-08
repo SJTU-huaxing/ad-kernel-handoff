@@ -1,0 +1,206 @@
+{
+  "checks": [
+    {
+      "name": "half_m16_s11_n4096",
+      "scan_relative_l2": 0.0,
+      "recurrent_relative_l2": 1.5774224406464338e-16,
+      "head_runtime_relative_l2": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "half_m32_s11_n4096",
+      "scan_relative_l2": 0.0,
+      "recurrent_relative_l2": 1.6514210789694948e-16,
+      "head_runtime_relative_l2": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "half_m64_s11_n4096",
+      "scan_relative_l2": 0.0,
+      "recurrent_relative_l2": 1.5340727781079883e-16,
+      "head_runtime_relative_l2": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "half_m96_s11_n4096",
+      "scan_relative_l2": 0.0,
+      "recurrent_relative_l2": 1.7640675941551672e-16,
+      "head_runtime_relative_l2": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "half_m128_s11_n4096",
+      "scan_relative_l2": 0.0,
+      "recurrent_relative_l2": 1.6477228692395335e-16,
+      "head_runtime_relative_l2": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "factorized_m64_s11_n4096",
+      "scan_relative_l2": 0.0,
+      "recurrent_relative_l2": 1.713262444275437e-16,
+      "head_runtime_relative_l2": [
+        3.428338090343495e-16,
+        3.34684623388602e-16,
+        3.653584536327611e-16,
+        2.877605277628932e-16
+      ]
+    },
+    {
+      "name": "factorized_m64_s29_n4096",
+      "scan_relative_l2": 0.0,
+      "recurrent_relative_l2": 1.947782182670639e-16,
+      "head_runtime_relative_l2": [
+        3.1999176073471387e-16,
+        2.7407403444821556e-16,
+        3.222523073938175e-16,
+        3.036812988453994e-16
+      ]
+    },
+    {
+      "name": "factorized_m64_s47_n4096",
+      "scan_relative_l2": 0.0,
+      "recurrent_relative_l2": 1.6512383213324265e-16,
+      "head_runtime_relative_l2": [
+        2.7610933230812476e-16,
+        3.288681124810842e-16,
+        3.189236301890147e-16,
+        3.057326015468858e-16
+      ]
+    },
+    {
+      "name": "factorized_both_m64_s11_n4096",
+      "scan_relative_l2": 0.0,
+      "recurrent_relative_l2": 1.5922051202324948e-16,
+      "head_runtime_relative_l2": [
+        3.19552869964077e-16,
+        3.254627847250097e-16,
+        2.970472223908918e-16,
+        2.7443255131933327e-16
+      ]
+    },
+    {
+      "name": "factorized_both_m64_s29_n4096",
+      "scan_relative_l2": 0.0,
+      "recurrent_relative_l2": 1.744759915547014e-16,
+      "head_runtime_relative_l2": [
+        3.873920600095809e-16,
+        3.9598029819161114e-16,
+        3.141213666439238e-16,
+        2.626541765723507e-16
+      ]
+    },
+    {
+      "name": "factorized_both_m64_s47_n4096",
+      "scan_relative_l2": 0.0,
+      "recurrent_relative_l2": 1.9479043449879508e-16,
+      "head_runtime_relative_l2": [
+        4.073669467864051e-16,
+        2.4645324061597e-16,
+        3.14312972760995e-16,
+        2.413580722665331e-16
+      ]
+    },
+    {
+      "name": "exp_control_m64_s11_n4096",
+      "scan_relative_l2": 0.0,
+      "recurrent_relative_l2": 1.7862101550651632e-16,
+      "head_runtime_relative_l2": [
+        3.131316783006261e-16,
+        3.689244823114056e-16,
+        3.238165720889083e-16,
+        2.849623363583012e-16
+      ]
+    },
+    {
+      "name": "exp_control_m64_s29_n4096",
+      "scan_relative_l2": 0.0,
+      "recurrent_relative_l2": 1.8544826878132375e-16,
+      "head_runtime_relative_l2": [
+        3.625353660613104e-16,
+        3.6773783214842144e-16,
+        2.8620438656382163e-16,
+        2.746925802338821e-16
+      ]
+    },
+    {
+      "name": "exp_control_m64_s47_n4096",
+      "scan_relative_l2": 0.0,
+      "recurrent_relative_l2": 1.938945914237155e-16,
+      "head_runtime_relative_l2": [
+        3.856975018173253e-16,
+        4.013819318001133e-16,
+        3.234699757098576e-16,
+        2.638222076199724e-16
+      ]
+    },
+    {
+      "name": "gauge_calibrated_m64_s11_n4096",
+      "scan_relative_l2": 0.0,
+      "recurrent_relative_l2": 1.9135019360075842e-16,
+      "head_runtime_relative_l2": [
+        1.15366693407681e-15,
+        1.0798660224611723e-15,
+        6.340312601068331e-16,
+        8.043253891494199e-16
+      ]
+    },
+    {
+      "name": "gauge_calibrated_m64_s29_n4096",
+      "scan_relative_l2": 0.0,
+      "recurrent_relative_l2": 1.8074968048260174e-16,
+      "head_runtime_relative_l2": [
+        1.0920595266915337e-15,
+        1.1382239275697945e-15,
+        7.451029524367261e-16,
+        5.913129363352076e-16
+      ]
+    },
+    {
+      "name": "gauge_calibrated_m64_s47_n4096",
+      "scan_relative_l2": 0.0,
+      "recurrent_relative_l2": 1.7205517791990833e-16,
+      "head_runtime_relative_l2": [
+        2.2753407098014846e-15,
+        8.336942772783208e-16,
+        6.964984245115665e-16,
+        3.9691025771911517e-16
+      ]
+    }
+  ],
+  "disjoint_token_hashes": true,
+  "split_counts": {
+    "train": 4096,
+    "validation": 128,
+    "test": 256,
+    "official": 20,
+    "fda": 96,
+    "fresh_wiki": 128,
+    "fresh_wiki2": 128,
+    "swde": 96,
+    "fresh_wiki3": 128,
+    "swde3": 40
+  },
+  "all_parameter_budgets_correct": true,
+  "matched_single_pass_document_and_query_orders": true
+}

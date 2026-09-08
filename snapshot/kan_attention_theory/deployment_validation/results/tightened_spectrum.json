@@ -1,0 +1,631 @@
+{
+  "results": [
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        0
+      ],
+      "n": 10240,
+      "subspace_rank": 256,
+      "power_iterations": 0,
+      "orthogonality_error": 1.9984014443252818e-15,
+      "missed_energy_fraction": 0.009581407453123969,
+      "bounds": {
+        "16": {
+          "lower": 0.05414903356854087,
+          "upper": 0.0637304410216647,
+          "frozen_positive_risk": 0.3352531492315558,
+          "certified_empirical_suboptimality_ratio_at_least": 5.260486885970065
+        },
+        "32": {
+          "lower": 0.029010227740739178,
+          "upper": 0.038591635193862994,
+          "frozen_positive_risk": 0.26483074234610715,
+          "certified_empirical_suboptimality_ratio_at_least": 6.862387173172223
+        },
+        "64": {
+          "lower": 0.013813290028361269,
+          "upper": 0.02339469748148504,
+          "frozen_positive_risk": 0.2541343343327886,
+          "certified_empirical_suboptimality_ratio_at_least": 10.862903208469135
+        },
+        "128": {
+          "lower": 0.004173554134815077,
+          "upper": 0.013754961587938874,
+          "frozen_positive_risk": 0.2512681949371369,
+          "certified_empirical_suboptimality_ratio_at_least": 18.26745886062401
+        }
+      },
+      "seconds": 0.6183628458529711
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        0
+      ],
+      "n": 10240,
+      "subspace_rank": 256,
+      "power_iterations": 1,
+      "orthogonality_error": 1.9984014443252818e-15,
+      "missed_energy_fraction": 0.003919939411460738,
+      "bounds": {
+        "16": {
+          "lower": 0.059161707440961456,
+          "upper": 0.06308164685242224,
+          "frozen_positive_risk": 0.3352531492315558,
+          "certified_empirical_suboptimality_ratio_at_least": 5.314590946172842
+        },
+        "32": {
+          "lower": 0.033433819851882096,
+          "upper": 0.037353759263342945,
+          "frozen_positive_risk": 0.26483074234610715,
+          "certified_empirical_suboptimality_ratio_at_least": 7.089801604145326
+        },
+        "64": {
+          "lower": 0.017273570025500756,
+          "upper": 0.021193509436961744,
+          "frozen_positive_risk": 0.2541343343327886,
+          "certified_empirical_suboptimality_ratio_at_least": 11.99113979158049
+        },
+        "128": {
+          "lower": 0.005996978756868561,
+          "upper": 0.009916918168329403,
+          "frozen_positive_risk": 0.2512681949371369,
+          "certified_empirical_suboptimality_ratio_at_least": 25.337326644439315
+        }
+      },
+      "seconds": 1.086546678096056
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        6
+      ],
+      "n": 10240,
+      "subspace_rank": 256,
+      "power_iterations": 0,
+      "orthogonality_error": 1.5543122344752192e-15,
+      "missed_energy_fraction": 0.001380827772727189,
+      "bounds": {
+        "16": {
+          "lower": 0.017106345182046043,
+          "upper": 0.018487172954773312,
+          "frozen_positive_risk": 0.9457748284436219,
+          "certified_empirical_suboptimality_ratio_at_least": 51.158434594480646
+        },
+        "32": {
+          "lower": 0.006997171641009185,
+          "upper": 0.008377999413736403,
+          "frozen_positive_risk": 0.9456397524837092,
+          "certified_empirical_suboptimality_ratio_at_least": 112.87178546864743
+        },
+        "64": {
+          "lower": 0.0027283307309471845,
+          "upper": 0.004109158503674437,
+          "frozen_positive_risk": 0.9455909776172428,
+          "certified_empirical_suboptimality_ratio_at_least": 230.11791265089653
+        },
+        "128": {
+          "lower": 0.000617581483157098,
+          "upper": 0.001998409255884459,
+          "frozen_positive_risk": 0.9455365854293832,
+          "certified_empirical_suboptimality_ratio_at_least": 473.1446187237089
+        }
+      },
+      "seconds": 0.45813266932964325
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        6
+      ],
+      "n": 10240,
+      "subspace_rank": 256,
+      "power_iterations": 1,
+      "orthogonality_error": 1.5543122344752192e-15,
+      "missed_energy_fraction": 0.0005048784699051012,
+      "bounds": {
+        "16": {
+          "lower": 0.017895126044955124,
+          "upper": 0.018400004514860124,
+          "frozen_positive_risk": 0.9457748284436219,
+          "certified_empirical_suboptimality_ratio_at_least": 51.400793281316844
+        },
+        "32": {
+          "lower": 0.007705608776075864,
+          "upper": 0.008210487245981168,
+          "frozen_positive_risk": 0.9456397524837092,
+          "certified_empirical_suboptimality_ratio_at_least": 115.17462047658337
+        },
+        "64": {
+          "lower": 0.0032808528762775595,
+          "upper": 0.0037857313461826525,
+          "frozen_positive_risk": 0.9455909776172428,
+          "certified_empirical_suboptimality_ratio_at_least": 249.77762317200103
+        },
+        "128": {
+          "lower": 0.0009054453767331092,
+          "upper": 0.001410323846638195,
+          "frozen_positive_risk": 0.9455365854293832,
+          "certified_empirical_suboptimality_ratio_at_least": 670.4393375204351
+        }
+      },
+      "seconds": 0.9184944648295641
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        0
+      ],
+      "n": 10240,
+      "subspace_rank": 256,
+      "power_iterations": 0,
+      "orthogonality_error": 1.3322676295501878e-15,
+      "missed_energy_fraction": 0.010283145233545565,
+      "bounds": {
+        "16": {
+          "lower": 0.07326558844945906,
+          "upper": 0.08354873368300486,
+          "frozen_positive_risk": 0.7124067325599851,
+          "certified_empirical_suboptimality_ratio_at_least": 8.526840577416195
+        },
+        "32": {
+          "lower": 0.03516789548295598,
+          "upper": 0.045451040716501745,
+          "frozen_positive_risk": 0.7018858997386903,
+          "certified_empirical_suboptimality_ratio_at_least": 15.442680490347037
+        },
+        "64": {
+          "lower": 0.01450538074181876,
+          "upper": 0.024788525975364406,
+          "frozen_positive_risk": 0.6879134529527817,
+          "certified_empirical_suboptimality_ratio_at_least": 27.75128515654586
+        },
+        "128": {
+          "lower": 0.0038019611544825613,
+          "upper": 0.014085106388028401,
+          "frozen_positive_risk": 0.679045336596267,
+          "certified_empirical_suboptimality_ratio_at_least": 48.21016738456586
+        }
+      },
+      "seconds": 0.46104638651013374
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        0
+      ],
+      "n": 10240,
+      "subspace_rank": 256,
+      "power_iterations": 1,
+      "orthogonality_error": 1.1102230246251565e-15,
+      "missed_energy_fraction": 0.0041178977479088275,
+      "bounds": {
+        "16": {
+          "lower": 0.07882433888834035,
+          "upper": 0.08294223663624922,
+          "frozen_positive_risk": 0.7124067325599851,
+          "certified_empirical_suboptimality_ratio_at_least": 8.589191242627205
+        },
+        "32": {
+          "lower": 0.04010814205700959,
+          "upper": 0.04422603980491835,
+          "frozen_positive_risk": 0.7018858997386903,
+          "certified_empirical_suboptimality_ratio_at_least": 15.870421652825312
+        },
+        "64": {
+          "lower": 0.018302415843216784,
+          "upper": 0.022420313591125618,
+          "frozen_positive_risk": 0.6879134529527817,
+          "certified_empirical_suboptimality_ratio_at_least": 30.682597286465736
+        },
+        "128": {
+          "lower": 0.005778003336895607,
+          "upper": 0.009895901084804537,
+          "frozen_positive_risk": 0.679045336596267,
+          "certified_empirical_suboptimality_ratio_at_least": 68.61884842795793
+        }
+      },
+      "seconds": 0.9250770509243011
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        6
+      ],
+      "n": 10240,
+      "subspace_rank": 256,
+      "power_iterations": 0,
+      "orthogonality_error": 1.7763568394002505e-15,
+      "missed_energy_fraction": 0.0029327233642508777,
+      "bounds": {
+        "16": {
+          "lower": 0.02935612914641308,
+          "upper": 0.032288852510664046,
+          "frozen_positive_risk": 0.6238019593806793,
+          "certified_empirical_suboptimality_ratio_at_least": 19.31942174701489
+        },
+        "32": {
+          "lower": 0.012488837185409515,
+          "upper": 0.015421560549660374,
+          "frozen_positive_risk": 0.6089825903916772,
+          "certified_empirical_suboptimality_ratio_at_least": 39.48903798877143
+        },
+        "64": {
+          "lower": 0.0046597871630802735,
+          "upper": 0.007592510527331231,
+          "frozen_positive_risk": 0.5987353164804895,
+          "certified_empirical_suboptimality_ratio_at_least": 78.85867452210765
+        },
+        "128": {
+          "lower": 0.0011127932838002343,
+          "upper": 0.004045516648050973,
+          "frozen_positive_risk": 0.5958018817222166,
+          "certified_empirical_suboptimality_ratio_at_least": 147.2746087966932
+        }
+      },
+      "seconds": 0.459263714030385
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        6
+      ],
+      "n": 10240,
+      "subspace_rank": 256,
+      "power_iterations": 1,
+      "orthogonality_error": 1.1102230246251565e-15,
+      "missed_energy_fraction": 0.0011332978758850087,
+      "bounds": {
+        "16": {
+          "lower": 0.030972326178152577,
+          "upper": 0.03210562405403761,
+          "frozen_positive_risk": 0.6238019593806793,
+          "certified_empirical_suboptimality_ratio_at_least": 19.42967868591328
+        },
+        "32": {
+          "lower": 0.013924212435673412,
+          "upper": 0.015057510311558442,
+          "frozen_positive_risk": 0.6089825903916772,
+          "certified_empirical_suboptimality_ratio_at_least": 40.44377707808775
+        },
+        "64": {
+          "lower": 0.005764134657143899,
+          "upper": 0.00689743253302888,
+          "frozen_positive_risk": 0.5987353164804895,
+          "certified_empirical_suboptimality_ratio_at_least": 86.80553432214087
+        },
+        "128": {
+          "lower": 0.001679345624476343,
+          "upper": 0.002812643500361145,
+          "frozen_positive_risk": 0.5958018817222166,
+          "certified_empirical_suboptimality_ratio_at_least": 211.82986099934647
+        }
+      },
+      "seconds": 0.9203481879085302
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        0
+      ],
+      "n": 131072,
+      "subspace_rank": 256,
+      "power_iterations": 0,
+      "orthogonality_error": 1.9984014443252818e-15,
+      "missed_energy_fraction": 0.020154720233823364,
+      "bounds": {
+        "16": {
+          "lower": 0.022253946894647294,
+          "upper": 0.04240866712847058,
+          "frozen_positive_risk": 0.2718942970329921,
+          "certified_empirical_suboptimality_ratio_at_least": 6.411290791321734
+        },
+        "32": {
+          "lower": 0.012144020684458141,
+          "upper": 0.03229874091828133,
+          "frozen_positive_risk": 0.22054438176749944,
+          "certified_empirical_suboptimality_ratio_at_least": 6.828265607179432
+        },
+        "64": {
+          "lower": 0.0059519208573212455,
+          "upper": 0.026106641091144467,
+          "frozen_positive_risk": 0.2065490600260428,
+          "certified_empirical_suboptimality_ratio_at_least": 7.911743962194567
+        },
+        "128": {
+          "lower": 0.0021473275115765768,
+          "upper": 0.02230204774539979,
+          "frozen_positive_risk": 0.20328245484317584,
+          "certified_empirical_suboptimality_ratio_at_least": 9.114968148389272
+        }
+      },
+      "seconds": 52.84726433455944
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        0
+      ],
+      "n": 131072,
+      "subspace_rank": 256,
+      "power_iterations": 1,
+      "orthogonality_error": 1.9984014443252818e-15,
+      "missed_energy_fraction": 0.011661340127920417,
+      "bounds": {
+        "16": {
+          "lower": 0.02951645506112033,
+          "upper": 0.041177795189040745,
+          "frozen_positive_risk": 0.2718942970329921,
+          "certified_empirical_suboptimality_ratio_at_least": 6.602934804662765
+        },
+        "32": {
+          "lower": 0.018334968284736877,
+          "upper": 0.029996308412657213,
+          "frozen_positive_risk": 0.22054438176749944,
+          "certified_empirical_suboptimality_ratio_at_least": 7.352384124522428
+        },
+        "64": {
+          "lower": 0.010434209479149395,
+          "upper": 0.02209554960706983,
+          "frozen_positive_risk": 0.2065490600260428,
+          "certified_empirical_suboptimality_ratio_at_least": 9.347993767937506
+        },
+        "128": {
+          "lower": 0.004465468506090732,
+          "upper": 0.01612680863401117,
+          "frozen_positive_risk": 0.20328245484317584,
+          "certified_empirical_suboptimality_ratio_at_least": 12.60525001917965
+        }
+      },
+      "seconds": 105.7563037481159
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        6
+      ],
+      "n": 131072,
+      "subspace_rank": 256,
+      "power_iterations": 0,
+      "orthogonality_error": 2.55351295663786e-15,
+      "missed_energy_fraction": 0.07316804320998904,
+      "bounds": {
+        "16": {
+          "lower": 0.10373755173034555,
+          "upper": 0.17690559494033453,
+          "frozen_positive_risk": 0.4693033231953576,
+          "certified_empirical_suboptimality_ratio_at_least": 2.652846131597143
+        },
+        "32": {
+          "lower": 0.061622603837693295,
+          "upper": 0.13479064704768218,
+          "frozen_positive_risk": 0.46815731560686913,
+          "certified_empirical_suboptimality_ratio_at_least": 3.473218104229877
+        },
+        "64": {
+          "lower": 0.030994113145362778,
+          "upper": 0.10416215635535164,
+          "frozen_positive_risk": 0.4676562612841022,
+          "certified_empirical_suboptimality_ratio_at_least": 4.489694507558791
+        },
+        "128": {
+          "lower": 0.010570776201012882,
+          "upper": 0.08373881941100159,
+          "frozen_positive_risk": 0.4672798584008883,
+          "certified_empirical_suboptimality_ratio_at_least": 5.58020595092719
+        }
+      },
+      "seconds": 52.72919043712318
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        6
+      ],
+      "n": 131072,
+      "subspace_rank": 256,
+      "power_iterations": 1,
+      "orthogonality_error": 3.000421092136385e-15,
+      "missed_energy_fraction": 0.039795739211053616,
+      "bounds": {
+        "16": {
+          "lower": 0.13278002612607448,
+          "upper": 0.17257576533712804,
+          "frozen_positive_risk": 0.4693033231953576,
+          "certified_empirical_suboptimality_ratio_at_least": 2.719404559954117
+        },
+        "32": {
+          "lower": 0.08688366832967095,
+          "upper": 0.1266794075407246,
+          "frozen_positive_risk": 0.46815731560686913,
+          "certified_empirical_suboptimality_ratio_at_least": 3.6956070816511124
+        },
+        "64": {
+          "lower": 0.04969510279918641,
+          "upper": 0.08949084201024016,
+          "frozen_positive_risk": 0.4676562612841022,
+          "certified_empirical_suboptimality_ratio_at_least": 5.2257443418689675
+        },
+        "128": {
+          "lower": 0.020189786150872253,
+          "upper": 0.05998552536192592,
+          "frozen_positive_risk": 0.4672798584008883,
+          "certified_empirical_suboptimality_ratio_at_least": 7.789876900827824
+        }
+      },
+      "seconds": 105.31355759687722
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        0
+      ],
+      "n": 131072,
+      "subspace_rank": 256,
+      "power_iterations": 0,
+      "orthogonality_error": 2.220446049250313e-15,
+      "missed_energy_fraction": 0.05198302064203075,
+      "bounds": {
+        "16": {
+          "lower": 0.13028951332505698,
+          "upper": 0.18227253396708765,
+          "frozen_positive_risk": 0.7980923685001348,
+          "certified_empirical_suboptimality_ratio_at_least": 4.378566266293547
+        },
+        "32": {
+          "lower": 0.07191106201893752,
+          "upper": 0.12389408266096824,
+          "frozen_positive_risk": 0.7905412835861951,
+          "certified_empirical_suboptimality_ratio_at_least": 6.3807832190782126
+        },
+        "64": {
+          "lower": 0.032927090786971584,
+          "upper": 0.08491011142900229,
+          "frozen_positive_risk": 0.7842004236075844,
+          "certified_empirical_suboptimality_ratio_at_least": 9.235654157200049
+        },
+        "128": {
+          "lower": 0.00987992452854551,
+          "upper": 0.061862945170576444,
+          "frozen_positive_risk": 0.7795995964771218,
+          "certified_empirical_suboptimality_ratio_at_least": 12.602044637989833
+        }
+      },
+      "seconds": 52.88775754906237
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        0
+      ],
+      "n": 131072,
+      "subspace_rank": 256,
+      "power_iterations": 1,
+      "orthogonality_error": 2.886579864025407e-15,
+      "missed_energy_fraction": 0.025570267179965245,
+      "bounds": {
+        "16": {
+          "lower": 0.15362799122673673,
+          "upper": 0.1791982584067019,
+          "frozen_positive_risk": 0.7980923685001348,
+          "certified_empirical_suboptimality_ratio_at_least": 4.453683733291721
+        },
+        "32": {
+          "lower": 0.0925413651845391,
+          "upper": 0.1181116323645044,
+          "frozen_positive_risk": 0.7905412835861951,
+          "certified_empirical_suboptimality_ratio_at_least": 6.693170416496363
+        },
+        "64": {
+          "lower": 0.04831054805673251,
+          "upper": 0.07388081523669765,
+          "frozen_positive_risk": 0.7842004236075844,
+          "certified_empirical_suboptimality_ratio_at_least": 10.614398624259643
+        },
+        "128": {
+          "lower": 0.017675484463309032,
+          "upper": 0.043245751643274155,
+          "frozen_positive_risk": 0.7795995964771218,
+          "certified_empirical_suboptimality_ratio_at_least": 18.027194969528757
+        }
+      },
+      "seconds": 105.5091606322676
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        6
+      ],
+      "n": 131072,
+      "subspace_rank": 256,
+      "power_iterations": 0,
+      "orthogonality_error": 1.9984014443252818e-15,
+      "missed_energy_fraction": 0.03684952648290374,
+      "bounds": {
+        "16": {
+          "lower": 0.12789937101682353,
+          "upper": 0.1647488974997271,
+          "frozen_positive_risk": 0.6764414241266774,
+          "certified_empirical_suboptimality_ratio_at_least": 4.105893480275325
+        },
+        "32": {
+          "lower": 0.06719576194295487,
+          "upper": 0.10404528842585858,
+          "frozen_positive_risk": 0.6674977673963145,
+          "certified_empirical_suboptimality_ratio_at_least": 6.415454053664
+        },
+        "64": {
+          "lower": 0.028253127183290917,
+          "upper": 0.0651026536661945,
+          "frozen_positive_risk": 0.6608479866292619,
+          "certified_empirical_suboptimality_ratio_at_least": 10.150860977459923
+        },
+        "128": {
+          "lower": 0.007820664870216619,
+          "upper": 0.044670191353120337,
+          "frozen_positive_risk": 0.6584147241752653,
+          "certified_empirical_suboptimality_ratio_at_least": 14.73946504886134
+        }
+      },
+      "seconds": 53.138355849310756
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        6
+      ],
+      "n": 131072,
+      "subspace_rank": 256,
+      "power_iterations": 1,
+      "orthogonality_error": 2.4424906541753444e-15,
+      "missed_energy_fraction": 0.016969747574125282,
+      "bounds": {
+        "16": {
+          "lower": 0.14544241063411534,
+          "upper": 0.16241215820824062,
+          "frozen_positive_risk": 0.6764414241266774,
+          "certified_empirical_suboptimality_ratio_at_least": 4.164967891500844
+        },
+        "32": {
+          "lower": 0.08258588728854083,
+          "upper": 0.09955563486266605,
+          "frozen_positive_risk": 0.6674977673963145,
+          "certified_empirical_suboptimality_ratio_at_least": 6.7047713403375635
+        },
+        "64": {
+          "lower": 0.03964095823534699,
+          "upper": 0.05661070580947236,
+          "frozen_positive_risk": 0.6608479866292619,
+          "certified_empirical_suboptimality_ratio_at_least": 11.673551445435004
+        },
+        "128": {
+          "lower": 0.01358349923037763,
+          "upper": 0.030553246804502998,
+          "frozen_positive_risk": 0.6584147241752653,
+          "certified_empirical_suboptimality_ratio_at_least": 21.54974652573509
+        }
+      },
+      "seconds": 105.83680840954185
+    }
+  ],
+  "protocol": "All 131072 internal / 10240 official held-out marginal samples. Float64 streaming raw exp(q.k/sqrt(128)), fixed numerical head scale. Seed-fixed randomized range + one subspace iteration; no deployment parameters changed.",
+  "theorem": "For orthonormal Q, sum_{j>m}s_j(Q^T K)^2 <= E_m*(K) <= ||K||_F^2-sum_{j<=m}s_j(Q^T K)^2. Width = missed Frobenius energy. Numerical orthogonality and independent energy checked.",
+  "limitation": "Deterministic certificates for the complete finite empirical product operator only. These are NOT confidence bounds for the unknown population operator. Near-population-optimality is not established."
+}

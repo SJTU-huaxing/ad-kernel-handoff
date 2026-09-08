@@ -1,0 +1,44 @@
+[
+  {
+    "script": "calibrate.py",
+    "args": [],
+    "exit_code": 0,
+    "seconds": 46.874958995729685,
+    "log": "/root/autodl-tmp/kan_attention_theory/mlp_direction/round3_calibrate_run.log"
+  },
+  {
+    "script": "fresh_data.py",
+    "args": [
+      "extract",
+      "--round3"
+    ],
+    "exit_code": 0,
+    "seconds": 15.924344344064593,
+    "log": "/root/autodl-tmp/kan_attention_theory/mlp_direction/round3_fresh_data_extract.log"
+  },
+  {
+    "script": "gauge_assess.py",
+    "args": [
+      "kernels"
+    ],
+    "exit_code": 0,
+    "seconds": 29.273038394749165,
+    "log": "/root/autodl-tmp/kan_attention_theory/mlp_direction/round3_gauge_assess_kernels.log"
+  },
+  {
+    "script": "product.py",
+    "args": [],
+    "exit_code": 0,
+    "seconds": 41.02119579166174,
+    "log": "/root/autodl-tmp/kan_attention_theory/mlp_direction/round3_product_run.log"
+  },
+  {
+    "script": "gauge_assess.py",
+    "args": [
+      "ppl"
+    ],
+    "exit_code": 0,
+    "seconds": 247.27898209914565,
+    "log": "/root/autodl-tmp/kan_attention_theory/mlp_direction/round3_gauge_assess_ppl.log"
+  }
+]

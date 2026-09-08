@@ -1,0 +1,622 @@
+{
+  "results": [
+    {
+      "method": "teacher",
+      "seed": 0,
+      "dataset": "internal",
+      "documents_count": 4,
+      "nll": 2.2384285032749176,
+      "perplexity": 9.378581290908128,
+      "last512_perplexity": 8.327065122504068,
+      "invalid_documents": 0,
+      "documents": [
+        {
+          "ordinal": 0,
+          "nll": 2.3732268810272217,
+          "tokens": 1023,
+          "last512_nll": 2.475447416305542
+        },
+        {
+          "ordinal": 1,
+          "nll": 1.5018583536148071,
+          "tokens": 1023,
+          "last512_nll": 1.2082881927490234
+        },
+        {
+          "ordinal": 2,
+          "nll": 2.4658548831939697,
+          "tokens": 1023,
+          "last512_nll": 2.2716054916381836
+        },
+        {
+          "ordinal": 3,
+          "nll": 2.612773895263672,
+          "tokens": 1023,
+          "last512_nll": 2.522703170776367
+        }
+      ],
+      "seconds": 1.048731479793787
+    },
+    {
+      "method": "teacher",
+      "seed": 0,
+      "dataset": "official",
+      "documents_count": 4,
+      "nll": 2.067001461982727,
+      "perplexity": 7.901095825822174,
+      "last512_perplexity": 7.292641227473695,
+      "invalid_documents": 0,
+      "documents": [
+        {
+          "ordinal": 0,
+          "nll": 2.361797332763672,
+          "tokens": 1023,
+          "last512_nll": 2.545855760574341
+        },
+        {
+          "ordinal": 1,
+          "nll": 1.657688856124878,
+          "tokens": 1023,
+          "last512_nll": 1.5374411344528198
+        },
+        {
+          "ordinal": 2,
+          "nll": 2.026400327682495,
+          "tokens": 1023,
+          "last512_nll": 2.074754238128662
+        },
+        {
+          "ordinal": 3,
+          "nll": 2.2221193313598633,
+          "tokens": 1023,
+          "last512_nll": 1.789412021636963
+        }
+      ],
+      "seconds": 0.28058067709207535
+    },
+    {
+      "method": "partition",
+      "seed": 0,
+      "dataset": "internal",
+      "documents_count": 4,
+      "nll": 2.2459623515605927,
+      "perplexity": 9.449504927987705,
+      "last512_perplexity": 8.37657689398592,
+      "invalid_documents": 0,
+      "documents": [
+        {
+          "ordinal": 0,
+          "nll": 2.3765454292297363,
+          "tokens": 1023,
+          "last512_nll": 2.474520206451416
+        },
+        {
+          "ordinal": 1,
+          "nll": 1.5042270421981812,
+          "tokens": 1023,
+          "last512_nll": 1.2079479694366455
+        },
+        {
+          "ordinal": 2,
+          "nll": 2.472224235534668,
+          "tokens": 1023,
+          "last512_nll": 2.273651123046875
+        },
+        {
+          "ordinal": 3,
+          "nll": 2.630852699279785,
+          "tokens": 1023,
+          "last512_nll": 2.545638084411621
+        }
+      ],
+      "seconds": 0.4276536926627159
+    },
+    {
+      "method": "partition",
+      "seed": 0,
+      "dataset": "official",
+      "documents_count": 4,
+      "nll": 2.076470732688904,
+      "perplexity": 7.976268795963419,
+      "last512_perplexity": 7.367326418346626,
+      "invalid_documents": 0,
+      "documents": [
+        {
+          "ordinal": 0,
+          "nll": 2.3623647689819336,
+          "tokens": 1023,
+          "last512_nll": 2.546107053756714
+        },
+        {
+          "ordinal": 1,
+          "nll": 1.6667499542236328,
+          "tokens": 1023,
+          "last512_nll": 1.5479950904846191
+        },
+        {
+          "ordinal": 2,
+          "nll": 2.0420644283294678,
+          "tokens": 1023,
+          "last512_nll": 2.0971903800964355
+        },
+        {
+          "ordinal": 3,
+          "nll": 2.234703779220581,
+          "tokens": 1023,
+          "last512_nll": 1.7969269752502441
+        }
+      ],
+      "seconds": 0.31887971237301826
+    },
+    {
+      "method": "galerkin",
+      "seed": 0,
+      "dataset": "internal",
+      "documents_count": 4,
+      "nll": 2.247659206390381,
+      "perplexity": 9.465552977818684,
+      "last512_perplexity": 8.423553344413419,
+      "invalid_documents": 0,
+      "documents": [
+        {
+          "ordinal": 0,
+          "nll": 2.377432346343994,
+          "tokens": 1023,
+          "last512_nll": 2.4762916564941406
+        },
+        {
+          "ordinal": 1,
+          "nll": 1.510446310043335,
+          "tokens": 1023,
+          "last512_nll": 1.220857858657837
+        },
+        {
+          "ordinal": 2,
+          "nll": 2.472228527069092,
+          "tokens": 1023,
+          "last512_nll": 2.273651599884033
+        },
+        {
+          "ordinal": 3,
+          "nll": 2.6305296421051025,
+          "tokens": 1023,
+          "last512_nll": 2.553325891494751
+        }
+      ],
+      "seconds": 0.3166176602244377
+    },
+    {
+      "method": "galerkin",
+      "seed": 0,
+      "dataset": "official",
+      "documents_count": 4,
+      "nll": 2.0793349146842957,
+      "perplexity": 7.9991470295113265,
+      "last512_perplexity": 7.352408812677368,
+      "invalid_documents": 0,
+      "documents": [
+        {
+          "ordinal": 0,
+          "nll": 2.363271713256836,
+          "tokens": 1023,
+          "last512_nll": 2.5488667488098145
+        },
+        {
+          "ordinal": 1,
+          "nll": 1.682433843612671,
+          "tokens": 1023,
+          "last512_nll": 1.5396591424942017
+        },
+        {
+          "ordinal": 2,
+          "nll": 2.038567543029785,
+          "tokens": 1023,
+          "last512_nll": 2.095417022705078
+        },
+        {
+          "ordinal": 3,
+          "nll": 2.2330665588378906,
+          "tokens": 1023,
+          "last512_nll": 1.7961690425872803
+        }
+      ],
+      "seconds": 0.31685854494571686
+    },
+    {
+      "method": "favor_plus",
+      "seed": 1009,
+      "dataset": "internal",
+      "documents_count": 4,
+      "nll": 2.2552180886268616,
+      "perplexity": 9.537373075949883,
+      "last512_perplexity": 8.443062240452525,
+      "invalid_documents": 0,
+      "documents": [
+        {
+          "ordinal": 0,
+          "nll": 2.3840155601501465,
+          "tokens": 1023,
+          "last512_nll": 2.482762336730957
+        },
+        {
+          "ordinal": 1,
+          "nll": 1.5141475200653076,
+          "tokens": 1023,
+          "last512_nll": 1.2147960662841797
+        },
+        {
+          "ordinal": 2,
+          "nll": 2.4872467517852783,
+          "tokens": 1023,
+          "last512_nll": 2.286531925201416
+        },
+        {
+          "ordinal": 3,
+          "nll": 2.635462522506714,
+          "tokens": 1023,
+          "last512_nll": 2.5492899417877197
+        }
+      ],
+      "seconds": 0.2975453697144985
+    },
+    {
+      "method": "favor_plus",
+      "seed": 1009,
+      "dataset": "official",
+      "documents_count": 4,
+      "nll": 2.0782936811447144,
+      "perplexity": 7.990822384038302,
+      "last512_perplexity": 7.381024746068013,
+      "invalid_documents": 0,
+      "documents": [
+        {
+          "ordinal": 0,
+          "nll": 2.370558977127075,
+          "tokens": 1023,
+          "last512_nll": 2.547306537628174
+        },
+        {
+          "ordinal": 1,
+          "nll": 1.6664612293243408,
+          "tokens": 1023,
+          "last512_nll": 1.5448631048202515
+        },
+        {
+          "ordinal": 2,
+          "nll": 2.0444583892822266,
+          "tokens": 1023,
+          "last512_nll": 2.106250762939453
+        },
+        {
+          "ordinal": 3,
+          "nll": 2.231696128845215,
+          "tokens": 1023,
+          "last512_nll": 1.797229528427124
+        }
+      ],
+      "seconds": 0.2910266686230898
+    },
+    {
+      "method": "favor_plus",
+      "seed": 1046,
+      "dataset": "internal",
+      "documents_count": 4,
+      "nll": 2.256163775920868,
+      "perplexity": 9.546396714583702,
+      "last512_perplexity": 8.47241917176841,
+      "invalid_documents": 0,
+      "documents": [
+        {
+          "ordinal": 0,
+          "nll": 2.3853931427001953,
+          "tokens": 1023,
+          "last512_nll": 2.4861106872558594
+        },
+        {
+          "ordinal": 1,
+          "nll": 1.5234370231628418,
+          "tokens": 1023,
+          "last512_nll": 1.222736120223999
+        },
+        {
+          "ordinal": 2,
+          "nll": 2.476116180419922,
+          "tokens": 1023,
+          "last512_nll": 2.2809553146362305
+        },
+        {
+          "ordinal": 3,
+          "nll": 2.6397087574005127,
+          "tokens": 1023,
+          "last512_nll": 2.557462215423584
+        }
+      ],
+      "seconds": 0.2956780679523945
+    },
+    {
+      "method": "favor_plus",
+      "seed": 1046,
+      "dataset": "official",
+      "documents_count": 4,
+      "nll": 2.0844766795635223,
+      "perplexity": 8.040382683943196,
+      "last512_perplexity": 7.425751273872489,
+      "invalid_documents": 0,
+      "documents": [
+        {
+          "ordinal": 0,
+          "nll": 2.3743133544921875,
+          "tokens": 1023,
+          "last512_nll": 2.558891534805298
+        },
+        {
+          "ordinal": 1,
+          "nll": 1.6738933324813843,
+          "tokens": 1023,
+          "last512_nll": 1.5547748804092407
+        },
+        {
+          "ordinal": 2,
+          "nll": 2.05295467376709,
+          "tokens": 1023,
+          "last512_nll": 2.1086668968200684
+        },
+        {
+          "ordinal": 3,
+          "nll": 2.2367453575134277,
+          "tokens": 1023,
+          "last512_nll": 1.7974821329116821
+        }
+      ],
+      "seconds": 0.2917426209896803
+    },
+    {
+      "method": "favor_plus",
+      "seed": 1083,
+      "dataset": "internal",
+      "documents_count": 4,
+      "nll": 2.250436633825302,
+      "perplexity": 9.491879407295995,
+      "last512_perplexity": 8.394803795073454,
+      "invalid_documents": 0,
+      "documents": [
+        {
+          "ordinal": 0,
+          "nll": 2.387108087539673,
+          "tokens": 1023,
+          "last512_nll": 2.484475612640381
+        },
+        {
+          "ordinal": 1,
+          "nll": 1.5076130628585815,
+          "tokens": 1023,
+          "last512_nll": 1.208677887916565
+        },
+        {
+          "ordinal": 2,
+          "nll": 2.4759984016418457,
+          "tokens": 1023,
+          "last512_nll": 2.2699294090270996
+        },
+        {
+          "ordinal": 3,
+          "nll": 2.6310269832611084,
+          "tokens": 1023,
+          "last512_nll": 2.5473687648773193
+        }
+      ],
+      "seconds": 0.2917218580842018
+    },
+    {
+      "method": "favor_plus",
+      "seed": 1083,
+      "dataset": "official",
+      "documents_count": 4,
+      "nll": 2.0803223848342896,
+      "perplexity": 8.007049849685725,
+      "last512_perplexity": 7.374374480392454,
+      "invalid_documents": 0,
+      "documents": [
+        {
+          "ordinal": 0,
+          "nll": 2.3752357959747314,
+          "tokens": 1023,
+          "last512_nll": 2.549614667892456
+        },
+        {
+          "ordinal": 1,
+          "nll": 1.668036699295044,
+          "tokens": 1023,
+          "last512_nll": 1.5448368787765503
+        },
+        {
+          "ordinal": 2,
+          "nll": 2.038994312286377,
+          "tokens": 1023,
+          "last512_nll": 2.0955569744110107
+        },
+        {
+          "ordinal": 3,
+          "nll": 2.239022731781006,
+          "tokens": 1023,
+          "last512_nll": 1.8020358085632324
+        }
+      ],
+      "seconds": 0.29135131649672985
+    },
+    {
+      "method": "favor_plus",
+      "seed": 1120,
+      "dataset": "internal",
+      "documents_count": 4,
+      "nll": 2.2505120635032654,
+      "perplexity": 9.492595403706304,
+      "last512_perplexity": 8.417919850510447,
+      "invalid_documents": 0,
+      "documents": [
+        {
+          "ordinal": 0,
+          "nll": 2.384305000305176,
+          "tokens": 1023,
+          "last512_nll": 2.4862027168273926
+        },
+        {
+          "ordinal": 1,
+          "nll": 1.5104610919952393,
+          "tokens": 1023,
+          "last512_nll": 1.2084832191467285
+        },
+        {
+          "ordinal": 2,
+          "nll": 2.4756367206573486,
+          "tokens": 1023,
+          "last512_nll": 2.2745485305786133
+        },
+        {
+          "ordinal": 3,
+          "nll": 2.631645441055298,
+          "tokens": 1023,
+          "last512_nll": 2.5522165298461914
+        }
+      ],
+      "seconds": 0.2909501511603594
+    },
+    {
+      "method": "favor_plus",
+      "seed": 1120,
+      "dataset": "official",
+      "documents_count": 4,
+      "nll": 2.0807928144931793,
+      "perplexity": 8.010817489550512,
+      "last512_perplexity": 7.378040553781216,
+      "invalid_documents": 0,
+      "documents": [
+        {
+          "ordinal": 0,
+          "nll": 2.364342212677002,
+          "tokens": 1023,
+          "last512_nll": 2.5451927185058594
+        },
+        {
+          "ordinal": 1,
+          "nll": 1.6751693487167358,
+          "tokens": 1023,
+          "last512_nll": 1.552114725112915
+        },
+        {
+          "ordinal": 2,
+          "nll": 2.0457537174224854,
+          "tokens": 1023,
+          "last512_nll": 2.0986268520355225
+        },
+        {
+          "ordinal": 3,
+          "nll": 2.237905979156494,
+          "tokens": 1023,
+          "last512_nll": 1.798098087310791
+        }
+      ],
+      "seconds": 0.2908698823302984
+    },
+    {
+      "method": "favor_plus",
+      "seed": 1157,
+      "dataset": "internal",
+      "documents_count": 4,
+      "nll": 2.2497765123844147,
+      "perplexity": 9.48561568182212,
+      "last512_perplexity": 8.397375586757143,
+      "invalid_documents": 0,
+      "documents": [
+        {
+          "ordinal": 0,
+          "nll": 2.3784899711608887,
+          "tokens": 1023,
+          "last512_nll": 2.4762260913848877
+        },
+        {
+          "ordinal": 1,
+          "nll": 1.5096873044967651,
+          "tokens": 1023,
+          "last512_nll": 1.209835410118103
+        },
+        {
+          "ordinal": 2,
+          "nll": 2.474545955657959,
+          "tokens": 1023,
+          "last512_nll": 2.279017925262451
+        },
+        {
+          "ordinal": 3,
+          "nll": 2.636382818222046,
+          "tokens": 1023,
+          "last512_nll": 2.546597480773926
+        }
+      ],
+      "seconds": 0.2917842920869589
+    },
+    {
+      "method": "favor_plus",
+      "seed": 1157,
+      "dataset": "official",
+      "documents_count": 4,
+      "nll": 2.083025336265564,
+      "perplexity": 8.028721792447067,
+      "last512_perplexity": 7.393947943900587,
+      "invalid_documents": 0,
+      "documents": [
+        {
+          "ordinal": 0,
+          "nll": 2.3639097213745117,
+          "tokens": 1023,
+          "last512_nll": 2.542329788208008
+        },
+        {
+          "ordinal": 1,
+          "nll": 1.6706204414367676,
+          "tokens": 1023,
+          "last512_nll": 1.5503023862838745
+        },
+        {
+          "ordinal": 2,
+          "nll": 2.062462329864502,
+          "tokens": 1023,
+          "last512_nll": 2.1122753620147705
+        },
+        {
+          "ordinal": 3,
+          "nll": 2.2351088523864746,
+          "tokens": 1023,
+          "last512_nll": 1.7977397441864014
+        }
+      ],
+      "seconds": 0.29127743653953075
+    }
+  ],
+  "model": "Qwen/Qwen2.5-1.5B",
+  "revision": "8faed761d45a263340a0528343f099c05c9a4323",
+  "replaced_heads": [
+    [
+      14,
+      0
+    ],
+    [
+      14,
+      6
+    ],
+    [
+      27,
+      0
+    ],
+    [
+      27,
+      6
+    ]
+  ],
+  "total_query_heads": 336,
+  "m": 64,
+  "feature_dtype": "torch.float64",
+  "protocol": "Frozen full-model forward, all causal positions; only 4/336 Q heads replaced; no finetuning or test fitting. Exact attention is computed only for remaining heads. BF16 model, FP32 feature/state arithmetic except explicit FP64 check.",
+  "datasets": "Internal: 256 document-disjoint WikiText103 source-train article prefixes. Official: fixed 20 WikiText2 test article prefixes. Each 1024 tokens; these are subset PPLs, not standard concatenated WikiText2 benchmark PPL.",
+  "seeds": "All five pre-existing FAVOR+ seeds, no selection."
+}

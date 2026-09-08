@@ -1,0 +1,68 @@
+{
+  "scope": "Existing-result reanalysis plus FP64 algebra checks, not new training, benchmark, population inference, or larger-scale validation.",
+  "full_product_reanalysis": [
+    {
+      "dataset": "fresh_wiki3",
+      "method": "factorized_both",
+      "balanced_risk": 0.26105318272770095,
+      "direction_risk": 0.23081193469764671,
+      "amplitude_risk": 0.030241248030054204,
+      "fraction_of_balanced_risk_removable_by_exact_query_calibration": 0.11584324586304014,
+      "raw_L2_reduction_vs_favor": 0.47354744560517725,
+      "raw_I_reduction_vs_favor": 0.9740691121820352,
+      "scope": "Four-head means on saved full empirical products, fixed seed11; oracle fraction is balanced I risk, not raw unweighted I or L2. No oracle-calibrated deployment model was trained."
+    },
+    {
+      "dataset": "swde3",
+      "method": "factorized_both",
+      "balanced_risk": 0.37060030260890386,
+      "direction_risk": 0.30824913107986057,
+      "amplitude_risk": 0.062351171529043334,
+      "fraction_of_balanced_risk_removable_by_exact_query_calibration": 0.1682437145628637,
+      "raw_L2_reduction_vs_favor": 0.5185730294290027,
+      "raw_I_reduction_vs_favor": 0.9586470285573603,
+      "scope": "Four-head means on saved full empirical products, fixed seed11; oracle fraction is balanced I risk, not raw unweighted I or L2. No oracle-calibrated deployment model was trained."
+    }
+  ],
+  "identity_check_protocol": {
+    "heads": 4,
+    "q_vectors_per_head": 128,
+    "k_vectors_per_head": 128,
+    "q_documents": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "k_documents": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "data": "data_fresh_wiki3.pt",
+    "dtype": "float64",
+    "device": "cpu"
+  },
+  "identity_checks": {
+    "canonical_representation_relative_error": 1.6799690781749993e-16,
+    "simplex_sum_absolute_error": 8.881784197001252e-16,
+    "component_mean_absolute_error": 4.440892098500626e-16,
+    "raw_I_projection_relative_error": 2.37927512723273e-15,
+    "weighted_L2_spectrum_relative_error": 2.1235858225200326e-16,
+    "arbitrary_context_output_relative_error": 5.581279482262577e-16
+  },
+  "sha256": {
+    "results/product_summary.json": "a441893b1e0714ebedf6a7fdaf3d2d3e6066854cc5125d0f25ba22167797b0f8",
+    "fits/factorized_both_m64_s11_n4096.pt": "548d114455d010e5941ab835ec9c903310ea41ffeb36e33c3cb2cb8de09115e7",
+    "focus_audit.py": "6aab93cfa4a249d26e4136edf22e7b35142e14de5838ec899645c9dcda53f7c8"
+  }
+}

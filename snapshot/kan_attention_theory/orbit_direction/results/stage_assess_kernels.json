@@ -1,0 +1,8 @@
+{
+  "stage": [
+    "assess.py",
+    "kernels"
+  ],
+  "exit_code": 0,
+  "seconds": 81.56110121496022
+}

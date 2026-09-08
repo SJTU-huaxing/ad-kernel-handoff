@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "name": "standard_exp_s11_lr0.002",
+      "params_per_head": 73536,
+      "m": 64,
+      "fp64_scan_relative_error": 9.63467031330687e-16,
+      "fp64_recurrence_relative_error": 7.707736250645497e-16
+    },
+    {
+      "name": "standard_exp_s29_lr0.002",
+      "params_per_head": 73536,
+      "m": 64,
+      "fp64_scan_relative_error": 1.298880611146348e-15,
+      "fp64_recurrence_relative_error": 1.0669376448702144e-15
+    },
+    {
+      "name": "standard_exp_s47_lr0.002",
+      "params_per_head": 73536,
+      "m": 64,
+      "fp64_scan_relative_error": 8.644810023107586e-16,
+      "fp64_recurrence_relative_error": 8.644810023107586e-16
+    },
+    {
+      "name": "matched_zero_ad_s11_lr0.002",
+      "params_per_head": 73536,
+      "m": 64,
+      "fp64_scan_relative_error": 8.230193354178503e-16,
+      "fp64_recurrence_relative_error": 1.161909650001671e-15
+    },
+    {
+      "name": "matched_zero_ad_s29_lr0.002",
+      "params_per_head": 73536,
+      "m": 64,
+      "fp64_scan_relative_error": 1.0404114636995364e-15,
+      "fp64_recurrence_relative_error": 9.931200335313757e-16
+    },
+    {
+      "name": "matched_zero_ad_s47_lr0.002",
+      "params_per_head": 73536,
+      "m": 64,
+      "fp64_scan_relative_error": 1.1223348062903662e-15,
+      "fp64_recurrence_relative_error": 1.1223348062903662e-15
+    },
+    {
+      "name": "matched_zero_exp_s11_lr0.002",
+      "params_per_head": 73536,
+      "m": 64,
+      "fp64_scan_relative_error": 9.548250917961502e-16,
+      "fp64_recurrence_relative_error": 8.593425826165352e-16
+    },
+    {
+      "name": "matched_zero_exp_s29_lr0.002",
+      "params_per_head": 73536,
+      "m": 64,
+      "fp64_scan_relative_error": 9.412347930243194e-16,
+      "fp64_recurrence_relative_error": 7.529878344194556e-16
+    },
+    {
+      "name": "matched_zero_exp_s47_lr0.002",
+      "params_per_head": 73536,
+      "m": 64,
+      "fp64_scan_relative_error": 8.556525680306069e-16,
+      "fp64_recurrence_relative_error": 8.556525680306069e-16
+    }
+  ]
+}

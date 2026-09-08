@@ -1,0 +1,238 @@
+{
+  "document": "AD_PROJECT_ALL_IN_ONE.zh.md",
+  "sections": [
+    {
+      "source": "AD_PROJECT_FULL_HANDOFF.zh.md",
+      "start_line": 13,
+      "end_line": 352
+    },
+    {
+      "source": "ASCEND_910B_MIGRATION.zh.md",
+      "start_line": 358,
+      "end_line": 471
+    },
+    {
+      "source": "CURRENT_RESULTS.zh.md",
+      "start_line": 477,
+      "end_line": 618
+    },
+    {
+      "source": "NEXT_CODEX_PROMPT.zh.md",
+      "start_line": 624,
+      "end_line": 640
+    },
+    {
+      "source": "SOURCE_INDEX.zh.md",
+      "start_line": 646,
+      "end_line": 689
+    },
+    {
+      "source": "HISTORICAL_REPORTS_FULL.zh.md",
+      "start_line": 695,
+      "end_line": 4971
+    }
+  ],
+  "historical_documents": [
+    {
+      "source": "candidate_validation/REPORT.zh.md",
+      "start_line": 702,
+      "end_line": 873
+    },
+    {
+      "source": "causal_direction/PROTOCOL.zh.md",
+      "start_line": 874,
+      "end_line": 897
+    },
+    {
+      "source": "causal_direction/REPORT.zh.md",
+      "start_line": 898,
+      "end_line": 1025
+    },
+    {
+      "source": "causal_direction/REPRODUCE.zh.md",
+      "start_line": 1026,
+      "end_line": 1043
+    },
+    {
+      "source": "causal_direction/THEORY.zh.md",
+      "start_line": 1044,
+      "end_line": 1161
+    },
+    {
+      "source": "deployment_validation/ALL_HEADS_ESTIMATE.zh.md",
+      "start_line": 1162,
+      "end_line": 1259
+    },
+    {
+      "source": "deployment_validation/REPORT.zh.md",
+      "start_line": 1260,
+      "end_line": 1393
+    },
+    {
+      "source": "distribution_operator/ALTERNATIVE_KERNELS.zh.md",
+      "start_line": 1394,
+      "end_line": 1627
+    },
+    {
+      "source": "distribution_operator/REPORT.zh.md",
+      "start_line": 1628,
+      "end_line": 1798
+    },
+    {
+      "source": "distribution_operator/THEORY.zh.md",
+      "start_line": 1799,
+      "end_line": 2006
+    },
+    {
+      "source": "gated_integration/PROTOCOL.zh.md",
+      "start_line": 2007,
+      "end_line": 2038
+    },
+    {
+      "source": "gated_integration/REPORT.zh.md",
+      "start_line": 2039,
+      "end_line": 2199
+    },
+    {
+      "source": "gated_integration/THEORY.zh.md",
+      "start_line": 2200,
+      "end_line": 2266
+    },
+    {
+      "source": "gaussian_go_nogo/REPORT.zh.md",
+      "start_line": 2267,
+      "end_line": 2411
+    },
+    {
+      "source": "hedgehog_matched/PRODUCT_PROTOCOL.zh.md",
+      "start_line": 2412,
+      "end_line": 2432
+    },
+    {
+      "source": "hedgehog_matched/PROTOCOL.zh.md",
+      "start_line": 2433,
+      "end_line": 2465
+    },
+    {
+      "source": "hedgehog_matched/REPORT.zh.md",
+      "start_line": 2466,
+      "end_line": 2588
+    },
+    {
+      "source": "hedgehog_matched/THEORY.zh.md",
+      "start_line": 2589,
+      "end_line": 2630
+    },
+    {
+      "source": "kernel_comparison/REPORT.zh.md",
+      "start_line": 2631,
+      "end_line": 2833
+    },
+    {
+      "source": "key_parameterization_attribution/PROTOCOL.zh.md",
+      "start_line": 2834,
+      "end_line": 2860
+    },
+    {
+      "source": "key_parameterization_attribution/REPORT.zh.md",
+      "start_line": 2861,
+      "end_line": 2967
+    },
+    {
+      "source": "mlp_direction/ALL_HEADS_ESTIMATE.zh.md",
+      "start_line": 2968,
+      "end_line": 3010
+    },
+    {
+      "source": "mlp_direction/AMPLITUDE_DIRECTION_FOCUS.zh.md",
+      "start_line": 3011,
+      "end_line": 3158
+    },
+    {
+      "source": "mlp_direction/PROTOCOL.zh.md",
+      "start_line": 3159,
+      "end_line": 3188
+    },
+    {
+      "source": "mlp_direction/REPORT.zh.md",
+      "start_line": 3189,
+      "end_line": 3331
+    },
+    {
+      "source": "mlp_direction/REPRODUCE.zh.md",
+      "start_line": 3332,
+      "end_line": 3371
+    },
+    {
+      "source": "mlp_direction/THEORY.zh.md",
+      "start_line": 3372,
+      "end_line": 3516
+    },
+    {
+      "source": "normalized_attention_assessment/PROTOCOL.zh.md",
+      "start_line": 3517,
+      "end_line": 3532
+    },
+    {
+      "source": "normalized_attention_assessment/REPORT.zh.md",
+      "start_line": 3533,
+      "end_line": 3654
+    },
+    {
+      "source": "normalized_kernel_novelty_20260908/REPORT.zh.md",
+      "start_line": 3655,
+      "end_line": 3736
+    },
+    {
+      "source": "novelty_review_20260908/REPORT.zh.md",
+      "start_line": 3737,
+      "end_line": 3798
+    },
+    {
+      "source": "orbit_direction/PROTOCOL.zh.md",
+      "start_line": 3799,
+      "end_line": 3812
+    },
+    {
+      "source": "orbit_direction/REPORT.zh.md",
+      "start_line": 3813,
+      "end_line": 3882
+    },
+    {
+      "source": "positive_generalization/REPORT.zh.md",
+      "start_line": 3883,
+      "end_line": 4067
+    },
+    {
+      "source": "query_amplitude_ablation/PROTOCOL.zh.md",
+      "start_line": 4068,
+      "end_line": 4097
+    },
+    {
+      "source": "query_amplitude_ablation/REPORT.zh.md",
+      "start_line": 4098,
+      "end_line": 4246
+    },
+    {
+      "source": "real_llm_pilot/AUXILIARY_REPORT.zh.md",
+      "start_line": 4247,
+      "end_line": 4429
+    },
+    {
+      "source": "real_llm_pilot/RAW_REPORT.zh.md",
+      "start_line": 4430,
+      "end_line": 4626
+    },
+    {
+      "source": "single_pass_mulkan/REPORT.zh.md",
+      "start_line": 4627,
+      "end_line": 4848
+    },
+    {
+      "source": "single_pass_mulkan/diagnostics/REPORT.zh.md",
+      "start_line": 4849,
+      "end_line": 4971
+    }
+  ],
+  "line_numbering": "1-based, inclusive"
+}

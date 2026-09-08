@@ -1,0 +1,52 @@
+{
+  "reason": "The general positive cone needs no partition-of-unity constraint. This ablation retains the pretrained positive key-feature amplitude.",
+  "methods": [
+    {
+      "method": "cone_raw_mlp",
+      "condition_number": [
+        26873212331727.117,
+        162832394530.49246,
+        3127339.226182809,
+        2185356.589384823
+      ],
+      "effective_rank_1e10": [
+        28,
+        57,
+        64,
+        64
+      ]
+    },
+    {
+      "method": "cone_raw_kan",
+      "condition_number": [
+        58110050429226.61,
+        193828936387.4326,
+        886003791.9212694,
+        725003547.4265562
+      ],
+      "effective_rank_1e10": [
+        52,
+        61,
+        64,
+        64
+      ]
+    },
+    {
+      "method": "cone_raw_mulkan",
+      "condition_number": [
+        null,
+        480548190.58126444,
+        1258129.5930862646,
+        3187772.518135589
+      ],
+      "effective_rank_1e10": [
+        23,
+        64,
+        64,
+        64
+      ]
+    }
+  ],
+  "selection": "All three architectures evaluated, fixed seed 11, same nodes and 128 projection steps. No selection based on test performance.",
+  "distinction": "Removing feature normalization changes the basis; neither version normalizes raw kernel targets. This is an additional exploratory ablation after the first candidate screen."
+}

@@ -1,0 +1,978 @@
+{
+  "rows": [
+    {
+      "regime": "product_i",
+      "variant": "reduced_plain",
+      "name": "product_i_reduced_plain_s11_lr0.002",
+      "origin": "new",
+      "repeat": 0,
+      "m": 64,
+      "features": {
+        "microseconds": 32.735999673604965,
+        "samples_us": [
+          32.80000016093254,
+          32.76799991726875,
+          32.735999673604965,
+          32.70300105214119,
+          32.735999673604965,
+          32.70399942994118,
+          32.76500105857849
+        ]
+      },
+      "features_and_state": {
+        "microseconds": 64.31999802589417,
+        "samples_us": [
+          64.41599875688553,
+          64.3170028924942,
+          64.31999802589417,
+          64.31999802589417,
+          64.31999802589417,
+          64.28799778223038,
+          64.25599753856659
+        ]
+      },
+      "state_bytes_per_layer": 399360
+    },
+    {
+      "regime": "product_i",
+      "variant": "reduced_matched",
+      "name": "product_i_reduced_matched_s11_lr0.002",
+      "origin": "new",
+      "repeat": 0,
+      "m": 64,
+      "features": {
+        "microseconds": 37.02399879693985,
+        "samples_us": [
+          37.11999952793121,
+          37.05599904060364,
+          37.02399879693985,
+          37.02399879693985,
+          36.99199855327606,
+          36.99199855327606,
+          37.02399879693985
+        ]
+      },
+      "features_and_state": {
+        "microseconds": 68.67200136184692,
+        "samples_us": [
+          68.70400160551071,
+          68.67200136184692,
+          68.64000111818314,
+          68.67200136184692,
+          68.60800087451935,
+          68.67200136184692,
+          68.67200136184692
+        ]
+      },
+      "state_bytes_per_layer": 399360
+    },
+    {
+      "regime": "product_i",
+      "variant": "ad_original",
+      "name": "product_ad_raw_s11_lr0.002",
+      "origin": "old",
+      "repeat": 0,
+      "m": 64,
+      "features": {
+        "microseconds": 42.91199892759323,
+        "samples_us": [
+          43.07200014591217,
+          42.973000556230545,
+          42.91199892759323,
+          42.94399917125702,
+          42.91199892759323,
+          42.87999868392944,
+          42.91199892759323
+        ]
+      },
+      "features_and_state": {
+        "microseconds": 74.5600014925003,
+        "samples_us": [
+          74.65600222349167,
+          74.58800077438354,
+          74.49600100517273,
+          74.5600014925003,
+          74.5600014925003,
+          74.5600014925003,
+          74.52800124883652
+        ]
+      },
+      "state_bytes_per_layer": 399360
+    },
+    {
+      "regime": "product_i",
+      "variant": "hh_original",
+      "name": "product_hh_raw_s11_lr0.002",
+      "origin": "old",
+      "repeat": 0,
+      "m": 576,
+      "features": {
+        "microseconds": 28.384000062942505,
+        "samples_us": [
+          28.48000079393387,
+          28.351999819278717,
+          28.384000062942505,
+          28.384000062942505,
+          28.384000062942505,
+          28.351999819278717,
+          28.351999819278717
+        ]
+      },
+      "features_and_state": {
+        "microseconds": 97.9200005531311,
+        "samples_us": [
+          97.9200005531311,
+          97.85600006580353,
+          97.9200005531311,
+          97.85600006580353,
+          97.95200079679489,
+          97.85600006580353,
+          98.01600128412247
+        ]
+      },
+      "state_bytes_per_layer": 3594240
+    },
+    {
+      "regime": "product_i",
+      "variant": "ad_inference_cancelled",
+      "name": "product_ad_raw_s11_lr0.002",
+      "origin": "cancelled",
+      "repeat": 0,
+      "m": 64,
+      "features": {
+        "microseconds": 32.66900032758713,
+        "samples_us": [
+          32.76799991726875,
+          32.701000571250916,
+          32.66900032758713,
+          32.70300105214119,
+          32.6399989426136,
+          32.66900032758713,
+          32.6399989426136
+        ]
+      },
+      "features_and_state": {
+        "microseconds": 64.06400352716446,
+        "samples_us": [
+          64.22200053930283,
+          64.06400352716446,
+          64.06400352716446,
+          64.06400352716446,
+          64.03200328350067,
+          64.06400352716446,
+          64.12400305271149
+        ]
+      },
+      "state_bytes_per_layer": 399360
+    },
+    {
+      "regime": "causal_kl",
+      "variant": "reduced_plain",
+      "name": "causal_kl_reduced_plain_s11_lr0.002",
+      "origin": "new",
+      "repeat": 0,
+      "m": 64,
+      "features": {
+        "microseconds": 32.83200040459633,
+        "samples_us": [
+          32.92800113558769,
+          32.82799944281578,
+          32.83200040459633,
+          32.83200040459633,
+          32.80000016093254,
+          32.83200040459633,
+          32.80000016093254
+        ]
+      },
+      "features_and_state": {
+        "microseconds": 64.44799900054932,
+        "samples_us": [
+          64.54399973154068,
+          64.44799900054932,
+          64.44799900054932,
+          64.44799900054932,
+          64.41599875688553,
+          64.38399851322174,
+          64.41599875688553
+        ]
+      },
+      "state_bytes_per_layer": 399360
+    },
+    {
+      "regime": "causal_kl",
+      "variant": "reduced_matched",
+      "name": "causal_kl_reduced_matched_s11_lr0.002",
+      "origin": "new",
+      "repeat": 0,
+      "m": 64,
+      "features": {
+        "microseconds": 34.01299938559532,
+        "samples_us": [
+          34.11199897527695,
+          33.984001725912094,
+          34.01299938559532,
+          34.01599824428558,
+          34.01599824428558,
+          33.98200124502182,
+          33.984001725912094
+        ]
+      },
+      "features_and_state": {
+        "microseconds": 65.47199934720993,
+        "samples_us": [
+          65.5680000782013,
+          65.50399959087372,
+          65.43699651956558,
+          65.47199934720993,
+          65.50399959087372,
+          65.47199934720993,
+          65.47199934720993
+        ]
+      },
+      "state_bytes_per_layer": 399360
+    },
+    {
+      "regime": "causal_kl",
+      "variant": "ad_original",
+      "name": "ad_kl_s11_lr0.002",
+      "origin": "old",
+      "repeat": 0,
+      "m": 64,
+      "features": {
+        "microseconds": 42.87999868392944,
+        "samples_us": [
+          43.03999990224838,
+          42.87999868392944,
+          42.87999868392944,
+          42.87999868392944,
+          42.87999868392944,
+          42.87999868392944,
+          42.87999868392944
+        ]
+      },
+      "features_and_state": {
+        "microseconds": 74.52800124883652,
+        "samples_us": [
+          74.62400197982788,
+          74.5600014925003,
+          74.49600100517273,
+          74.52599704265594,
+          74.49600100517273,
+          74.52800124883652,
+          74.52800124883652
+        ]
+      },
+      "state_bytes_per_layer": 399360
+    },
+    {
+      "regime": "causal_kl",
+      "variant": "hh_original",
+      "name": "hh_kl_s11_lr0.002",
+      "origin": "old",
+      "repeat": 0,
+      "m": 576,
+      "features": {
+        "microseconds": 28.416000306606293,
+        "samples_us": [
+          28.511999174952507,
+          28.416000306606293,
+          28.416000306606293,
+          28.48000079393387,
+          28.384000062942505,
+          28.351999819278717,
+          28.384000062942505
+        ]
+      },
+      "features_and_state": {
+        "microseconds": 97.98400104045868,
+        "samples_us": [
+          98.08000177145004,
+          97.95200079679489,
+          97.88800030946732,
+          97.95200079679489,
+          97.98400104045868,
+          98.01600128412247,
+          98.1760025024414
+        ]
+      },
+      "state_bytes_per_layer": 3594240
+    },
+    {
+      "regime": "causal_kl",
+      "variant": "ad_inference_cancelled",
+      "name": "ad_kl_s11_lr0.002",
+      "origin": "cancelled",
+      "repeat": 0,
+      "m": 64,
+      "features": {
+        "microseconds": 32.70399942994118,
+        "samples_us": [
+          32.76799991726875,
+          32.73500129580498,
+          32.735999673604965,
+          32.70399942994118,
+          32.70399942994118,
+          32.70399942994118,
+          32.70399942994118
+        ]
+      },
+      "features_and_state": {
+        "microseconds": 64.12799656391144,
+        "samples_us": [
+          64.28799778223038,
+          64.15999680757523,
+          64.12799656391144,
+          64.12699818611145,
+          64.12799656391144,
+          64.12799656391144,
+          67.10100173950195
+        ]
+      },
+      "state_bytes_per_layer": 399360
+    },
+    {
+      "regime": "causal_kl",
+      "variant": "hh_softmax",
+      "name": "hh_softmax_kl_s11_lr0.002",
+      "origin": "old",
+      "repeat": 0,
+      "m": 576,
+      "features": {
+        "microseconds": 33.28000009059906,
+        "samples_us": [
+          33.344000577926636,
+          33.344000577926636,
+          33.24799984693527,
+          33.28000009059906,
+          33.28000009059906,
+          33.24799984693527,
+          33.28000009059906
+        ]
+      },
+      "features_and_state": {
+        "microseconds": 103.35999727249146,
+        "samples_us": [
+          103.42399775981903,
+          103.39199751615524,
+          103.32799702882767,
+          103.35999727249146,
+          103.35999727249146,
+          103.5199984908104,
+          103.32799702882767
+        ]
+      },
+      "state_bytes_per_layer": 3594240
+    },
+    {
+      "regime": "reference",
+      "variant": "favor",
+      "name": "favor_s11",
+      "origin": "favor",
+      "repeat": 0,
+      "m": 64,
+      "features": {
+        "microseconds": 27.871999889612198,
+        "samples_us": [
+          32.86400064826012,
+          27.871999889612198,
+          27.871999889612198,
+          27.869999408721924,
+          27.871999889612198,
+          27.83999964594841,
+          27.871999889612198
+        ]
+      },
+      "features_and_state": {
+        "microseconds": 59.29600074887276,
+        "samples_us": [
+          59.36000123620033,
+          59.328000992536545,
+          59.29600074887276,
+          59.29600074887276,
+          59.26400050520897,
+          59.26400050520897,
+          59.26400050520897
+        ]
+      },
+      "state_bytes_per_layer": 399360
+    },
+    {
+      "regime": "reference",
+      "variant": "favor",
+      "name": "favor_s11",
+      "origin": "favor",
+      "repeat": 1,
+      "m": 64,
+      "features": {
+        "microseconds": 27.904000133275986,
+        "samples_us": [
+          27.96800062060356,
+          27.904000133275986,
+          27.936000376939774,
+          27.904000133275986,
+          27.904000133275986,
+          27.904000133275986,
+          27.904000133275986
+        ]
+      },
+      "features_and_state": {
+        "microseconds": 59.20000001788139,
+        "samples_us": [
+          59.328000992536545,
+          59.20000001788139,
+          59.167999774217606,
+          59.167999774217606,
+          59.20000001788139,
+          59.20000001788139,
+          59.23200026154518
+        ]
+      },
+      "state_bytes_per_layer": 399360
+    },
+    {
+      "regime": "causal_kl",
+      "variant": "hh_softmax",
+      "name": "hh_softmax_kl_s11_lr0.002",
+      "origin": "old",
+      "repeat": 1,
+      "m": 576,
+      "features": {
+        "microseconds": 33.31200033426285,
+        "samples_us": [
+          33.376000821590424,
+          33.344000577926636,
+          33.33999961614609,
+          33.31200033426285,
+          33.31200033426285,
+          33.31200033426285,
+          33.31200033426285
+        ]
+      },
+      "features_and_state": {
+        "microseconds": 103.39199751615524,
+        "samples_us": [
+          103.5199984908104,
+          103.39199751615524,
+          103.39199751615524,
+          103.35899889469147,
+          103.5199984908104,
+          103.39199751615524,
+          103.61599922180176
+        ]
+      },
+      "state_bytes_per_layer": 3594240
+    },
+    {
+      "regime": "causal_kl",
+      "variant": "ad_inference_cancelled",
+      "name": "ad_kl_s11_lr0.002",
+      "origin": "cancelled",
+      "repeat": 1,
+      "m": 64,
+      "features": {
+        "microseconds": 32.70399942994118,
+        "samples_us": [
+          32.76799991726875,
+          32.70399942994118,
+          32.70399942994118,
+          32.735999673604965,
+          32.70399942994118,
+          32.70399942994118,
+          32.70399942994118
+        ]
+      },
+      "features_and_state": {
+        "microseconds": 64.2239972949028,
+        "samples_us": [
+          64.28799778223038,
+          64.19199705123901,
+          64.19199705123901,
+          64.25400078296661,
+          64.25599753856659,
+          64.19199705123901,
+          64.2239972949028
+        ]
+      },
+      "state_bytes_per_layer": 399360
+    },
+    {
+      "regime": "causal_kl",
+      "variant": "hh_original",
+      "name": "hh_kl_s11_lr0.002",
+      "origin": "old",
+      "repeat": 1,
+      "m": 576,
+      "features": {
+        "microseconds": 28.384000062942505,
+        "samples_us": [
+          28.511999174952507,
+          28.416000306606293,
+          28.384000062942505,
+          28.384000062942505,
+          28.351999819278717,
+          28.351999819278717,
+          28.351999819278717
+        ]
+      },
+      "features_and_state": {
+        "microseconds": 98.04800152778625,
+        "samples_us": [
+          98.1760025024414,
+          98.04800152778625,
+          98.14400225877762,
+          98.04800152778625,
+          98.01600128412247,
+          97.95200079679489,
+          97.85600006580353
+        ]
+      },
+      "state_bytes_per_layer": 3594240
+    },
+    {
+      "regime": "causal_kl",
+      "variant": "ad_original",
+      "name": "ad_kl_s11_lr0.002",
+      "origin": "old",
+      "repeat": 1,
+      "m": 64,
+      "features": {
+        "microseconds": 42.94399917125702,
+        "samples_us": [
+          43.07200014591217,
+          42.94399917125702,
+          42.91199892759323,
+          42.91199892759323,
+          42.94399917125702,
+          42.94399917125702,
+          42.91199892759323
+        ]
+      },
+      "features_and_state": {
+        "microseconds": 74.5910033583641,
+        "samples_us": [
+          74.65600222349167,
+          74.55900311470032,
+          74.5600014925003,
+          74.5910033583641,
+          74.58999752998352,
+          74.5910033583641,
+          76.03199779987335
+        ]
+      },
+      "state_bytes_per_layer": 399360
+    },
+    {
+      "regime": "causal_kl",
+      "variant": "reduced_matched",
+      "name": "causal_kl_reduced_matched_s11_lr0.002",
+      "origin": "new",
+      "repeat": 1,
+      "m": 64,
+      "features": {
+        "microseconds": 34.01599824428558,
+        "samples_us": [
+          34.11199897527695,
+          34.01599824428558,
+          34.01599824428558,
+          34.01599824428558,
+          33.984001725912094,
+          34.01599824428558,
+          34.01599824428558
+        ]
+      },
+      "features_and_state": {
+        "microseconds": 65.50399959087372,
+        "samples_us": [
+          65.5680000782013,
+          65.50399959087372,
+          65.50399959087372,
+          65.50300121307373,
+          65.50200283527374,
+          65.50399959087372,
+          65.50399959087372
+        ]
+      },
+      "state_bytes_per_layer": 399360
+    },
+    {
+      "regime": "causal_kl",
+      "variant": "reduced_plain",
+      "name": "causal_kl_reduced_plain_s11_lr0.002",
+      "origin": "new",
+      "repeat": 1,
+      "m": 64,
+      "features": {
+        "microseconds": 32.86400064826012,
+        "samples_us": [
+          32.99200162291527,
+          32.86400064826012,
+          32.86400064826012,
+          32.86400064826012,
+          32.86400064826012,
+          32.83200040459633,
+          32.86400064826012
+        ]
+      },
+      "features_and_state": {
+        "microseconds": 64.41599875688553,
+        "samples_us": [
+          64.54399973154068,
+          64.44600224494934,
+          64.44799900054932,
+          64.41599875688553,
+          64.38399851322174,
+          64.41599875688553,
+          64.41599875688553
+        ]
+      },
+      "state_bytes_per_layer": 399360
+    },
+    {
+      "regime": "product_i",
+      "variant": "ad_inference_cancelled",
+      "name": "product_ad_raw_s11_lr0.002",
+      "origin": "cancelled",
+      "repeat": 1,
+      "m": 64,
+      "features": {
+        "microseconds": 32.735999673604965,
+        "samples_us": [
+          32.76799991726875,
+          32.735999673604965,
+          32.735999673604965,
+          32.735999673604965,
+          32.70399942994118,
+          32.735999673604965,
+          32.735999673604965
+        ]
+      },
+      "features_and_state": {
+        "microseconds": 64.19199705123901,
+        "samples_us": [
+          64.2239972949028,
+          64.25599753856659,
+          64.2239972949028,
+          64.19199705123901,
+          64.15999680757523,
+          64.19199705123901,
+          64.15999680757523
+        ]
+      },
+      "state_bytes_per_layer": 399360
+    },
+    {
+      "regime": "product_i",
+      "variant": "hh_original",
+      "name": "product_hh_raw_s11_lr0.002",
+      "origin": "old",
+      "repeat": 1,
+      "m": 576,
+      "features": {
+        "microseconds": 28.351999819278717,
+        "samples_us": [
+          28.48000079393387,
+          28.384000062942505,
+          28.351999819278717,
+          28.348999097943306,
+          28.351999819278717,
+          28.351999819278717,
+          28.351999819278717
+        ]
+      },
+      "features_and_state": {
+        "microseconds": 98.07699918746948,
+        "samples_us": [
+          98.2080027461052,
+          98.01600128412247,
+          97.98400104045868,
+          98.04800152778625,
+          98.14400225877762,
+          98.10800105333328,
+          98.07699918746948
+        ]
+      },
+      "state_bytes_per_layer": 3594240
+    },
+    {
+      "regime": "product_i",
+      "variant": "ad_original",
+      "name": "product_ad_raw_s11_lr0.002",
+      "origin": "old",
+      "repeat": 1,
+      "m": 64,
+      "features": {
+        "microseconds": 42.91199892759323,
+        "samples_us": [
+          43.07200014591217,
+          42.91199892759323,
+          42.91199892759323,
+          42.91199892759323,
+          42.90900006890297,
+          42.91199892759323,
+          42.91199892759323
+        ]
+      },
+      "features_and_state": {
+        "microseconds": 74.5600014925003,
+        "samples_us": [
+          74.68800246715546,
+          74.5600014925003,
+          74.5920017361641,
+          74.5920017361641,
+          74.52800124883652,
+          74.52800124883652,
+          74.5600014925003
+        ]
+      },
+      "state_bytes_per_layer": 399360
+    },
+    {
+      "regime": "product_i",
+      "variant": "reduced_matched",
+      "name": "product_i_reduced_matched_s11_lr0.002",
+      "origin": "new",
+      "repeat": 1,
+      "m": 64,
+      "features": {
+        "microseconds": 37.05599904060364,
+        "samples_us": [
+          37.21600025892258,
+          37.05599904060364,
+          37.02399879693985,
+          37.05599904060364,
+          37.02399879693985,
+          37.05599904060364,
+          37.02399879693985
+        ]
+      },
+      "features_and_state": {
+        "microseconds": 68.70400160551071,
+        "samples_us": [
+          68.7360018491745,
+          68.76800209283829,
+          68.70400160551071,
+          68.70400160551071,
+          68.67200136184692,
+          68.70400160551071,
+          68.67200136184692
+        ]
+      },
+      "state_bytes_per_layer": 399360
+    },
+    {
+      "regime": "product_i",
+      "variant": "reduced_plain",
+      "name": "product_i_reduced_plain_s11_lr0.002",
+      "origin": "new",
+      "repeat": 1,
+      "m": 64,
+      "features": {
+        "microseconds": 32.83200040459633,
+        "samples_us": [
+          32.92800113558769,
+          32.83200040459633,
+          32.861001789569855,
+          32.83200040459633,
+          32.83200040459633,
+          32.83200040459633,
+          32.83200040459633
+        ]
+      },
+      "features_and_state": {
+        "microseconds": 64.44799900054932,
+        "samples_us": [
+          64.4799992442131,
+          64.44799900054932,
+          64.44799900054932,
+          64.44799900054932,
+          64.47699666023254,
+          64.41599875688553,
+          64.44799900054932
+        ]
+      },
+      "state_bytes_per_layer": 399360
+    }
+  ],
+  "aggregates": [
+    {
+      "regime": "product_i",
+      "variant": "reduced_plain",
+      "name": "product_i_reduced_plain_s11_lr0.002",
+      "origin": "new",
+      "m": 64,
+      "state_bytes_per_layer": 399360,
+      "features_us": 32.816000282764435,
+      "total_us": 64.41599875688553,
+      "repeat_total_us": [
+        64.31999802589417,
+        64.44799900054932
+      ]
+    },
+    {
+      "regime": "product_i",
+      "variant": "reduced_matched",
+      "name": "product_i_reduced_matched_s11_lr0.002",
+      "origin": "new",
+      "m": 64,
+      "state_bytes_per_layer": 399360,
+      "features_us": 37.02399879693985,
+      "total_us": 68.67200136184692,
+      "repeat_total_us": [
+        68.67200136184692,
+        68.70400160551071
+      ]
+    },
+    {
+      "regime": "product_i",
+      "variant": "ad_original",
+      "name": "product_ad_raw_s11_lr0.002",
+      "origin": "old",
+      "m": 64,
+      "state_bytes_per_layer": 399360,
+      "features_us": 42.91199892759323,
+      "total_us": 74.5600014925003,
+      "repeat_total_us": [
+        74.5600014925003,
+        74.5600014925003
+      ]
+    },
+    {
+      "regime": "product_i",
+      "variant": "hh_original",
+      "name": "product_hh_raw_s11_lr0.002",
+      "origin": "old",
+      "m": 576,
+      "state_bytes_per_layer": 3594240,
+      "features_us": 28.351999819278717,
+      "total_us": 98.00000116229057,
+      "repeat_total_us": [
+        97.9200005531311,
+        98.07699918746948
+      ]
+    },
+    {
+      "regime": "product_i",
+      "variant": "ad_inference_cancelled",
+      "name": "product_ad_raw_s11_lr0.002",
+      "origin": "cancelled",
+      "m": 64,
+      "state_bytes_per_layer": 399360,
+      "features_us": 32.71999955177307,
+      "total_us": 64.15999680757523,
+      "repeat_total_us": [
+        64.06400352716446,
+        64.19199705123901
+      ]
+    },
+    {
+      "regime": "causal_kl",
+      "variant": "reduced_plain",
+      "name": "causal_kl_reduced_plain_s11_lr0.002",
+      "origin": "new",
+      "m": 64,
+      "state_bytes_per_layer": 399360,
+      "features_us": 32.84800052642822,
+      "total_us": 64.43100050091743,
+      "repeat_total_us": [
+        64.44799900054932,
+        64.41599875688553
+      ]
+    },
+    {
+      "regime": "causal_kl",
+      "variant": "reduced_matched",
+      "name": "causal_kl_reduced_matched_s11_lr0.002",
+      "origin": "new",
+      "m": 64,
+      "state_bytes_per_layer": 399360,
+      "features_us": 34.01599824428558,
+      "total_us": 65.50399959087372,
+      "repeat_total_us": [
+        65.47199934720993,
+        65.50399959087372
+      ]
+    },
+    {
+      "regime": "causal_kl",
+      "variant": "ad_original",
+      "name": "ad_kl_s11_lr0.002",
+      "origin": "old",
+      "m": 64,
+      "state_bytes_per_layer": 399360,
+      "features_us": 42.91199892759323,
+      "total_us": 74.5600014925003,
+      "repeat_total_us": [
+        74.52800124883652,
+        74.5910033583641
+      ]
+    },
+    {
+      "regime": "causal_kl",
+      "variant": "hh_original",
+      "name": "hh_kl_s11_lr0.002",
+      "origin": "old",
+      "m": 576,
+      "state_bytes_per_layer": 3594240,
+      "features_us": 28.384000062942505,
+      "total_us": 98.01600128412247,
+      "repeat_total_us": [
+        97.98400104045868,
+        98.04800152778625
+      ]
+    },
+    {
+      "regime": "causal_kl",
+      "variant": "ad_inference_cancelled",
+      "name": "ad_kl_s11_lr0.002",
+      "origin": "cancelled",
+      "m": 64,
+      "state_bytes_per_layer": 399360,
+      "features_us": 32.70399942994118,
+      "total_us": 64.19199705123901,
+      "repeat_total_us": [
+        64.12799656391144,
+        64.2239972949028
+      ]
+    },
+    {
+      "regime": "causal_kl",
+      "variant": "hh_softmax",
+      "name": "hh_softmax_kl_s11_lr0.002",
+      "origin": "old",
+      "m": 576,
+      "state_bytes_per_layer": 3594240,
+      "features_us": 33.31200033426285,
+      "total_us": 103.39199751615524,
+      "repeat_total_us": [
+        103.35999727249146,
+        103.39199751615524
+      ]
+    },
+    {
+      "regime": "reference",
+      "variant": "favor",
+      "name": "favor_s11",
+      "origin": "favor",
+      "m": 64,
+      "state_bytes_per_layer": 399360,
+      "features_us": 27.904000133275986,
+      "total_us": 59.26400050520897,
+      "repeat_total_us": [
+        59.29600074887276,
+        59.20000001788139
+      ]
+    }
+  ],
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "scope": "Fresh two-order same-hardware reference microbenchmark: FP32,batch1,12heads,real QKV,CUDA graph hot-cache. Not full-model decode or optimally fused kernels.",
+  "arithmetic": {
+    "original_ad_projection": 147456,
+    "plain_projection": 147072,
+    "matched_projection_including_hidden_and_direction_bias_i": 147265,
+    "matched_projection_including_hidden_bias_kl": 147264,
+    "hh_projection": 147456,
+    "state_m64": 32768,
+    "state_m576": 294912,
+    "scope": "Dominant multiply/add counts; excludes nonlinearities, normalizations, numerical rescaling, and common LLM layers."
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "rule": "Top two continuous positive candidates by mean across four heads of validation raw generalized-KL / target mass. Fixed Monte Carlo pairs; validation documents separate from both training and final evaluation. No selection on internal or official tests.",
+  "candidates": [
+    {
+      "method": "cone_mulkan",
+      "score": 0.7209014791882271
+    },
+    {
+      "method": "cone_mlp",
+      "score": 0.7737337382604382
+    },
+    {
+      "method": "cone_kan",
+      "score": 0.8239129906683307
+    },
+    {
+      "method": "avg_mlp",
+      "score": 1.0563663817688826
+    },
+    {
+      "method": "avg_mulkan",
+      "score": 1.0909827582593719
+    },
+    {
+      "method": "avg_kan",
+      "score": 1.4433908768636678
+    },
+    {
+      "method": "avg_anchor",
+      "score": 2.850217156694687
+    },
+    {
+      "method": "cone_anchor",
+      "score": 2.893203299831162
+    }
+  ],
+  "selected": [
+    "cone_mulkan",
+    "cone_mlp"
+  ],
+  "ppl_methods": [
+    "cone_mulkan",
+    "cone_mlp",
+    "vq",
+    "nn_mlp_11",
+    "nn_kan_11",
+    "nn_mulkan_11"
+  ],
+  "full_product_methods": [
+    "cone_mulkan",
+    "cone_mlp",
+    "vq",
+    "nn_mlp_11",
+    "nn_kan_11",
+    "nn_mulkan_11",
+    "nystrom"
+  ]
+}

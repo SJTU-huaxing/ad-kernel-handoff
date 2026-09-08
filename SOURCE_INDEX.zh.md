@@ -1,0 +1,44 @@
+项目原文索引。每份原文保持原相对目录、原内容和SHA256。正文阶段概述不替代原始逐head/逐种子表。
+
+| 原项目文件 | 字节 | SHA256 |
+|---|---:|---|
+| [candidate_validation/REPORT.zh.md](snapshot/kan_attention_theory/candidate_validation/REPORT.zh.md) | 15549 | `3468d3b0cdfa894402dd9e2f385d6f8e761de64e8b78127f7302abe51eab521b` |
+| [causal_direction/PROTOCOL.zh.md](snapshot/kan_attention_theory/causal_direction/PROTOCOL.zh.md) | 3678 | `e00b12e88b58738119bff55baacad719aa4b69d91ab103190e75a15e5c55673d` |
+| [causal_direction/REPORT.zh.md](snapshot/kan_attention_theory/causal_direction/REPORT.zh.md) | 12857 | `09c8a5b26034f9b2e8b4c0785e127235b6cc87658ad7d777f6de6ac3ab9a7e4c` |
+| [causal_direction/REPRODUCE.zh.md](snapshot/kan_attention_theory/causal_direction/REPRODUCE.zh.md) | 2502 | `516c2a36653f3ef29e1cb52dcb475e4d1c79ff6c0d522d2fdd05facdb98d535f` |
+| [causal_direction/THEORY.zh.md](snapshot/kan_attention_theory/causal_direction/THEORY.zh.md) | 12004 | `123a984745efab8f3ea6e8f6e7268d668cf9b54bcee1677023d32b36865f5008` |
+| [deployment_validation/ALL_HEADS_ESTIMATE.zh.md](snapshot/kan_attention_theory/deployment_validation/ALL_HEADS_ESTIMATE.zh.md) | 6843 | `9d0cebcf49e95cc7bfbb05cc0b409846aabe58e9f3996b2b55dc7d38c1b0b8dd` |
+| [deployment_validation/REPORT.zh.md](snapshot/kan_attention_theory/deployment_validation/REPORT.zh.md) | 14649 | `a63b2c50c6e04281061d6c7d8ade716d57bd7111f48934ae90f4c8dc273dd05e` |
+| [distribution_operator/ALTERNATIVE_KERNELS.zh.md](snapshot/kan_attention_theory/distribution_operator/ALTERNATIVE_KERNELS.zh.md) | 11519 | `c599a03b7e38dc5e6aed4a96e9edac24f1187ecc2e7988f9bdbc5ad4075b53b6` |
+| [distribution_operator/REPORT.zh.md](snapshot/kan_attention_theory/distribution_operator/REPORT.zh.md) | 17676 | `f3509ddfe789dd5c92da8dc95a7c2977c04351cf44d5140364982a1e3c316f17` |
+| [distribution_operator/THEORY.zh.md](snapshot/kan_attention_theory/distribution_operator/THEORY.zh.md) | 11863 | `6b803ac3ea67a46be51fbbba766be9b93b149a09cfb213f7725b51b1c8a09188` |
+| [gated_integration/PROTOCOL.zh.md](snapshot/kan_attention_theory/gated_integration/PROTOCOL.zh.md) | 5439 | `656f1bdf3f21f16c9650b4d188ebeb27ca20ed4eff1dbe092d380ff991860e40` |
+| [gated_integration/REPORT.zh.md](snapshot/kan_attention_theory/gated_integration/REPORT.zh.md) | 15082 | `87aae7c40741cab98c33a87017370e39e82201d33b7d9dee5a32334cc9793aea` |
+| [gated_integration/THEORY.zh.md](snapshot/kan_attention_theory/gated_integration/THEORY.zh.md) | 7007 | `49b85a034e53e658ad989cc61b6a95360fb04c046738393d01545c9a2180821d` |
+| [gaussian_go_nogo/REPORT.zh.md](snapshot/kan_attention_theory/gaussian_go_nogo/REPORT.zh.md) | 13347 | `fcdc47d48c8a058372c6ae10b07dbacc871d95ba793dfe29f554af51a0f81305` |
+| [hedgehog_matched/PRODUCT_PROTOCOL.zh.md](snapshot/kan_attention_theory/hedgehog_matched/PRODUCT_PROTOCOL.zh.md) | 2109 | `0b7a80fca03d301709989a87969fe757a58e37dfc3b87f562782ad36cc4a6c84` |
+| [hedgehog_matched/PROTOCOL.zh.md](snapshot/kan_attention_theory/hedgehog_matched/PROTOCOL.zh.md) | 3641 | `d1d482a5d046358acc6a3ced017fd632e1a2fa77be2aa2d6c4fab8e323c75214` |
+| [hedgehog_matched/REPORT.zh.md](snapshot/kan_attention_theory/hedgehog_matched/REPORT.zh.md) | 12380 | `e3d60ac93a6237d88db07f78d9ee627c0b509be7003757b2ba05f2943caf0e9e` |
+| [hedgehog_matched/THEORY.zh.md](snapshot/kan_attention_theory/hedgehog_matched/THEORY.zh.md) | 2576 | `917022e4c034ac8344f02566f29f763e05b4a437ec61423a3939f671465e2e6a` |
+| [kernel_comparison/REPORT.zh.md](snapshot/kan_attention_theory/kernel_comparison/REPORT.zh.md) | 17556 | `f47936f7c969d96393f4eff11eea14f4a0f978ceab6a511316f01376d044eaac` |
+| [key_parameterization_attribution/PROTOCOL.zh.md](snapshot/kan_attention_theory/key_parameterization_attribution/PROTOCOL.zh.md) | 3683 | `bc9ed945214239737d7a41dd7d343ad915dd9da64986ac8b8113085f9e61262b` |
+| [key_parameterization_attribution/REPORT.zh.md](snapshot/kan_attention_theory/key_parameterization_attribution/REPORT.zh.md) | 11921 | `7109eb5e2e8fc9f1d6184600f5f9c544d222b5b261ee2a7fdf7473fff7a5ba3d` |
+| [mlp_direction/ALL_HEADS_ESTIMATE.zh.md](snapshot/kan_attention_theory/mlp_direction/ALL_HEADS_ESTIMATE.zh.md) | 5045 | `601efad87ab71f568956bf9583a6becfe80bc882d8e9968a1c725d6e0f887f89` |
+| [mlp_direction/AMPLITUDE_DIRECTION_FOCUS.zh.md](snapshot/kan_attention_theory/mlp_direction/AMPLITUDE_DIRECTION_FOCUS.zh.md) | 10494 | `0c1378eb798b3921999a7ceaf8e27cb137d4817c20cb3844eb9f10c050f4adbd` |
+| [mlp_direction/PROTOCOL.zh.md](snapshot/kan_attention_theory/mlp_direction/PROTOCOL.zh.md) | 4901 | `919ab4212b98e37edb91348a0eb9b6704409bd2981cb3edee60e0022e25c0064` |
+| [mlp_direction/REPORT.zh.md](snapshot/kan_attention_theory/mlp_direction/REPORT.zh.md) | 14281 | `5ab3b1eddbf43f39eb8924ded56da7ed66c36f94d94a160b0c29087bb601d036` |
+| [mlp_direction/REPRODUCE.zh.md](snapshot/kan_attention_theory/mlp_direction/REPRODUCE.zh.md) | 2309 | `7fb552fdeba23d6fcf69bfe1e93367f8503f6f917e1f8cd67c1aaaaafc3e259e` |
+| [mlp_direction/THEORY.zh.md](snapshot/kan_attention_theory/mlp_direction/THEORY.zh.md) | 14560 | `27d33914feac29765acaa89428228ab6edfc077a18edcd01d42002f4dae9d15e` |
+| [normalized_attention_assessment/PROTOCOL.zh.md](snapshot/kan_attention_theory/normalized_attention_assessment/PROTOCOL.zh.md) | 1502 | `1e6c5fab22161015d63aff9589b119620c35f809206f472df0d7266318522bb9` |
+| [normalized_attention_assessment/REPORT.zh.md](snapshot/kan_attention_theory/normalized_attention_assessment/REPORT.zh.md) | 9740 | `8563eb141858370b80c3522143d751eedee5151d785116ae1c391868a54ec446` |
+| [normalized_kernel_novelty_20260908/REPORT.zh.md](snapshot/kan_attention_theory/normalized_kernel_novelty_20260908/REPORT.zh.md) | 9407 | `083a5484db1ce1b6e406125602e8d3804565a0ab9465f8a7e93f73c28c5fbbfa` |
+| [novelty_review_20260908/REPORT.zh.md](snapshot/kan_attention_theory/novelty_review_20260908/REPORT.zh.md) | 7920 | `c40a8ba1e7309de510a7d397e63360ea91bd158bdb43bf2d582825e8e240e0cb` |
+| [orbit_direction/PROTOCOL.zh.md](snapshot/kan_attention_theory/orbit_direction/PROTOCOL.zh.md) | 1691 | `5364660c9d4ebb93b46a37f11f3703c7d829622b7332baedbd6245b69b4fe1b8` |
+| [orbit_direction/REPORT.zh.md](snapshot/kan_attention_theory/orbit_direction/REPORT.zh.md) | 6786 | `986425f6022a25541b062c05c563779530fe08efc4d08b38b4ec7ad02e4143d5` |
+| [positive_generalization/REPORT.zh.md](snapshot/kan_attention_theory/positive_generalization/REPORT.zh.md) | 16245 | `3f75b8932c96054fd83b148412fd2c7188323afba798b99c3d874275960f9d2e` |
+| [query_amplitude_ablation/PROTOCOL.zh.md](snapshot/kan_attention_theory/query_amplitude_ablation/PROTOCOL.zh.md) | 4104 | `6ebcc9c0fbf2c33bd32fb7493bd2275555490ba9a05d11cce12f02bc4ef96e73` |
+| [query_amplitude_ablation/REPORT.zh.md](snapshot/kan_attention_theory/query_amplitude_ablation/REPORT.zh.md) | 12881 | `bdfa3109a3c33c74945ad7c204143a8cf571ac60a9d24fde7f3d7d83e3d3917d` |
+| [real_llm_pilot/AUXILIARY_REPORT.zh.md](snapshot/kan_attention_theory/real_llm_pilot/AUXILIARY_REPORT.zh.md) | 19799 | `80b8bfb17997303e5565336c299d2be086d9b34fb06c69343c09b24191d46aaa` |
+| [real_llm_pilot/RAW_REPORT.zh.md](snapshot/kan_attention_theory/real_llm_pilot/RAW_REPORT.zh.md) | 19216 | `078d72570a0bce4690af33768bae43457495638e310a7debd5e5a18cd3f36215` |
+| [single_pass_mulkan/REPORT.zh.md](snapshot/kan_attention_theory/single_pass_mulkan/REPORT.zh.md) | 19268 | `f101958f8ba3a7e5e47ca76df0d305a79b6002f7f2665dd9162c02912c6f2056` |
+| [single_pass_mulkan/diagnostics/REPORT.zh.md](snapshot/kan_attention_theory/single_pass_mulkan/diagnostics/REPORT.zh.md) | 11972 | `cd907ea615b11a20af083f24ad8f2d20d8cb23749b91b61310441643b27474ab` |

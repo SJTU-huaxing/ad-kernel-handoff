@@ -1,0 +1,22 @@
+{
+  "family": "gla",
+  "name": "gla_ad_shape_s11",
+  "prefill_512_ms": 37.900300696492195,
+  "decode_ms_per_token": 29.627783864270896,
+  "prefill_samples_ms": [
+    39.05823640525341,
+    37.900300696492195,
+    37.78240643441677
+  ],
+  "decode_samples_ms": [
+    29.633658879902214,
+    29.59751000162214,
+    29.627783864270896
+  ],
+  "state_bytes": [
+    12582912,
+    12582912,
+    12582912
+  ],
+  "scope": "Batch1 BF16 native full model, 512-token prefill then 32 fixed real continuation tokens; 3 hot runs; Python/FLA reference feature adapters. Not an optimized-fusion benchmark."
+}

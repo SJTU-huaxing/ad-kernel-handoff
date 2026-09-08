@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "actual_model_specs": {
+    "gla": [
+      "fla-hub/gla-340M-15B",
+      "6e04029dc090a2c55df712f18814db80aa39894f"
+    ],
+    "gdn": [
+      "puigde/gated-deltanet-360M-15B-slimpajama",
+      "1d1a7bf99323601635f3d63f67c97614f9c2ec10"
+    ]
+  },
+  "full_vocabulary_identical": true,
+  "tokenization_probe_count": 63,
+  "probe_ids_identical": true,
+  "vocabulary_sha256": "445a835dee8580ef4aafb42b5e0f8f865b20ac246aa35439febca274efa64573"
+}

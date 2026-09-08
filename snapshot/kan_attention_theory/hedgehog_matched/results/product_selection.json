@@ -1,0 +1,7 @@
+{
+  "learning_rates": {
+    "ad_raw": 0.002,
+    "hh_raw": 0.002
+  },
+  "protocol_sha256": "0b7a80fca03d301709989a87969fe757a58e37dfc3b87f562782ad36cc4a6c84"
+}

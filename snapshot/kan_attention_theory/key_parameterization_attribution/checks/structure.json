@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "initialization": "standard",
+      "kind": "ad",
+      "params_per_head": 73536,
+      "paired_initial_attention_max_difference": 0.018234856480875916,
+      "gradient_norms_over_first3steps": {
+        "qnet.w1": 0.0018995256371448315,
+        "qnet.w2": 0.010017874582407953,
+        "knet.w1": 0.05238351629906371,
+        "knet.w2": 0.592733116786175
+      }
+    },
+    {
+      "initialization": "standard",
+      "kind": "exp",
+      "params_per_head": 73536,
+      "paired_initial_attention_max_difference": 0.018234856480875916,
+      "gradient_norms_over_first3steps": {
+        "qnet.w1": 0.0006640933517908708,
+        "qnet.w2": 0.0034109461294182615,
+        "knet.w1": 0.026838050656795884,
+        "knet.w2": 0.07861158129929445
+      }
+    },
+    {
+      "initialization": "matched_zero",
+      "kind": "ad",
+      "params_per_head": 73536,
+      "paired_initial_attention_max_difference": 9.71445146547012e-17,
+      "gradient_norms_over_first3steps": {
+        "qnet.w1": 0.0015934117330203038,
+        "qnet.w2": 0.0109466722828356,
+        "knet.w1": 0.02773468593827679,
+        "knet.w2": 0.6050354146260958
+      }
+    },
+    {
+      "initialization": "matched_zero",
+      "kind": "exp",
+      "params_per_head": 73536,
+      "paired_initial_attention_max_difference": 9.71445146547012e-17,
+      "gradient_norms_over_first3steps": {
+        "qnet.w1": 4.4506272165655915e-05,
+        "qnet.w2": 0.00027164092901424305,
+        "knet.w1": 0.026339877684182306,
+        "knet.w2": 0.07624985167090342
+      }
+    }
+  ],
+  "scope": "Synthetic structure/gradient checks; matched_zero has identical initial attention, standard merely identical weights."
+}

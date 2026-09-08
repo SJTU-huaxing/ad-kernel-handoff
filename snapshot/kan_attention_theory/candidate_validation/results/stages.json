@@ -1,0 +1,22 @@
+[
+  {
+    "stage": "ppl_other_seeds",
+    "returncode": 0,
+    "seconds": 133.98459349572659
+  },
+  {
+    "stage": "ppl_fp64",
+    "returncode": 0,
+    "seconds": 11.766094744205475
+  },
+  {
+    "stage": "benchmark_full",
+    "returncode": 0,
+    "seconds": 299.48985234461725
+  },
+  {
+    "stage": "benchmark_features",
+    "returncode": 0,
+    "seconds": 23.0878620557487
+  }
+]

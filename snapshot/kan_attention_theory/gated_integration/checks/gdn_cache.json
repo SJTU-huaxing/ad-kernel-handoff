@@ -1,0 +1,107 @@
+{
+  "family": "gdn",
+  "rows": [
+    {
+      "name": "native",
+      "document": 0,
+      "logit_relative_l2": 0.004603781271725893,
+      "mean_teacher_kl": 0.00021558946173172444,
+      "nll_delta": -0.0016276836395263672,
+      "prefix128_state_bytes": 22536192,
+      "prefix159_state_bytes": 22536192,
+      "passed": true
+    },
+    {
+      "name": "native",
+      "document": 1,
+      "logit_relative_l2": 0.004430428147315979,
+      "mean_teacher_kl": 0.0001480335195083171,
+      "nll_delta": 0.00022482872009277344,
+      "prefix128_state_bytes": 22536192,
+      "prefix159_state_bytes": 22536192,
+      "passed": true
+    },
+    {
+      "name": "gdn_ad_norm_s11",
+      "document": 0,
+      "logit_relative_l2": 0.004612341523170471,
+      "mean_teacher_kl": 0.00020465117995627224,
+      "nll_delta": 0.0029740333557128906,
+      "prefix128_state_bytes": 22536192,
+      "prefix159_state_bytes": 22536192,
+      "passed": true
+    },
+    {
+      "name": "gdn_ad_norm_s11",
+      "document": 1,
+      "logit_relative_l2": 0.005133308470249176,
+      "mean_teacher_kl": 0.00015520874876528978,
+      "nll_delta": 0.0005021095275878906,
+      "prefix128_state_bytes": 22536192,
+      "prefix159_state_bytes": 22536192,
+      "passed": true
+    },
+    {
+      "name": "gdn_ad_write_s11",
+      "document": 0,
+      "logit_relative_l2": 0.004899213556200266,
+      "mean_teacher_kl": 0.0002952592330984771,
+      "nll_delta": -0.007013797760009766,
+      "prefix128_state_bytes": 22536192,
+      "prefix159_state_bytes": 22536192,
+      "passed": true
+    },
+    {
+      "name": "gdn_ad_write_s11",
+      "document": 1,
+      "logit_relative_l2": 0.004825748968869448,
+      "mean_teacher_kl": 0.00013877030869480222,
+      "nll_delta": -0.0035142898559570312,
+      "prefix128_state_bytes": 22536192,
+      "prefix159_state_bytes": 22536192,
+      "passed": true
+    },
+    {
+      "name": "gdn_exp_mlp_s11",
+      "document": 0,
+      "logit_relative_l2": 0.004679856821894646,
+      "mean_teacher_kl": 0.00019450823310762644,
+      "nll_delta": 0.001890420913696289,
+      "prefix128_state_bytes": 22536192,
+      "prefix159_state_bytes": 22536192,
+      "passed": true
+    },
+    {
+      "name": "gdn_exp_mlp_s11",
+      "document": 1,
+      "logit_relative_l2": 0.00460005784407258,
+      "mean_teacher_kl": 0.00022100924979895353,
+      "nll_delta": 0.002974271774291992,
+      "prefix128_state_bytes": 22536192,
+      "prefix159_state_bytes": 22536192,
+      "passed": true
+    },
+    {
+      "name": "gdn_signed_residual_s11",
+      "document": 0,
+      "logit_relative_l2": 0.004686727654188871,
+      "mean_teacher_kl": 0.00020078837405890226,
+      "nll_delta": 0.0009646415710449219,
+      "prefix128_state_bytes": 22536192,
+      "prefix159_state_bytes": 22536192,
+      "passed": true
+    },
+    {
+      "name": "gdn_signed_residual_s11",
+      "document": 1,
+      "logit_relative_l2": 0.004687911365181208,
+      "mean_teacher_kl": 0.00013928112457506359,
+      "nll_delta": -0.0034110546112060547,
+      "prefix128_state_bytes": 22536192,
+      "prefix159_state_bytes": 22536192,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "scope": "Two heldout documents, 128-token prefill and 31 cached steps; compare 32 next-token logits to length160 chunk forward. BF16 tolerance and fixed-state bytes."
+}

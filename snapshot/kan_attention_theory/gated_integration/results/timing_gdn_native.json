@@ -1,0 +1,22 @@
+{
+  "family": "gdn",
+  "name": "native",
+  "prefill_512_ms": 57.70242586731911,
+  "decode_ms_per_token": 32.24633651552722,
+  "prefill_samples_ms": [
+    58.95599350333214,
+    57.70242586731911,
+    57.26748704910278
+  ],
+  "decode_samples_ms": [
+    31.900161993689835,
+    32.24633651552722,
+    32.44859224651009
+  ],
+  "state_bytes": [
+    22536192,
+    22536192,
+    22536192
+  ],
+  "scope": "Batch1 BF16 native full model, 512-token prefill then 32 fixed real continuation tokens; 3 hot runs; Python/FLA reference feature adapters. Not an optimized-fusion benchmark."
+}

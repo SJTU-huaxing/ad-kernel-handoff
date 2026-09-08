@@ -1,0 +1,20 @@
+{
+  "name": "ad_raw_s11_lr0.002",
+  "head": [
+    27,
+    10
+  ],
+  "q_document": 11,
+  "q_position": 32,
+  "k_document": 70,
+  "k_position": 928,
+  "raw_nmse_recomputed": 1.6259529884140016e+16,
+  "raw_nmse_saved": 1.6259529884140174e+16,
+  "raw_log_target": -2.357522788704337,
+  "raw_log_prediction": 34.717174081074006,
+  "direct_logsumexp_feature_error": 3.552713678800501e-15,
+  "top_pair_fraction_squared_error": 0.07958621952366329,
+  "q_reference_kernel_logmass": 7.948514686531835,
+  "q_predicted_kernel_logmass": 30.430634539515296,
+  "scope": "Independent CPU FP64 recomputation of worst AD head in fixed productAB, selected for failure diagnosis only; no training or test correction."
+}

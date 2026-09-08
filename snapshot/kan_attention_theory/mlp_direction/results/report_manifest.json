@@ -1,0 +1,16 @@
+{
+  "artifacts": [
+    "REPORT.zh.md",
+    "THEORY.zh.md",
+    "PROTOCOL.zh.md",
+    "results/kernel_summary.csv",
+    "results/ppl_summary.csv",
+    "results/product_summary.csv",
+    "results/paired_nll.csv",
+    "figures/full_product.png",
+    "figures/full_product.pdf",
+    "figures/ppl.png",
+    "figures/ppl.pdf"
+  ],
+  "audit_passed": true
+}

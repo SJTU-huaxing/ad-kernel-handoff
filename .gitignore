@@ -1,0 +1,12 @@
+/work/
+/models/
+/hf-cache/
+**/__pycache__/
+*.pyc
+.env
+.env.*
+*.safetensors
+*.tar.gz
+*.tar.zst
+*.zip
+/target_environment.json

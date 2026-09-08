@@ -1,0 +1,101 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B",
+  "heads": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      0,
+      9
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      7,
+      6
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      14,
+      0
+    ],
+    [
+      14,
+      3
+    ],
+    [
+      14,
+      6
+    ],
+    [
+      14,
+      9
+    ],
+    [
+      21,
+      0
+    ],
+    [
+      21,
+      3
+    ],
+    [
+      21,
+      6
+    ],
+    [
+      21,
+      9
+    ],
+    [
+      27,
+      0
+    ],
+    [
+      27,
+      3
+    ],
+    [
+      27,
+      6
+    ],
+    [
+      27,
+      9
+    ]
+  ],
+  "ranks": [
+    16,
+    32,
+    64,
+    128,
+    256
+  ],
+  "block_size": 512,
+  "entries": 1920,
+  "seconds": 60.7984576523304,
+  "warnings": [
+    "Empirical matrix floors are not population certificates.",
+    "Only entirely legal rectangular blocks are decomposed, not causal-masked full matrices.",
+    "Row-normalized block kernels normalize over the first 512 keys only.",
+    "Gaussian surrogates are descriptive covariance matches, not asserted true distributions."
+  ]
+}

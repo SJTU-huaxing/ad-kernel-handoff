@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "fits": 36,
+  "matched_main_fits": 15,
+  "published_form_fits": 6,
+  "calibrations": 12,
+  "favor_banks": 3,
+  "kernel_evaluations": 108,
+  "full_model_ppl_evaluations": 132,
+  "benchmark_cases": 24,
+  "data_counts": {
+    "train": 4096,
+    "validation": 128,
+    "confirm_wiki": 128,
+    "confirm_long": 24,
+    "confirm_prose": 128
+  },
+  "training_pairs_per_head": 134360517,
+  "parameters_per_head": 73856,
+  "calibration_pairs_disjoint": true,
+  "model_revision": "8faed761d45a263340a0528343f099c05c9a4323",
+  "scope": "Two full GQA layers,24/336heads; no LLM finetuning; all candidate results retained; finite empirical and population claims separated."
+}

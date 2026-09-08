@@ -1,0 +1,1318 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B",
+  "revision": "8faed761d45a263340a0528343f099c05c9a4323",
+  "config": {
+    "transformers_version": "5.16.1",
+    "architectures": [
+      "Qwen2ForCausalLM"
+    ],
+    "output_hidden_states": false,
+    "return_dict": true,
+    "dtype": "bfloat16",
+    "chunk_size_feed_forward": 0,
+    "is_encoder_decoder": false,
+    "id2label": {
+      "0": "LABEL_0",
+      "1": "LABEL_1"
+    },
+    "label2id": {
+      "LABEL_0": 0,
+      "LABEL_1": 1
+    },
+    "problem_type": null,
+    "vocab_size": 151936,
+    "hidden_size": 1536,
+    "intermediate_size": 8960,
+    "num_hidden_layers": 28,
+    "num_attention_heads": 12,
+    "num_key_value_heads": 2,
+    "hidden_act": "silu",
+    "max_position_embeddings": 131072,
+    "initializer_range": 0.02,
+    "rms_norm_eps": 1e-06,
+    "use_cache": true,
+    "tie_word_embeddings": true,
+    "rope_parameters": {
+      "rope_theta": 1000000.0,
+      "rope_type": "default"
+    },
+    "use_sliding_window": false,
+    "sliding_window": null,
+    "max_window_layers": 28,
+    "layer_types": [
+      "full_attention",
+      "full_attention",
+      "full_attention",
+      "full_attention",
+      "full_attention",
+      "full_attention",
+      "full_attention",
+      "full_attention",
+      "full_attention",
+      "full_attention",
+      "full_attention",
+      "full_attention",
+      "full_attention",
+      "full_attention",
+      "full_attention",
+      "full_attention",
+      "full_attention",
+      "full_attention",
+      "full_attention",
+      "full_attention",
+      "full_attention",
+      "full_attention",
+      "full_attention",
+      "full_attention",
+      "full_attention",
+      "full_attention",
+      "full_attention",
+      "full_attention"
+    ],
+    "attention_dropout": 0.0,
+    "pad_token_id": null,
+    "bos_token_id": 151643,
+    "eos_token_id": 151643,
+    "_name_or_path": "Qwen/Qwen2.5-1.5B",
+    "model_type": "qwen2",
+    "use_mrope": false,
+    "output_attentions": false
+  },
+  "seed": 20260905,
+  "head_labels": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      0,
+      9
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      7,
+      6
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      14,
+      0
+    ],
+    [
+      14,
+      3
+    ],
+    [
+      14,
+      6
+    ],
+    [
+      14,
+      9
+    ],
+    [
+      21,
+      0
+    ],
+    [
+      21,
+      3
+    ],
+    [
+      21,
+      6
+    ],
+    [
+      21,
+      9
+    ],
+    [
+      27,
+      0
+    ],
+    [
+      27,
+      3
+    ],
+    [
+      27,
+      6
+    ],
+    [
+      27,
+      9
+    ]
+  ],
+  "head_dimension": 128,
+  "qk_location": "after Q/K projection and RoPE; original SDPA inputs; BF16 stored without conversion",
+  "selection": "first fixed-length prefix of shuffled eligible unique documents",
+  "documents": [
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 191,
+      "text_sha256": "fe7c8bd89a4bfd4ae36a5213214d80ffb58e503a0cefa07c548eb60f6162bc9d",
+      "file": "train_0191.pt",
+      "length": 1024,
+      "token_sha256": "aae516d5157a585b0b8b43c1109d5d4621b3b4c7b41d54ae15c6239f98e10f09"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 361,
+      "text_sha256": "a859f13d7e0efcfeb0938a41a595fc817ebe9865af0effa7847d20dede681bb3",
+      "file": "train_0361.pt",
+      "length": 1024,
+      "token_sha256": "8798d26185ea54f5576c3db8a997d9dd2696b7da17bbfe002ec2ce30546a121a"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 557,
+      "text_sha256": "70413afa33bc0b29008014000d85543781aef2cb11d2915090f16de6762162a8",
+      "file": "train_0557.pt",
+      "length": 1024,
+      "token_sha256": "2954f08f57904d9a7b7b42d6f5de5c4a6fca85e847bd8a7aa17800c1e9ada967"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 523,
+      "text_sha256": "45ac9f00de4efc0777f7680bca15f86c7f7ae267d9a6dda6b4604a53db16245a",
+      "file": "train_0523.pt",
+      "length": 1024,
+      "token_sha256": "e84510316c7e0ba00a94d241c71b855b1caa7579b0e1c374a2957b3b097646da"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 615,
+      "text_sha256": "b37b13e3f772f62f6117922ca11d02ffc3f3b9545ce2f497272c765fdeb4169d",
+      "file": "train_0615.pt",
+      "length": 1024,
+      "token_sha256": "67664c9744c42e7eb7a390d8b46ce5e99c5f006e84935b65c2a54d33dad485a4"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 253,
+      "text_sha256": "88955a9eadc1dab93ff25d70ffcf018bd8d0631b66d4bae1b73abb86211c39e3",
+      "file": "train_0253.pt",
+      "length": 1024,
+      "token_sha256": "4ce8507afbcc27de9e8c403eb38e2ab76c52189c2d125b206f2c64c97e09d89f"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 143,
+      "text_sha256": "386af614ed8e4323a8180b1f30b6aaceccf0477c4e8117079f7083be9307f967",
+      "file": "train_0143.pt",
+      "length": 1024,
+      "token_sha256": "db05cebee22a03a0e86b88827069e17c11f3d64b7189815420c574ea10c61500"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 172,
+      "text_sha256": "17bc218a97e9aabd81c8be60366ee50873265cea029139a2f648c7ff6336cc19",
+      "file": "train_0172.pt",
+      "length": 1024,
+      "token_sha256": "47f84bc94efafe085bcfca405734730a8e7fa55c9fb9aed8edee8f924a31feaf"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 436,
+      "text_sha256": "1752b29ea9900939fb702472316a8669774c5165aab981873554a569ba862552",
+      "file": "train_0436.pt",
+      "length": 1024,
+      "token_sha256": "d854df8abfec3067c34a0c2f3fce131206b03c94c0830ae7e10f945f0a5f8a66"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 286,
+      "text_sha256": "ef983237401ef911c151640870288f1cd898479e6dd3a41546626119709bd5e4",
+      "file": "train_0286.pt",
+      "length": 1024,
+      "token_sha256": "88a7506dca7929c5bbcb5bcd4de8ddfab0cf239266562e94c9487727ec18fe51"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 26,
+      "text_sha256": "fb93436b2d825a8577ad7b69240e4bd755dda7c2a4c2adc6e96102589962b0ef",
+      "file": "train_0026.pt",
+      "length": 1024,
+      "token_sha256": "b8419ea13e449ae69704c64deb1f1f4c5914e7b185f067bf33f31416899f4452"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 386,
+      "text_sha256": "221c48f23f1519ae25a6764d0b049fd9edd241086d8d5a1430f5f01e8ad4f005",
+      "file": "train_0386.pt",
+      "length": 1024,
+      "token_sha256": "dcdf3eab59fb431c8bcc4354112cb0648f35a1911f052ec4ee3a30183afc7b25"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 105,
+      "text_sha256": "63256101b42d60c75518d91a0f2d06726158d1c02972a96e1932ca088f0dc552",
+      "file": "train_0105.pt",
+      "length": 1024,
+      "token_sha256": "2336d3e8a11bf5c837874583a3422add3f05708995e74cca5e795874c4504c76"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 433,
+      "text_sha256": "46145bce721d63b64b632c9d73e170d2c45ee308b8645831eb99aa2c96389ec6",
+      "file": "train_0433.pt",
+      "length": 1024,
+      "token_sha256": "2378839b20578f59f0587b9427f1e40a5689ee01e3ad295608c9452584db776f"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 493,
+      "text_sha256": "89d97dffe4c7093f013a1f5d2b5c8845151b4305a07b218438493cfcb886fded",
+      "file": "train_0493.pt",
+      "length": 1024,
+      "token_sha256": "7ddf069410e1dc84644862a4158ec9b9a29d9739bd43771636f1b564c62e02e0"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 331,
+      "text_sha256": "51cf1dc15f821c356edca0a291926850d83fd64a501fda4649a161833b9ecf0e",
+      "file": "train_0331.pt",
+      "length": 1024,
+      "token_sha256": "28f7518cc443967b9291304ef565ddef864f3491ae271dbc4f66540a3a5d2837"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 142,
+      "text_sha256": "18822d4bc0a848502e6be0f132eaf7e4824a53f36d5bc84cb11cf15cd28c600c",
+      "file": "train_0142.pt",
+      "length": 1024,
+      "token_sha256": "e722e2bd06384ab9ac9569574bf020f45f46c71b00a4ed0bdd5cee52302404c5"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 477,
+      "text_sha256": "a883d279b9832d93bf05cb3fa699f46907a5158464eb05a1d6c770ca6dca3cff",
+      "file": "train_0477.pt",
+      "length": 1024,
+      "token_sha256": "08a93e48a34a7b92c590d2ba20b0f20f4eeaaae0644c9f6ba326388fb4f8e3a6"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 131,
+      "text_sha256": "9b86a0d70414f7b583266495825681788ff60f8501079bc5dd42ab212e14ccfd",
+      "file": "train_0131.pt",
+      "length": 1024,
+      "token_sha256": "79e892cc5dd45cdc6bddd779a71765585fcd462d0c9d66511de6cb6ba24088ea"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 66,
+      "text_sha256": "454e29a91559f58139ce4edb561fb6c95e631f76a8a2b16247ff1b0350cfecd7",
+      "file": "train_0066.pt",
+      "length": 1024,
+      "token_sha256": "8796472e22e622b5eb42574a5371c10126d69acc1c96f798574708e3edd57a4f"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 271,
+      "text_sha256": "277046de58435e704ae9cf59b2512bcc05b30f10bdb5447d2370a0e98c7960a1",
+      "file": "train_0271.pt",
+      "length": 1024,
+      "token_sha256": "d0e05483b1ad13a3093872b845c0060dc74ad8da311064345b0c0a526b898a2b"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 19,
+      "text_sha256": "1d78b33ab789fdb05ef7961a1d11a9014e2be33512027ec7ba414c9adedd6fad",
+      "file": "train_0019.pt",
+      "length": 1024,
+      "token_sha256": "f79716d9608d87587f458bc77f477c8c9735bafe99f0e8b132d0b6705e05b7c5"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 488,
+      "text_sha256": "a9a5632e1b4b371a9ae1b9dbb50cb15fb9810a3d47ffea45733f951f2837a77c",
+      "file": "train_0488.pt",
+      "length": 1024,
+      "token_sha256": "f47319b46418f1488824656bfb598d06eebb2e0d0e111f3889c3a18806574b40"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 84,
+      "text_sha256": "b1d88f71d436ab26aa0db341059d0a1611e1c1262a9ddaf880cb383c590e84cf",
+      "file": "train_0084.pt",
+      "length": 1024,
+      "token_sha256": "5bdb654b408f8189c514b68c0936830c1c846fd138a630d0e395af334c2d8706"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 109,
+      "text_sha256": "76ce62389e0392e0c41c2448c6a202681f6d7c661b2c7b30951fa21c9fe15d18",
+      "file": "train_0109.pt",
+      "length": 1024,
+      "token_sha256": "035396cc3de2905071214f236c2daa98a2151a7fe5d985113d70ffc3714789f9"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 452,
+      "text_sha256": "2af1b04483f4f53111ba2e680d7378fe2fc6524cd902c9b5e265ed627490a922",
+      "file": "train_0452.pt",
+      "length": 1024,
+      "token_sha256": "498a0f19cc05df9dacae351cf6505e5af223bb695c2f431fec404433bae5e10a"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 188,
+      "text_sha256": "b258afd490b0c03fd643f066dc4cd7c714fd76a39d53d37c23bde215f1e050ab",
+      "file": "train_0188.pt",
+      "length": 1024,
+      "token_sha256": "be926feb97dfcff93246e3879c4fbcd6143bd10246b3eeaeef51827d2bce08b2"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 123,
+      "text_sha256": "3a89882f6af510a7c946bfa045ed85e90a4334f2a4670e1a5497512f5e88a400",
+      "file": "train_0123.pt",
+      "length": 1024,
+      "token_sha256": "a076edf0d4f54c394dbcaf35464ec2d658bfc0b2553e1e6980e4d0009b460f9f"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 343,
+      "text_sha256": "7d0f5c9af0e20e9a72811e2ce446ee4ea75df946f677b68e40ad1ffebad1a5a5",
+      "file": "train_0343.pt",
+      "length": 1024,
+      "token_sha256": "77a238b5c3d2e895be18b521d5452255d7d9f30c65bea6a7a5dad2a6f1b913cd"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 537,
+      "text_sha256": "143eaca7dcb12a024060dd45e6f8cff7ee0e27ebeb03ba4387ed6ca7dc47e6d3",
+      "file": "train_0537.pt",
+      "length": 1024,
+      "token_sha256": "a1c5c5a4d5d13abe0b310c62e31eefadeaf0b6fddc9c0d499b81e88f8f234eaa"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 24,
+      "text_sha256": "27e6f8988d2bec328d28078073f5f23127561913f4dd634499d32c1aa23b126d",
+      "file": "train_0024.pt",
+      "length": 1024,
+      "token_sha256": "bddb6548bc182c4e262484a8803feb90be916b97ea1d1bdfa266a3785f2ff10d"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 368,
+      "text_sha256": "d54960d20d0f974c0ad97f496172079be735b838aa0b7cbd9568a387e0fcb562",
+      "file": "train_0368.pt",
+      "length": 1024,
+      "token_sha256": "736e713a4f6dc90b7b65130fc158417b24ba42570e3ce8bac6649433fc9b480d"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 373,
+      "text_sha256": "979d57d56c1fcc243c399223b6deefbaa10a2ef2fe521fa2ce7435d3db24d68f",
+      "file": "train_0373.pt",
+      "length": 1024,
+      "token_sha256": "ddd1d439cf05a264ca4844b8740719a2e2b80315cbb663611a14f5d2811d0d45"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 589,
+      "text_sha256": "93694574563a69c4458cca6d0c17c64f4658f3b1d4d978b4b7970dcfba24cbfb",
+      "file": "train_0589.pt",
+      "length": 1024,
+      "token_sha256": "74b2d5d49a4730cb69d97161f6b101a51d78580e95f9c6f7497ce3f1f1b999dc"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 545,
+      "text_sha256": "74d1ae9bd6790e690b02885fb8d539863e25152ca154c8f5c54c43eb0a9cbe7c",
+      "file": "train_0545.pt",
+      "length": 1024,
+      "token_sha256": "8b741a7114e55d52c620258869e2fcf9e5cd21e9e8e415da96090bf663690165"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 73,
+      "text_sha256": "4685d6057fb7d8b38dac95330ee253b5ae61fe41ddaeab968e3e4962a8ba27be",
+      "file": "train_0073.pt",
+      "length": 1024,
+      "token_sha256": "15be611f720472c23237572332bf0751564a91972ea41d8d23968f231a3d5e68"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 137,
+      "text_sha256": "b670fe886ad7997de8f8c27a64fa5880400d675d4103b595786b176faab2a20d",
+      "file": "train_0137.pt",
+      "length": 1024,
+      "token_sha256": "d52f0e866b0b6eac210a904af0626a8ce2fdcf109f8570a31a3bc66b9db98c91"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 403,
+      "text_sha256": "9a41ee3f3c9a7eb9816a32b0b6b6d46c50ccaa710b82c1c5d20f3934c7c1cf1b",
+      "file": "train_0403.pt",
+      "length": 1024,
+      "token_sha256": "eab8d07d69f2705044cdc4197cf920dec3c96fc348bc0d9f27797b9fecc4841b"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 186,
+      "text_sha256": "4184dc1b7da1de403cd3d9612b44470f8a47e5a8122b177dae80e9417552e0a3",
+      "file": "train_0186.pt",
+      "length": 1024,
+      "token_sha256": "4adfeaba50513273ab6c2ecce0ec2e0865bcbb489aa8dcdf8cd93d468bd97cd2"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 359,
+      "text_sha256": "a2717e750420319f4e597a1c33d478173cf32a147585d56f2c4a48264cb1218e",
+      "file": "train_0359.pt",
+      "length": 1024,
+      "token_sha256": "cb877c342593aa09b659bbacf3e160c683cfd9adadf879a1c9027e84840e5a93"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 596,
+      "text_sha256": "20fd7de7b948761cd851b3bef4e14518fb907c2dc1e1ddccbb9f295bff1109a8",
+      "file": "train_0596.pt",
+      "length": 1024,
+      "token_sha256": "38ebd789e35cf02b12a40c3a8282048a4181079a74fbd63381fe5153f5b4c052"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 325,
+      "text_sha256": "c15f0915882a3c8fefec1964ef5cdfd5be3fd1b962a4ed05d7cae65c604e9103",
+      "file": "train_0325.pt",
+      "length": 1024,
+      "token_sha256": "66d4de9790c382a04033feb86816da6e07e0e00e45f569807d1d65a65eecd011"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 357,
+      "text_sha256": "1bebdeb59a448e196224ad3c6f195b20953e715f0c6764b1bd39b53b0037d9cd",
+      "file": "train_0357.pt",
+      "length": 1024,
+      "token_sha256": "f90d4ed836f5169901caf28ff67dcfd08a459d0368c4838b1768786a523f3a9e"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 555,
+      "text_sha256": "721d3b45b15c253b29ec76bf0416123c8f023a95b6a8534f8dab97290bd3d226",
+      "file": "train_0555.pt",
+      "length": 1024,
+      "token_sha256": "4038ace49f7cee8b93961b5159439ddfbd331b97edd78a28138dcee1637f9fa8"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 410,
+      "text_sha256": "dbdc4f93466ba3d48c9354830102bc45f6c56e0a890dfbc53d8a2abb356a0e18",
+      "file": "train_0410.pt",
+      "length": 1024,
+      "token_sha256": "1fd7c6f027f93bc81c637099def1864f22daae3cefa9bb92ee8dc7fc36f33426"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 498,
+      "text_sha256": "f1fa9d4e6f39d445b9c748c2c7570b179fd6d594886f97447f9d026b45157d06",
+      "file": "train_0498.pt",
+      "length": 1024,
+      "token_sha256": "19a1dfd00f4a039a3983a0b1b1ab5df943509a66b69984bd63a8b989aa37f080"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 602,
+      "text_sha256": "2d7fc345de0656e795974ca242986ae9b39d6626648aaed40066f6b4a3f12cda",
+      "file": "train_0602.pt",
+      "length": 1024,
+      "token_sha256": "935f5fb7577954e4a6db82d20d4e1f3498a0ad8a4334a7425ee1e37a89f60407"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 274,
+      "text_sha256": "393655135de6067ed8a392e44dd38107757d887b966e907c6de9afdcbdf6979f",
+      "file": "train_0274.pt",
+      "length": 1024,
+      "token_sha256": "863561d71204c3e4d8babeb77d92362fcbf82ca942623211bea183f7f6bfcc86"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 226,
+      "text_sha256": "85b0d1f479d5f776ee26a20607f6ab3e622b52f730cc82a3eacd7ea282909761",
+      "file": "train_0226.pt",
+      "length": 1024,
+      "token_sha256": "dac03c8944d286749626c681eb222d79cfafdcfac041c2f47e0ac393d160e458"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 294,
+      "text_sha256": "33a9750cdb155c40cca0412ac8b98f959a2d2d2e7fd1a41c8d846abcf1a2d41f",
+      "file": "train_0294.pt",
+      "length": 1024,
+      "token_sha256": "0dc25ed1d0514139d9cbced5362b21aef015b277f7cfea050bc2d2dfd856464b"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 171,
+      "text_sha256": "30d6367099ba495e4735803756397f1cddc2ea7591ad3495e689e5b3e62d9653",
+      "file": "train_0171.pt",
+      "length": 1024,
+      "token_sha256": "d59105f1dc9e0af28f9f118ff97642ec42fd12e98224a86feee5b7e0e436682e"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 608,
+      "text_sha256": "c20b2f8cd2ea47a93c6ce4f37477b604830b23b2d154b9a358f51c3941c777c0",
+      "file": "train_0608.pt",
+      "length": 1024,
+      "token_sha256": "905ea6b8cd6d0647fff3b1086ad0914a724fa61367667fda7a026cd4153e97f5"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 269,
+      "text_sha256": "63fb3945703641f7ef1dd79b3b176afc3d631b9967f60f9a1063c8b7b611dfbc",
+      "file": "train_0269.pt",
+      "length": 1024,
+      "token_sha256": "93e130dc739c16b3293fc43b8ad0cfd060ff46966f89e51f9ff91b8cce2e4e1d"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 313,
+      "text_sha256": "a1d2f2a5dd6ee4f1c8788326140258647b6c8fb237f308a13e802b1ed1197ae8",
+      "file": "train_0313.pt",
+      "length": 1024,
+      "token_sha256": "e94496ed1038b5b15cea01a1f8e47363e1a6bf897616e88b062ccb3e049486bb"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 103,
+      "text_sha256": "b5460a5794c02402e28aef8840f57b602d455d6b17fc0f074068174fb18f4b20",
+      "file": "train_0103.pt",
+      "length": 1024,
+      "token_sha256": "9d348b6f1e26c0de5b668a0bc6241a4d42ae4557d727ac1ff2edd5144876258d"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 36,
+      "text_sha256": "f31f1c31ce11e616826c32c607f492f639e449940f32cd8b0fd4614a78ea782f",
+      "file": "train_0036.pt",
+      "length": 1024,
+      "token_sha256": "7f6dc0eae2b77b0676405b7567d078d276028e93b4319c90d6aea625fe00da0e"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 552,
+      "text_sha256": "898db8f51ced94fa37c473e0e3923b8f3bfa06c08c0541ec9b7265725cb4e8cf",
+      "file": "train_0552.pt",
+      "length": 1024,
+      "token_sha256": "e454d04904dd463e84c2bec3522ba3586ae776b2a83113a1d9ca0f18ac607c4c"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 469,
+      "text_sha256": "8d8b1c60d97440f24fd974c8ec4af531451f79559b0c36dd647ac22b9177aeee",
+      "file": "train_0469.pt",
+      "length": 1024,
+      "token_sha256": "c77c3675503b4eda2883757144c5806fb57ca27cb752f3370217c68d612ad945"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 154,
+      "text_sha256": "7f0b39c4da54bf5ca630ac475d3652c827317a1e591d076e58b0f5afca1fbcb2",
+      "file": "train_0154.pt",
+      "length": 1024,
+      "token_sha256": "9805a18e4f514fc54c20bbf001150299d554082254b17f334bde7fc531c21d1c"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 583,
+      "text_sha256": "072947ae90e1a3655c7dd6f3fb735ef01fabe309c791a8cdd25d375bedac9ec6",
+      "file": "train_0583.pt",
+      "length": 1024,
+      "token_sha256": "0efac92f3d5bb2239eac3bd62f4539ea67b73870bddd2a25a4f2534b19b8f955"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 529,
+      "text_sha256": "fa7e0c46b00113a623cc826045456832853a848a7a7329fd7350ede88e026ce9",
+      "file": "train_0529.pt",
+      "length": 1024,
+      "token_sha256": "f329943f78bef71bb7471184ad70a2e78bdc1af1d4220a0b15db351193c73a60"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 255,
+      "text_sha256": "dd63baf1b51161c74f21623e4257704d3a3b6a8308407c14bc0d20a806772160",
+      "file": "train_0255.pt",
+      "length": 1024,
+      "token_sha256": "e17e3661f705f426e00cba325789790dec308261ae580eeb9384532679119fe9"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 179,
+      "text_sha256": "6f52049c73e733250f0db84e790760f71264e1c5ab8bddf50e192211d4fff7b9",
+      "file": "train_0179.pt",
+      "length": 1024,
+      "token_sha256": "3eeaef815562ba153da8822cac2dc585f69ee255d3f985a2537cf3dd6aa460e6"
+    },
+    {
+      "split": "train",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "train",
+      "document_index": 468,
+      "text_sha256": "dadc6d96f980aef41c2f6e1d9dc194fbed8a4cc15a4266b7cd485e925a93a255",
+      "file": "train_0468.pt",
+      "length": 1024,
+      "token_sha256": "ab2b6265787c19ba4e4988528e976594eb2cf8133bcc3d9cb5ec94c8de7a4879"
+    },
+    {
+      "split": "validation",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "validation",
+      "document_index": 57,
+      "text_sha256": "5c3b355fc76b3d30cc96269db0a1996598e3eec6e9c06d64e4f8396cb1df3207",
+      "file": "validation_0057.pt",
+      "length": 1024,
+      "token_sha256": "31e69d4b78fc3cd9e8c34fa61ec491873335373d5d7dbd33ad989eec533a884d"
+    },
+    {
+      "split": "validation",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "validation",
+      "document_index": 15,
+      "text_sha256": "a65a529c489248bad0e5a798c3faad19c2f60941b8fbd5328cee951def0d4b65",
+      "file": "validation_0015.pt",
+      "length": 1024,
+      "token_sha256": "8fb4cd90047859832da9d5a576220cf0d9e141a665a061925e243cdd44abd9a4"
+    },
+    {
+      "split": "validation",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "validation",
+      "document_index": 54,
+      "text_sha256": "c5dd67eeb8ce58f52c695bceb78010c2da2fdc6959e88bc6c28414d43c697d1b",
+      "file": "validation_0054.pt",
+      "length": 1024,
+      "token_sha256": "bb23fcd4fae2e257fe21b75d54e29e5ed7488e546255e47afc771e2600f54520"
+    },
+    {
+      "split": "validation",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "validation",
+      "document_index": 7,
+      "text_sha256": "a9adffee05e46e20a3c1942398920c4995835755a7067ea834987f54bd972c99",
+      "file": "validation_0007.pt",
+      "length": 1024,
+      "token_sha256": "25b70c4a93509a8b30597caf5a5e3a60f0941019dab2dd0abb056829f6870707"
+    },
+    {
+      "split": "validation",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "validation",
+      "document_index": 4,
+      "text_sha256": "328f0b3b4bf12b198900b27d2554a465691c76e06a749d68d84994bb3d644664",
+      "file": "validation_0004.pt",
+      "length": 1024,
+      "token_sha256": "0ef7624f24e0b2c5151c5048f05c5c994c44b2100a093b1e295508dc47446fbb"
+    },
+    {
+      "split": "validation",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "validation",
+      "document_index": 24,
+      "text_sha256": "385cde3913727d7b8ee7a1c8d0af63098f0ad86a084bf2117f74d658b9f0a688",
+      "file": "validation_0024.pt",
+      "length": 1024,
+      "token_sha256": "5cb5aea85cacd3e03cbc6271cd782e00771f95b3997a23c0987d45ca3c928cf5"
+    },
+    {
+      "split": "validation",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "validation",
+      "document_index": 22,
+      "text_sha256": "4b0cdc1a0e84d448b091c72fed75f57890fba01b17ecc87a3784928322433620",
+      "file": "validation_0022.pt",
+      "length": 1024,
+      "token_sha256": "67fe01f858d79c96a29a9e006b56b87f05591d18b92fd1d265f45d4f1495ed29"
+    },
+    {
+      "split": "validation",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "validation",
+      "document_index": 40,
+      "text_sha256": "43502868e613d48a361e8fdd881733cfde0e780d621b8b213c0b5048c40daa47",
+      "file": "validation_0040.pt",
+      "length": 1024,
+      "token_sha256": "50a5edf1cd35d131a71e8f976492812ed9a84cf081e0776b2b457b54a552ca16"
+    },
+    {
+      "split": "validation",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "validation",
+      "document_index": 48,
+      "text_sha256": "55ebdb734d63cb2092f1d35f8c9254ffdb7a0be837e49b8ca160b95183d2f721",
+      "file": "validation_0048.pt",
+      "length": 1024,
+      "token_sha256": "3c73d70cff63cf7730c54e8f8c9ee0ed1d2543b5d1e92bffdd60e2876b9d8d3a"
+    },
+    {
+      "split": "validation",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "validation",
+      "document_index": 27,
+      "text_sha256": "983f4e000a89a53e95eec565fb54caeb1c942b248ded3475913a747bd9ecfcf2",
+      "file": "validation_0027.pt",
+      "length": 1024,
+      "token_sha256": "b0a7824cfffef4f088c27cc390ff54e4c7c93fdc01e6105bf745df0f428279d5"
+    },
+    {
+      "split": "validation",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "validation",
+      "document_index": 43,
+      "text_sha256": "cd4c6c7e4e2459ba3e3f1ddfcc12ad7f8039ecad91eb1693790c17e88065ec5e",
+      "file": "validation_0043.pt",
+      "length": 1024,
+      "token_sha256": "476f1a622bcf33b2937eae05a490a968f7d3ebe73b05a03095cf4dad0f1cceaf"
+    },
+    {
+      "split": "validation",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "validation",
+      "document_index": 33,
+      "text_sha256": "795619b23d332e3355156b33ed3a70cbe4c84b664a6f484c8061f958fdebec13",
+      "file": "validation_0033.pt",
+      "length": 1024,
+      "token_sha256": "fdebcb9033ecf53a014de6ecca385f100f2cf01d73918d48cb7843524b311c24"
+    },
+    {
+      "split": "test",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "test",
+      "document_index": 59,
+      "text_sha256": "aff972319a6fe65a9199b0cd4155891621a83e9ea1e72e0f31db93e88dc08df4",
+      "file": "test_0059.pt",
+      "length": 1024,
+      "token_sha256": "f68af3295e8412e5732a7f32c443ab07ba37b720671eb0403de9b419d268810c"
+    },
+    {
+      "split": "test",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "test",
+      "document_index": 15,
+      "text_sha256": "a906467cdfac73ce1d32d5aedb6d7422127a73f4f2ae3a04ebc3f9d0ebcf17a4",
+      "file": "test_0015.pt",
+      "length": 1024,
+      "token_sha256": "df8cd38bf3bd7b9116b0906b8c3a0e4a298e9730673f784fed550040283005a2"
+    },
+    {
+      "split": "test",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "test",
+      "document_index": 56,
+      "text_sha256": "7a73771f1490f9335464c7cddc1be07f882fff2d946c2facadbac79573b18359",
+      "file": "test_0056.pt",
+      "length": 1024,
+      "token_sha256": "f2c42e433e5c320e8548a8d3a387b694b282cb1885376cd32e7bda34314b2f3a"
+    },
+    {
+      "split": "test",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "test",
+      "document_index": 7,
+      "text_sha256": "29eccdf06a9e2440774d466e37ff09386e224555bec54984ce27dc16fa879aa1",
+      "file": "test_0007.pt",
+      "length": 1024,
+      "token_sha256": "f58ab629455c886b99d37f16de10518def0fc5c24f5628b1803a460ede0b0a12"
+    },
+    {
+      "split": "test",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "test",
+      "document_index": 4,
+      "text_sha256": "78deae8cd6fdd82d5a55b1f02331e4d11582774f3dde0487bcc3272313b233a2",
+      "file": "test_0004.pt",
+      "length": 1024,
+      "token_sha256": "ae1861b2ec68b32c27756e291e5aeb8a1bdf1255a9c7e1efa3310ba2ec73b86a"
+    },
+    {
+      "split": "test",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "test",
+      "document_index": 24,
+      "text_sha256": "5503f0a67fd22461684810eedb1bba93f4f7bed242e5626f99a11b0a1d46eec2",
+      "file": "test_0024.pt",
+      "length": 1024,
+      "token_sha256": "1251a7acffe5bd6c4e0dcbaf4fb330644592b70ae1b73e41ed75d033a7a3b821"
+    },
+    {
+      "split": "test",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "test",
+      "document_index": 22,
+      "text_sha256": "a6e8e9881f2efd073e5cdb573324cd7f9f53ffed707d16f68c7607ee70d193c0",
+      "file": "test_0022.pt",
+      "length": 1024,
+      "token_sha256": "dacdb05b05159cdcec568301d4d7f9fc061112d448b6911216f119535153b8e0"
+    },
+    {
+      "split": "test",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "test",
+      "document_index": 42,
+      "text_sha256": "a6c0779aaad39850daca8834b9e5ce0d5cef59793e34f8048465d24ee51cc116",
+      "file": "test_0042.pt",
+      "length": 1024,
+      "token_sha256": "da92aa48790ced60fb993752dd3a5329fb7a52389170335b6fccd7239545fb46"
+    },
+    {
+      "split": "test",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "test",
+      "document_index": 43,
+      "text_sha256": "ead74a26724e818c8e54578eb74d19b3eb377f3900513213ea8359e0ac52c61d",
+      "file": "test_0043.pt",
+      "length": 1024,
+      "token_sha256": "90a11d24f8623b7d6b3cd49fbd61793092a88eecb6cc33afc2fb15837ce85ffe"
+    },
+    {
+      "split": "test",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "test",
+      "document_index": 27,
+      "text_sha256": "b1b106462fe505c05088736136e686d5ea5706651c9ca0a7f844158b1fc44bd0",
+      "file": "test_0027.pt",
+      "length": 1024,
+      "token_sha256": "6aadcabd03b69fba31289005c5e60370f0e523a3d9f6b8bd45a2a8e297f53530"
+    },
+    {
+      "split": "test",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "test",
+      "document_index": 58,
+      "text_sha256": "d4cf2f6caef467a2ed226f3fd2ca025f361e1ca48df39720afaf0d67a388c355",
+      "file": "test_0058.pt",
+      "length": 1024,
+      "token_sha256": "26939f1ad8e59ea7bbfe818e68ea6ded79edcf05cafdf76e404dc6fb242a2af3"
+    },
+    {
+      "split": "test",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "test",
+      "document_index": 33,
+      "text_sha256": "c2e17725d02450f16887372a621a6a89f4b4200f0cf7962f96eb81f772f960eb",
+      "file": "test_0033.pt",
+      "length": 1024,
+      "token_sha256": "86c8fc65f3539f5f0272d4a0459475bcf7c9595eabf103d5bc567cd306c58f62"
+    },
+    {
+      "split": "test",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "test",
+      "document_index": 11,
+      "text_sha256": "76595a887b8ecbd00890e4959d7fb8482c874eaaf1d158c2967f96442a07cde1",
+      "file": "test_0011.pt",
+      "length": 1024,
+      "token_sha256": "969dde88f5576d9bd66f6bb0bc07579cc3b691c1b171c649e520efe939e0b3ae"
+    },
+    {
+      "split": "test",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "test",
+      "document_index": 60,
+      "text_sha256": "739a0f9cf9d97f4908602103b23d4cd3bd3aae0969de1e79dabae7dd236d39e8",
+      "file": "test_0060.pt",
+      "length": 1024,
+      "token_sha256": "b80242dea1ad3a89c2f92df68d6e72f0f9e8eb3aa6b9a733d19e11e317844810"
+    },
+    {
+      "split": "test",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "test",
+      "document_index": 12,
+      "text_sha256": "a58b7785fcbe44b26b066a2cd7686e362dd293769047a0fba9765e011e02d129",
+      "file": "test_0012.pt",
+      "length": 1024,
+      "token_sha256": "43238c329bdc91ddebd1ce3ad30ec755bea82b30d63f7693ab3af5d7f0d836bb"
+    },
+    {
+      "split": "test",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "test",
+      "document_index": 16,
+      "text_sha256": "b91bed8563e95d8ae9c7f69da4e1391af13783b3558524c4a18e49160d5114f6",
+      "file": "test_0016.pt",
+      "length": 1024,
+      "token_sha256": "b1616e2ea21a24944af47fb6c97f8a4abbbdc553f239ba7234bc5243a61d2dca"
+    },
+    {
+      "split": "test",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "test",
+      "document_index": 47,
+      "text_sha256": "68037ec4cdf6d2fa4d915590d664b33b9479486afb7593822e831d4e4d1c19aa",
+      "file": "test_0047.pt",
+      "length": 1024,
+      "token_sha256": "0c5d4ad894687cc45e92b305fcce18025234188795abcbde34ab08554b989428"
+    },
+    {
+      "split": "test",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "test",
+      "document_index": 54,
+      "text_sha256": "3551c58144fea1c2a1719816f029f67192909c31cee41714562e04dfa311c544",
+      "file": "test_0054.pt",
+      "length": 1024,
+      "token_sha256": "c75dd6e87df3de5fdcfc62080983acea891209ada98f92184c61976ee46d75f7"
+    },
+    {
+      "split": "test",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "test",
+      "document_index": 40,
+      "text_sha256": "cf87bcaa049ac8f94615c4176e64bccb7360ade0d4013b572d4a1bb7cf97b994",
+      "file": "test_0040.pt",
+      "length": 1024,
+      "token_sha256": "a861c2e668869688a2e5556293b8f6ae43b70e405ac58ce686c5d827113fb696"
+    },
+    {
+      "split": "test",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "test",
+      "document_index": 18,
+      "text_sha256": "3be99082d360a1659f8994c1871fe3cdd3f0d17e946c6be4ad51876182c237b7",
+      "file": "test_0018.pt",
+      "length": 1024,
+      "token_sha256": "a72025116d2437393855bd3b561a5c37f976a942d2193167ba7b4be249a706bd"
+    },
+    {
+      "split": "test_long",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "test",
+      "document_index": 35,
+      "text_sha256": "e279bb068ffdc4c69520cdbabd822d3e3c319eeacad76c4f54167b071aac247b",
+      "file": "test_long_0035.pt",
+      "length": 2048,
+      "token_sha256": "8d97370222c03b9637f27c5023f4c21ec12c4e026e6ae9350422719f52eaa770"
+    },
+    {
+      "split": "test_long",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "test",
+      "document_index": 44,
+      "text_sha256": "ac9a9ae25256f52b3da67b42302fb0efa970779bd216f4a86102647f67d3fd83",
+      "file": "test_long_0044.pt",
+      "length": 2048,
+      "token_sha256": "50db83df5522bb793d36aadb69e799a5a390457d345ebfa09b1518176d905e88"
+    },
+    {
+      "split": "test_long",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "test",
+      "document_index": 34,
+      "text_sha256": "34c00af91b7ab079f30d5288c59954deb3ad059ae2a5399543c25f4331613cbc",
+      "file": "test_long_0034.pt",
+      "length": 2048,
+      "token_sha256": "a269add3a65d10341ce41bc071628d3b108bd578a3f2efdb2e5a3d1adfbd2057"
+    },
+    {
+      "split": "test_long",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "test",
+      "document_index": 23,
+      "text_sha256": "ce4f236d5b1dc03fe42c9c7257bd938a462e483942d0ee167126b726193251d4",
+      "file": "test_long_0023.pt",
+      "length": 2048,
+      "token_sha256": "094d69fe68ba61391147d7d1a7d5f09d254fe4dbe8616569db17e436f4280c49"
+    },
+    {
+      "split": "test_long",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "test",
+      "document_index": 1,
+      "text_sha256": "6ee403ba853775918b4f84feb46241e843ac0eb5ac504d870bba9ead7b69d878",
+      "file": "test_long_0001.pt",
+      "length": 2048,
+      "token_sha256": "c1119b24fac21c1aeeb3cc3d383362123ad108dfe62b5ff895e8f7909d5cf1de"
+    },
+    {
+      "split": "test_long",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "test",
+      "document_index": 26,
+      "text_sha256": "625fd7e3b5091fae29865816fde1bb629dc3769137e08b4a154453b8d14bc0b1",
+      "file": "test_long_0026.pt",
+      "length": 2048,
+      "token_sha256": "3a36b619d147cf0e938f593ef9967994c4bc688d9f97745ce9cb7f2c9087eb69"
+    },
+    {
+      "split": "test_long",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "test",
+      "document_index": 25,
+      "text_sha256": "c720789da777e83c6b0c9f3913f4f2b55be29d4120e1b3ea8c4d9f276d594ad4",
+      "file": "test_long_0025.pt",
+      "length": 2048,
+      "token_sha256": "ad56145c7dbdcf717ed0f110e66340c956c0bb57e28eadaed733173101dea47e"
+    },
+    {
+      "split": "test_long",
+      "source": "EleutherAI/wikitext_document_level",
+      "source_split": "test",
+      "document_index": 39,
+      "text_sha256": "f905d43005877741ef1c3d315d05dc0f24ba95824960242d1a3fc876420cc1d5",
+      "file": "test_long_0039.pt",
+      "length": 2048,
+      "token_sha256": "e6f99a719d90d07173fa744ed20959646ad34f22e7d8eb6474de23cc7aa67771"
+    },
+    {
+      "split": "ood",
+      "source": "cached LEval narrative_qa",
+      "source_split": "evaluation",
+      "document_index": 0,
+      "text_sha256": "efc6989c12a120e6615e0b6a3bf66d25ce0addd5525d28268fc427a076c0d9a3",
+      "file": "ood_0000.pt",
+      "length": 1024,
+      "token_sha256": "1f2135e0c05717664756d17b384a8816f6e4289a06995d46c07d98600238ea1e"
+    },
+    {
+      "split": "ood",
+      "source": "cached LEval narrative_qa",
+      "source_split": "evaluation",
+      "document_index": 1,
+      "text_sha256": "eeda3e27f28d1baaf4f5eeba3777cab5630f33f788c6070a2b361f579516ed6a",
+      "file": "ood_0001.pt",
+      "length": 1024,
+      "token_sha256": "d98b228936d41ba4e5ff2119269db9ebce4879625bd3a7868a7251bcff8be79e"
+    },
+    {
+      "split": "ood",
+      "source": "cached LEval narrative_qa",
+      "source_split": "evaluation",
+      "document_index": 2,
+      "text_sha256": "dc40dde4c733209fccd7c1e4e2e66574ed61a36a23ee996db7666a11429180a2",
+      "file": "ood_0002.pt",
+      "length": 1024,
+      "token_sha256": "3f7295791e627e3761abefe3bda27a9237bef34aa6f0f6e13fecb429e2ac3286"
+    },
+    {
+      "split": "ood",
+      "source": "cached LEval narrative_qa",
+      "source_split": "evaluation",
+      "document_index": 3,
+      "text_sha256": "34947f2ce6e7035ded569fcea3ba7f373d48e085908fcbf1dd9dc57a809d15ec",
+      "file": "ood_0003.pt",
+      "length": 1024,
+      "token_sha256": "f255a64896577d1625950a836b13a771c40bd882a0b5512cb046fc36dd856d48"
+    },
+    {
+      "split": "ood",
+      "source": "cached LEval narrative_qa",
+      "source_split": "evaluation",
+      "document_index": 4,
+      "text_sha256": "01a05caf4717e956c3ae1a1c600bb6f589e87ab81302f5bb99d7f1f33c158ccd",
+      "file": "ood_0004.pt",
+      "length": 1024,
+      "token_sha256": "1111a6926deb1ec38e4e9201849873a612a182743f08c21389fcbccee2d39d0a"
+    },
+    {
+      "split": "ood",
+      "source": "cached LEval narrative_qa",
+      "source_split": "evaluation",
+      "document_index": 5,
+      "text_sha256": "2d0ed099185f241e19be14ec9299b2f200cdf0b42970b09df55556d3f4ae9cff",
+      "file": "ood_0005.pt",
+      "length": 1024,
+      "token_sha256": "d2ce421f7f3ad52ba4b911d3facab68acf1296cb656092ef7164f09530ed682d"
+    },
+    {
+      "split": "ood",
+      "source": "cached LEval narrative_qa",
+      "source_split": "evaluation",
+      "document_index": 6,
+      "text_sha256": "39817e6579c3253429ccb836d03dcb54e69000028e73ffd68ac3d7219cfdf897",
+      "file": "ood_0006.pt",
+      "length": 1024,
+      "token_sha256": "094cd83049047a35788e0a31690799bdc5207c1ec34abf2dae1810e7ad3fd596"
+    },
+    {
+      "split": "ood",
+      "source": "cached LEval narrative_qa",
+      "source_split": "evaluation",
+      "document_index": 7,
+      "text_sha256": "d4171f78d3b2447a2e2df34866fa1713b25387d8063492f28e60624a5ceb7d26",
+      "file": "ood_0007.pt",
+      "length": 1024,
+      "token_sha256": "26f83f4efec088c02b54bdc663d5e886fe81c327b4be4e200f60e781833c3886"
+    }
+  ],
+  "torch_version": "2.13.0+cu130",
+  "numerical_checks": [
+    {
+      "layer": 0,
+      "relative_output_l2": 0.0009435616666451097,
+      "note": "float32 recomputation versus bfloat16 SDPA"
+    },
+    {
+      "layer": 7,
+      "relative_output_l2": 0.0017088379245251417,
+      "note": "float32 recomputation versus bfloat16 SDPA"
+    },
+    {
+      "layer": 14,
+      "relative_output_l2": 0.0016847701044753194,
+      "note": "float32 recomputation versus bfloat16 SDPA"
+    },
+    {
+      "layer": 21,
+      "relative_output_l2": 0.0016969273565337062,
+      "note": "float32 recomputation versus bfloat16 SDPA"
+    },
+    {
+      "layer": 27,
+      "relative_output_l2": 0.0019811249803751707,
+      "note": "float32 recomputation versus bfloat16 SDPA"
+    }
+  ],
+  "seconds": 11.293210914358497
+}

@@ -1,0 +1,131 @@
+{
+  "name": "softplus_kl_s47",
+  "mode": "hybrid",
+  "split": "confirm_long",
+  "ppl": 9.575511231678046,
+  "nll_per_token": 2.259208925983744,
+  "documents": [
+    {
+      "ordinal": 0,
+      "nll": 18606.067710329975,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 1,
+      "nll": 22256.786424514212,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 2,
+      "nll": 18772.423874569686,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 3,
+      "nll": 19255.602766156175,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 4,
+      "nll": 18529.072097726028,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 5,
+      "nll": 19688.453285078976,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 6,
+      "nll": 18782.849385816164,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 7,
+      "nll": 17668.278595288833,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 8,
+      "nll": 15751.660547034588,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 9,
+      "nll": 18805.450526033117,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 10,
+      "nll": 21466.191809610238,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 11,
+      "nll": 19776.51168535914,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 12,
+      "nll": 17686.570384467144,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 13,
+      "nll": 18282.99239103729,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 14,
+      "nll": 16651.23597121372,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 15,
+      "nll": 17431.423869306094,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 16,
+      "nll": 22019.460630896443,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 17,
+      "nll": 17295.64275285432,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 18,
+      "nll": 16482.46729088256,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 19,
+      "nll": 18979.233979195094,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 20,
+      "nll": 17052.97759101914,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 21,
+      "nll": 19237.335435835048,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 22,
+      "nll": 16280.985253100993,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 23,
+      "nll": 17364.653248263276,
+      "tokens": 8191
+    }
+  ],
+  "seconds": 16.203603057190776,
+  "scope": "Frozen full model; only all heads at L14,L27 changed (24/336); no model finetuning. Unpadded per-document PPL, all next-token targets. Prose64 fully exact for window/hybrid; not learned remote evidence."
+}

@@ -1,0 +1,91 @@
+{
+  "name": "orbit_split_01_s11",
+  "mode": "pure",
+  "split": "orbit_long",
+  "ppl": 9.831761261836323,
+  "nll_per_token": 2.2856180902191636,
+  "documents": [
+    {
+      "ordinal": 0,
+      "nll": 19184.433715820312,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 1,
+      "nll": 17644.49462890625,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 2,
+      "nll": 21639.23553466797,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 3,
+      "nll": 19185.521514892578,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 4,
+      "nll": 18265.968872070312,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 5,
+      "nll": 19315.63134765625,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 6,
+      "nll": 16466.457916259766,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 7,
+      "nll": 20092.462768554688,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 8,
+      "nll": 16038.724212646484,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 9,
+      "nll": 19671.661376953125,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 10,
+      "nll": 16534.64488220215,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 11,
+      "nll": 16885.98272705078,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 12,
+      "nll": 17610.168975830078,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 13,
+      "nll": 21645.425903320312,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 14,
+      "nll": 20584.44952392578,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 15,
+      "nll": 18778.70053100586,
+      "tokens": 8191
+    }
+  ],
+  "seconds": 9.543044909834862,
+  "scope": "New confirmation texts, frozen full model,24/336heads at the same two complete layers. No LLM training or confirmation-based hyperparameter changes."
+}

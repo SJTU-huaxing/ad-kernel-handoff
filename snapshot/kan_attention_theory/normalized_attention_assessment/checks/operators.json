@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "name": "favor_s11",
+      "params_per_head": 8256,
+      "m": 64,
+      "fp64_scan_relative_error": 1.0223498119592384e-15,
+      "fp64_recurrence_relative_error": 1.333847020290569e-15
+    },
+    {
+      "name": "favor_s29",
+      "params_per_head": 8256,
+      "m": 64,
+      "fp64_scan_relative_error": 8.40893812757933e-16,
+      "fp64_recurrence_relative_error": 1.1712449534842639e-15
+    },
+    {
+      "name": "favor_s47",
+      "params_per_head": 8256,
+      "m": 64,
+      "fp64_scan_relative_error": 8.698557395344389e-16,
+      "fp64_recurrence_relative_error": 7.455906338866619e-16
+    }
+  ]
+}

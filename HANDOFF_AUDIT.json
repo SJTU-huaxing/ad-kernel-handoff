@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "session_date": "2026-09-09",
+  "source_host_utc": "2026-09-08T16:06:41.929435+00:00",
+  "date_note": "Document dates follow conversation context; source host clock is recorded separately and may differ.",
+  "source_documents_byte_identical": 40,
+  "source_python_scripts_byte_identical": 183,
+  "source_snapshot_files_verified": 1377,
+  "checkpoint_files_verified": 21,
+  "historical_experiment_hashes_rechecked": 64,
+  "authored_local_links_checked": 54,
+  "handoff_helpers_compiled": 6,
+  "current_summary_tables_checked": true,
+  "complete_history_text_checked": true,
+  "external_assets": "Fingerprints captured; not included in either archive.",
+  "limitations": [
+    "No NPU execution or access",
+    "No new training/evaluation",
+    "File/numerical transcription audit, not statistical or theoretical certification",
+    "Historical report links can refer to intentionally omitted external assets"
+  ]
+}

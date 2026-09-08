@@ -1,0 +1,7 @@
+{
+  "decomposition_max_error": 1.3322676295501878e-15,
+  "stationarity_all_losses": true,
+  "output_bound": true,
+  "factorized_exact_rank1_log_kernel_error": 5.329070518200751e-15,
+  "gaussian_information_identity_error": 2.220446049250313e-16
+}

@@ -1,0 +1,9 @@
+{
+  "stage": [
+    "data.py",
+    "extract",
+    "--confirm"
+  ],
+  "exit_code": 0,
+  "seconds": 7.635982189327478
+}

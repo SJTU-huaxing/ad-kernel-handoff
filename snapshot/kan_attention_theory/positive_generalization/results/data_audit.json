@@ -1,0 +1,29 @@
+{
+  "splits": {
+    "train": {
+      "pairs": 2097152,
+      "key_permutation_sha256": "df0c017d1f0bee825e83c1c5b7da7a9de169e4a8d292d293a6db946338de8b2e",
+      "unique_key_indices": 2097152,
+      "exact_dot_identity_max_error": 8.286704655802168e-13
+    },
+    "validation": {
+      "pairs": 65536,
+      "key_permutation_sha256": "74fa33189b0bceb2fdb85ff3702c230c631243cebfe4dbcb88d6ad73f778bf56",
+      "unique_key_indices": 65536,
+      "exact_dot_identity_max_error": 7.835954107804355e-13
+    },
+    "test": {
+      "pairs": 131072,
+      "key_permutation_sha256": "89ed1e07e0e9d8d638cd099108ddf9faf7417f92a6ea73947ee05f5998ea6906",
+      "unique_key_indices": 131072,
+      "exact_dot_identity_max_error": 7.642220190007265e-13
+    }
+  },
+  "scale": [
+    -3.143462780339762,
+    -3.9983847254377913,
+    3.363852967640259,
+    5.728129969286481
+  ],
+  "pair_measure": "Globally permuted independent empirical Q/K marginals; each Q and K vector occurs once per split."
+}

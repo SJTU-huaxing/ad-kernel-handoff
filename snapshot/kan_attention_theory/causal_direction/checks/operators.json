@@ -1,0 +1,183 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "FP64 explicit kernel vs chunk scan",
+      "relative_error": 6.133441767419365e-16
+    },
+    {
+      "check": "FP64 recurrence",
+      "relative_error": 6.109206438378465e-16
+    },
+    {
+      "check": "FP32 Triton state update with BF16 values",
+      "relative_error": 2.3749763292638507e-07
+    },
+    {
+      "check": "fused log features",
+      "name": "split_01_s11",
+      "max_absolute_error": 1.9073486328125e-06
+    },
+    {
+      "check": "real feature prefill/cache",
+      "name": "split_01_s11",
+      "runtime": "Replacement",
+      "relative_error": 4.3497772139744484e-07
+    },
+    {
+      "check": "real feature prefill/cache",
+      "name": "split_01_s11",
+      "runtime": "Hybrid",
+      "relative_error": 0.0
+    },
+    {
+      "check": "hybrid vs explicit raw mixed kernel",
+      "name": "split_01_s11",
+      "relative_error": 0.0013590386370196939
+    },
+    {
+      "check": "hybrid prefill+Triton decode vs explicit",
+      "name": "split_01_s11",
+      "relative_error": 0.0013590386370196939
+    },
+    {
+      "check": "fused log features",
+      "name": "exp_kl_s11",
+      "max_absolute_error": 3.814697265625e-06
+    },
+    {
+      "check": "real feature prefill/cache",
+      "name": "exp_kl_s11",
+      "runtime": "Replacement",
+      "relative_error": 4.031920525449095e-06
+    },
+    {
+      "check": "real feature prefill/cache",
+      "name": "exp_kl_s11",
+      "runtime": "Hybrid",
+      "relative_error": 0.0
+    },
+    {
+      "check": "hybrid vs explicit raw mixed kernel",
+      "name": "exp_kl_s11",
+      "relative_error": 0.0012621106579899788
+    },
+    {
+      "check": "hybrid prefill+Triton decode vs explicit",
+      "name": "exp_kl_s11",
+      "relative_error": 0.001262110541574657
+    },
+    {
+      "check": "fused log features",
+      "name": "softplus_kl_s11",
+      "max_absolute_error": 3.814697265625e-06
+    },
+    {
+      "check": "real feature prefill/cache",
+      "name": "softplus_kl_s11",
+      "runtime": "Replacement",
+      "relative_error": 1.1069864740420599e-06
+    },
+    {
+      "check": "real feature prefill/cache",
+      "name": "softplus_kl_s11",
+      "runtime": "Hybrid",
+      "relative_error": 0.0
+    },
+    {
+      "check": "hybrid vs explicit raw mixed kernel",
+      "name": "softplus_kl_s11",
+      "relative_error": 0.0014287416124716401
+    },
+    {
+      "check": "hybrid prefill+Triton decode vs explicit",
+      "name": "softplus_kl_s11",
+      "relative_error": 0.0014287416124716401
+    },
+    {
+      "check": "fused log features",
+      "name": "calibrated_s11",
+      "max_absolute_error": 3.814697265625e-06
+    },
+    {
+      "check": "real feature prefill/cache",
+      "name": "calibrated_s11",
+      "runtime": "Replacement",
+      "relative_error": 1.846755026235769e-06
+    },
+    {
+      "check": "real feature prefill/cache",
+      "name": "calibrated_s11",
+      "runtime": "Hybrid",
+      "relative_error": 0.0
+    },
+    {
+      "check": "hybrid vs explicit raw mixed kernel",
+      "name": "calibrated_s11",
+      "relative_error": 0.001358351786620915
+    },
+    {
+      "check": "hybrid prefill+Triton decode vs explicit",
+      "name": "calibrated_s11",
+      "relative_error": 0.001358351786620915
+    },
+    {
+      "check": "fused log features",
+      "name": "gate_s11",
+      "max_absolute_error": 3.814697265625e-06
+    },
+    {
+      "check": "real feature prefill/cache",
+      "name": "gate_s11",
+      "runtime": "Replacement",
+      "relative_error": 1.8571003010947607e-06
+    },
+    {
+      "check": "real feature prefill/cache",
+      "name": "gate_s11",
+      "runtime": "Hybrid",
+      "relative_error": 0.0
+    },
+    {
+      "check": "hybrid vs explicit raw mixed kernel",
+      "name": "gate_s11",
+      "relative_error": 0.001351499930024147
+    },
+    {
+      "check": "hybrid prefill+Triton decode vs explicit",
+      "name": "gate_s11",
+      "relative_error": 0.001351499930024147
+    },
+    {
+      "check": "fused log features",
+      "name": "favor_s11",
+      "max_absolute_error": 0.0
+    },
+    {
+      "check": "real feature prefill/cache",
+      "name": "favor_s11",
+      "runtime": "Replacement",
+      "relative_error": 5.179394690912886e-08
+    },
+    {
+      "check": "real feature prefill/cache",
+      "name": "favor_s11",
+      "runtime": "Hybrid",
+      "relative_error": 0.0
+    },
+    {
+      "check": "hybrid vs explicit raw mixed kernel",
+      "name": "favor_s11",
+      "relative_error": 0.0015566169749945402
+    },
+    {
+      "check": "hybrid prefill+Triton decode vs explicit",
+      "name": "favor_s11",
+      "relative_error": 0.0015566169749945402
+    },
+    {
+      "check": "exact-local / approximate-remote KL decomposition",
+      "max_error": 6.661338147750939e-16
+    }
+  ]
+}

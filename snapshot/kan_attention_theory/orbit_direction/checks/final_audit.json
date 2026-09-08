@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "trained_fits": 6,
+  "kernel_evaluations": 36,
+  "full_model_evaluations": 64,
+  "training_pairs_per_head": 134360517,
+  "parameters_per_head": 73856,
+  "fresh_wiki_documents": 64,
+  "fresh_long_documents": 16,
+  "scope": "Same24heads, two complete frozen-model layers. Same-budget augmentation and matched KL control. Corpus generalization remains limited to new Wiki documents and length; not a second model or broad task evaluation."
+}

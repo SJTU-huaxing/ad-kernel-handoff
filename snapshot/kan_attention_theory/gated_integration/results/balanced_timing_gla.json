@@ -1,0 +1,223 @@
+{
+  "family": "gla",
+  "rows": [
+    {
+      "name": "native",
+      "repeat": 0,
+      "prefill_ms": 35.92338413000107,
+      "decode_ms": 28.558127698488533,
+      "state_bytes": 12582912
+    },
+    {
+      "name": "gla_ad_shape_s11",
+      "repeat": 0,
+      "prefill_ms": 37.70577348768711,
+      "decode_ms": 29.852613573893905,
+      "state_bytes": 12582912
+    },
+    {
+      "name": "gla_ad_full_s11",
+      "repeat": 0,
+      "prefill_ms": 37.76008076965809,
+      "decode_ms": 30.21706477738917,
+      "state_bytes": 12582912
+    },
+    {
+      "name": "gla_exp_mlp_s11",
+      "repeat": 0,
+      "prefill_ms": 38.08663971722126,
+      "decode_ms": 29.656676575541496,
+      "state_bytes": 12582912
+    },
+    {
+      "name": "gla_signed_residual_s11",
+      "repeat": 0,
+      "prefill_ms": 37.285974249243736,
+      "decode_ms": 30.347425723448396,
+      "state_bytes": 12582912
+    },
+    {
+      "name": "gla_ad_shape_s11",
+      "repeat": 1,
+      "prefill_ms": 37.95607201755047,
+      "decode_ms": 29.903709306381643,
+      "state_bytes": 12582912
+    },
+    {
+      "name": "gla_ad_full_s11",
+      "repeat": 1,
+      "prefill_ms": 39.44218158721924,
+      "decode_ms": 30.405047233216465,
+      "state_bytes": 12582912
+    },
+    {
+      "name": "gla_exp_mlp_s11",
+      "repeat": 1,
+      "prefill_ms": 37.30090521275997,
+      "decode_ms": 30.270959134213626,
+      "state_bytes": 12582912
+    },
+    {
+      "name": "gla_signed_residual_s11",
+      "repeat": 1,
+      "prefill_ms": 37.781473249197006,
+      "decode_ms": 29.64363235514611,
+      "state_bytes": 12582912
+    },
+    {
+      "name": "native",
+      "repeat": 1,
+      "prefill_ms": 37.234118208289146,
+      "decode_ms": 28.978344285860658,
+      "state_bytes": 12582912
+    },
+    {
+      "name": "gla_ad_full_s11",
+      "repeat": 2,
+      "prefill_ms": 38.339585065841675,
+      "decode_ms": 29.924900736659765,
+      "state_bytes": 12582912
+    },
+    {
+      "name": "gla_exp_mlp_s11",
+      "repeat": 2,
+      "prefill_ms": 37.696804851293564,
+      "decode_ms": 29.708223999477923,
+      "state_bytes": 12582912
+    },
+    {
+      "name": "gla_signed_residual_s11",
+      "repeat": 2,
+      "prefill_ms": 37.40030713379383,
+      "decode_ms": 29.205399798229337,
+      "state_bytes": 12582912
+    },
+    {
+      "name": "native",
+      "repeat": 2,
+      "prefill_ms": 36.10784187912941,
+      "decode_ms": 28.50428642705083,
+      "state_bytes": 12582912
+    },
+    {
+      "name": "gla_ad_shape_s11",
+      "repeat": 2,
+      "prefill_ms": 38.05334307253361,
+      "decode_ms": 29.576489818282425,
+      "state_bytes": 12582912
+    },
+    {
+      "name": "gla_exp_mlp_s11",
+      "repeat": 3,
+      "prefill_ms": 36.993443965911865,
+      "decode_ms": 30.449833488091826,
+      "state_bytes": 12582912
+    },
+    {
+      "name": "gla_signed_residual_s11",
+      "repeat": 3,
+      "prefill_ms": 37.652209401130676,
+      "decode_ms": 29.388842987827957,
+      "state_bytes": 12582912
+    },
+    {
+      "name": "native",
+      "repeat": 3,
+      "prefill_ms": 36.70685179531574,
+      "decode_ms": 28.09192950371653,
+      "state_bytes": 12582912
+    },
+    {
+      "name": "gla_ad_shape_s11",
+      "repeat": 3,
+      "prefill_ms": 37.21538931131363,
+      "decode_ms": 29.438187484629452,
+      "state_bytes": 12582912
+    },
+    {
+      "name": "gla_ad_full_s11",
+      "repeat": 3,
+      "prefill_ms": 37.36385889351368,
+      "decode_ms": 30.231304932385683,
+      "state_bytes": 12582912
+    },
+    {
+      "name": "gla_signed_residual_s11",
+      "repeat": 4,
+      "prefill_ms": 47.984059900045395,
+      "decode_ms": 29.905227827839553,
+      "state_bytes": 12582912
+    },
+    {
+      "name": "native",
+      "repeat": 4,
+      "prefill_ms": 36.15165129303932,
+      "decode_ms": 28.382686781696975,
+      "state_bytes": 12582912
+    },
+    {
+      "name": "gla_ad_shape_s11",
+      "repeat": 4,
+      "prefill_ms": 37.873122841119766,
+      "decode_ms": 29.803662793710828,
+      "state_bytes": 12582912
+    },
+    {
+      "name": "gla_ad_full_s11",
+      "repeat": 4,
+      "prefill_ms": 42.15491935610771,
+      "decode_ms": 29.711952549405396,
+      "state_bytes": 12582912
+    },
+    {
+      "name": "gla_exp_mlp_s11",
+      "repeat": 4,
+      "prefill_ms": 38.13200630247593,
+      "decode_ms": 30.72597412392497,
+      "state_bytes": 12582912
+    }
+  ],
+  "summary": [
+    {
+      "name": "native",
+      "prefill_ms": 36.15165129303932,
+      "decode_ms": 28.50428642705083,
+      "prefill_ratio_to_native": 1.0,
+      "decode_ratio_to_native": 1.0,
+      "state_bytes": 12582912
+    },
+    {
+      "name": "gla_ad_shape_s11",
+      "prefill_ms": 37.873122841119766,
+      "decode_ms": 29.803662793710828,
+      "prefill_ratio_to_native": 1.0476180613197024,
+      "decode_ratio_to_native": 1.0453281072580218,
+      "state_bytes": 12582912
+    },
+    {
+      "name": "gla_ad_full_s11",
+      "prefill_ms": 38.339585065841675,
+      "decode_ms": 30.21706477738917,
+      "prefill_ratio_to_native": 1.059302153110706,
+      "decode_ratio_to_native": 1.049838620350824,
+      "state_bytes": 12582912
+    },
+    {
+      "name": "gla_exp_mlp_s11",
+      "prefill_ms": 37.696804851293564,
+      "decode_ms": 30.270959134213626,
+      "prefill_ratio_to_native": 1.0440060355166945,
+      "decode_ratio_to_native": 1.044606235456443,
+      "state_bytes": 12582912
+    },
+    {
+      "name": "gla_signed_residual_s11",
+      "prefill_ms": 37.652209401130676,
+      "decode_ms": 29.64363235514611,
+      "prefill_ratio_to_native": 1.0357945860899396,
+      "decode_ratio_to_native": 1.0461667641569388,
+      "state_bytes": 12582912
+    }
+  ],
+  "scope": "RTX3090, batch1, frozen BF16 base/FP32 adapter, TF32 disabled, no autocast; 512-token prefill and 16 fixed continuation tokens; five cyclic method orders after warmup; CUDA synchronized wall clock. Reference Python/FLA, not fused production performance."
+}

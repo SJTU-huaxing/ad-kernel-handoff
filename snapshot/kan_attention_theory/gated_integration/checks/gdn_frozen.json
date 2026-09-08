@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "base_sha256": "ee57e64d4f1315b2f7550df6080847daa15a6913f49890be783e894d066c8ebb",
+  "all_base_requires_grad_false": true
+}

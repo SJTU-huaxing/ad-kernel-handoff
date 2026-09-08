@@ -1,0 +1,99 @@
+{
+  "nmf_rank_checks": 128,
+  "nmf_rank_violations": 0,
+  "nmf_history_increase_violations": 0,
+  "learned_fits": 24,
+  "gradient_epochs": 1,
+  "beta15_fits": 6,
+  "beta15_same_pair_orders_and_parameter_counts": true,
+  "beta15_oracle_gates": [
+    {
+      "dataset": "internal",
+      "source": "product",
+      "kind": "shared",
+      "within10x": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "dataset": "internal",
+      "source": "product",
+      "kind": "untied",
+      "within10x": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "dataset": "internal",
+      "source": "same_context",
+      "kind": "shared",
+      "within10x": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "dataset": "internal",
+      "source": "same_context",
+      "kind": "untied",
+      "within10x": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "dataset": "official",
+      "source": "product",
+      "kind": "shared",
+      "within10x": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "dataset": "official",
+      "source": "product",
+      "kind": "untied",
+      "within10x": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "dataset": "official",
+      "source": "same_context",
+      "kind": "shared",
+      "within10x": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "dataset": "official",
+      "source": "same_context",
+      "kind": "untied",
+      "within10x": [
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  ]
+}

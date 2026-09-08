@@ -1,0 +1,46 @@
+{
+  "models": [
+    "product_i_reduced_plain_s11_lr0.002",
+    "product_i_reduced_plain_s29_lr0.002",
+    "product_i_reduced_plain_s47_lr0.002",
+    "product_i_reduced_matched_s11_lr0.002",
+    "product_i_reduced_matched_s29_lr0.002",
+    "product_i_reduced_matched_s47_lr0.002",
+    "causal_i_reduced_plain_s11_lr0.002",
+    "causal_i_reduced_plain_s29_lr0.002",
+    "causal_i_reduced_plain_s47_lr0.002",
+    "causal_i_reduced_matched_s11_lr0.002",
+    "causal_i_reduced_matched_s29_lr0.002",
+    "causal_i_reduced_matched_s47_lr0.002",
+    "causal_kl_reduced_plain_s11_lr0.002",
+    "causal_kl_reduced_plain_s29_lr0.002",
+    "causal_kl_reduced_plain_s47_lr0.002",
+    "causal_kl_reduced_matched_s11_lr0.002",
+    "causal_kl_reduced_matched_s29_lr0.002",
+    "causal_kl_reduced_matched_s47_lr0.002"
+  ],
+  "regimes": [
+    "product_i",
+    "causal_i",
+    "causal_kl"
+  ],
+  "variants": [
+    "reduced_plain",
+    "reduced_matched"
+  ],
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "learning_rates": {
+    "product_i__reduced_plain": 0.002,
+    "product_i__reduced_matched": 0.002,
+    "causal_i__reduced_plain": 0.002,
+    "causal_i__reduced_matched": 0.002,
+    "causal_kl__reduced_plain": 0.002,
+    "causal_kl__reduced_matched": 0.002
+  },
+  "new_fit_count": 24,
+  "scope": "Frozen Qwen2.5-1.5B;24 heads; one-pass function training, no LLM weight update."
+}

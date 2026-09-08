@@ -1,0 +1,37 @@
+{
+  "review_utc": "2026-09-08T06:26:42.882062+00:00",
+  "new_training_runs": 0,
+  "new_timing_runs": 0,
+  "derived_metrics": {
+    "ab": {
+      "relative_raw_i": 42.028327640014105,
+      "raw_nmse": 1.3934698434764026
+    },
+    "ba": {
+      "relative_raw_i": 43.397649722198494,
+      "raw_nmse": 17.542141910716413
+    },
+    "speed": {
+      "ad_feature_to_hh": 1.5090498428788193,
+      "hh_total_to_ad": 1.3239179267376289,
+      "ad_total_reduction_percent": 24.466616864673828
+    }
+  },
+  "source_sha256": {
+    "hedgehog_matched/results/summary_product.json": "4ad8f748ee7cb114bd2e70377cfdae3e4f4ce0b6ea82e4ec28e2e437153a081d",
+    "hedgehog_matched/results/summary.json": "de7745f49e4675b4cf9c2a003ea97c5ec606b8ff637166df550e872ca63e4673",
+    "hedgehog_matched/results/benchmark.json": "174e8e94bba3a36ca3ebfdc572c68b21bc4081aed59eab11daae687688fe9d03",
+    "hedgehog_matched/models.py": "45458e45d8c55792f7c93a453d3a353a2c8d765d302eaf2b4940deaf8c4d77c3",
+    "novelty_review_20260908/REPORT.zh.md": "c40a8ba1e7309de510a7d397e63360ea91bd158bdb43bf2d582825e8e240e0cb"
+  },
+  "primary_sources": [
+    "https://arxiv.org/html/2402.04347v1",
+    "https://arxiv.org/html/2602.02180v1",
+    "https://arxiv.org/html/2506.21137v3",
+    "https://arxiv.org/html/2507.00698v3",
+    "https://arxiv.org/html/2507.03340v1",
+    "https://arxiv.org/abs/2302.00787",
+    "https://research.google/pubs/chefs-random-tables-non-trigonometric-random-features/",
+    "https://openaccess.thecvf.com/content/WACV2021/papers/Shen_Efficient_Attention_Attention_With_Linear_Complexities_WACV_2021_paper.pdf"
+  ]
+}

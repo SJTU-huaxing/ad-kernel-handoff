@@ -1,0 +1,30 @@
+{
+  "gauss_hermite": [
+    {
+      "a": 0.1,
+      "b": 0.0,
+      "c": 0.0,
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "a": 0.3,
+      "b": 0.0,
+      "c": 0.0,
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "a": 0.45,
+      "b": 0.0,
+      "c": 0.0,
+      "max_absolute_error": 5.551115123125783e-16
+    },
+    {
+      "a": 0.2,
+      "b": 0.3,
+      "c": -0.2,
+      "max_absolute_error": 5.551115123125783e-17
+    }
+  ],
+  "multidimensional_mode_ordering": true,
+  "invalid_domain_rejected": true
+}

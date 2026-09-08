@@ -1,0 +1,47 @@
+{
+  "methods": [
+    "favor_plus",
+    "centered_favor_plus",
+    "sderf",
+    "aderf"
+  ],
+  "seeds": [
+    1009,
+    1046,
+    1083,
+    1120,
+    1157
+  ],
+  "ranks": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "heads": [
+    [
+      14,
+      0
+    ],
+    [
+      14,
+      6
+    ],
+    [
+      27,
+      0
+    ],
+    [
+      27,
+      6
+    ]
+  ],
+  "training_documents": 4096,
+  "training_vectors_per_marginal": 131072,
+  "aderf_inverse_error": 6.750155989720952e-14,
+  "statistics": "Both disjoint training pools from distribution_operator; no evaluation statistics fit parameters.",
+  "target": "exp(q^T k / sqrt(128)), no row normalization or clipping",
+  "nodes": "Gaussian marginals via Haar orthogonal directions and independent chi_128 radii; nested prefixes across m.",
+  "comparison": "Same frozen data and full empirical product as distribution_operator; five RF seeds per method.",
+  "implementation": "SDERF/ADERF analytic feature formulas, not complete FAVOR# LLM reproductions."
+}

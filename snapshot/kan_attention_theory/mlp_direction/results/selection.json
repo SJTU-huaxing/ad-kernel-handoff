@@ -1,0 +1,36 @@
+{
+  "winner": "half",
+  "criterion": "Mean across four heads and 128 validation documents of output NMSE; no test evaluation.",
+  "scores": {
+    "raw": 0.32132606924615903,
+    "balanced": 0.2724808960502324,
+    "half": 0.2708647577973023,
+    "logcosh": 0.43508315877170556
+  },
+  "initial_methods": [
+    "raw",
+    "balanced",
+    "half",
+    "logcosh"
+  ],
+  "primary_seeds": [
+    11,
+    29,
+    47
+  ],
+  "ranks": [
+    16,
+    32,
+    64,
+    96,
+    128
+  ],
+  "fixed_total_rank": 256,
+  "primary_confirmations": [
+    "raw",
+    "balanced",
+    "half"
+  ],
+  "confirmation_scope": "128 fresh Wikipedia documents and 96 distinct FDA files; checkpoints frozen before confirmation.",
+  "novelty_update": "Degrees of Freedom for Linear Attention (NeurIPS 2025) already studies distribution-aware dimension allocation. Allocation alone is not claimed novel."
+}

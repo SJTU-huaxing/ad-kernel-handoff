@@ -1,0 +1,130 @@
+{
+  "name": "product_ad_raw_s29_lr0.002",
+  "split": "confirm_long",
+  "ppl": 9.819237556769602,
+  "nll_per_token": 2.2843434774752653,
+  "documents": [
+    {
+      "ordinal": 0,
+      "nll": 18891.17353184346,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 1,
+      "nll": 22640.892204730106,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 2,
+      "nll": 18937.601853830787,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 3,
+      "nll": 19493.79919551936,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 4,
+      "nll": 18588.93265989332,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 5,
+      "nll": 19962.529194228744,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 6,
+      "nll": 18897.91087646153,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 7,
+      "nll": 17780.323003813657,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 8,
+      "nll": 16080.353142737158,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 9,
+      "nll": 18903.75557851693,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 10,
+      "nll": 21626.531008979113,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 11,
+      "nll": 19940.500837062445,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 12,
+      "nll": 17780.20174176074,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 13,
+      "nll": 18466.528393143923,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 14,
+      "nll": 16880.87953756335,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 15,
+      "nll": 17757.7863392674,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 16,
+      "nll": 22329.575095158078,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 17,
+      "nll": 17516.351194002156,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 18,
+      "nll": 16680.490663557102,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 19,
+      "nll": 19174.32383258086,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 20,
+      "nll": 17193.901396981284,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 21,
+      "nll": 19468.393200827843,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 22,
+      "nll": 16524.384077186638,
+      "tokens": 8191
+    },
+    {
+      "ordinal": 23,
+      "nll": 17548.259616351694,
+      "tokens": 8191
+    }
+  ],
+  "seconds": 13.600704699754715,
+  "scope": "Frozen full-model PPL;24/336 heads at two complete layers replaced; no model-weight finetuning; pure linear attention."
+}

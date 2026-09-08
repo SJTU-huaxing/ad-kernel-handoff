@@ -1,0 +1,9 @@
+{
+  "python": "3.11.16",
+  "torch": "2.13.0+cu130",
+  "transformers": "5.16.1",
+  "triton": "3.7.1",
+  "fla_commit": "78254ec52c2981370260f606bb82d3da28aee9e3",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "cuda_version": "13.0"
+}

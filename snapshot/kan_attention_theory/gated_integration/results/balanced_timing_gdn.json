@@ -1,0 +1,223 @@
+{
+  "family": "gdn",
+  "rows": [
+    {
+      "name": "native",
+      "repeat": 0,
+      "prefill_ms": 58.939384296536446,
+      "decode_ms": 33.59378152526915,
+      "state_bytes": 22536192
+    },
+    {
+      "name": "gdn_ad_norm_s11",
+      "repeat": 0,
+      "prefill_ms": 60.66436879336834,
+      "decode_ms": 36.423542303964496,
+      "state_bytes": 22536192
+    },
+    {
+      "name": "gdn_ad_write_s11",
+      "repeat": 0,
+      "prefill_ms": 60.654887929558754,
+      "decode_ms": 34.08898948691785,
+      "state_bytes": 22536192
+    },
+    {
+      "name": "gdn_exp_mlp_s11",
+      "repeat": 0,
+      "prefill_ms": 59.35451202094555,
+      "decode_ms": 34.48058501817286,
+      "state_bytes": 22536192
+    },
+    {
+      "name": "gdn_signed_residual_s11",
+      "repeat": 0,
+      "prefill_ms": 58.709049597382545,
+      "decode_ms": 33.3040141267702,
+      "state_bytes": 22536192
+    },
+    {
+      "name": "gdn_ad_norm_s11",
+      "repeat": 1,
+      "prefill_ms": 57.80463479459286,
+      "decode_ms": 33.77105435356498,
+      "state_bytes": 22536192
+    },
+    {
+      "name": "gdn_ad_write_s11",
+      "repeat": 1,
+      "prefill_ms": 59.80048514902592,
+      "decode_ms": 33.47297478467226,
+      "state_bytes": 22536192
+    },
+    {
+      "name": "gdn_exp_mlp_s11",
+      "repeat": 1,
+      "prefill_ms": 57.19119869172573,
+      "decode_ms": 33.20715168956667,
+      "state_bytes": 22536192
+    },
+    {
+      "name": "gdn_signed_residual_s11",
+      "repeat": 1,
+      "prefill_ms": 56.84560351073742,
+      "decode_ms": 32.81012247316539,
+      "state_bytes": 22536192
+    },
+    {
+      "name": "native",
+      "repeat": 1,
+      "prefill_ms": 55.69064058363438,
+      "decode_ms": 32.143642543815076,
+      "state_bytes": 22536192
+    },
+    {
+      "name": "gdn_ad_write_s11",
+      "repeat": 2,
+      "prefill_ms": 57.55496583878994,
+      "decode_ms": 33.267476479522884,
+      "state_bytes": 22536192
+    },
+    {
+      "name": "gdn_exp_mlp_s11",
+      "repeat": 2,
+      "prefill_ms": 57.21505358815193,
+      "decode_ms": 32.87573694251478,
+      "state_bytes": 22536192
+    },
+    {
+      "name": "gdn_signed_residual_s11",
+      "repeat": 2,
+      "prefill_ms": 57.711128145456314,
+      "decode_ms": 32.80575654935092,
+      "state_bytes": 22536192
+    },
+    {
+      "name": "native",
+      "repeat": 2,
+      "prefill_ms": 55.872900411486626,
+      "decode_ms": 31.810857239179313,
+      "state_bytes": 22536192
+    },
+    {
+      "name": "gdn_ad_norm_s11",
+      "repeat": 2,
+      "prefill_ms": 57.58390203118324,
+      "decode_ms": 33.1642726669088,
+      "state_bytes": 22536192
+    },
+    {
+      "name": "gdn_exp_mlp_s11",
+      "repeat": 3,
+      "prefill_ms": 58.38269740343094,
+      "decode_ms": 32.7370164450258,
+      "state_bytes": 22536192
+    },
+    {
+      "name": "gdn_signed_residual_s11",
+      "repeat": 3,
+      "prefill_ms": 57.23324045538902,
+      "decode_ms": 33.329675905406475,
+      "state_bytes": 22536192
+    },
+    {
+      "name": "native",
+      "repeat": 3,
+      "prefill_ms": 57.446226477622986,
+      "decode_ms": 31.71722823753953,
+      "state_bytes": 22536192
+    },
+    {
+      "name": "gdn_ad_norm_s11",
+      "repeat": 3,
+      "prefill_ms": 58.702945709228516,
+      "decode_ms": 33.03116105962545,
+      "state_bytes": 22536192
+    },
+    {
+      "name": "gdn_ad_write_s11",
+      "repeat": 3,
+      "prefill_ms": 57.313548400998116,
+      "decode_ms": 33.268903964199126,
+      "state_bytes": 22536192
+    },
+    {
+      "name": "gdn_signed_residual_s11",
+      "repeat": 4,
+      "prefill_ms": 56.56721442937851,
+      "decode_ms": 32.8236814821139,
+      "state_bytes": 22536192
+    },
+    {
+      "name": "native",
+      "repeat": 4,
+      "prefill_ms": 55.91209791600704,
+      "decode_ms": 31.912236707285047,
+      "state_bytes": 22536192
+    },
+    {
+      "name": "gdn_ad_norm_s11",
+      "repeat": 4,
+      "prefill_ms": 57.134635746479034,
+      "decode_ms": 33.21411972865462,
+      "state_bytes": 22536192
+    },
+    {
+      "name": "gdn_ad_write_s11",
+      "repeat": 4,
+      "prefill_ms": 57.02522397041321,
+      "decode_ms": 33.41405955143273,
+      "state_bytes": 22536192
+    },
+    {
+      "name": "gdn_exp_mlp_s11",
+      "repeat": 4,
+      "prefill_ms": 57.08658881485462,
+      "decode_ms": 32.7820434467867,
+      "state_bytes": 22536192
+    }
+  ],
+  "summary": [
+    {
+      "name": "native",
+      "prefill_ms": 55.91209791600704,
+      "decode_ms": 31.912236707285047,
+      "prefill_ratio_to_native": 1.0,
+      "decode_ratio_to_native": 1.0,
+      "state_bytes": 22536192
+    },
+    {
+      "name": "gdn_ad_norm_s11",
+      "prefill_ms": 57.80463479459286,
+      "decode_ms": 33.21411972865462,
+      "prefill_ratio_to_native": 1.0292670939376145,
+      "decode_ratio_to_native": 1.0425457075096543,
+      "state_bytes": 22536192
+    },
+    {
+      "name": "gdn_ad_write_s11",
+      "prefill_ms": 57.55496583878994,
+      "decode_ms": 33.41405955143273,
+      "prefill_ratio_to_native": 1.0291062360677412,
+      "decode_ratio_to_native": 1.045790002746281,
+      "state_bytes": 22536192
+    },
+    {
+      "name": "gdn_exp_mlp_s11",
+      "prefill_ms": 57.21505358815193,
+      "decode_ms": 32.87573694251478,
+      "prefill_ratio_to_native": 1.0210060245031753,
+      "decode_ratio_to_native": 1.032152500837992,
+      "state_bytes": 22536192
+    },
+    {
+      "name": "gdn_signed_residual_s11",
+      "prefill_ms": 57.23324045538902,
+      "decode_ms": 32.8236814821139,
+      "prefill_ratio_to_native": 1.0117169009532714,
+      "decode_ratio_to_native": 1.0285609806416605,
+      "state_bytes": 22536192
+    }
+  ],
+  "scope": "RTX3090, batch1, frozen BF16 base/FP32 adapter, TF32 disabled, no autocast; 512-token prefill and 16 fixed continuation tokens; five cyclic method orders after warmup; CUDA synchronized wall clock. Reference Python/FLA, not fused production performance."
+}

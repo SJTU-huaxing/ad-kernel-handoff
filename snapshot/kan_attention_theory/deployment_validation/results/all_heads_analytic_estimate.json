@@ -1,0 +1,105 @@
+{
+  "scope": "Arithmetic and extrapolation from previously completed runs only; no new model/kernel experiment. All 336 heads hypothetically use a1024,e64,m64, independent per-query-head maps. BF16 original projections retained, new features/states FP32.",
+  "base_projection_mlp_flops_per_token": 2620391424,
+  "lm_head_flops_per_last_token": 466747392,
+  "feature_flops_per_head_token": 786432,
+  "exponentials_per_decode_token": 688128,
+  "rows": [
+    {
+      "n": 1024,
+      "old_decode_gflops": 3.263299584,
+      "new_decode_gflops": 3.356884992,
+      "decode_change_percent": 2.8678153994457167,
+      "old_prefill_tflops": 2.774029959168,
+      "new_prefill_tflops": 2.965604794368,
+      "prefill_change_percent": 6.906011759781361,
+      "current_chunk_prefill_tflops": 2.974060511232
+    },
+    {
+      "n": 2048,
+      "old_decode_gflops": 3.439460352,
+      "new_decode_gflops": 3.356884992,
+      "decode_change_percent": -2.4008231393620627,
+      "old_prefill_tflops": 5.727981797376,
+      "new_prefill_tflops": 5.930742841344,
+      "prefill_change_percent": 3.5398339439710824,
+      "current_chunk_prefill_tflops": 5.947654275072
+    },
+    {
+      "n": 4096,
+      "old_decode_gflops": 3.791781888,
+      "new_decode_gflops": 3.356884992,
+      "decode_change_percent": -11.469459711707975,
+      "old_prefill_tflops": 12.177051353088,
+      "new_prefill_tflops": 11.861018935296,
+      "prefill_change_percent": -2.595311530092681,
+      "current_chunk_prefill_tflops": 11.894841802752
+    },
+    {
+      "n": 8192,
+      "old_decode_gflops": 4.49642496,
+      "new_decode_gflops": 3.356884992,
+      "decode_change_percent": -25.343244425010937,
+      "old_prefill_tflops": 27.239853981696,
+      "new_prefill_tflops": 23.7215711232,
+      "prefill_change_percent": -12.915938759657575,
+      "current_chunk_prefill_tflops": 23.789216858112
+    },
+    {
+      "n": 16384,
+      "old_decode_gflops": 5.905711104,
+      "new_decode_gflops": 3.356884992,
+      "decode_change_percent": -43.158665690125844,
+      "old_prefill_tflops": 66.024113307648,
+      "new_prefill_tflops": 47.442675499008,
+      "prefill_change_percent": -28.14341136556785,
+      "current_chunk_prefill_tflops": 47.577966968832
+    },
+    {
+      "n": 32768,
+      "old_decode_gflops": 8.724283392,
+      "new_decode_gflops": 3.356884992,
+      "decode_change_percent": -61.522513183395674,
+      "old_prefill_tflops": 178.227248234496,
+      "new_prefill_tflops": 94.884884250624,
+      "prefill_change_percent": -46.761853088938075,
+      "current_chunk_prefill_tflops": 95.155467190272
+    }
+  ],
+  "timing_extrapolation": [
+    {
+      "method": "partition",
+      "decode_feature_only_graph_ms_range": [
+        1.1316479593515396,
+        3.394943878054619
+      ],
+      "decode_feature_only_eager_ms_estimate": 12.51264014840126,
+      "prefill8192_feature_only_ms_estimate": 227.3402967453003,
+      "baseline_prefill8192_nonquadratic_ms_fit": 421.5455743698847,
+      "prefill8192_ms_before_linear_aggregation": 648.885871115185
+    },
+    {
+      "method": "galerkin",
+      "decode_feature_only_graph_ms_range": [
+        0.6021119952201843,
+        1.806335985660553
+      ],
+      "decode_feature_only_eager_ms_estimate": 6.995967864990234,
+      "prefill8192_feature_only_ms_estimate": 217.44710969924927,
+      "baseline_prefill8192_nonquadratic_ms_fit": 421.5455743698847,
+      "prefill8192_ms_before_linear_aggregation": 638.9926840691339
+    }
+  ],
+  "prefill_fit_coefficients": [
+    5.9071597144717245,
+    0.05073711116399084,
+    7.540800738968832e-07
+  ],
+  "caveats": [
+    "Multiply-add=2 FLOPs; omit exp/div/comparison/norm/RoPE and memory traffic. Causal prefill counts only legal query/key pairs.",
+    "New prefill main formula uses standard 4*m*d_v aggregation; current block-64 overhead shown separately.",
+    "Three-point constant+linear+quadratic time fit is a sensitivity model, not measured operator profiling.",
+    "Layer/head timing extrapolation assumes comparable utilization; graph intervals assume 12 heads take 1-3 times the measured 4-head feature latency.",
+    "Total decode time cannot be uniquely inferred without timing the removed attention/cache path. No full-head quality prediction."
+  ]
+}

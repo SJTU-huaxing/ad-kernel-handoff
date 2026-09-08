@@ -1,0 +1,19 @@
+{
+  "completed": true,
+  "scope": "Frozen Qwen2.5-1.5B, complete layers14 and27 only,24/336heads, no subagents, no LLM finetuning",
+  "constructed_feature_checkpoints": 42,
+  "raw_kernel_evaluations": 144,
+  "full_model_ppl_evaluations": 196,
+  "full_model_timing_conditions": 24,
+  "gaussian_audit_all_cached_training_q_per_head": 262144,
+  "gaussian_audit_all_cached_training_k_per_group": 4194304,
+  "findings": {
+    "cache_savings_verified": true,
+    "robust_full_model_speedup_verified": false,
+    "gaussian_finite_spectrum_applicable_heads": 0,
+    "unknown_population_nonzero_lower_certificate_verified": false,
+    "rotation_augmentation_length_generalization_improvement_confirmed": true,
+    "raw_mass_unique_quality_advantage_over_matched_augmented_kl_verified": false,
+    "quality_advantage_over_cache_matched_swa_verified": false
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B",
+  "revision": "8faed761d45a263340a0528343f099c05c9a4323",
+  "data_revision": "647234772b9554e208af6c826f23b99e3cac88c8",
+  "labels": [
+    [
+      14,
+      0
+    ],
+    [
+      14,
+      6
+    ],
+    [
+      27,
+      0
+    ],
+    [
+      27,
+      6
+    ]
+  ],
+  "ranks": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "documents": {
+    "train": 4096,
+    "validation": 128,
+    "test": 256
+  },
+  "data_note": "WikiText103 source train split partitioned by document into 4096/128/256; not official benchmark test.",
+  "training_measure": "Empirical product marginals via one global K permutation. Every Q and K vector used once per run.",
+  "objective": "Unnormalized exp(q^T k / sqrt(128)); beta15, no MSE training.",
+  "study_status": "Exploratory loss ablation prompted by original holdout overshoot results; reused test sets, not a fresh confirmatory test.",
+  "predeclared_gate": "At m=64, median-seed learned error <=75% of each train-calibrated RF baseline on >=3/4 heads, and <=10 times achieved transductive NMF error on >=3/4 heads. Apply on both old official-test diagnostic and new internal holdout.",
+  "transductive_warning": "NMF sees every tested matrix entry. Learned feature maps and RF calibration use training documents only."
+}

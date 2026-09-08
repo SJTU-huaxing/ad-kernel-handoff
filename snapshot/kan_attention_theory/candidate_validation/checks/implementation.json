@@ -1,0 +1,287 @@
+{
+  "checks": [
+    {
+      "method": "nystrom",
+      "causal_recurrence_relative_l2": 3.691794351957353e-16,
+      "fp32_feature_relative_l2": 1.770999485608011e-06,
+      "sliced_heads_relative_l2": 0.0,
+      "negative_feature_fraction": 0.4934448301792145
+    },
+    {
+      "method": "spectral_pair",
+      "causal_recurrence_relative_l2": 3.108490658014508e-16,
+      "fp32_feature_relative_l2": 1.4809094382136349e-06,
+      "sliced_heads_relative_l2": 0.0,
+      "negative_feature_fraction": 0.0,
+      "pair_algebra_relative_l2": 2.921178724085594e-16
+    },
+    {
+      "method": "avg_anchor",
+      "causal_recurrence_relative_l2": 2.6455455182858954e-16,
+      "fp32_feature_relative_l2": 2.034219286149963e-06,
+      "sliced_heads_relative_l2": 0.0,
+      "negative_feature_fraction": 0.0
+    },
+    {
+      "method": "cone_anchor",
+      "causal_recurrence_relative_l2": 2.7930906672441717e-16,
+      "fp32_feature_relative_l2": 3.0388407045695105e-06,
+      "sliced_heads_relative_l2": 0.0,
+      "negative_feature_fraction": 0.0
+    },
+    {
+      "method": "avg_mlp",
+      "causal_recurrence_relative_l2": 2.9970825761843116e-16,
+      "fp32_feature_relative_l2": 2.048726134582096e-06,
+      "sliced_heads_relative_l2": 0.0,
+      "negative_feature_fraction": 0.0
+    },
+    {
+      "method": "cone_mlp",
+      "causal_recurrence_relative_l2": 3.080897416802201e-16,
+      "fp32_feature_relative_l2": 0.00032784030390879183,
+      "sliced_heads_relative_l2": 0.0,
+      "negative_feature_fraction": 0.0
+    },
+    {
+      "method": "avg_kan",
+      "causal_recurrence_relative_l2": 2.699654392947285e-16,
+      "fp32_feature_relative_l2": 2.5297427062410895e-06,
+      "sliced_heads_relative_l2": 0.0,
+      "negative_feature_fraction": 0.0
+    },
+    {
+      "method": "cone_kan",
+      "causal_recurrence_relative_l2": 3.111621207164879e-16,
+      "fp32_feature_relative_l2": 0.0003718042306751001,
+      "sliced_heads_relative_l2": 0.0,
+      "negative_feature_fraction": 0.0
+    },
+    {
+      "method": "avg_mulkan",
+      "causal_recurrence_relative_l2": 2.798361401612252e-16,
+      "fp32_feature_relative_l2": 6.468147139430383e-07,
+      "sliced_heads_relative_l2": 0.0,
+      "negative_feature_fraction": 0.0
+    },
+    {
+      "method": "cone_mulkan",
+      "causal_recurrence_relative_l2": 3.0047201495313576e-16,
+      "fp32_feature_relative_l2": 0.001066252897927163,
+      "sliced_heads_relative_l2": 0.0,
+      "negative_feature_fraction": 0.0
+    },
+    {
+      "method": "vq",
+      "causal_recurrence_relative_l2": 2.508048641397376e-16,
+      "fp32_feature_relative_l2": 8.87227188264822e-07,
+      "sliced_heads_relative_l2": 0.0,
+      "negative_feature_fraction": 0.0
+    },
+    {
+      "method": "partition",
+      "causal_recurrence_relative_l2": 3.116189289040672e-16,
+      "fp32_feature_relative_l2": 2.8699570580900612e-08,
+      "sliced_heads_relative_l2": 0.0,
+      "negative_feature_fraction": 0.0
+    },
+    {
+      "method": "galerkin",
+      "causal_recurrence_relative_l2": 3.707414410786314e-16,
+      "fp32_feature_relative_l2": 2.4365108206829374e-06,
+      "sliced_heads_relative_l2": 0.0,
+      "negative_feature_fraction": 0.49095460772514343
+    },
+    {
+      "method": "nn_mlp_11",
+      "causal_recurrence_relative_l2": 3.5259695148832125e-16,
+      "fp32_feature_relative_l2": 2.642723263755204e-07,
+      "sliced_heads_relative_l2": 0.0,
+      "negative_feature_fraction": 0.0
+    },
+    {
+      "method": "nn_mlp_29",
+      "causal_recurrence_relative_l2": 3.1701816502606614e-16,
+      "fp32_feature_relative_l2": 2.519975239735439e-07,
+      "sliced_heads_relative_l2": 0.0,
+      "negative_feature_fraction": 0.0
+    },
+    {
+      "method": "nn_mlp_47",
+      "causal_recurrence_relative_l2": 3.327994364891544e-16,
+      "fp32_feature_relative_l2": 2.7643976086978603e-07,
+      "sliced_heads_relative_l2": 0.0,
+      "negative_feature_fraction": 0.0
+    },
+    {
+      "method": "nn_kan_11",
+      "causal_recurrence_relative_l2": 3.1220024681225196e-16,
+      "fp32_feature_relative_l2": 2.624542622609079e-07,
+      "sliced_heads_relative_l2": 0.0,
+      "negative_feature_fraction": 0.0
+    },
+    {
+      "method": "nn_kan_29",
+      "causal_recurrence_relative_l2": 3.7348088415158704e-16,
+      "fp32_feature_relative_l2": 2.3864815222177435e-07,
+      "sliced_heads_relative_l2": 0.0,
+      "negative_feature_fraction": 0.0
+    },
+    {
+      "method": "nn_kan_47",
+      "causal_recurrence_relative_l2": 3.1854776352676486e-16,
+      "fp32_feature_relative_l2": 3.189935746142319e-07,
+      "sliced_heads_relative_l2": 0.0,
+      "negative_feature_fraction": 0.0
+    },
+    {
+      "method": "nn_mulkan_11",
+      "causal_recurrence_relative_l2": 3.5470661651774493e-16,
+      "fp32_feature_relative_l2": 6.623175192324854e-07,
+      "sliced_heads_relative_l2": 0.0,
+      "negative_feature_fraction": 0.0
+    },
+    {
+      "method": "nn_mulkan_29",
+      "causal_recurrence_relative_l2": 3.3503949334120243e-16,
+      "fp32_feature_relative_l2": 4.858959214848157e-07,
+      "sliced_heads_relative_l2": 0.0,
+      "negative_feature_fraction": 0.0
+    },
+    {
+      "method": "nn_mulkan_47",
+      "causal_recurrence_relative_l2": 3.350914885669605e-16,
+      "fp32_feature_relative_l2": 4.995540970106058e-07,
+      "sliced_heads_relative_l2": 0.0,
+      "negative_feature_fraction": 0.0
+    },
+    {
+      "method": "favor_1009",
+      "causal_recurrence_relative_l2": 2.8718331431807245e-16,
+      "fp32_feature_relative_l2": 4.038025571818055e-06,
+      "sliced_heads_relative_l2": 0.0,
+      "negative_feature_fraction": 0.0
+    },
+    {
+      "method": "aderf_1009",
+      "causal_recurrence_relative_l2": 3.1828091339779624e-16,
+      "fp32_feature_relative_l2": 4.975450493544474e-06,
+      "sliced_heads_relative_l2": 0.0,
+      "negative_feature_fraction": 0.0
+    }
+  ],
+  "cone_convergence": [
+    {
+      "basis": "anchor",
+      "projected_gradient_relative_norm": [
+        6.232895816070968e-09,
+        8.650004690001696e-08,
+        2.7504019110781665e-05,
+        2.390779349568799e-05
+      ],
+      "quadratic_risk_128": [
+        4.3730902444407834e-05,
+        1.748092319387811e-05,
+        1.7480659195204162e-06,
+        1.593704297757773e-05
+      ],
+      "quadratic_risk_after_2048_more": [
+        4.373090244440783e-05,
+        1.7480923193877568e-05,
+        1.7480658140913065e-06,
+        1.593704249681421e-05
+      ],
+      "relative_risk_reduction": [
+        1.5495366432578456e-16,
+        3.101101012975094e-14,
+        6.03118615435911e-08,
+        3.016641928520764e-08
+      ],
+      "note": "32 unseen queries, training quadrature objective; refinement is diagnostic only and not deployed."
+    },
+    {
+      "basis": "mlp",
+      "projected_gradient_relative_norm": [
+        0.000471669723021069,
+        8.38227806581157e-05,
+        0.00020625373860458048,
+        0.00019336896149367685
+      ],
+      "quadratic_risk_128": [
+        3.241308169815468e-05,
+        4.884072069050977e-07,
+        1.5115967508610894e-06,
+        1.3892788516882687e-05
+      ],
+      "quadratic_risk_after_2048_more": [
+        3.239701126066783e-05,
+        4.828228712832014e-07,
+        1.5110778922535871e-06,
+        1.389238483734518e-05
+      ],
+      "relative_risk_reduction": [
+        0.0004958009743259474,
+        0.011433769901314079,
+        0.0003432519997192839,
+        2.9056768338233587e-05
+      ],
+      "note": "32 unseen queries, training quadrature objective; refinement is diagnostic only and not deployed."
+    },
+    {
+      "basis": "kan",
+      "projected_gradient_relative_norm": [
+        0.00015207507085422407,
+        5.4019917898003806e-05,
+        0.00035126571355288184,
+        0.00035871103975776197
+      ],
+      "quadratic_risk_128": [
+        3.215064407251704e-05,
+        5.210160840328163e-07,
+        1.7209726188061421e-06,
+        1.5201980442070366e-05
+      ],
+      "quadratic_risk_after_2048_more": [
+        3.2146909340686924e-05,
+        5.100962406736976e-07,
+        1.7192476833032383e-06,
+        1.5200720981360109e-05
+      ],
+      "relative_risk_reduction": [
+        0.00011616351515989039,
+        0.02095874521683834,
+        0.001002302700260536,
+        8.2848462741825e-05
+      ],
+      "note": "32 unseen queries, training quadrature objective; refinement is diagnostic only and not deployed."
+    },
+    {
+      "basis": "mulkan",
+      "projected_gradient_relative_norm": [
+        6.702074526677916e-05,
+        9.658436830987924e-05,
+        7.767253026332325e-05,
+        6.96853647739706e-05
+      ],
+      "quadratic_risk_128": [
+        3.2264104811807604e-05,
+        5.468806939016814e-07,
+        1.3521153764852165e-06,
+        1.4618416073728773e-05
+      ],
+      "quadratic_risk_after_2048_more": [
+        3.2263847698478875e-05,
+        5.432296259646891e-07,
+        1.3521003833676377e-06,
+        1.4618369551948136e-05
+      ],
+      "relative_risk_reduction": [
+        7.96902099805725e-06,
+        0.006676169003048761,
+        1.1088637729870492e-05,
+        3.1824091202224773e-06
+      ],
+      "note": "32 unseen queries, training quadrature objective; refinement is diagnostic only and not deployed."
+    }
+  ]
+}

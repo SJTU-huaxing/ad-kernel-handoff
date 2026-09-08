@@ -1,0 +1,453 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B",
+  "results": [
+    {
+      "scenario": "teacher",
+      "status": "complete",
+      "replaced_heads": 0,
+      "nll": 2.2025483747323356,
+      "perplexity": 9.048041945887963,
+      "last512_nll": 2.1694544653097787,
+      "last512_perplexity": 8.753507396000966,
+      "documents": [
+        {
+          "document": "test_0059.pt",
+          "nll": 2.361797332763672,
+          "tokens": 1023,
+          "last512_nll": 2.545855760574341
+        },
+        {
+          "document": "test_0015.pt",
+          "nll": 1.657688856124878,
+          "tokens": 1023,
+          "last512_nll": 1.5374411344528198
+        },
+        {
+          "document": "test_0056.pt",
+          "nll": 2.026400327682495,
+          "tokens": 1023,
+          "last512_nll": 2.074754238128662
+        },
+        {
+          "document": "test_0007.pt",
+          "nll": 2.2221193313598633,
+          "tokens": 1023,
+          "last512_nll": 1.789412021636963
+        },
+        {
+          "document": "test_0004.pt",
+          "nll": 2.176978826522827,
+          "tokens": 1023,
+          "last512_nll": 2.428637981414795
+        },
+        {
+          "document": "test_0024.pt",
+          "nll": 1.9833074808120728,
+          "tokens": 1023,
+          "last512_nll": 1.8105783462524414
+        },
+        {
+          "document": "test_0022.pt",
+          "nll": 2.435178756713867,
+          "tokens": 1023,
+          "last512_nll": 2.637688159942627
+        },
+        {
+          "document": "test_0042.pt",
+          "nll": 2.585301160812378,
+          "tokens": 1023,
+          "last512_nll": 2.6069483757019043
+        },
+        {
+          "document": "test_0043.pt",
+          "nll": 2.1074185371398926,
+          "tokens": 1023,
+          "last512_nll": 2.1821417808532715
+        },
+        {
+          "document": "test_0027.pt",
+          "nll": 2.3940305709838867,
+          "tokens": 1023,
+          "last512_nll": 2.1141679286956787
+        },
+        {
+          "document": "test_0058.pt",
+          "nll": 1.8891613483428955,
+          "tokens": 1023,
+          "last512_nll": 1.6673707962036133
+        },
+        {
+          "document": "test_0033.pt",
+          "nll": 2.591197967529297,
+          "tokens": 1023,
+          "last512_nll": 2.6384570598602295
+        }
+      ]
+    },
+    {
+      "scenario": "raw_mlp_positive_s11_four_heads",
+      "status": "failed",
+      "failure": {
+        "document": "test_0059.pt",
+        "reason": "Nonpositive denominator in positive feature scan; zero_query_feature_rows=0; zero_key_feature_rows=1"
+      },
+      "replaced_heads": 4,
+      "documents": []
+    },
+    {
+      "scenario": "raw_kan_positive_s11_four_heads",
+      "status": "complete",
+      "replaced_heads": 4,
+      "nll": 2.2151248455047607,
+      "perplexity": 9.162552943753328,
+      "last512_nll": 2.1864287853240967,
+      "last512_perplexity": 8.903360460676893,
+      "documents": [
+        {
+          "document": "test_0059.pt",
+          "nll": 2.3629744052886963,
+          "tokens": 1023,
+          "last512_nll": 2.544100761413574
+        },
+        {
+          "document": "test_0015.pt",
+          "nll": 1.666057825088501,
+          "tokens": 1023,
+          "last512_nll": 1.541195034980774
+        },
+        {
+          "document": "test_0056.pt",
+          "nll": 2.034796953201294,
+          "tokens": 1023,
+          "last512_nll": 2.0874407291412354
+        },
+        {
+          "document": "test_0007.pt",
+          "nll": 2.2289834022521973,
+          "tokens": 1023,
+          "last512_nll": 1.7926685810089111
+        },
+        {
+          "document": "test_0004.pt",
+          "nll": 2.183729648590088,
+          "tokens": 1023,
+          "last512_nll": 2.438326835632324
+        },
+        {
+          "document": "test_0024.pt",
+          "nll": 2.001392364501953,
+          "tokens": 1023,
+          "last512_nll": 1.8407379388809204
+        },
+        {
+          "document": "test_0022.pt",
+          "nll": 2.449037790298462,
+          "tokens": 1023,
+          "last512_nll": 2.6551926136016846
+        },
+        {
+          "document": "test_0042.pt",
+          "nll": 2.6125247478485107,
+          "tokens": 1023,
+          "last512_nll": 2.6436638832092285
+        },
+        {
+          "document": "test_0043.pt",
+          "nll": 2.1152610778808594,
+          "tokens": 1023,
+          "last512_nll": 2.190380334854126
+        },
+        {
+          "document": "test_0027.pt",
+          "nll": 2.4191346168518066,
+          "tokens": 1023,
+          "last512_nll": 2.1572089195251465
+        },
+        {
+          "document": "test_0058.pt",
+          "nll": 1.8999240398406982,
+          "tokens": 1023,
+          "last512_nll": 1.692716360092163
+        },
+        {
+          "document": "test_0033.pt",
+          "nll": 2.6076812744140625,
+          "tokens": 1023,
+          "last512_nll": 2.6535134315490723
+        }
+      ]
+    },
+    {
+      "scenario": "raw_mlp_positive_s29_four_heads",
+      "status": "failed",
+      "failure": {
+        "document": "test_0056.pt",
+        "reason": "Nonpositive denominator in positive feature scan; zero_query_feature_rows=1; zero_key_feature_rows=0"
+      },
+      "replaced_heads": 4,
+      "documents": [
+        {
+          "document": "test_0059.pt",
+          "nll": 2.3651247024536133,
+          "tokens": 1023,
+          "last512_nll": 2.5465826988220215
+        },
+        {
+          "document": "test_0015.pt",
+          "nll": 1.6643164157867432,
+          "tokens": 1023,
+          "last512_nll": 1.545183539390564
+        }
+      ]
+    },
+    {
+      "scenario": "raw_kan_positive_s29_four_heads",
+      "status": "complete",
+      "replaced_heads": 4,
+      "nll": 2.2157554725805917,
+      "perplexity": 9.168332920036612,
+      "last512_nll": 2.1874531408150992,
+      "last512_perplexity": 8.912485339615186,
+      "documents": [
+        {
+          "document": "test_0059.pt",
+          "nll": 2.3642189502716064,
+          "tokens": 1023,
+          "last512_nll": 2.5460164546966553
+        },
+        {
+          "document": "test_0015.pt",
+          "nll": 1.664555311203003,
+          "tokens": 1023,
+          "last512_nll": 1.541700005531311
+        },
+        {
+          "document": "test_0056.pt",
+          "nll": 2.038891315460205,
+          "tokens": 1023,
+          "last512_nll": 2.0918569564819336
+        },
+        {
+          "document": "test_0007.pt",
+          "nll": 2.2301547527313232,
+          "tokens": 1023,
+          "last512_nll": 1.7936201095581055
+        },
+        {
+          "document": "test_0004.pt",
+          "nll": 2.18670916557312,
+          "tokens": 1023,
+          "last512_nll": 2.443653106689453
+        },
+        {
+          "document": "test_0024.pt",
+          "nll": 2.001763343811035,
+          "tokens": 1023,
+          "last512_nll": 1.839235544204712
+        },
+        {
+          "document": "test_0022.pt",
+          "nll": 2.449291944503784,
+          "tokens": 1023,
+          "last512_nll": 2.6585209369659424
+        },
+        {
+          "document": "test_0042.pt",
+          "nll": 2.6116697788238525,
+          "tokens": 1023,
+          "last512_nll": 2.640854835510254
+        },
+        {
+          "document": "test_0043.pt",
+          "nll": 2.1141226291656494,
+          "tokens": 1023,
+          "last512_nll": 2.1884779930114746
+        },
+        {
+          "document": "test_0027.pt",
+          "nll": 2.416989803314209,
+          "tokens": 1023,
+          "last512_nll": 2.1560301780700684
+        },
+        {
+          "document": "test_0058.pt",
+          "nll": 1.900776743888855,
+          "tokens": 1023,
+          "last512_nll": 1.6920921802520752
+        },
+        {
+          "document": "test_0033.pt",
+          "nll": 2.609921932220459,
+          "tokens": 1023,
+          "last512_nll": 2.657379388809204
+        }
+      ]
+    },
+    {
+      "scenario": "raw_mlp_positive_s47_four_heads",
+      "status": "failed",
+      "failure": {
+        "document": "test_0058.pt",
+        "reason": "Nonpositive denominator in positive feature scan; zero_query_feature_rows=1; zero_key_feature_rows=2"
+      },
+      "replaced_heads": 4,
+      "documents": [
+        {
+          "document": "test_0059.pt",
+          "nll": 2.3656511306762695,
+          "tokens": 1023,
+          "last512_nll": 2.545959949493408
+        },
+        {
+          "document": "test_0015.pt",
+          "nll": 1.6668387651443481,
+          "tokens": 1023,
+          "last512_nll": 1.5425829887390137
+        },
+        {
+          "document": "test_0056.pt",
+          "nll": 2.0380959510803223,
+          "tokens": 1023,
+          "last512_nll": 2.0928494930267334
+        },
+        {
+          "document": "test_0007.pt",
+          "nll": 2.2297656536102295,
+          "tokens": 1023,
+          "last512_nll": 1.7949899435043335
+        },
+        {
+          "document": "test_0004.pt",
+          "nll": 2.1832940578460693,
+          "tokens": 1023,
+          "last512_nll": 2.4399654865264893
+        },
+        {
+          "document": "test_0024.pt",
+          "nll": 2.0052342414855957,
+          "tokens": 1023,
+          "last512_nll": 1.8456114530563354
+        },
+        {
+          "document": "test_0022.pt",
+          "nll": 2.4510929584503174,
+          "tokens": 1023,
+          "last512_nll": 2.6558170318603516
+        },
+        {
+          "document": "test_0042.pt",
+          "nll": 2.6222026348114014,
+          "tokens": 1023,
+          "last512_nll": 2.654787540435791
+        },
+        {
+          "document": "test_0043.pt",
+          "nll": 2.120803117752075,
+          "tokens": 1023,
+          "last512_nll": 2.1966843605041504
+        },
+        {
+          "document": "test_0027.pt",
+          "nll": 2.419713258743286,
+          "tokens": 1023,
+          "last512_nll": 2.16467547416687
+        }
+      ]
+    },
+    {
+      "scenario": "raw_kan_positive_s47_four_heads",
+      "status": "complete",
+      "replaced_heads": 4,
+      "nll": 2.2147829234600067,
+      "perplexity": 9.159420600454762,
+      "last512_nll": 2.1863065163294473,
+      "last512_perplexity": 8.902271922292968,
+      "documents": [
+        {
+          "document": "test_0059.pt",
+          "nll": 2.3639912605285645,
+          "tokens": 1023,
+          "last512_nll": 2.5466461181640625
+        },
+        {
+          "document": "test_0015.pt",
+          "nll": 1.66180419921875,
+          "tokens": 1023,
+          "last512_nll": 1.537297248840332
+        },
+        {
+          "document": "test_0056.pt",
+          "nll": 2.0374562740325928,
+          "tokens": 1023,
+          "last512_nll": 2.0914125442504883
+        },
+        {
+          "document": "test_0007.pt",
+          "nll": 2.2308454513549805,
+          "tokens": 1023,
+          "last512_nll": 1.7952399253845215
+        },
+        {
+          "document": "test_0004.pt",
+          "nll": 2.1811273097991943,
+          "tokens": 1023,
+          "last512_nll": 2.4353432655334473
+        },
+        {
+          "document": "test_0024.pt",
+          "nll": 2.0001919269561768,
+          "tokens": 1023,
+          "last512_nll": 1.8368124961853027
+        },
+        {
+          "document": "test_0022.pt",
+          "nll": 2.4478354454040527,
+          "tokens": 1023,
+          "last512_nll": 2.654439926147461
+        },
+        {
+          "document": "test_0042.pt",
+          "nll": 2.611060619354248,
+          "tokens": 1023,
+          "last512_nll": 2.6400113105773926
+        },
+        {
+          "document": "test_0043.pt",
+          "nll": 2.1163456439971924,
+          "tokens": 1023,
+          "last512_nll": 2.1921491622924805
+        },
+        {
+          "document": "test_0027.pt",
+          "nll": 2.4153945446014404,
+          "tokens": 1023,
+          "last512_nll": 2.1535770893096924
+        },
+        {
+          "document": "test_0058.pt",
+          "nll": 1.9022895097732544,
+          "tokens": 1023,
+          "last512_nll": 1.698089361190796
+        },
+        {
+          "document": "test_0033.pt",
+          "nll": 2.609052896499634,
+          "tokens": 1023,
+          "last512_nll": 2.6546597480773926
+        }
+      ]
+    }
+  ],
+  "scan_validation": [
+    {
+      "relative_l2": 7.087388098625524e-07,
+      "description": "causal cumsum scan versus dense masked feature kernel"
+    }
+  ],
+  "notes": [
+    "All unselected heads remain original; no model finetuning.",
+    "Q/K/V and hidden states are recomputed after every replacement.",
+    "Original SDPA also computed for unselected heads: quality ablation, not a speed benchmark.",
+    "All query positions replaced, including positions before the training query interval."
+  ]
+}

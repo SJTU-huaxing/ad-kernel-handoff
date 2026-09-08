@@ -1,0 +1,24 @@
+{
+  "models": [
+    "product_ad_raw_s11_lr0.002",
+    "product_ad_raw_s29_lr0.002",
+    "product_ad_raw_s47_lr0.002",
+    "product_hh_raw_s11_lr0.002",
+    "product_hh_raw_s29_lr0.002",
+    "product_hh_raw_s47_lr0.002"
+  ],
+  "kinds": [
+    "ad_raw",
+    "hh_raw"
+  ],
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "learning_rates": {
+    "ad_raw": 0.002,
+    "hh_raw": 0.002
+  },
+  "scope": "Additional distribution-targeted matched-parameter experiment, disclosed after causal-stage product failure."
+}

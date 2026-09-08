@@ -1,0 +1,12 @@
+{
+  "repository": "puigde/gated-deltanet-360M-15B-slimpajama",
+  "revision": "1d1a7bf99323601635f3d63f67c97614f9c2ec10",
+  "loading": {
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "mismatched_keys": [],
+    "error_msgs": []
+  },
+  "parameter_count": 357781928,
+  "compatibility_patch": "GDN tied weight list -> explicit lm_head.weight:model.embeddings.weight mapping"
+}

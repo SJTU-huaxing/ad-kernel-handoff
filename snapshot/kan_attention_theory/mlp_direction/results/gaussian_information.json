@@ -1,0 +1,146 @@
+[
+  {
+    "head": [
+      0,
+      0
+    ],
+    "valid": true,
+    "mutual_information": 0.5943502022701411,
+    "rank64_lower_bound": 0
+  },
+  {
+    "head": [
+      0,
+      3
+    ],
+    "valid": false,
+    "mutual_information": null,
+    "rank64_lower_bound": null
+  },
+  {
+    "head": [
+      0,
+      6
+    ],
+    "valid": false,
+    "mutual_information": null,
+    "rank64_lower_bound": null
+  },
+  {
+    "head": [
+      0,
+      9
+    ],
+    "valid": true,
+    "mutual_information": 1.283775699109995,
+    "rank64_lower_bound": 0
+  },
+  {
+    "head": [
+      7,
+      0
+    ],
+    "valid": true,
+    "mutual_information": 0.4445607113311146,
+    "rank64_lower_bound": 0
+  },
+  {
+    "head": [
+      7,
+      3
+    ],
+    "valid": true,
+    "mutual_information": 2.0901086757191876,
+    "rank64_lower_bound": 0
+  },
+  {
+    "head": [
+      7,
+      6
+    ],
+    "valid": true,
+    "mutual_information": 0.28382491333088167,
+    "rank64_lower_bound": 0
+  },
+  {
+    "head": [
+      7,
+      9
+    ],
+    "valid": true,
+    "mutual_information": 1.0614028929700712,
+    "rank64_lower_bound": 0
+  },
+  {
+    "head": [
+      14,
+      0
+    ],
+    "valid": true,
+    "mutual_information": 3.2242063179476053,
+    "rank64_lower_bound": 0
+  },
+  {
+    "head": [
+      14,
+      3
+    ],
+    "valid": false,
+    "mutual_information": null,
+    "rank64_lower_bound": null
+  },
+  {
+    "head": [
+      14,
+      6
+    ],
+    "valid": true,
+    "mutual_information": 3.1860005391948034,
+    "rank64_lower_bound": 0
+  },
+  {
+    "head": [
+      14,
+      9
+    ],
+    "valid": true,
+    "mutual_information": 1.3779792617685276,
+    "rank64_lower_bound": 0
+  },
+  {
+    "head": [
+      27,
+      0
+    ],
+    "valid": true,
+    "mutual_information": 1.0525192151917337,
+    "rank64_lower_bound": 0
+  },
+  {
+    "head": [
+      27,
+      3
+    ],
+    "valid": true,
+    "mutual_information": 0.9368134046978264,
+    "rank64_lower_bound": 0
+  },
+  {
+    "head": [
+      27,
+      6
+    ],
+    "valid": true,
+    "mutual_information": 1.0872335239190938,
+    "rank64_lower_bound": 0
+  },
+  {
+    "head": [
+      27,
+      9
+    ],
+    "valid": true,
+    "mutual_information": 0.583538144530507,
+    "rank64_lower_bound": 0
+  }
+]

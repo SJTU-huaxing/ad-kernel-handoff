@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "name": "ad_raw_s11_lr0.002",
+      "n": 8192,
+      "selected_queries": 64,
+      "relative_max_output_error": 1.7988552354698794e-06,
+      "zero_denominators": 0,
+      "scope": "FP32 full8k chunk scan against FP64 explicit real64Q x8192K,first12heads,firstheldoutlongdoc."
+    },
+    {
+      "name": "hh_raw_s11_lr0.002",
+      "n": 8192,
+      "selected_queries": 64,
+      "relative_max_output_error": 1.1210384956074805e-06,
+      "zero_denominators": 0,
+      "scope": "FP32 full8k chunk scan against FP64 explicit real64Q x8192K,first12heads,firstheldoutlongdoc."
+    },
+    {
+      "name": "ad_kl_s11_lr0.002",
+      "n": 8192,
+      "selected_queries": 64,
+      "relative_max_output_error": 1.142108446906487e-06,
+      "zero_denominators": 0,
+      "scope": "FP32 full8k chunk scan against FP64 explicit real64Q x8192K,first12heads,firstheldoutlongdoc."
+    },
+    {
+      "name": "hh_kl_s11_lr0.002",
+      "n": 8192,
+      "selected_queries": 64,
+      "relative_max_output_error": 3.4935698957613315e-06,
+      "zero_denominators": 0,
+      "scope": "FP32 full8k chunk scan against FP64 explicit real64Q x8192K,first12heads,firstheldoutlongdoc."
+    },
+    {
+      "name": "hh_softmax_kl_s11_lr0.002",
+      "n": 8192,
+      "selected_queries": 64,
+      "relative_max_output_error": 1.1871107060703297e-06,
+      "zero_denominators": 0,
+      "scope": "FP32 full8k chunk scan against FP64 explicit real64Q x8192K,first12heads,firstheldoutlongdoc."
+    }
+  ]
+}

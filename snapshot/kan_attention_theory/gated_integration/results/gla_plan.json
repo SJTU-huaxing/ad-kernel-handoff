@@ -1,0 +1,22 @@
+{
+  "family": "gla",
+  "kinds": [
+    "ad_shape",
+    "ad_full",
+    "exp_mlp"
+  ],
+  "seeds": [
+    11,
+    29
+  ],
+  "training_docs": 1024,
+  "batch_size": 4,
+  "steps": 256,
+  "layers": [
+    11,
+    23
+  ],
+  "parameter_count_per_head": 98304,
+  "base_sha256": "40cdfc04cfcbfb2f13ecc0b6d7e5d3de15b188555252a6d84b70c1656bec1c7c",
+  "objective": "next-token cross entropy; frozen native model; not exp kernel distillation"
+}

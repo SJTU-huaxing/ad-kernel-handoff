@@ -1,0 +1,3442 @@
+{
+  "kernel_groups": [
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        0
+      ],
+      "method": "favor_plus",
+      "m": 16,
+      "realizations": 5,
+      "mean": 0.9999760289942095,
+      "median": 0.9999830763901214,
+      "minimum": 0.9999187611306632,
+      "maximum": 0.9999995991024812,
+      "std": 3.328810640019052e-05
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        0
+      ],
+      "method": "favor_plus",
+      "m": 32,
+      "realizations": 5,
+      "mean": 0.9999621926762504,
+      "median": 0.9999509352232385,
+      "minimum": 0.9999199739505972,
+      "maximum": 0.9999989708864668,
+      "std": 3.2643687495332086e-05
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        0
+      ],
+      "method": "favor_plus",
+      "m": 64,
+      "realizations": 5,
+      "mean": 1.0000231697598665,
+      "median": 0.9999941484289085,
+      "minimum": 0.9999235720043154,
+      "maximum": 1.0002783961355501,
+      "std": 0.00014705115493045295
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        0
+      ],
+      "method": "favor_plus",
+      "m": 128,
+      "realizations": 5,
+      "mean": 0.9999742417954361,
+      "median": 0.999968607660997,
+      "minimum": 0.9999211574641208,
+      "maximum": 1.0000585713772197,
+      "std": 5.556741754904029e-05
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        0
+      ],
+      "method": "favor_plus",
+      "m": 640,
+      "realizations": 1,
+      "mean": 0.9999607050996326,
+      "median": 0.9999607050996326,
+      "minimum": 0.9999607050996326,
+      "maximum": 0.9999607050996326,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        0
+      ],
+      "method": "centered_favor_plus",
+      "m": 16,
+      "realizations": 5,
+      "mean": 33.28977704616185,
+      "median": 1.7524365745271233,
+      "minimum": 1.0055280268254878,
+      "maximum": 147.34754570981144,
+      "std": 64.03465669163597
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        0
+      ],
+      "method": "centered_favor_plus",
+      "m": 32,
+      "realizations": 5,
+      "mean": 9.415439472157926,
+      "median": 1.9464928080008923,
+      "minimum": 1.0984424693282602,
+      "maximum": 38.35301913736797,
+      "std": 16.233181877128466
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        0
+      ],
+      "method": "centered_favor_plus",
+      "m": 64,
+      "realizations": 5,
+      "mean": 141.67121061673222,
+      "median": 1.6250569124251628,
+      "minimum": 1.0472543258252487,
+      "maximum": 684.5911769167758,
+      "std": 303.6106917176864
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        0
+      ],
+      "method": "centered_favor_plus",
+      "m": 128,
+      "realizations": 5,
+      "mean": 39.76428346458179,
+      "median": 5.765506232043219,
+      "minimum": 1.3589283298777435,
+      "maximum": 171.99688579071469,
+      "std": 74.16360058414547
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        0
+      ],
+      "method": "centered_favor_plus",
+      "m": 640,
+      "realizations": 1,
+      "mean": 8.675214471433042,
+      "median": 8.675214471433042,
+      "minimum": 8.675214471433042,
+      "maximum": 8.675214471433042,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        0
+      ],
+      "method": "sderf",
+      "m": 16,
+      "realizations": 5,
+      "mean": 850.0287860883453,
+      "median": 21.29089490833913,
+      "minimum": 1.3295198984601684,
+      "maximum": 4198.087456012545,
+      "std": 1871.657031537646
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        0
+      ],
+      "method": "sderf",
+      "m": 32,
+      "realizations": 5,
+      "mean": 823169.1052370802,
+      "median": 65.87467191783466,
+      "minimum": 1.3987623031875094,
+      "maximum": 4114712.2742979806,
+      "std": 1840028.623387803
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        0
+      ],
+      "method": "sderf",
+      "m": 64,
+      "realizations": 5,
+      "mean": 205825.80043815734,
+      "median": 22.04968629668843,
+      "minimum": 1.1306554363374182,
+      "maximum": 1028675.1730763718,
+      "std": 459986.8149297818
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        0
+      ],
+      "method": "sderf",
+      "m": 128,
+      "realizations": 5,
+      "mean": 58843.34076323909,
+      "median": 356.80337889313864,
+      "minimum": 8.611552358240253,
+      "maximum": 257171.83424579166,
+      "std": 111978.660630774
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        0
+      ],
+      "method": "sderf",
+      "m": 640,
+      "realizations": 1,
+      "mean": 11768.762563765033,
+      "median": 11768.762563765033,
+      "minimum": 11768.762563765033,
+      "maximum": 11768.762563765033,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        0
+      ],
+      "method": "aderf",
+      "m": 16,
+      "realizations": 5,
+      "mean": 6.277336685430694,
+      "median": 1.4798368020947643,
+      "minimum": 1.001462896944716,
+      "maximum": 19.615921101209306,
+      "std": 8.06696740198875
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        0
+      ],
+      "method": "aderf",
+      "m": 32,
+      "realizations": 5,
+      "mean": 1132381.1368800378,
+      "median": 43.20319921327168,
+      "minimum": 2.069701836614006,
+      "maximum": 5576151.835241165,
+      "std": 2484420.2981018606
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        0
+      ],
+      "method": "aderf",
+      "m": 64,
+      "realizations": 5,
+      "mean": 286319.3041591303,
+      "median": 9214.58333139577,
+      "minimum": 8.415412696781079,
+      "maximum": 1394038.8989668034,
+      "std": 619282.3092237734
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        0
+      ],
+      "method": "aderf",
+      "m": 128,
+      "realizations": 5,
+      "mean": 71686.84044662632,
+      "median": 2304.5429131292276,
+      "minimum": 20.32962198517952,
+      "maximum": 349012.9040522853,
+      "std": 155042.01306974303
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        0
+      ],
+      "method": "aderf",
+      "m": 640,
+      "realizations": 1,
+      "mean": 14337.587560881922,
+      "median": 14337.587560881922,
+      "minimum": 14337.587560881922,
+      "maximum": 14337.587560881922,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        0
+      ],
+      "method": "partition",
+      "m": 16,
+      "realizations": 1,
+      "mean": 0.2718942970329921,
+      "median": 0.2718942970329921,
+      "minimum": 0.2718942970329921,
+      "maximum": 0.2718942970329921,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        0
+      ],
+      "method": "partition",
+      "m": 32,
+      "realizations": 1,
+      "mean": 0.22054438176749944,
+      "median": 0.22054438176749944,
+      "minimum": 0.22054438176749944,
+      "maximum": 0.22054438176749944,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        0
+      ],
+      "method": "partition",
+      "m": 64,
+      "realizations": 1,
+      "mean": 0.2065490600260428,
+      "median": 0.2065490600260428,
+      "minimum": 0.2065490600260428,
+      "maximum": 0.2065490600260428,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        0
+      ],
+      "method": "partition",
+      "m": 128,
+      "realizations": 1,
+      "mean": 0.20328245484317584,
+      "median": 0.20328245484317584,
+      "minimum": 0.20328245484317584,
+      "maximum": 0.20328245484317584,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        0
+      ],
+      "method": "galerkin",
+      "m": 16,
+      "realizations": 1,
+      "mean": 0.17144137505973858,
+      "median": 0.17144137505973858,
+      "minimum": 0.17144137505973858,
+      "maximum": 0.17144137505973858,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        0
+      ],
+      "method": "galerkin",
+      "m": 32,
+      "realizations": 1,
+      "mean": 0.17129151114046443,
+      "median": 0.17129151114046443,
+      "minimum": 0.17129151114046443,
+      "maximum": 0.17129151114046443,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        0
+      ],
+      "method": "galerkin",
+      "m": 64,
+      "realizations": 1,
+      "mean": 0.17172238499482154,
+      "median": 0.17172238499482154,
+      "minimum": 0.17172238499482154,
+      "maximum": 0.17172238499482154,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        0
+      ],
+      "method": "galerkin",
+      "m": 128,
+      "realizations": 1,
+      "mean": 0.17180030700867427,
+      "median": 0.17180030700867427,
+      "minimum": 0.17180030700867427,
+      "maximum": 0.17180030700867427,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        6
+      ],
+      "method": "favor_plus",
+      "m": 16,
+      "realizations": 5,
+      "mean": 2.5454415523099456,
+      "median": 1.1648403514929897,
+      "minimum": 0.9991977628003622,
+      "maximum": 5.4524410193689326,
+      "std": 2.093880665140662
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        6
+      ],
+      "method": "favor_plus",
+      "m": 32,
+      "realizations": 5,
+      "mean": 1.4596438367838027,
+      "median": 1.3851785864901776,
+      "minimum": 0.9993438533351096,
+      "maximum": 2.1029554054511346,
+      "std": 0.47511765378663906
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        6
+      ],
+      "method": "favor_plus",
+      "m": 64,
+      "realizations": 5,
+      "mean": 295.936805275346,
+      "median": 3.8765227552658454,
+      "minimum": 1.0929105544913345,
+      "maximum": 1371.0988704461106,
+      "std": 602.6078405873493
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        6
+      ],
+      "method": "favor_plus",
+      "m": 128,
+      "realizations": 5,
+      "mean": 76.22585981880728,
+      "median": 7.591751488872631,
+      "minimum": 1.0248473740342499,
+      "maximum": 343.7646675284612,
+      "std": 149.90173565878663
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        6
+      ],
+      "method": "favor_plus",
+      "m": 640,
+      "realizations": 1,
+      "mean": 16.02997356820754,
+      "median": 16.02997356820754,
+      "minimum": 16.02997356820754,
+      "maximum": 16.02997356820754,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        6
+      ],
+      "method": "centered_favor_plus",
+      "m": 16,
+      "realizations": 5,
+      "mean": 194.24132761980033,
+      "median": 4.196674686339795,
+      "minimum": 1.054060272946837,
+      "maximum": 780.1023925315573,
+      "std": 336.7524000128861
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        6
+      ],
+      "method": "centered_favor_plus",
+      "m": 32,
+      "realizations": 5,
+      "mean": 54.08059286901758,
+      "median": 15.298790685939835,
+      "minimum": 1.1489645288489585,
+      "maximum": 197.5074778432824,
+      "std": 83.08042279973523
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        6
+      ],
+      "method": "centered_favor_plus",
+      "m": 64,
+      "realizations": 5,
+      "mean": 2976.079765831266,
+      "median": 50.57624365045961,
+      "minimum": 13.726326897291877,
+      "maximum": 11630.420515677028,
+      "std": 5024.676899231421
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        6
+      ],
+      "method": "centered_favor_plus",
+      "m": 128,
+      "realizations": 5,
+      "mean": 1853.7931835714749,
+      "median": 1573.1334549000521,
+      "minimum": 20.492049635297633,
+      "maximum": 4707.592318805003,
+      "std": 1994.8392753590183
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        6
+      ],
+      "method": "centered_favor_plus",
+      "m": 640,
+      "realizations": 1,
+      "mean": 371.42879809673815,
+      "median": 371.42879809673815,
+      "minimum": 371.42879809673815,
+      "maximum": 371.42879809673815,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        6
+      ],
+      "method": "sderf",
+      "m": 16,
+      "realizations": 5,
+      "mean": 1063.9971380907407,
+      "median": 162.91280039375872,
+      "minimum": 26.33793316975571,
+      "maximum": 2912.2722129917825,
+      "std": 1333.0577817312694
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        6
+      ],
+      "method": "sderf",
+      "m": 32,
+      "realizations": 5,
+      "mean": 141797.17401410604,
+      "median": 896.0626918311391,
+      "minimum": 13.563320331652639,
+      "maximum": 703091.7109438835,
+      "std": 313777.1700824517
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        6
+      ],
+      "method": "sderf",
+      "m": 64,
+      "realizations": 5,
+      "mean": 35673.75472810646,
+      "median": 308.67355464978783,
+      "minimum": 10.130168242945098,
+      "maximum": 175774.49614012815,
+      "std": 78322.66097604221
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        6
+      ],
+      "method": "sderf",
+      "m": 128,
+      "realizations": 5,
+      "mean": 21342.044577870718,
+      "median": 6372.438039946167,
+      "minimum": 9.408323181027834,
+      "maximum": 56049.48967956863,
+      "std": 26630.04213121906
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        6
+      ],
+      "method": "sderf",
+      "m": 640,
+      "realizations": 1,
+      "mean": 4269.1301393332415,
+      "median": 4269.1301393332415,
+      "minimum": 4269.1301393332415,
+      "maximum": 4269.1301393332415,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        6
+      ],
+      "method": "aderf",
+      "m": 16,
+      "realizations": 5,
+      "mean": 744.8020335683865,
+      "median": 246.50495176754885,
+      "minimum": 1.5965550054790463,
+      "maximum": 2783.261066032369,
+      "std": 1173.2898177107322
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        6
+      ],
+      "method": "aderf",
+      "m": 32,
+      "realizations": 5,
+      "mean": 233.29795508060653,
+      "median": 172.66759200119978,
+      "minimum": 41.18855292034323,
+      "maximum": 701.00338606176,
+      "std": 268.52012225761996
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        6
+      ],
+      "method": "aderf",
+      "m": 64,
+      "realizations": 5,
+      "mean": 10969.140665732355,
+      "median": 45.18579988742871,
+      "minimum": 17.374767106444025,
+      "maximum": 54668.35614708275,
+      "std": 24428.61453569868
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        6
+      ],
+      "method": "aderf",
+      "m": 128,
+      "realizations": 5,
+      "mean": 3228.607336511426,
+      "median": 225.79452985127153,
+      "minimum": 23.347383437011906,
+      "maximum": 14131.880339048703,
+      "std": 6132.993200935209
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        6
+      ],
+      "method": "aderf",
+      "m": 640,
+      "realizations": 1,
+      "mean": 646.4467227752956,
+      "median": 646.4467227752956,
+      "minimum": 646.4467227752956,
+      "maximum": 646.4467227752956,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        6
+      ],
+      "method": "partition",
+      "m": 16,
+      "realizations": 1,
+      "mean": 0.4693033231953576,
+      "median": 0.4693033231953576,
+      "minimum": 0.4693033231953576,
+      "maximum": 0.4693033231953576,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        6
+      ],
+      "method": "partition",
+      "m": 32,
+      "realizations": 1,
+      "mean": 0.46815731560686913,
+      "median": 0.46815731560686913,
+      "minimum": 0.46815731560686913,
+      "maximum": 0.46815731560686913,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        6
+      ],
+      "method": "partition",
+      "m": 64,
+      "realizations": 1,
+      "mean": 0.4676562612841022,
+      "median": 0.4676562612841022,
+      "minimum": 0.4676562612841022,
+      "maximum": 0.4676562612841022,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        6
+      ],
+      "method": "partition",
+      "m": 128,
+      "realizations": 1,
+      "mean": 0.4672798584008883,
+      "median": 0.4672798584008883,
+      "minimum": 0.4672798584008883,
+      "maximum": 0.4672798584008883,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        6
+      ],
+      "method": "galerkin",
+      "m": 16,
+      "realizations": 1,
+      "mean": 0.47051337991759645,
+      "median": 0.47051337991759645,
+      "minimum": 0.47051337991759645,
+      "maximum": 0.47051337991759645,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        6
+      ],
+      "method": "galerkin",
+      "m": 32,
+      "realizations": 1,
+      "mean": 0.47592195535435433,
+      "median": 0.47592195535435433,
+      "minimum": 0.47592195535435433,
+      "maximum": 0.47592195535435433,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        6
+      ],
+      "method": "galerkin",
+      "m": 64,
+      "realizations": 1,
+      "mean": 0.4776358095613762,
+      "median": 0.4776358095613762,
+      "minimum": 0.4776358095613762,
+      "maximum": 0.4776358095613762,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        14,
+        6
+      ],
+      "method": "galerkin",
+      "m": 128,
+      "realizations": 1,
+      "mean": 0.4793719385114526,
+      "median": 0.4793719385114526,
+      "minimum": 0.4793719385114526,
+      "maximum": 0.4793719385114526,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        0
+      ],
+      "method": "favor_plus",
+      "m": 16,
+      "realizations": 5,
+      "mean": 1.000153645187492,
+      "median": 1.0000006367715653,
+      "minimum": 0.9999999749207616,
+      "maximum": 1.0007062049696849,
+      "std": 0.00031002538621275325
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        0
+      ],
+      "method": "favor_plus",
+      "m": 32,
+      "realizations": 5,
+      "mean": 1.0397106246336922,
+      "median": 1.0000098606974919,
+      "minimum": 0.9999998961291299,
+      "maximum": 1.17974704393278,
+      "std": 0.0787045661073015
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        0
+      ],
+      "method": "favor_plus",
+      "m": 64,
+      "realizations": 5,
+      "mean": 1.0144487104244244,
+      "median": 1.0045405781334247,
+      "minimum": 0.9999997099545355,
+      "maximum": 1.0449270294442707,
+      "std": 0.01941298096486568
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        0
+      ],
+      "method": "favor_plus",
+      "m": 128,
+      "realizations": 5,
+      "mean": 1.0062163354740203,
+      "median": 1.0056460239851868,
+      "minimum": 0.9999990334250165,
+      "maximum": 1.013146667523587,
+      "std": 0.005890761614682318
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        0
+      ],
+      "method": "favor_plus",
+      "m": 640,
+      "realizations": 1,
+      "mean": 1.0011731747104733,
+      "median": 1.0011731747104733,
+      "minimum": 1.0011731747104733,
+      "maximum": 1.0011731747104733,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        0
+      ],
+      "method": "centered_favor_plus",
+      "m": 16,
+      "realizations": 5,
+      "mean": 3863.235964375896,
+      "median": 159.75260077244602,
+      "minimum": 1.201572767974023,
+      "maximum": 18313.914818274887,
+      "std": 8085.308350529044
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        0
+      ],
+      "method": "centered_favor_plus",
+      "m": 32,
+      "realizations": 5,
+      "mean": 1041.3821738585195,
+      "median": 207.98327836242942,
+      "minimum": 4.5678394245791765,
+      "maximum": 4579.280371968292,
+      "std": 1982.9253603153666
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        0
+      ],
+      "method": "centered_favor_plus",
+      "m": 64,
+      "realizations": 5,
+      "mean": 2238.684615454863,
+      "median": 767.7480328355899,
+      "minimum": 53.79741320186684,
+      "maximum": 9147.807173982066,
+      "std": 3890.322751653801
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        0
+      ],
+      "method": "centered_favor_plus",
+      "m": 128,
+      "realizations": 5,
+      "mean": 668.2441800178276,
+      "median": 233.47141760664599,
+      "minimum": 16.456629968465084,
+      "maximum": 2771.4089987088046,
+      "std": 1182.3005910091426
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        0
+      ],
+      "method": "centered_favor_plus",
+      "m": 640,
+      "realizations": 1,
+      "mean": 134.35985111299772,
+      "median": 134.35985111299772,
+      "minimum": 134.35985111299772,
+      "maximum": 134.35985111299772,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        0
+      ],
+      "method": "sderf",
+      "m": 16,
+      "realizations": 5,
+      "mean": 2252.588036110082,
+      "median": 567.0034350594534,
+      "minimum": 74.46117982510985,
+      "maximum": 6972.122859271745,
+      "std": 2942.9321596702193
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        0
+      ],
+      "method": "sderf",
+      "m": 32,
+      "realizations": 5,
+      "mean": 804.2859444738577,
+      "median": 831.0344885247956,
+      "minimum": 89.19898899348789,
+      "maximum": 1746.0076112582021,
+      "std": 685.8155450750032
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        0
+      ],
+      "method": "sderf",
+      "m": 64,
+      "realizations": 5,
+      "mean": 1274.0976117188727,
+      "median": 252.56488554422845,
+      "minimum": 37.470478127982304,
+      "maximum": 4161.417549551624,
+      "std": 1777.238137803536
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        0
+      ],
+      "method": "sderf",
+      "m": 128,
+      "realizations": 5,
+      "mean": 8828.801061066593,
+      "median": 1082.2517902140196,
+      "minimum": 258.3894769890865,
+      "maximum": 36943.1516150338,
+      "std": 15825.2800691599
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        0
+      ],
+      "method": "sderf",
+      "m": 640,
+      "realizations": 1,
+      "mean": 1766.1074466608607,
+      "median": 1766.1074466608607,
+      "minimum": 1766.1074466608607,
+      "maximum": 1766.1074466608607,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        0
+      ],
+      "method": "aderf",
+      "m": 16,
+      "realizations": 5,
+      "mean": 925.6353738953705,
+      "median": 832.275551329559,
+      "minimum": 15.416870298407938,
+      "maximum": 2007.7917072908638,
+      "std": 831.4139552235663
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        0
+      ],
+      "method": "aderf",
+      "m": 32,
+      "realizations": 5,
+      "mean": 232.5338474025766,
+      "median": 210.33738745347793,
+      "minimum": 4.889269965357003,
+      "maximum": 502.70029272017825,
+      "std": 207.72635967878094
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        0
+      ],
+      "method": "aderf",
+      "m": 64,
+      "realizations": 5,
+      "mean": 69.7615115249358,
+      "median": 53.33131992769367,
+      "minimum": 2.098514307543415,
+      "maximum": 144.99014413030778,
+      "std": 64.06292182252136
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        0
+      ],
+      "method": "aderf",
+      "m": 128,
+      "realizations": 5,
+      "mean": 21.683939069728726,
+      "median": 16.905670400006173,
+      "minimum": 5.924058266203597,
+      "maximum": 38.29087478319771,
+      "std": 13.711253787084209
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        0
+      ],
+      "method": "aderf",
+      "m": 640,
+      "realizations": 1,
+      "mean": 5.1311699936812865,
+      "median": 5.1311699936812865,
+      "minimum": 5.1311699936812865,
+      "maximum": 5.1311699936812865,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        0
+      ],
+      "method": "partition",
+      "m": 16,
+      "realizations": 1,
+      "mean": 0.7980923685001348,
+      "median": 0.7980923685001348,
+      "minimum": 0.7980923685001348,
+      "maximum": 0.7980923685001348,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        0
+      ],
+      "method": "partition",
+      "m": 32,
+      "realizations": 1,
+      "mean": 0.7905412835861951,
+      "median": 0.7905412835861951,
+      "minimum": 0.7905412835861951,
+      "maximum": 0.7905412835861951,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        0
+      ],
+      "method": "partition",
+      "m": 64,
+      "realizations": 1,
+      "mean": 0.7842004236075844,
+      "median": 0.7842004236075844,
+      "minimum": 0.7842004236075844,
+      "maximum": 0.7842004236075844,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        0
+      ],
+      "method": "partition",
+      "m": 128,
+      "realizations": 1,
+      "mean": 0.7795995964771218,
+      "median": 0.7795995964771218,
+      "minimum": 0.7795995964771218,
+      "maximum": 0.7795995964771218,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        0
+      ],
+      "method": "galerkin",
+      "m": 16,
+      "realizations": 1,
+      "mean": 0.5526471507143726,
+      "median": 0.5526471507143726,
+      "minimum": 0.5526471507143726,
+      "maximum": 0.5526471507143726,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        0
+      ],
+      "method": "galerkin",
+      "m": 32,
+      "realizations": 1,
+      "mean": 0.5256347711743983,
+      "median": 0.5256347711743983,
+      "minimum": 0.5256347711743983,
+      "maximum": 0.5256347711743983,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        0
+      ],
+      "method": "galerkin",
+      "m": 64,
+      "realizations": 1,
+      "mean": 0.5123278922694695,
+      "median": 0.5123278922694695,
+      "minimum": 0.5123278922694695,
+      "maximum": 0.5123278922694695,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        0
+      ],
+      "method": "galerkin",
+      "m": 128,
+      "realizations": 1,
+      "mean": 0.5071933307563775,
+      "median": 0.5071933307563775,
+      "minimum": 0.5071933307563775,
+      "maximum": 0.5071933307563775,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        6
+      ],
+      "method": "favor_plus",
+      "m": 16,
+      "realizations": 5,
+      "mean": 1.0001368193219207,
+      "median": 0.9999999750384546,
+      "minimum": 0.9999990687566314,
+      "maximum": 1.0006799703735627,
+      "std": 0.00030364001837834294
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        6
+      ],
+      "method": "favor_plus",
+      "m": 32,
+      "realizations": 5,
+      "mean": 1.000032907221299,
+      "median": 0.9999999767797475,
+      "minimum": 0.9999978287526514,
+      "maximum": 1.0001674241825014,
+      "std": 7.520240142401651e-05
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        6
+      ],
+      "method": "favor_plus",
+      "m": 64,
+      "realizations": 5,
+      "mean": 1.0137068508241,
+      "median": 1.0000061945845504,
+      "minimum": 0.9999993550037337,
+      "maximum": 1.0645911888943544,
+      "std": 0.028496210783127612
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        6
+      ],
+      "method": "favor_plus",
+      "m": 128,
+      "realizations": 5,
+      "mean": 1.0151306948248375,
+      "median": 1.006894966486682,
+      "minimum": 0.9999994437839579,
+      "maximum": 1.051331533147767,
+      "std": 0.021212895491386052
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        6
+      ],
+      "method": "favor_plus",
+      "m": 640,
+      "realizations": 1,
+      "mean": 1.0029763161989755,
+      "median": 1.0029763161989755,
+      "minimum": 1.0029763161989755,
+      "maximum": 1.0029763161989755,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        6
+      ],
+      "method": "centered_favor_plus",
+      "m": 16,
+      "realizations": 5,
+      "mean": 582.2977353283734,
+      "median": 12.581908277426631,
+      "minimum": 4.143838049999181,
+      "maximum": 2798.251250005452,
+      "std": 1239.2547860700693
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        6
+      ],
+      "method": "centered_favor_plus",
+      "m": 32,
+      "realizations": 5,
+      "mean": 152.78323135667097,
+      "median": 6.275273977007606,
+      "minimum": 2.041529665820099,
+      "maximum": 728.0659697347941,
+      "std": 321.7019328197997
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        6
+      ],
+      "method": "centered_favor_plus",
+      "m": 64,
+      "realizations": 5,
+      "mean": 2499.1811698563893,
+      "median": 224.83766101335382,
+      "minimum": 20.86010234738865,
+      "maximum": 6373.806529591648,
+      "std": 3229.669985678288
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        6
+      ],
+      "method": "centered_favor_plus",
+      "m": 128,
+      "realizations": 5,
+      "mean": 784.2963226517588,
+      "median": 94.65412662247682,
+      "minimum": 39.37669198012006,
+      "maximum": 1933.7191326046109,
+      "std": 981.0378509463582
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        6
+      ],
+      "method": "centered_favor_plus",
+      "m": 640,
+      "realizations": 1,
+      "mean": 157.37712334414712,
+      "median": 157.37712334414712,
+      "minimum": 157.37712334414712,
+      "maximum": 157.37712334414712,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        6
+      ],
+      "method": "sderf",
+      "m": 16,
+      "realizations": 5,
+      "mean": 1463.6893725933578,
+      "median": 817.1339949298685,
+      "minimum": 80.11966635831051,
+      "maximum": 5183.518877236986,
+      "std": 2125.150937183559
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        6
+      ],
+      "method": "sderf",
+      "m": 32,
+      "realizations": 5,
+      "mean": 1080220.9465241623,
+      "median": 1298.9856849307992,
+      "minimum": 35.471238068619215,
+      "maximum": 5395528.643599014,
+      "std": 2412330.6123384726
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        6
+      ],
+      "method": "sderf",
+      "m": 64,
+      "realizations": 5,
+      "mean": 271111.30733898,
+      "median": 804.3158270833612,
+      "minimum": 14.934338621941384,
+      "maximum": 1348949.4607385164,
+      "std": 602533.8420734324
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        6
+      ],
+      "method": "sderf",
+      "m": 128,
+      "realizations": 5,
+      "mean": 72882.86209291356,
+      "median": 1361.243113549083,
+      "minimum": 17.697027042020906,
+      "maximum": 337287.26053707785,
+      "std": 148169.403195062
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        6
+      ],
+      "method": "sderf",
+      "m": 640,
+      "realizations": 1,
+      "mean": 14576.333134824923,
+      "median": 14576.333134824923,
+      "minimum": 14576.333134824923,
+      "maximum": 14576.333134824923,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        6
+      ],
+      "method": "aderf",
+      "m": 16,
+      "realizations": 5,
+      "mean": 165.53467290102085,
+      "median": 1.0165710331517996,
+      "minimum": 1.0000959051505023,
+      "maximum": 756.3051863489695,
+      "std": 331.53559197687275
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        6
+      ],
+      "method": "aderf",
+      "m": 32,
+      "realizations": 5,
+      "mean": 122.20634458800586,
+      "median": 17.83600456962299,
+      "minimum": 1.0000292923375342,
+      "maximum": 401.3120134590984,
+      "std": 175.18167678818523
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        6
+      ],
+      "method": "aderf",
+      "m": 64,
+      "realizations": 5,
+      "mean": 32.41662165664946,
+      "median": 5.223769286678718,
+      "minimum": 1.0387881412043123,
+      "maximum": 101.0798625487407,
+      "std": 44.371524547187526
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        6
+      ],
+      "method": "aderf",
+      "m": 128,
+      "realizations": 5,
+      "mean": 9.43618415784682,
+      "median": 3.50503277966372,
+      "minimum": 1.0905357129277962,
+      "maximum": 27.227963898396613,
+      "std": 11.31347405556961
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        6
+      ],
+      "method": "aderf",
+      "m": 640,
+      "realizations": 1,
+      "mean": 2.6865038622707584,
+      "median": 2.6865038622707584,
+      "minimum": 2.6865038622707584,
+      "maximum": 2.6865038622707584,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        6
+      ],
+      "method": "partition",
+      "m": 16,
+      "realizations": 1,
+      "mean": 0.6764414241266774,
+      "median": 0.6764414241266774,
+      "minimum": 0.6764414241266774,
+      "maximum": 0.6764414241266774,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        6
+      ],
+      "method": "partition",
+      "m": 32,
+      "realizations": 1,
+      "mean": 0.6674977673963145,
+      "median": 0.6674977673963145,
+      "minimum": 0.6674977673963145,
+      "maximum": 0.6674977673963145,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        6
+      ],
+      "method": "partition",
+      "m": 64,
+      "realizations": 1,
+      "mean": 0.6608479866292619,
+      "median": 0.6608479866292619,
+      "minimum": 0.6608479866292619,
+      "maximum": 0.6608479866292619,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        6
+      ],
+      "method": "partition",
+      "m": 128,
+      "realizations": 1,
+      "mean": 0.6584147241752653,
+      "median": 0.6584147241752653,
+      "minimum": 0.6584147241752653,
+      "maximum": 0.6584147241752653,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        6
+      ],
+      "method": "galerkin",
+      "m": 16,
+      "realizations": 1,
+      "mean": 0.3579283892189094,
+      "median": 0.3579283892189094,
+      "minimum": 0.3579283892189094,
+      "maximum": 0.3579283892189094,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        6
+      ],
+      "method": "galerkin",
+      "m": 32,
+      "realizations": 1,
+      "mean": 0.3308226434413819,
+      "median": 0.3308226434413819,
+      "minimum": 0.3308226434413819,
+      "maximum": 0.3308226434413819,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        6
+      ],
+      "method": "galerkin",
+      "m": 64,
+      "realizations": 1,
+      "mean": 0.31808501779777004,
+      "median": 0.31808501779777004,
+      "minimum": 0.31808501779777004,
+      "maximum": 0.31808501779777004,
+      "std": null
+    },
+    {
+      "dataset": "internal",
+      "head": [
+        27,
+        6
+      ],
+      "method": "galerkin",
+      "m": 128,
+      "realizations": 1,
+      "mean": 0.3121851187228054,
+      "median": 0.3121851187228054,
+      "minimum": 0.3121851187228054,
+      "maximum": 0.3121851187228054,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        0
+      ],
+      "method": "favor_plus",
+      "m": 16,
+      "realizations": 5,
+      "mean": 0.9999652592098102,
+      "median": 0.9999898146184449,
+      "minimum": 0.9999111924653921,
+      "maximum": 0.9999996890727195,
+      "std": 4.285083922380832e-05
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        0
+      ],
+      "method": "favor_plus",
+      "m": 32,
+      "realizations": 5,
+      "mean": 0.9999683613161685,
+      "median": 0.9999680347359302,
+      "minimum": 0.99992513263388,
+      "maximum": 0.9999988692419035,
+      "std": 3.03080954154292e-05
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        0
+      ],
+      "method": "favor_plus",
+      "m": 64,
+      "realizations": 5,
+      "mean": 0.9999684606543242,
+      "median": 0.9999809514104252,
+      "minimum": 0.9999219550261257,
+      "maximum": 0.999996995522808,
+      "std": 3.32449564956212e-05
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        0
+      ],
+      "method": "favor_plus",
+      "m": 128,
+      "realizations": 5,
+      "mean": 0.9999622831315895,
+      "median": 0.9999729674628263,
+      "minimum": 0.9999266795388002,
+      "maximum": 0.9999890865672382,
+      "std": 2.9792600760640235e-05
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        0
+      ],
+      "method": "favor_plus",
+      "m": 640,
+      "realizations": 1,
+      "mean": 0.9999608004087654,
+      "median": 0.9999608004087654,
+      "minimum": 0.9999608004087654,
+      "maximum": 0.9999608004087654,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        0
+      ],
+      "method": "centered_favor_plus",
+      "m": 16,
+      "realizations": 5,
+      "mean": 1.4732642918058436,
+      "median": 1.0150064140008386,
+      "minimum": 0.9947726824779949,
+      "maximum": 3.095422125676871,
+      "std": 0.913725238017705
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        0
+      ],
+      "method": "centered_favor_plus",
+      "m": 32,
+      "realizations": 5,
+      "mean": 1.2417507974561846,
+      "median": 1.1329850235909176,
+      "minimum": 0.9939648172589067,
+      "maximum": 1.5128222690854212,
+      "std": 0.24552099627312987
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        0
+      ],
+      "method": "centered_favor_plus",
+      "m": 64,
+      "realizations": 5,
+      "mean": 2.270719754889925,
+      "median": 1.1221955283978415,
+      "minimum": 0.9964113372284333,
+      "maximum": 6.8888005963259085,
+      "std": 2.585088183194722
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        0
+      ],
+      "method": "centered_favor_plus",
+      "m": 128,
+      "realizations": 5,
+      "mean": 2.1274381134359714,
+      "median": 1.1741613567983353,
+      "minimum": 1.0467150477866316,
+      "maximum": 4.879358585258796,
+      "std": 1.6524136806915513
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        0
+      ],
+      "method": "centered_favor_plus",
+      "m": 640,
+      "realizations": 1,
+      "mean": 1.1594201244346758,
+      "median": 1.1594201244346758,
+      "minimum": 1.1594201244346758,
+      "maximum": 1.1594201244346758,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        0
+      ],
+      "method": "sderf",
+      "m": 16,
+      "realizations": 5,
+      "mean": 54.48631542346717,
+      "median": 1.0800977112336438,
+      "minimum": 1.000000580935001,
+      "maximum": 252.35007255206827,
+      "std": 110.82507176523856
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        0
+      ],
+      "method": "sderf",
+      "m": 32,
+      "realizations": 5,
+      "mean": 99.43179209838885,
+      "median": 5.002716108357657,
+      "minimum": 1.018870437775809,
+      "maximum": 426.2129807212998,
+      "std": 184.59123726425574
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        0
+      ],
+      "method": "sderf",
+      "m": 64,
+      "realizations": 5,
+      "mean": 25.60407668725333,
+      "median": 2.0181982179491054,
+      "minimum": 1.0079799260954776,
+      "maximum": 107.1153036612497,
+      "std": 46.041468891141434
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        0
+      ],
+      "method": "sderf",
+      "m": 128,
+      "realizations": 5,
+      "mean": 14.32703370042371,
+      "median": 5.1292187310792805,
+      "minimum": 1.063912738527695,
+      "maximum": 47.555961612157596,
+      "std": 19.62662018334908
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        0
+      ],
+      "method": "sderf",
+      "m": 640,
+      "realizations": 1,
+      "mean": 3.5644989302675,
+      "median": 3.5644989302675,
+      "minimum": 3.5644989302675,
+      "maximum": 3.5644989302675,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        0
+      ],
+      "method": "aderf",
+      "m": 16,
+      "realizations": 5,
+      "mean": 1.117818390862551,
+      "median": 1.0819631967965093,
+      "minimum": 1.0024802037453182,
+      "maximum": 1.3031564510700633,
+      "std": 0.12581124910460703
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        0
+      ],
+      "method": "aderf",
+      "m": 32,
+      "realizations": 5,
+      "mean": 39235.50631327399,
+      "median": 7.3937408179448765,
+      "minimum": 1.222348017810618,
+      "maximum": 191073.10105336734,
+      "std": 84908.32941095062
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        0
+      ],
+      "method": "aderf",
+      "m": 64,
+      "realizations": 5,
+      "mean": 14185.729434133533,
+      "median": 1272.8342574232774,
+      "minimum": 1.2399233185075722,
+      "maximum": 47764.61824631501,
+      "std": 20940.88779946676
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        0
+      ],
+      "method": "aderf",
+      "m": 128,
+      "realizations": 5,
+      "mean": 3547.7854102720803,
+      "median": 325.075291602857,
+      "minimum": 1.4004483469682143,
+      "maximum": 11939.793796539021,
+      "std": 5233.225184631457
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        0
+      ],
+      "method": "aderf",
+      "m": 640,
+      "realizations": 1,
+      "mean": 709.1983116347352,
+      "median": 709.1983116347352,
+      "minimum": 709.1983116347352,
+      "maximum": 709.1983116347352,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        0
+      ],
+      "method": "partition",
+      "m": 16,
+      "realizations": 1,
+      "mean": 0.3352531492315558,
+      "median": 0.3352531492315558,
+      "minimum": 0.3352531492315558,
+      "maximum": 0.3352531492315558,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        0
+      ],
+      "method": "partition",
+      "m": 32,
+      "realizations": 1,
+      "mean": 0.26483074234610715,
+      "median": 0.26483074234610715,
+      "minimum": 0.26483074234610715,
+      "maximum": 0.26483074234610715,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        0
+      ],
+      "method": "partition",
+      "m": 64,
+      "realizations": 1,
+      "mean": 0.2541343343327886,
+      "median": 0.2541343343327886,
+      "minimum": 0.2541343343327886,
+      "maximum": 0.2541343343327886,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        0
+      ],
+      "method": "partition",
+      "m": 128,
+      "realizations": 1,
+      "mean": 0.2512681949371369,
+      "median": 0.2512681949371369,
+      "minimum": 0.2512681949371369,
+      "maximum": 0.2512681949371369,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        0
+      ],
+      "method": "galerkin",
+      "m": 16,
+      "realizations": 1,
+      "mean": 0.22040622200832688,
+      "median": 0.22040622200832688,
+      "minimum": 0.22040622200832688,
+      "maximum": 0.22040622200832688,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        0
+      ],
+      "method": "galerkin",
+      "m": 32,
+      "realizations": 1,
+      "mean": 0.21895665482177445,
+      "median": 0.21895665482177445,
+      "minimum": 0.21895665482177445,
+      "maximum": 0.21895665482177445,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        0
+      ],
+      "method": "galerkin",
+      "m": 64,
+      "realizations": 1,
+      "mean": 0.21968256317139537,
+      "median": 0.21968256317139537,
+      "minimum": 0.21968256317139537,
+      "maximum": 0.21968256317139537,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        0
+      ],
+      "method": "galerkin",
+      "m": 128,
+      "realizations": 1,
+      "mean": 0.21968807177811236,
+      "median": 0.21968807177811236,
+      "minimum": 0.21968807177811236,
+      "maximum": 0.21968807177811236,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        6
+      ],
+      "method": "favor_plus",
+      "m": 16,
+      "realizations": 5,
+      "mean": 1.041847083352733,
+      "median": 1.003874662590533,
+      "minimum": 0.9998542805781748,
+      "maximum": 1.1917325105444934,
+      "std": 0.08397376633158776
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        6
+      ],
+      "method": "favor_plus",
+      "m": 32,
+      "realizations": 5,
+      "mean": 1.011091031116155,
+      "median": 1.0029304464868611,
+      "minimum": 0.9999106626949585,
+      "maximum": 1.047085904622877,
+      "std": 0.020255109851790333
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        6
+      ],
+      "method": "favor_plus",
+      "m": 64,
+      "realizations": 5,
+      "mean": 65.74651485044569,
+      "median": 1.0013747668533446,
+      "minimum": 1.0005072807350626,
+      "maximum": 324.31446031194236,
+      "std": 144.54398694153187
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        6
+      ],
+      "method": "favor_plus",
+      "m": 128,
+      "realizations": 5,
+      "mean": 29.924154478621016,
+      "median": 1.104226821363045,
+      "minimum": 0.999956406867718,
+      "maximum": 81.82429002376524,
+      "std": 40.01936784511683
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        6
+      ],
+      "method": "favor_plus",
+      "m": 640,
+      "realizations": 1,
+      "mean": 6.782750470745786,
+      "median": 6.782750470745786,
+      "minimum": 6.782750470745786,
+      "maximum": 6.782750470745786,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        6
+      ],
+      "method": "centered_favor_plus",
+      "m": 16,
+      "realizations": 5,
+      "mean": 3.3988035797829013,
+      "median": 1.075109212105278,
+      "minimum": 1.0005986444734047,
+      "maximum": 12.809723181775015,
+      "std": 5.261014902282474
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        6
+      ],
+      "method": "centered_favor_plus",
+      "m": 32,
+      "realizations": 5,
+      "mean": 4.060896198636508,
+      "median": 1.1712023626405266,
+      "minimum": 1.0233176949917686,
+      "maximum": 13.127977947903817,
+      "std": 5.219976607562658
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        6
+      ],
+      "method": "centered_favor_plus",
+      "m": 64,
+      "realizations": 5,
+      "mean": 8.339407888371877,
+      "median": 1.7380558163622215,
+      "minimum": 1.0098331960498912,
+      "maximum": 28.890628020184835,
+      "std": 11.947697102527735
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        6
+      ],
+      "method": "centered_favor_plus",
+      "m": 128,
+      "realizations": 5,
+      "mean": 49.53952518793601,
+      "median": 8.580486534282382,
+      "minimum": 1.270153984348019,
+      "maximum": 208.07789501074308,
+      "std": 88.93701629124423
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        6
+      ],
+      "method": "centered_favor_plus",
+      "m": 640,
+      "realizations": 1,
+      "mean": 10.691167017035982,
+      "median": 10.691167017035982,
+      "minimum": 10.691167017035982,
+      "maximum": 10.691167017035982,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        6
+      ],
+      "method": "sderf",
+      "m": 16,
+      "realizations": 5,
+      "mean": 3.447240784279138,
+      "median": 2.2752893681279436,
+      "minimum": 1.0056108731406073,
+      "maximum": 7.510655007255136,
+      "std": 2.7043771848057467
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        6
+      ],
+      "method": "sderf",
+      "m": 32,
+      "realizations": 5,
+      "mean": 4.027462198085084,
+      "median": 4.330194571170052,
+      "minimum": 1.0689865096529447,
+      "maximum": 6.171998861186947,
+      "std": 2.102334244750867
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        6
+      ],
+      "method": "sderf",
+      "m": 64,
+      "realizations": 5,
+      "mean": 131.7564088945955,
+      "median": 2.2885965824899968,
+      "minimum": 1.1864711071715222,
+      "maximum": 649.6839793260426,
+      "std": 289.5325125528078
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        6
+      ],
+      "method": "sderf",
+      "m": 128,
+      "realizations": 5,
+      "mean": 41.386302176294265,
+      "median": 2.0194764945539467,
+      "minimum": 1.3859739644573368,
+      "maximum": 199.44601555879922,
+      "std": 88.35870825140415
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        6
+      ],
+      "method": "sderf",
+      "m": 640,
+      "realizations": 1,
+      "mean": 9.040022568709098,
+      "median": 9.040022568709098,
+      "minimum": 9.040022568709098,
+      "maximum": 9.040022568709098,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        6
+      ],
+      "method": "aderf",
+      "m": 16,
+      "realizations": 5,
+      "mean": 35.989023724388915,
+      "median": 1.0237359276926146,
+      "minimum": 1.0082368994998865,
+      "maximum": 172.11172728289182,
+      "std": 76.11247049767019
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        6
+      ],
+      "method": "aderf",
+      "m": 32,
+      "realizations": 5,
+      "mean": 10.18533119180937,
+      "median": 1.9461853814847114,
+      "minimum": 1.0250747650052539,
+      "maximum": 44.684610280130634,
+      "std": 19.290961037580487
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        6
+      ],
+      "method": "aderf",
+      "m": 64,
+      "realizations": 5,
+      "mean": 942.4741168798383,
+      "median": 1.6388589814586763,
+      "minimum": 1.0140778368694574,
+      "maximum": 4706.786385378406,
+      "std": 2104.3145491941095
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        6
+      ],
+      "method": "aderf",
+      "m": 128,
+      "realizations": 5,
+      "mean": 258.5064690363264,
+      "median": 12.13637363885533,
+      "minimum": 1.1054464100014978,
+      "maximum": 1177.6387912915102,
+      "std": 515.4452302156358
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        6
+      ],
+      "method": "aderf",
+      "m": 640,
+      "realizations": 1,
+      "mean": 52.498076374893415,
+      "median": 52.498076374893415,
+      "minimum": 52.498076374893415,
+      "maximum": 52.498076374893415,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        6
+      ],
+      "method": "partition",
+      "m": 16,
+      "realizations": 1,
+      "mean": 0.9457748284436219,
+      "median": 0.9457748284436219,
+      "minimum": 0.9457748284436219,
+      "maximum": 0.9457748284436219,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        6
+      ],
+      "method": "partition",
+      "m": 32,
+      "realizations": 1,
+      "mean": 0.9456397524837092,
+      "median": 0.9456397524837092,
+      "minimum": 0.9456397524837092,
+      "maximum": 0.9456397524837092,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        6
+      ],
+      "method": "partition",
+      "m": 64,
+      "realizations": 1,
+      "mean": 0.9455909776172428,
+      "median": 0.9455909776172428,
+      "minimum": 0.9455909776172428,
+      "maximum": 0.9455909776172428,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        6
+      ],
+      "method": "partition",
+      "m": 128,
+      "realizations": 1,
+      "mean": 0.9455365854293832,
+      "median": 0.9455365854293832,
+      "minimum": 0.9455365854293832,
+      "maximum": 0.9455365854293832,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        6
+      ],
+      "method": "galerkin",
+      "m": 16,
+      "realizations": 1,
+      "mean": 0.9439715268360386,
+      "median": 0.9439715268360386,
+      "minimum": 0.9439715268360386,
+      "maximum": 0.9439715268360386,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        6
+      ],
+      "method": "galerkin",
+      "m": 32,
+      "realizations": 1,
+      "mean": 0.9433408405313458,
+      "median": 0.9433408405313458,
+      "minimum": 0.9433408405313458,
+      "maximum": 0.9433408405313458,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        6
+      ],
+      "method": "galerkin",
+      "m": 64,
+      "realizations": 1,
+      "mean": 0.9426877497351346,
+      "median": 0.9426877497351346,
+      "minimum": 0.9426877497351346,
+      "maximum": 0.9426877497351346,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        14,
+        6
+      ],
+      "method": "galerkin",
+      "m": 128,
+      "realizations": 1,
+      "mean": 0.9422941246728548,
+      "median": 0.9422941246728548,
+      "minimum": 0.9422941246728548,
+      "maximum": 0.9422941246728548,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        0
+      ],
+      "method": "favor_plus",
+      "m": 16,
+      "realizations": 5,
+      "mean": 1.0002530067163542,
+      "median": 0.9999999990611937,
+      "minimum": 0.9999998922168709,
+      "maximum": 1.0011448536286953,
+      "std": 0.0005012775823591018
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        0
+      ],
+      "method": "favor_plus",
+      "m": 32,
+      "realizations": 5,
+      "mean": 1.0013624741334874,
+      "median": 1.0002745135892486,
+      "minimum": 0.9999998698653563,
+      "maximum": 1.0045872654440366,
+      "std": 0.001977523248887977
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        0
+      ],
+      "method": "favor_plus",
+      "m": 64,
+      "realizations": 5,
+      "mean": 1.0087518660669614,
+      "median": 1.0004802998837348,
+      "minimum": 0.999997592396731,
+      "maximum": 1.0422522719171303,
+      "std": 0.01873130104300269
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        0
+      ],
+      "method": "favor_plus",
+      "m": 128,
+      "realizations": 5,
+      "mean": 1.0025484324673908,
+      "median": 1.000159512219204,
+      "minimum": 1.000014434019248,
+      "maximum": 1.0105589156858916,
+      "std": 0.004545525857998797
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        0
+      ],
+      "method": "favor_plus",
+      "m": 640,
+      "realizations": 1,
+      "mean": 1.0004566933432886,
+      "median": 1.0004566933432886,
+      "minimum": 1.0004566933432886,
+      "maximum": 1.0004566933432886,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        0
+      ],
+      "method": "centered_favor_plus",
+      "m": 16,
+      "realizations": 5,
+      "mean": 306087.12464995903,
+      "median": 22.142481043925375,
+      "minimum": 1.3853451482933041,
+      "maximum": 1528567.7747573634,
+      "std": 683387.9160896944
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        0
+      ],
+      "method": "centered_favor_plus",
+      "m": 32,
+      "realizations": 5,
+      "mean": 76525.1181059867,
+      "median": 10.314821349621798,
+      "minimum": 3.200678441975714,
+      "maximum": 382142.60676870693,
+      "std": 170845.48214739998
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        0
+      ],
+      "method": "centered_favor_plus",
+      "m": 64,
+      "realizations": 5,
+      "mean": 19359.258932997884,
+      "median": 457.70595125574783,
+      "minimum": 35.29769171665069,
+      "maximum": 95537.23081718411,
+      "std": 42585.51115759775
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        0
+      ],
+      "method": "centered_favor_plus",
+      "m": 128,
+      "realizations": 5,
+      "mean": 4868.526224606036,
+      "median": 141.88950652346853,
+      "minimum": 11.156598917443732,
+      "maximum": 23887.808876716266,
+      "std": 10632.60389528664
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        0
+      ],
+      "method": "centered_favor_plus",
+      "m": 640,
+      "realizations": 1,
+      "mean": 974.3995411693191,
+      "median": 974.3995411693191,
+      "minimum": 974.3995411693191,
+      "maximum": 974.3995411693191,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        0
+      ],
+      "method": "sderf",
+      "m": 16,
+      "realizations": 5,
+      "mean": 903.9006926547042,
+      "median": 319.08424677594115,
+      "minimum": 13.51970640351773,
+      "maximum": 3518.9151843299537,
+      "std": 1469.7966996935468
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        0
+      ],
+      "method": "sderf",
+      "m": 32,
+      "realizations": 5,
+      "mean": 234.35610572393963,
+      "median": 93.70691265761245,
+      "minimum": 6.708126968431457,
+      "maximum": 881.6524369229791,
+      "std": 363.97939706194927
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        0
+      ],
+      "method": "sderf",
+      "m": 64,
+      "realizations": 5,
+      "mean": 411.0355413926864,
+      "median": 238.5520494084899,
+      "minimum": 12.699901796709412,
+      "maximum": 1523.0323742693813,
+      "std": 632.072445013484
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        0
+      ],
+      "method": "sderf",
+      "m": 128,
+      "realizations": 5,
+      "mean": 2882.6658225090446,
+      "median": 334.34669602939897,
+      "minimum": 46.57632875020426,
+      "maximum": 13542.80235815912,
+      "std": 5961.422006149407
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        0
+      ],
+      "method": "sderf",
+      "m": 640,
+      "realizations": 1,
+      "mean": 576.8759365371419,
+      "median": 576.8759365371419,
+      "minimum": 576.8759365371419,
+      "maximum": 576.8759365371419,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        0
+      ],
+      "method": "aderf",
+      "m": 16,
+      "realizations": 5,
+      "mean": 24.711609299234624,
+      "median": 7.950652211602781,
+      "minimum": 1.5779163810471046,
+      "maximum": 88.28437640796719,
+      "std": 36.590681783303445
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        0
+      ],
+      "method": "aderf",
+      "m": 32,
+      "realizations": 5,
+      "mean": 6.961693998673024,
+      "median": 2.7378824699713182,
+      "minimum": 1.1444881664874507,
+      "maximum": 22.908436651023813,
+      "std": 9.17518024188348
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        0
+      ],
+      "method": "aderf",
+      "m": 64,
+      "realizations": 5,
+      "mean": 2.5792182410067825,
+      "median": 1.8578700159462158,
+      "minimum": 1.0552629844592363,
+      "maximum": 6.473083300766421,
+      "std": 2.2468291614266644
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        0
+      ],
+      "method": "aderf",
+      "m": 128,
+      "realizations": 5,
+      "mean": 15.824837532599162,
+      "median": 2.571731886608846,
+      "minimum": 1.2375568351927735,
+      "maximum": 65.4638390838545,
+      "std": 27.908942879236605
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        0
+      ],
+      "method": "aderf",
+      "m": 640,
+      "realizations": 1,
+      "mean": 3.9576120621639888,
+      "median": 3.9576120621639888,
+      "minimum": 3.9576120621639888,
+      "maximum": 3.9576120621639888,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        0
+      ],
+      "method": "partition",
+      "m": 16,
+      "realizations": 1,
+      "mean": 0.7124067325599851,
+      "median": 0.7124067325599851,
+      "minimum": 0.7124067325599851,
+      "maximum": 0.7124067325599851,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        0
+      ],
+      "method": "partition",
+      "m": 32,
+      "realizations": 1,
+      "mean": 0.7018858997386903,
+      "median": 0.7018858997386903,
+      "minimum": 0.7018858997386903,
+      "maximum": 0.7018858997386903,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        0
+      ],
+      "method": "partition",
+      "m": 64,
+      "realizations": 1,
+      "mean": 0.6879134529527817,
+      "median": 0.6879134529527817,
+      "minimum": 0.6879134529527817,
+      "maximum": 0.6879134529527817,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        0
+      ],
+      "method": "partition",
+      "m": 128,
+      "realizations": 1,
+      "mean": 0.679045336596267,
+      "median": 0.679045336596267,
+      "minimum": 0.679045336596267,
+      "maximum": 0.679045336596267,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        0
+      ],
+      "method": "galerkin",
+      "m": 16,
+      "realizations": 1,
+      "mean": 0.4378588618933074,
+      "median": 0.4378588618933074,
+      "minimum": 0.4378588618933074,
+      "maximum": 0.4378588618933074,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        0
+      ],
+      "method": "galerkin",
+      "m": 32,
+      "realizations": 1,
+      "mean": 0.409037677707987,
+      "median": 0.409037677707987,
+      "minimum": 0.409037677707987,
+      "maximum": 0.409037677707987,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        0
+      ],
+      "method": "galerkin",
+      "m": 64,
+      "realizations": 1,
+      "mean": 0.38382153232467886,
+      "median": 0.38382153232467886,
+      "minimum": 0.38382153232467886,
+      "maximum": 0.38382153232467886,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        0
+      ],
+      "method": "galerkin",
+      "m": 128,
+      "realizations": 1,
+      "mean": 0.3743988252137313,
+      "median": 0.3743988252137313,
+      "minimum": 0.3743988252137313,
+      "maximum": 0.3743988252137313,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        6
+      ],
+      "method": "favor_plus",
+      "m": 16,
+      "realizations": 5,
+      "mean": 1.0000043580630067,
+      "median": 0.9999999889511721,
+      "minimum": 0.9999988087528104,
+      "maximum": 1.0000232625292385,
+      "std": 1.0579093160359543e-05
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        6
+      ],
+      "method": "favor_plus",
+      "m": 32,
+      "realizations": 5,
+      "mean": 1.0000011778570146,
+      "median": 0.9999999937017134,
+      "minimum": 0.9999998539535071,
+      "maximum": 1.0000053591396418,
+      "std": 2.3601633193020358e-06
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        6
+      ],
+      "method": "favor_plus",
+      "m": 64,
+      "realizations": 5,
+      "mean": 1.0000766149844915,
+      "median": 1.0000004506000615,
+      "minimum": 0.9999998598485275,
+      "maximum": 1.0002371102654575,
+      "std": 0.00010963904486784003
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        6
+      ],
+      "method": "favor_plus",
+      "m": 128,
+      "realizations": 5,
+      "mean": 1.0035087137903569,
+      "median": 1.000043357932818,
+      "minimum": 0.9999997704034751,
+      "maximum": 1.017385732867809,
+      "std": 0.007757533053453323
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        6
+      ],
+      "method": "favor_plus",
+      "m": 640,
+      "realizations": 1,
+      "mean": 1.000671208887512,
+      "median": 1.000671208887512,
+      "minimum": 1.000671208887512,
+      "maximum": 1.000671208887512,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        6
+      ],
+      "method": "centered_favor_plus",
+      "m": 16,
+      "realizations": 5,
+      "mean": 7.0668837453069235,
+      "median": 2.8361578143696473,
+      "minimum": 1.0951255639734947,
+      "maximum": 18.60845716362743,
+      "std": 7.78613702171589
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        6
+      ],
+      "method": "centered_favor_plus",
+      "m": 32,
+      "realizations": 5,
+      "mean": 5.912442307010976,
+      "median": 1.7089811584474852,
+      "minimum": 1.0276540132514274,
+      "maximum": 21.6608868614506,
+      "std": 8.864961854535128
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        6
+      ],
+      "method": "centered_favor_plus",
+      "m": 64,
+      "realizations": 5,
+      "mean": 147.6605277530555,
+      "median": 25.758948230953624,
+      "minimum": 2.401056089711723,
+      "maximum": 649.5353520261041,
+      "std": 281.1848803744924
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        6
+      ],
+      "method": "centered_favor_plus",
+      "m": 128,
+      "realizations": 5,
+      "mean": 68.45126168935565,
+      "median": 22.301624548333027,
+      "minimum": 4.298576927259923,
+      "maximum": 164.19781655746127,
+      "std": 78.03751671260797
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        6
+      ],
+      "method": "centered_favor_plus",
+      "m": 640,
+      "realizations": 1,
+      "mean": 14.385326381651653,
+      "median": 14.385326381651653,
+      "minimum": 14.385326381651653,
+      "maximum": 14.385326381651653,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        6
+      ],
+      "method": "sderf",
+      "m": 16,
+      "realizations": 5,
+      "mean": 115.61495349834223,
+      "median": 10.852466755696287,
+      "minimum": 2.750076677233522,
+      "maximum": 497.28004890654927,
+      "std": 214.7337912439108
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        6
+      ],
+      "method": "sderf",
+      "m": 32,
+      "realizations": 5,
+      "mean": 20105.797588497484,
+      "median": 125.25047909024204,
+      "minimum": 2.061071172900396,
+      "maximum": 99045.52899796811,
+      "std": 44132.06479260272
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        6
+      ],
+      "method": "sderf",
+      "m": 64,
+      "realizations": 5,
+      "mean": 5401.09138106734,
+      "median": 330.3203100361193,
+      "minimum": 1.8508609132565705,
+      "maximum": 24763.68302302142,
+      "std": 10851.342011814862
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        6
+      ],
+      "method": "sderf",
+      "m": 128,
+      "realizations": 5,
+      "mean": 1621.787556881389,
+      "median": 589.1257895783839,
+      "minimum": 10.920006873286335,
+      "maximum": 6283.233627438282,
+      "std": 2620.3905368694986
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        6
+      ],
+      "method": "sderf",
+      "m": 640,
+      "realizations": 1,
+      "mean": 324.6580269419066,
+      "median": 324.6580269419066,
+      "minimum": 324.6580269419066,
+      "maximum": 324.6580269419066,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        6
+      ],
+      "method": "aderf",
+      "m": 16,
+      "realizations": 5,
+      "mean": 1.9450452291126077,
+      "median": 1.0002237848050215,
+      "minimum": 1.000007082576192,
+      "maximum": 4.812859185652804,
+      "std": 1.6510813498506587
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        6
+      ],
+      "method": "aderf",
+      "m": 32,
+      "realizations": 5,
+      "mean": 1.3932866302528248,
+      "median": 1.3441023935324992,
+      "minimum": 1.0000243271209734,
+      "maximum": 1.9528303683879735,
+      "std": 0.4185859068592326
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        6
+      ],
+      "method": "aderf",
+      "m": 64,
+      "realizations": 5,
+      "mean": 15.430536117888089,
+      "median": 1.1672245732228013,
+      "minimum": 1.0029322500245117,
+      "maximum": 72.72587037337514,
+      "std": 32.02922032913473
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        6
+      ],
+      "method": "aderf",
+      "m": 128,
+      "realizations": 5,
+      "mean": 1093.243492829219,
+      "median": 1.059670669311307,
+      "minimum": 1.019004272102567,
+      "maximum": 5444.161154141387,
+      "std": 2432.2492393335438
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        6
+      ],
+      "method": "aderf",
+      "m": 640,
+      "realizations": 1,
+      "mean": 217.97414464877977,
+      "median": 217.97414464877977,
+      "minimum": 217.97414464877977,
+      "maximum": 217.97414464877977,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        6
+      ],
+      "method": "partition",
+      "m": 16,
+      "realizations": 1,
+      "mean": 0.6238019593806793,
+      "median": 0.6238019593806793,
+      "minimum": 0.6238019593806793,
+      "maximum": 0.6238019593806793,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        6
+      ],
+      "method": "partition",
+      "m": 32,
+      "realizations": 1,
+      "mean": 0.6089825903916772,
+      "median": 0.6089825903916772,
+      "minimum": 0.6089825903916772,
+      "maximum": 0.6089825903916772,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        6
+      ],
+      "method": "partition",
+      "m": 64,
+      "realizations": 1,
+      "mean": 0.5987353164804895,
+      "median": 0.5987353164804895,
+      "minimum": 0.5987353164804895,
+      "maximum": 0.5987353164804895,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        6
+      ],
+      "method": "partition",
+      "m": 128,
+      "realizations": 1,
+      "mean": 0.5958018817222166,
+      "median": 0.5958018817222166,
+      "minimum": 0.5958018817222166,
+      "maximum": 0.5958018817222166,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        6
+      ],
+      "method": "galerkin",
+      "m": 16,
+      "realizations": 1,
+      "mean": 0.26482831741647717,
+      "median": 0.26482831741647717,
+      "minimum": 0.26482831741647717,
+      "maximum": 0.26482831741647717,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        6
+      ],
+      "method": "galerkin",
+      "m": 32,
+      "realizations": 1,
+      "mean": 0.24651721314212938,
+      "median": 0.24651721314212938,
+      "minimum": 0.24651721314212938,
+      "maximum": 0.24651721314212938,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        6
+      ],
+      "method": "galerkin",
+      "m": 64,
+      "realizations": 1,
+      "mean": 0.23713885315725447,
+      "median": 0.23713885315725447,
+      "minimum": 0.23713885315725447,
+      "maximum": 0.23713885315725447,
+      "std": null
+    },
+    {
+      "dataset": "official",
+      "head": [
+        27,
+        6
+      ],
+      "method": "galerkin",
+      "m": 128,
+      "realizations": 1,
+      "mean": 0.23241967539680383,
+      "median": 0.23241967539680383,
+      "minimum": 0.23241967539680383,
+      "maximum": 0.23241967539680383,
+      "std": null
+    }
+  ],
+  "partition_m64_wins": {
+    "internal": {
+      "favor_plus": {
+        "heads_better_than_median": 4,
+        "heads_better_than_all_five_seeds": 4
+      },
+      "centered_favor_plus": {
+        "heads_better_than_median": 4,
+        "heads_better_than_all_five_seeds": 4
+      },
+      "sderf": {
+        "heads_better_than_median": 4,
+        "heads_better_than_all_five_seeds": 4
+      },
+      "aderf": {
+        "heads_better_than_median": 4,
+        "heads_better_than_all_five_seeds": 4
+      }
+    },
+    "official": {
+      "favor_plus": {
+        "heads_better_than_median": 4,
+        "heads_better_than_all_five_seeds": 4
+      },
+      "centered_favor_plus": {
+        "heads_better_than_median": 4,
+        "heads_better_than_all_five_seeds": 4
+      },
+      "sderf": {
+        "heads_better_than_median": 4,
+        "heads_better_than_all_five_seeds": 4
+      },
+      "aderf": {
+        "heads_better_than_median": 4,
+        "heads_better_than_all_five_seeds": 4
+      }
+    }
+  },
+  "audit": {
+    "kernel_rows": 736,
+    "rf_seed_rows": 640,
+    "pooled_convexity_checks": 32,
+    "signed_rank_lower_bound_checks": 704,
+    "attention_rows": 208,
+    "benchmark_configurations": 168,
+    "max_reference_energy_error": 2.220446049250313e-16,
+    "implementation_checks": {
+      "rf_direct_moment_risk_checks": 80,
+      "max_log_feature_error": 1.4210854715202004e-14,
+      "max_relative_moment_risk_error": 1.0812328803504902e-15,
+      "deployed_maps": [
+        {
+          "m": 16,
+          "partition_routing_exact": true,
+          "galerkin_feature_relative_l2": 2.4357380251474255e-15
+        },
+        {
+          "m": 32,
+          "partition_routing_exact": true,
+          "galerkin_feature_relative_l2": 2.5049363499837644e-15
+        },
+        {
+          "m": 64,
+          "partition_routing_exact": true,
+          "galerkin_feature_relative_l2": 2.5286329072811744e-15
+        },
+        {
+          "m": 128,
+          "partition_routing_exact": true,
+          "galerkin_feature_relative_l2": 2.770608653668701e-15
+        }
+      ],
+      "max_independent_gaussian_quadrature_error": 2.220446049250313e-16
+    },
+    "pooled_direct_prediction_error": 2.9118713572267617e-15,
+    "passed": true
+  },
+  "interpretation": "Matched fixed-Q/K empirical experiments. Five seeds for RF m<=128; one predefined five-block union for m=640. No claim about all LLMs or full-model throughput."
+}

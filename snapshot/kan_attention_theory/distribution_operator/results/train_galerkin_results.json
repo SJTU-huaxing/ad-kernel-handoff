@@ -1,0 +1,2513 @@
+{
+  "results": [
+    {
+      "dataset": "moment_train",
+      "n": 16384,
+      "head": [
+        14,
+        0
+      ],
+      "m": 16,
+      "nmse": 0.17663261162047883,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 16384,
+      "head": [
+        14,
+        0
+      ],
+      "m": 32,
+      "nmse": 0.17580117819554358,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 16384,
+      "head": [
+        14,
+        0
+      ],
+      "m": 64,
+      "nmse": 0.17562702787915638,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 16384,
+      "head": [
+        14,
+        0
+      ],
+      "m": 128,
+      "nmse": 0.17558647890728718,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 16384,
+      "head": [
+        14,
+        6
+      ],
+      "m": 16,
+      "nmse": 0.24552083490590332,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 16384,
+      "head": [
+        14,
+        6
+      ],
+      "m": 32,
+      "nmse": 0.24076288403167062,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 16384,
+      "head": [
+        14,
+        6
+      ],
+      "m": 64,
+      "nmse": 0.23793864835611284,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 16384,
+      "head": [
+        14,
+        6
+      ],
+      "m": 128,
+      "nmse": 0.23662242431899075,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 16384,
+      "head": [
+        27,
+        0
+      ],
+      "m": 16,
+      "nmse": 0.37555258350433535,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 16384,
+      "head": [
+        27,
+        0
+      ],
+      "m": 32,
+      "nmse": 0.3346620128869827,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 16384,
+      "head": [
+        27,
+        0
+      ],
+      "m": 64,
+      "nmse": 0.31287705030086627,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 16384,
+      "head": [
+        27,
+        0
+      ],
+      "m": 128,
+      "nmse": 0.3041925048726758,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 16384,
+      "head": [
+        27,
+        6
+      ],
+      "m": 16,
+      "nmse": 0.24795372634857746,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 16384,
+      "head": [
+        27,
+        6
+      ],
+      "m": 32,
+      "nmse": 0.22152511588661494,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 16384,
+      "head": [
+        27,
+        6
+      ],
+      "m": 64,
+      "nmse": 0.2087070639194184,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 16384,
+      "head": [
+        27,
+        6
+      ],
+      "m": 128,
+      "nmse": 0.20364683565156214,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 65536,
+      "head": [
+        14,
+        0
+      ],
+      "m": 16,
+      "nmse": 0.13533408553608742,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 65536,
+      "head": [
+        14,
+        0
+      ],
+      "m": 32,
+      "nmse": 0.13464378397320648,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 65536,
+      "head": [
+        14,
+        0
+      ],
+      "m": 64,
+      "nmse": 0.13448908994728204,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 65536,
+      "head": [
+        14,
+        0
+      ],
+      "m": 128,
+      "nmse": 0.13444568911503724,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 65536,
+      "head": [
+        14,
+        6
+      ],
+      "m": 16,
+      "nmse": 0.41194981910322015,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 65536,
+      "head": [
+        14,
+        6
+      ],
+      "m": 32,
+      "nmse": 0.40836885891524344,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 65536,
+      "head": [
+        14,
+        6
+      ],
+      "m": 64,
+      "nmse": 0.4063263351584061,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 65536,
+      "head": [
+        14,
+        6
+      ],
+      "m": 128,
+      "nmse": 0.4054251854665256,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 65536,
+      "head": [
+        27,
+        0
+      ],
+      "m": 16,
+      "nmse": 0.36095597427487575,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 65536,
+      "head": [
+        27,
+        0
+      ],
+      "m": 32,
+      "nmse": 0.33064832743006606,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 65536,
+      "head": [
+        27,
+        0
+      ],
+      "m": 64,
+      "nmse": 0.3149912444575502,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 65536,
+      "head": [
+        27,
+        0
+      ],
+      "m": 128,
+      "nmse": 0.3081243384901408,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 65536,
+      "head": [
+        27,
+        6
+      ],
+      "m": 16,
+      "nmse": 0.22628226079571134,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 65536,
+      "head": [
+        27,
+        6
+      ],
+      "m": 32,
+      "nmse": 0.21129656786741488,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 65536,
+      "head": [
+        27,
+        6
+      ],
+      "m": 64,
+      "nmse": 0.2045213905021987,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "moment_train",
+      "n": 65536,
+      "head": [
+        27,
+        6
+      ],
+      "m": 128,
+      "nmse": 0.2021582860433959,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "m": 16,
+      "nmse": 0.20349257552474684,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "m": 32,
+      "nmse": 0.20392447622508936,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "m": 64,
+      "nmse": 0.20340516960847235,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "m": 128,
+      "nmse": 0.20355367618060582,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "m": 16,
+      "nmse": 0.2906766533118709,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "m": 32,
+      "nmse": 0.28676754432902013,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "m": 64,
+      "nmse": 0.2832949928263468,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "m": 128,
+      "nmse": 0.2816924840113838,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "m": 16,
+      "nmse": 0.8922253932962794,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "m": 32,
+      "nmse": 0.8802091180611977,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "m": 64,
+      "nmse": 0.8714491555707532,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "m": 128,
+      "nmse": 0.8687220491854158,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "m": 16,
+      "nmse": 0.4634267366015937,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "m": 32,
+      "nmse": 0.44735405823488844,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "m": 64,
+      "nmse": 0.43676339592679986,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "m": 128,
+      "nmse": 0.4339770434328325,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 32768,
+      "head": [
+        14,
+        0
+      ],
+      "m": 16,
+      "nmse": 0.19165576191372696,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 32768,
+      "head": [
+        14,
+        0
+      ],
+      "m": 32,
+      "nmse": 0.19149945330928045,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 32768,
+      "head": [
+        14,
+        0
+      ],
+      "m": 64,
+      "nmse": 0.19170401110951057,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 32768,
+      "head": [
+        14,
+        0
+      ],
+      "m": 128,
+      "nmse": 0.19187954337312726,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 32768,
+      "head": [
+        14,
+        6
+      ],
+      "m": 16,
+      "nmse": 0.3120370798873768,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 32768,
+      "head": [
+        14,
+        6
+      ],
+      "m": 32,
+      "nmse": 0.3118600183741561,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 32768,
+      "head": [
+        14,
+        6
+      ],
+      "m": 64,
+      "nmse": 0.31245857827000173,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 32768,
+      "head": [
+        14,
+        6
+      ],
+      "m": 128,
+      "nmse": 0.3138587937614036,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 32768,
+      "head": [
+        27,
+        0
+      ],
+      "m": 16,
+      "nmse": 0.7725647903480096,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 32768,
+      "head": [
+        27,
+        0
+      ],
+      "m": 32,
+      "nmse": 0.755931382447554,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 32768,
+      "head": [
+        27,
+        0
+      ],
+      "m": 64,
+      "nmse": 0.7461909728314542,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 32768,
+      "head": [
+        27,
+        0
+      ],
+      "m": 128,
+      "nmse": 0.7431272054074443,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 32768,
+      "head": [
+        27,
+        6
+      ],
+      "m": 16,
+      "nmse": 0.35559420960403626,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 32768,
+      "head": [
+        27,
+        6
+      ],
+      "m": 32,
+      "nmse": 0.32551311790184134,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 32768,
+      "head": [
+        27,
+        6
+      ],
+      "m": 64,
+      "nmse": 0.31257509283393015,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 32768,
+      "head": [
+        27,
+        6
+      ],
+      "m": 128,
+      "nmse": 0.3058863706644667,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        0
+      ],
+      "m": 16,
+      "nmse": 0.17144137505973858,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        0
+      ],
+      "m": 32,
+      "nmse": 0.17129151114046443,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        0
+      ],
+      "m": 64,
+      "nmse": 0.17172238499482154,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        0
+      ],
+      "m": 128,
+      "nmse": 0.17180030700867427,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        6
+      ],
+      "m": 16,
+      "nmse": 0.47051337991759645,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        6
+      ],
+      "m": 32,
+      "nmse": 0.47592195535435433,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        6
+      ],
+      "m": 64,
+      "nmse": 0.4776358095613762,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        6
+      ],
+      "m": 128,
+      "nmse": 0.4793719385114526,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        0
+      ],
+      "m": 16,
+      "nmse": 0.5526471507143726,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        0
+      ],
+      "m": 32,
+      "nmse": 0.5256347711743983,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        0
+      ],
+      "m": 64,
+      "nmse": 0.5123278922694695,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        0
+      ],
+      "m": 128,
+      "nmse": 0.5071933307563775,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        6
+      ],
+      "m": 16,
+      "nmse": 0.3579283892189094,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        6
+      ],
+      "m": 32,
+      "nmse": 0.3308226434413819,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        6
+      ],
+      "m": 64,
+      "nmse": 0.31808501779777004,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        6
+      ],
+      "m": 128,
+      "nmse": 0.3121851187228054,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 2560,
+      "head": [
+        14,
+        0
+      ],
+      "m": 16,
+      "nmse": 0.03152954869802388,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 2560,
+      "head": [
+        14,
+        0
+      ],
+      "m": 32,
+      "nmse": 0.031322889122765166,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 2560,
+      "head": [
+        14,
+        0
+      ],
+      "m": 64,
+      "nmse": 0.03165650267094606,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 2560,
+      "head": [
+        14,
+        0
+      ],
+      "m": 128,
+      "nmse": 0.03169747166385706,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 2560,
+      "head": [
+        14,
+        6
+      ],
+      "m": 16,
+      "nmse": 0.2902764256647463,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 2560,
+      "head": [
+        14,
+        6
+      ],
+      "m": 32,
+      "nmse": 0.2889575862350873,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 2560,
+      "head": [
+        14,
+        6
+      ],
+      "m": 64,
+      "nmse": 0.2877436478562815,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 2560,
+      "head": [
+        14,
+        6
+      ],
+      "m": 128,
+      "nmse": 0.28763933773531963,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 2560,
+      "head": [
+        27,
+        0
+      ],
+      "m": 16,
+      "nmse": 0.24314168875213926,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 2560,
+      "head": [
+        27,
+        0
+      ],
+      "m": 32,
+      "nmse": 0.21083650023264255,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 2560,
+      "head": [
+        27,
+        0
+      ],
+      "m": 64,
+      "nmse": 0.1933648808760737,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 2560,
+      "head": [
+        27,
+        0
+      ],
+      "m": 128,
+      "nmse": 0.19261578465452045,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 2560,
+      "head": [
+        27,
+        6
+      ],
+      "m": 16,
+      "nmse": 0.19017294531006926,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 2560,
+      "head": [
+        27,
+        6
+      ],
+      "m": 32,
+      "nmse": 0.1672229592128681,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 2560,
+      "head": [
+        27,
+        6
+      ],
+      "m": 64,
+      "nmse": 0.16040639640785642,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 2560,
+      "head": [
+        27,
+        6
+      ],
+      "m": 128,
+      "nmse": 0.15551054582337503,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 10240,
+      "head": [
+        14,
+        0
+      ],
+      "m": 16,
+      "nmse": 0.22040622200832688,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 10240,
+      "head": [
+        14,
+        0
+      ],
+      "m": 32,
+      "nmse": 0.21895665482177445,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 10240,
+      "head": [
+        14,
+        0
+      ],
+      "m": 64,
+      "nmse": 0.21968256317139537,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 10240,
+      "head": [
+        14,
+        0
+      ],
+      "m": 128,
+      "nmse": 0.21968807177811236,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 10240,
+      "head": [
+        14,
+        6
+      ],
+      "m": 16,
+      "nmse": 0.9439715268360386,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 10240,
+      "head": [
+        14,
+        6
+      ],
+      "m": 32,
+      "nmse": 0.9433408405313458,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 10240,
+      "head": [
+        14,
+        6
+      ],
+      "m": 64,
+      "nmse": 0.9426877497351346,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 10240,
+      "head": [
+        14,
+        6
+      ],
+      "m": 128,
+      "nmse": 0.9422941246728548,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 10240,
+      "head": [
+        27,
+        0
+      ],
+      "m": 16,
+      "nmse": 0.4378588618933074,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 10240,
+      "head": [
+        27,
+        0
+      ],
+      "m": 32,
+      "nmse": 0.409037677707987,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 10240,
+      "head": [
+        27,
+        0
+      ],
+      "m": 64,
+      "nmse": 0.38382153232467886,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 10240,
+      "head": [
+        27,
+        0
+      ],
+      "m": 128,
+      "nmse": 0.3743988252137313,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 10240,
+      "head": [
+        27,
+        6
+      ],
+      "m": 16,
+      "nmse": 0.26482831741647717,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 10240,
+      "head": [
+        27,
+        6
+      ],
+      "m": 32,
+      "nmse": 0.24651721314212938,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 10240,
+      "head": [
+        27,
+        6
+      ],
+      "m": 64,
+      "nmse": 0.23713885315725447,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "official",
+      "n": 10240,
+      "head": [
+        27,
+        6
+      ],
+      "m": 128,
+      "nmse": 0.23241967539680383,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 16384,
+      "head": [
+        14,
+        0
+      ],
+      "m": 16,
+      "nmse": 0.1800921067974468,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 16384,
+      "head": [
+        14,
+        0
+      ],
+      "m": 32,
+      "nmse": 0.1796891088947628,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 16384,
+      "head": [
+        14,
+        0
+      ],
+      "m": 64,
+      "nmse": 0.17971403896958926,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 16384,
+      "head": [
+        14,
+        0
+      ],
+      "m": 128,
+      "nmse": 0.179703225181628,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 16384,
+      "head": [
+        14,
+        6
+      ],
+      "m": 16,
+      "nmse": 0.22302997058524243,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 16384,
+      "head": [
+        14,
+        6
+      ],
+      "m": 32,
+      "nmse": 0.22607419263851822,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 16384,
+      "head": [
+        14,
+        6
+      ],
+      "m": 64,
+      "nmse": 0.22945823368447077,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 16384,
+      "head": [
+        14,
+        6
+      ],
+      "m": 128,
+      "nmse": 0.23295240578385765,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 16384,
+      "head": [
+        27,
+        0
+      ],
+      "m": 16,
+      "nmse": 0.4009886312552356,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 16384,
+      "head": [
+        27,
+        0
+      ],
+      "m": 32,
+      "nmse": 0.3775733748186095,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 16384,
+      "head": [
+        27,
+        0
+      ],
+      "m": 64,
+      "nmse": 0.3699105047208468,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 16384,
+      "head": [
+        27,
+        0
+      ],
+      "m": 128,
+      "nmse": 0.3710574770637269,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 16384,
+      "head": [
+        27,
+        6
+      ],
+      "m": 16,
+      "nmse": 0.23813184456618014,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 16384,
+      "head": [
+        27,
+        6
+      ],
+      "m": 32,
+      "nmse": 0.21314102061273796,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 16384,
+      "head": [
+        27,
+        6
+      ],
+      "m": 64,
+      "nmse": 0.19841064838836858,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 16384,
+      "head": [
+        27,
+        6
+      ],
+      "m": 128,
+      "nmse": 0.19068106296968954,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 65536,
+      "head": [
+        14,
+        0
+      ],
+      "m": 16,
+      "nmse": 0.12943091748442312,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 65536,
+      "head": [
+        14,
+        0
+      ],
+      "m": 32,
+      "nmse": 0.12924745720341257,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 65536,
+      "head": [
+        14,
+        0
+      ],
+      "m": 64,
+      "nmse": 0.12984435968494185,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 65536,
+      "head": [
+        14,
+        0
+      ],
+      "m": 128,
+      "nmse": 0.1298823009022364,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 65536,
+      "head": [
+        14,
+        6
+      ],
+      "m": 16,
+      "nmse": 0.22219674960107672,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 65536,
+      "head": [
+        14,
+        6
+      ],
+      "m": 32,
+      "nmse": 0.24205012309193058,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 65536,
+      "head": [
+        14,
+        6
+      ],
+      "m": 64,
+      "nmse": 0.24905202089075948,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 65536,
+      "head": [
+        14,
+        6
+      ],
+      "m": 128,
+      "nmse": 0.2558655042148393,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 65536,
+      "head": [
+        27,
+        0
+      ],
+      "m": 16,
+      "nmse": 0.4291307419983394,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 65536,
+      "head": [
+        27,
+        0
+      ],
+      "m": 32,
+      "nmse": 0.4005981208504882,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 65536,
+      "head": [
+        27,
+        0
+      ],
+      "m": 64,
+      "nmse": 0.38573197595686387,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 65536,
+      "head": [
+        27,
+        0
+      ],
+      "m": 128,
+      "nmse": 0.3799197598409924,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 65536,
+      "head": [
+        27,
+        6
+      ],
+      "m": 16,
+      "nmse": 0.2635286988433595,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 65536,
+      "head": [
+        27,
+        6
+      ],
+      "m": 32,
+      "nmse": 0.23484961155756906,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 65536,
+      "head": [
+        27,
+        6
+      ],
+      "m": 64,
+      "nmse": 0.220013347881765,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ab",
+      "n": 65536,
+      "head": [
+        27,
+        6
+      ],
+      "m": 128,
+      "nmse": 0.21387220781110494,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 16384,
+      "head": [
+        14,
+        0
+      ],
+      "m": 16,
+      "nmse": 0.18094290256000148,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 16384,
+      "head": [
+        14,
+        0
+      ],
+      "m": 32,
+      "nmse": 0.18108090403863347,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 16384,
+      "head": [
+        14,
+        0
+      ],
+      "m": 64,
+      "nmse": 0.18135757500127808,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 16384,
+      "head": [
+        14,
+        0
+      ],
+      "m": 128,
+      "nmse": 0.18144641171879122,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 16384,
+      "head": [
+        14,
+        6
+      ],
+      "m": 16,
+      "nmse": 0.1123649446385659,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 16384,
+      "head": [
+        14,
+        6
+      ],
+      "m": 32,
+      "nmse": 0.11026147553192511,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 16384,
+      "head": [
+        14,
+        6
+      ],
+      "m": 64,
+      "nmse": 0.10932494693791839,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 16384,
+      "head": [
+        14,
+        6
+      ],
+      "m": 128,
+      "nmse": 0.10981367748968501,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 16384,
+      "head": [
+        27,
+        0
+      ],
+      "m": 16,
+      "nmse": 0.8625394997056753,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 16384,
+      "head": [
+        27,
+        0
+      ],
+      "m": 32,
+      "nmse": 0.8485228118949669,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 16384,
+      "head": [
+        27,
+        0
+      ],
+      "m": 64,
+      "nmse": 0.8388657885728374,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 16384,
+      "head": [
+        27,
+        0
+      ],
+      "m": 128,
+      "nmse": 0.8355346726839351,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 16384,
+      "head": [
+        27,
+        6
+      ],
+      "m": 16,
+      "nmse": 0.5044631691942927,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 16384,
+      "head": [
+        27,
+        6
+      ],
+      "m": 32,
+      "nmse": 0.472952570794878,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 16384,
+      "head": [
+        27,
+        6
+      ],
+      "m": 64,
+      "nmse": 0.46701137810752524,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 16384,
+      "head": [
+        27,
+        6
+      ],
+      "m": 128,
+      "nmse": 0.4623193052084054,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 65536,
+      "head": [
+        14,
+        0
+      ],
+      "m": 16,
+      "nmse": 0.20355357899275783,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 65536,
+      "head": [
+        14,
+        0
+      ],
+      "m": 32,
+      "nmse": 0.20349264774738676,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 65536,
+      "head": [
+        14,
+        0
+      ],
+      "m": 64,
+      "nmse": 0.20369121139567808,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 65536,
+      "head": [
+        14,
+        0
+      ],
+      "m": 128,
+      "nmse": 0.20385102347172493,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 65536,
+      "head": [
+        14,
+        6
+      ],
+      "m": 16,
+      "nmse": 0.11987277569453116,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 65536,
+      "head": [
+        14,
+        6
+      ],
+      "m": 32,
+      "nmse": 0.1183591810773754,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 65536,
+      "head": [
+        14,
+        6
+      ],
+      "m": 64,
+      "nmse": 0.11793290651326077,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 65536,
+      "head": [
+        14,
+        6
+      ],
+      "m": 128,
+      "nmse": 0.1182965159937184,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 65536,
+      "head": [
+        27,
+        0
+      ],
+      "m": 16,
+      "nmse": 0.6546261244205946,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 65536,
+      "head": [
+        27,
+        0
+      ],
+      "m": 32,
+      "nmse": 0.6290799169873083,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 65536,
+      "head": [
+        27,
+        0
+      ],
+      "m": 64,
+      "nmse": 0.6173554626394994,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 65536,
+      "head": [
+        27,
+        0
+      ],
+      "m": 128,
+      "nmse": 0.6129717721836058,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 65536,
+      "head": [
+        27,
+        6
+      ],
+      "m": 16,
+      "nmse": 0.3888028640824069,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 65536,
+      "head": [
+        27,
+        6
+      ],
+      "m": 32,
+      "nmse": 0.36267682141588214,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 65536,
+      "head": [
+        27,
+        6
+      ],
+      "m": 64,
+      "nmse": 0.35179063500139257,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "dataset": "disjoint_ba",
+      "n": 65536,
+      "head": [
+        27,
+        6
+      ],
+      "m": 128,
+      "nmse": 0.3460103343476648,
+      "retained_dimensions": [
+        256,
+        256
+      ]
+    }
+  ],
+  "normalization": [
+    [
+      {
+        "dimensions": 256,
+        "orthogonality_error": 2.1939759483112925e-14
+      },
+      {
+        "dimensions": 256,
+        "orthogonality_error": 1.3387887668045093e-14
+      }
+    ],
+    [
+      {
+        "dimensions": 256,
+        "orthogonality_error": 9.255508685857006e-15
+      },
+      {
+        "dimensions": 256,
+        "orthogonality_error": 4.276798099694945e-15
+      }
+    ],
+    [
+      {
+        "dimensions": 256,
+        "orthogonality_error": 1.6707023803932205e-14
+      },
+      {
+        "dimensions": 256,
+        "orthogonality_error": 9.103828801926284e-15
+      }
+    ],
+    [
+      {
+        "dimensions": 256,
+        "orthogonality_error": 2.790162247847897e-14
+      },
+      {
+        "dimensions": 256,
+        "orthogonality_error": 5.243999849272743e-15
+      }
+    ]
+  ],
+  "lower_bound_violations": 0,
+  "max_training_projection_identity_error": 6.38378239159465e-15,
+  "note": "Only training moments determine functions, coefficients, and singular truncation; signed features. No held-out fitting."
+}

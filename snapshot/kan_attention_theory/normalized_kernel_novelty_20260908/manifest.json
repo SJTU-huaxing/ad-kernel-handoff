@@ -1,0 +1,18 @@
+{
+  "review_date": "2026-09-08",
+  "scope": "Primary-paper novelty review and algebra checks; no new training",
+  "sha256": {
+    "equivalence_check.py": "ab92e8bdd05760a37c9246cf64737674f57ecd2a8d8290b28c8a90e992ef0f27",
+    "equivalence_check.json": "daff6626ba0ceca369f3bcbd52e769018be703b836202895a612c272aed865a5",
+    "REPORT.zh.md": "083a5484db1ce1b6e406125602e8d3804565a0ab9465f8a7e93f73c28c5fbbfa",
+    "sources/2506.21137.md": "f17a9c6ec28c8b92063852e75db1c96be3a27eac681c23dd3e7e0025123bd3c9",
+    "sources/2602.02180.md": "2b4b5b7cf373fe76d33a962fa325f0a76cfc6d1860c6501f7e706651b26ed1f7",
+    "sources/2507.00698.md": "995a41be1a57c63ec59fc71d5cb7430f5cd30b9cf3853dca66e004e5ef7c092a",
+    "sources/2402.04347.md": "84808fdd3b03c2a482a656e53b5a12d16bbd1ba4386f0222f33c7080b47047a0",
+    "sources/2502.01578v1.html": "8526de5ce58b266e340726942feab51cc67a2ea5c2b4f636675d4e2fabfeb951",
+    "sources/2507.03340v1.html": "83a2ba2f2a6423f13adf2a8efd7a68765c000293df01bd641f3e7ee65bc1df59",
+    "sources/2607.07706v1.html": "53498384a4ddc87808bdd3b6baa9de237f86d3ea0ed266a1811e817f22e92882",
+    "sources/2410.10254v1.html": "832c92bbc88ebc5f07af4296e6692c55fede921f7a8b7c9ff5a5751a268a8999",
+    "sources/2506.21137v3.html": "52bf1596cdc62a0ed3426a302199d615992e4aab96628698b134bf483f05ec2d"
+  }
+}

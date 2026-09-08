@@ -1,0 +1,111 @@
+{
+  "checks": [
+    {
+      "method": "cone_raw_mlp",
+      "causal_recurrence_relative_l2": 3.227731600521767e-16,
+      "fp32_feature_relative_l2": 0.0009977249041974864,
+      "sliced_heads_relative_l2": 0.0,
+      "negative_feature_fraction": 0.0
+    },
+    {
+      "method": "cone_raw_kan",
+      "causal_recurrence_relative_l2": 3.131330589855979e-16,
+      "fp32_feature_relative_l2": 0.0007033435383198151,
+      "sliced_heads_relative_l2": 0.0,
+      "negative_feature_fraction": 0.0
+    },
+    {
+      "method": "cone_raw_mulkan",
+      "causal_recurrence_relative_l2": 3.3264094752067333e-16,
+      "fp32_feature_relative_l2": 0.0012165593718458227,
+      "sliced_heads_relative_l2": 0.0,
+      "negative_feature_fraction": 0.0
+    }
+  ],
+  "cone_convergence": [
+    {
+      "basis": "raw_mlp",
+      "projected_gradient_relative_norm": [
+        9.327572196083251e-05,
+        5.509261267782967e-05,
+        0.0001475542847998532,
+        0.00012863880322067745
+      ],
+      "quadratic_risk_128": [
+        3.243974353045501e-05,
+        4.867937118533675e-07,
+        1.1915821191769236e-06,
+        1.1469505109420058e-05
+      ],
+      "quadratic_risk_after_2048_more": [
+        3.243957104231721e-05,
+        4.865577259804739e-07,
+        1.191327691520901e-06,
+        1.1469242877404523e-05
+      ],
+      "relative_risk_reduction": [
+        5.317185619491994e-06,
+        0.00048477592694272446,
+        0.00021352087441384133,
+        2.286341154504012e-05
+      ],
+      "note": "32 unseen queries, training quadrature objective; refinement is diagnostic only and not deployed."
+    },
+    {
+      "basis": "raw_kan",
+      "projected_gradient_relative_norm": [
+        0.0003439357782941128,
+        6.367631936782432e-05,
+        0.00024373965419334495,
+        0.00043718011629390865
+      ],
+      "quadratic_risk_128": [
+        3.2415825812956375e-05,
+        5.205974787699572e-07,
+        1.3850605792468537e-06,
+        1.3370209074487878e-05
+      ],
+      "quadratic_risk_after_2048_more": [
+        3.24130407916078e-05,
+        5.200082275656384e-07,
+        1.3848720931215106e-06,
+        1.3368204045641655e-05
+      ],
+      "relative_risk_reduction": [
+        8.591548352480676e-05,
+        0.0011318748713709057,
+        0.00013608511293097732,
+        0.00014996241532596683
+      ],
+      "note": "32 unseen queries, training quadrature objective; refinement is diagnostic only and not deployed."
+    },
+    {
+      "basis": "raw_mulkan",
+      "projected_gradient_relative_norm": [
+        0.0001257080962950009,
+        7.137231841485403e-05,
+        0.00014266040526434524,
+        0.00010601319742309728
+      ],
+      "quadratic_risk_128": [
+        3.226402516823096e-05,
+        5.23556788485264e-07,
+        1.2488360846017642e-06,
+        9.420760597762884e-06
+      ],
+      "quadratic_risk_after_2048_more": [
+        3.2263754485632085e-05,
+        5.209837624818874e-07,
+        1.2486574757635619e-06,
+        9.42023110660804e-06
+      ],
+      "relative_risk_reduction": [
+        8.389610331074677e-06,
+        0.0049145117778357,
+        0.0001430202413307844,
+        5.62047139772072e-05
+      ],
+      "note": "32 unseen queries, training quadrature objective; refinement is diagnostic only and not deployed."
+    }
+  ]
+}

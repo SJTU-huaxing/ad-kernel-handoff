@@ -1,0 +1,2782 @@
+{
+  "results": [
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "nystrom",
+      "m": 64,
+      "kernel_nmse": 0.8835543037910627,
+      "sample_normalized_idiv": null,
+      "sample_log_mae": null,
+      "sample_negative_fraction": 0.13230133056640625,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 1.7322435599210575
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "spectral_pair",
+      "m": 64,
+      "kernel_nmse": 1.86890028558348e+16,
+      "sample_normalized_idiv": 165852234.54761353,
+      "sample_log_mae": 22.722719737590563,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 1.86890030856104e+16
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "avg_anchor",
+      "m": 64,
+      "kernel_nmse": 0.9790473026846754,
+      "sample_normalized_idiv": 4.440751900041594,
+      "sample_log_mae": 7.424387331695456,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 0.0051217477279141685,
+      "span_risk": 0.8799787338721208,
+      "coefficient_excess": 0.09906856881255466,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "cone_anchor",
+      "m": 64,
+      "kernel_nmse": 0.9412738517716208,
+      "sample_normalized_idiv": 4.304071334348637,
+      "sample_log_mae": 7.669689178588062,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 0.2230905519255416,
+      "span_risk": 0.8799787338721208,
+      "coefficient_excess": 0.06129511789950004,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "avg_mlp",
+      "m": 64,
+      "kernel_nmse": 0.41345788064373556,
+      "sample_normalized_idiv": 0.7656936498183342,
+      "sample_log_mae": 5.739394799670763,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 0.2513758847652342,
+      "span_risk": 0.28772755721193033,
+      "coefficient_excess": 0.12573032343180524,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "cone_mlp",
+      "m": 64,
+      "kernel_nmse": 0.29555750723106944,
+      "sample_normalized_idiv": 0.5089258442292749,
+      "sample_log_mae": 3.884138391373128,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 0.7097291364163999,
+      "span_risk": 0.28772755721193033,
+      "coefficient_excess": 0.00782995001913911,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "avg_kan",
+      "m": 64,
+      "kernel_nmse": 0.5609970311470122,
+      "sample_normalized_idiv": 1.1582771328098498,
+      "sample_log_mae": 7.066140727292209,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 0.10588190255032798,
+      "span_risk": 0.25684102978812273,
+      "coefficient_excess": 0.3041560013588894,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "cone_kan",
+      "m": 64,
+      "kernel_nmse": 0.2921887059878521,
+      "sample_normalized_idiv": 0.44541449579237763,
+      "sample_log_mae": 5.1207001125024565,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 0.7085054942662325,
+      "span_risk": 0.25684102978812273,
+      "coefficient_excess": 0.035347676199729394,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "avg_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.29320289392021787,
+      "sample_normalized_idiv": 0.3453374478685076,
+      "sample_log_mae": 4.7356055953951826,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 0.5397210382835576,
+      "span_risk": 0.2514100877706408,
+      "coefficient_excess": 0.04179280614957709,
+      "retained_basis_rank": 41,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "cone_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.27308291138672036,
+      "sample_normalized_idiv": 0.2333051393527934,
+      "sample_log_mae": 3.3060544712297566,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 0.7270165794449492,
+      "span_risk": 0.2514100877706408,
+      "coefficient_excess": 0.021672823616079584,
+      "retained_basis_rank": 41,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "vq",
+      "m": 64,
+      "kernel_nmse": 0.9637628345337574,
+      "sample_normalized_idiv": 10.072627149501793,
+      "sample_log_mae": 1.805242679400247,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 0.007469773093734613
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "partition",
+      "m": 64,
+      "kernel_nmse": 0.17106812401661223,
+      "sample_normalized_idiv": 0.21360362716044345,
+      "sample_log_mae": 4.619706385257512,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 0.8639508249774925
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "galerkin",
+      "m": 64,
+      "kernel_nmse": 0.12732786441802135,
+      "sample_normalized_idiv": null,
+      "sample_log_mae": null,
+      "sample_negative_fraction": 0.19714736938476562,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 0.9008891544342319
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "nn_mlp_11",
+      "m": 64,
+      "kernel_nmse": 0.31980640429515667,
+      "sample_normalized_idiv": 0.6592048398065469,
+      "sample_log_mae": 4.118598066230213,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 0.7529341143508614
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "nn_mlp_29",
+      "m": 64,
+      "kernel_nmse": 0.3189345541525572,
+      "sample_normalized_idiv": 0.6753216620113298,
+      "sample_log_mae": 4.143660543550576,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 0.7247709365819868
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "nn_mlp_47",
+      "m": 64,
+      "kernel_nmse": 0.32035649566369834,
+      "sample_normalized_idiv": 0.6601080072920186,
+      "sample_log_mae": 3.9001521297789528,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 0.6785434002955845
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "nn_kan_11",
+      "m": 64,
+      "kernel_nmse": 0.32735597770471536,
+      "sample_normalized_idiv": 0.7029868233128769,
+      "sample_log_mae": 4.475978532633902,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 0.6790014143547459
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "nn_kan_29",
+      "m": 64,
+      "kernel_nmse": 0.32686778101105474,
+      "sample_normalized_idiv": 0.7299760202858651,
+      "sample_log_mae": 4.849437173412606,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 0.7216275542481664
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "nn_kan_47",
+      "m": 64,
+      "kernel_nmse": 0.32432005725883967,
+      "sample_normalized_idiv": 0.6824785110033339,
+      "sample_log_mae": 4.800314023828426,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 0.6809894977844321
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "nn_mulkan_11",
+      "m": 64,
+      "kernel_nmse": 0.3113080574409744,
+      "sample_normalized_idiv": 0.5992935239169581,
+      "sample_log_mae": 4.224285752318744,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 0.6834232163785431
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "nn_mulkan_29",
+      "m": 64,
+      "kernel_nmse": 0.31685858577016784,
+      "sample_normalized_idiv": 0.5404221932322445,
+      "sample_log_mae": 4.855343400725023,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 0.7016015607945796
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "nn_mulkan_47",
+      "m": 64,
+      "kernel_nmse": 0.31979934071836474,
+      "sample_normalized_idiv": 0.5998470265162635,
+      "sample_log_mae": 4.619605225108694,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 0.6664903455794654
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "favor_1009",
+      "m": 64,
+      "kernel_nmse": 0.9999317886016017,
+      "sample_normalized_idiv": 15.986305397671646,
+      "sample_log_mae": 18.893101197636085,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 5.697881781367065e-07
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "favor_1046",
+      "m": 64,
+      "kernel_nmse": 0.9999705320777791,
+      "sample_normalized_idiv": 17.0114770367545,
+      "sample_log_mae": 19.176886448367604,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 6.452800161084166e-07
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "favor_1083",
+      "m": 64,
+      "kernel_nmse": 0.999993561439284,
+      "sample_normalized_idiv": 19.00690226785141,
+      "sample_log_mae": 20.111511459805623,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 4.842030403564643e-08
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "favor_1120",
+      "m": 64,
+      "kernel_nmse": 0.9998951768070353,
+      "sample_normalized_idiv": 14.905149262967507,
+      "sample_log_mae": 18.19434786409541,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 1.8808353129912088e-06
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "favor_1157",
+      "m": 64,
+      "kernel_nmse": 0.9999945277017808,
+      "sample_normalized_idiv": 17.590831108952475,
+      "sample_log_mae": 18.945322064948808,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 2.838689783443749e-09
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "aderf_1009",
+      "m": 64,
+      "kernel_nmse": 841.3704582498649,
+      "sample_normalized_idiv": 8.994429287148428,
+      "sample_log_mae": 7.114328877877078,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 842.4121549891207
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "aderf_1046",
+      "m": 64,
+      "kernel_nmse": 9759.436804950921,
+      "sample_normalized_idiv": 8.61911356427553,
+      "sample_log_mae": 7.4199644678594385,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 9762.55120070802
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "aderf_1083",
+      "m": 64,
+      "kernel_nmse": 24.160126563524248,
+      "sample_normalized_idiv": 8.21234656790064,
+      "sample_log_mae": 7.315440379210436,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 23.176636856163647
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "aderf_1120",
+      "m": 64,
+      "kernel_nmse": 839.6022927144726,
+      "sample_normalized_idiv": 7.023429548145976,
+      "sample_log_mae": 6.735469852347718,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 839.847989253426
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "aderf_1157",
+      "m": 64,
+      "kernel_nmse": 5.931226477619785,
+      "sample_normalized_idiv": 8.561040408274087,
+      "sample_log_mae": 6.94684714622884,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 5.045927332568479
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "favor_640",
+      "m": 640,
+      "kernel_nmse": 0.9999476148400988,
+      "sample_normalized_idiv": 14.625827529339047,
+      "sample_log_mae": 15.99785733619235,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 3.353983803789722e-07
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "nystrom",
+      "m": 64,
+      "kernel_nmse": 0.2188859017237207,
+      "sample_normalized_idiv": null,
+      "sample_log_mae": null,
+      "sample_negative_fraction": 0.18774032592773438,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 0.8264133406330773
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "spectral_pair",
+      "m": 64,
+      "kernel_nmse": 559807203112208.75,
+      "sample_normalized_idiv": 25228161.70866251,
+      "sample_log_mae": 20.036741428898132,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 559807245130754.6
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "avg_anchor",
+      "m": 64,
+      "kernel_nmse": 0.9881098399915627,
+      "sample_normalized_idiv": 4.10230428943462,
+      "sample_log_mae": 4.972553073808439,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 0.004492017638629479,
+      "span_risk": 0.8843227209386757,
+      "coefficient_excess": 0.10378711905288696,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "cone_anchor",
+      "m": 64,
+      "kernel_nmse": 0.9210571338162796,
+      "sample_normalized_idiv": 2.952330281112044,
+      "sample_log_mae": 5.02032047358983,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 0.043839712433497095,
+      "span_risk": 0.8843227209386757,
+      "coefficient_excess": 0.03673441287760393,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "avg_mlp",
+      "m": 64,
+      "kernel_nmse": 0.359462482457668,
+      "sample_normalized_idiv": 0.9119155917902128,
+      "sample_log_mae": 4.268642224117455,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 0.2553729048747421,
+      "span_risk": 0.20529912290651864,
+      "coefficient_excess": 0.15416335955114935,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "cone_mlp",
+      "m": 64,
+      "kernel_nmse": 0.21041588280227924,
+      "sample_normalized_idiv": 0.6362439845866652,
+      "sample_log_mae": 2.7434677010499904,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 0.795388371591711,
+      "span_risk": 0.20529912290651864,
+      "coefficient_excess": 0.005116759895760603,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "avg_kan",
+      "m": 64,
+      "kernel_nmse": 0.747327990781826,
+      "sample_normalized_idiv": 1.7195330870025514,
+      "sample_log_mae": 4.871244305387987,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 0.027308298406886835,
+      "span_risk": 0.20679104358325373,
+      "coefficient_excess": 0.5405369471985723,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "cone_kan",
+      "m": 64,
+      "kernel_nmse": 0.21034665780590997,
+      "sample_normalized_idiv": 0.7446156413332476,
+      "sample_log_mae": 3.1742106974603246,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 0.7915010245823907,
+      "span_risk": 0.20679104358325373,
+      "coefficient_excess": 0.0035556142226562393,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "avg_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.6573937890478587,
+      "sample_normalized_idiv": 1.4821621976383286,
+      "sample_log_mae": 4.7773938548700245,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 0.051299445218073586,
+      "span_risk": 0.20762061117079922,
+      "coefficient_excess": 0.4497731778770595,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "cone_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.21076181644677724,
+      "sample_normalized_idiv": 0.7723187582237607,
+      "sample_log_mae": 3.8149507064757726,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 0.7887635800994834,
+      "span_risk": 0.20762061117079922,
+      "coefficient_excess": 0.0031412052759780262,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "vq",
+      "m": 64,
+      "kernel_nmse": 0.9965408845329524,
+      "sample_normalized_idiv": 6.1670261120987915,
+      "sample_log_mae": 1.9674079443148136,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 0.0003338972180848843
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "partition",
+      "m": 64,
+      "kernel_nmse": 0.21038928446483549,
+      "sample_normalized_idiv": 0.7844005657962733,
+      "sample_log_mae": 3.5694174106014196,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 0.7881132908328553
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "galerkin",
+      "m": 64,
+      "kernel_nmse": 0.19297330718955158,
+      "sample_normalized_idiv": null,
+      "sample_log_mae": null,
+      "sample_negative_fraction": 0.2899131774902344,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 0.8097997468064108
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "nn_mlp_11",
+      "m": 64,
+      "kernel_nmse": 0.28885783930538267,
+      "sample_normalized_idiv": 1.1331619195211329,
+      "sample_log_mae": 3.3675167403100916,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 0.850185241472418
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "nn_mlp_29",
+      "m": 64,
+      "kernel_nmse": 0.29100376379932924,
+      "sample_normalized_idiv": 1.1991721749962498,
+      "sample_log_mae": 3.474339576530725,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 0.8896308531099272
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "nn_mlp_47",
+      "m": 64,
+      "kernel_nmse": 0.2940533017139316,
+      "sample_normalized_idiv": 1.1346447949071123,
+      "sample_log_mae": 3.4356966883768854,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 0.808016997035306
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "nn_kan_11",
+      "m": 64,
+      "kernel_nmse": 0.29322145531912086,
+      "sample_normalized_idiv": 1.1266195935200172,
+      "sample_log_mae": 3.6077687615976473,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 0.7889370165415265
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "nn_kan_29",
+      "m": 64,
+      "kernel_nmse": 0.3109506221477254,
+      "sample_normalized_idiv": 1.351285897850321,
+      "sample_log_mae": 3.8693118749545095,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 0.8176115652059066
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "nn_kan_47",
+      "m": 64,
+      "kernel_nmse": 0.29446109945375487,
+      "sample_normalized_idiv": 1.144417390841015,
+      "sample_log_mae": 3.786009832079773,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 0.8022374264299388
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "nn_mulkan_11",
+      "m": 64,
+      "kernel_nmse": 0.29472739106105683,
+      "sample_normalized_idiv": 1.0865701940215555,
+      "sample_log_mae": 3.622558661653229,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 0.7598525457513499
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "nn_mulkan_29",
+      "m": 64,
+      "kernel_nmse": 0.2952470675133915,
+      "sample_normalized_idiv": 1.3362979748000852,
+      "sample_log_mae": 3.8287837079959393,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 0.8256862587606918
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "nn_mulkan_47",
+      "m": 64,
+      "kernel_nmse": 0.2716736002879802,
+      "sample_normalized_idiv": 1.1468144548321,
+      "sample_log_mae": 3.8069315663675565,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 0.8315709146259672
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "favor_1009",
+      "m": 64,
+      "kernel_nmse": 1.0096259302999022,
+      "sample_normalized_idiv": 15.772526950074909,
+      "sample_log_mae": 16.208056731305156,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 0.014833866926628261
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "favor_1046",
+      "m": 64,
+      "kernel_nmse": 8.18067651216183,
+      "sample_normalized_idiv": 12.676057231089299,
+      "sample_log_mae": 13.704852292459144,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 7.2543425516927735
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "favor_1083",
+      "m": 64,
+      "kernel_nmse": 1.0447908731303202,
+      "sample_normalized_idiv": 14.809476942441856,
+      "sample_log_mae": 16.043741887928228,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 0.059330075843970945
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "favor_1120",
+      "m": 64,
+      "kernel_nmse": 1.0332562755386545,
+      "sample_normalized_idiv": 14.15835216704606,
+      "sample_log_mae": 14.544032057176349,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 0.04242633835354109
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "favor_1157",
+      "m": 64,
+      "kernel_nmse": 1.0529962992292377,
+      "sample_normalized_idiv": 15.823866186608566,
+      "sample_log_mae": 16.41851238057258,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 0.06096270220653675
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "aderf_1009",
+      "m": 64,
+      "kernel_nmse": 11.121259543062092,
+      "sample_normalized_idiv": 6.108973718649282,
+      "sample_log_mae": 5.988713475070048,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 10.384653255676719
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "aderf_1046",
+      "m": 64,
+      "kernel_nmse": 1.2982567115539498,
+      "sample_normalized_idiv": 7.185583342236079,
+      "sample_log_mae": 6.197635695517582,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 0.3197744087185568
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "aderf_1083",
+      "m": 64,
+      "kernel_nmse": 4.952053491231492,
+      "sample_normalized_idiv": 6.068282299959878,
+      "sample_log_mae": 5.919299665991952,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 4.06372787638071
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "aderf_1120",
+      "m": 64,
+      "kernel_nmse": 1821.0756484676374,
+      "sample_normalized_idiv": 5.575176319608453,
+      "sample_log_mae": 5.746639513544163,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 1822.6933589903438
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "aderf_1157",
+      "m": 64,
+      "kernel_nmse": 5.141288778139957,
+      "sample_normalized_idiv": 7.489243000916959,
+      "sample_log_mae": 6.014339299762019,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 4.180485589381688
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "favor_640",
+      "m": 640,
+      "kernel_nmse": 1.194495708373487,
+      "sample_normalized_idiv": 10.776508211192386,
+      "sample_log_mae": 11.349869136296142,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 0.20818130878927327
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "nystrom",
+      "m": 64,
+      "kernel_nmse": 1.0540262761716659,
+      "sample_normalized_idiv": null,
+      "sample_log_mae": null,
+      "sample_negative_fraction": 0.18859100341796875,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 1.446905674331331
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "spectral_pair",
+      "m": 64,
+      "kernel_nmse": 1729054254598376.0,
+      "sample_normalized_idiv": 36974889.01468774,
+      "sample_log_mae": 16.715585395589237,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 1729054295714288.8
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "avg_anchor",
+      "m": 64,
+      "kernel_nmse": 0.9041344134933078,
+      "sample_normalized_idiv": 1.3644278479445753,
+      "sample_log_mae": 2.1071277871338903,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 0.07913013181416596,
+      "span_risk": 0.7829579966787663,
+      "coefficient_excess": 0.1211764168145415,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "cone_anchor",
+      "m": 64,
+      "kernel_nmse": 0.8354195677556772,
+      "sample_normalized_idiv": 1.0453801810598826,
+      "sample_log_mae": 1.8938594122828687,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 0.21436222999721985,
+      "span_risk": 0.7829579966787663,
+      "coefficient_excess": 0.05246157107691085,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "avg_mlp",
+      "m": 64,
+      "kernel_nmse": 0.8423867531480024,
+      "sample_normalized_idiv": 1.146424200245772,
+      "sample_log_mae": 2.0106775132555628,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 0.1230380500540359,
+      "span_risk": 0.696177019358481,
+      "coefficient_excess": 0.1462097337895214,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "cone_mlp",
+      "m": 64,
+      "kernel_nmse": 0.7778760347349928,
+      "sample_normalized_idiv": 0.8777939511201608,
+      "sample_log_mae": 1.626221856958238,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 0.2781100789990589,
+      "span_risk": 0.696177019358481,
+      "coefficient_excess": 0.08169901537651181,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "avg_kan",
+      "m": 64,
+      "kernel_nmse": 0.8676463535011038,
+      "sample_normalized_idiv": 1.2841608537792804,
+      "sample_log_mae": 2.1048229740554207,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 0.09946739420584283,
+      "span_risk": 0.7074334289572766,
+      "coefficient_excess": 0.16021292454382718,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "cone_kan",
+      "m": 64,
+      "kernel_nmse": 0.7953429955642612,
+      "sample_normalized_idiv": 0.9596842652169282,
+      "sample_log_mae": 1.9426882264344143,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 0.25737856005244425,
+      "span_risk": 0.7074334289572766,
+      "coefficient_excess": 0.08790956660698468,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "avg_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.7833017094113003,
+      "sample_normalized_idiv": 1.0761553921565405,
+      "sample_log_mae": 2.0040939227981087,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 0.13717198676358405,
+      "span_risk": 0.6205384695347221,
+      "coefficient_excess": 0.16276323987657815,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "cone_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.6749843998488717,
+      "sample_normalized_idiv": 0.7192484224153876,
+      "sample_log_mae": 1.3860751137921037,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 0.4172421900130465,
+      "span_risk": 0.6205384695347221,
+      "coefficient_excess": 0.05444593031414957,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "vq",
+      "m": 64,
+      "kernel_nmse": 0.8938870520753818,
+      "sample_normalized_idiv": 1.2994110622877093,
+      "sample_log_mae": 1.1736759122864147,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 0.025344394786812538
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "partition",
+      "m": 64,
+      "kernel_nmse": 0.7090316187045511,
+      "sample_normalized_idiv": 0.9638348624544003,
+      "sample_log_mae": 1.9193098143122864,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 0.35955367786100084
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "galerkin",
+      "m": 64,
+      "kernel_nmse": 0.34593960437441523,
+      "sample_normalized_idiv": null,
+      "sample_log_mae": null,
+      "sample_negative_fraction": 0.22512435913085938,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 0.6719729926507881
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "nn_mlp_11",
+      "m": 64,
+      "kernel_nmse": 0.8462486545597313,
+      "sample_normalized_idiv": 0.8894813700674251,
+      "sample_log_mae": 1.3981096359652159,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 0.3317399710731019
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "nn_mlp_29",
+      "m": 64,
+      "kernel_nmse": 0.7968864664312467,
+      "sample_normalized_idiv": 0.8205494205602606,
+      "sample_log_mae": 1.3745001312032397,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 0.16633012119641188
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "nn_mlp_47",
+      "m": 64,
+      "kernel_nmse": 0.7859091003901991,
+      "sample_normalized_idiv": 0.7984405732942853,
+      "sample_log_mae": 1.3515539138958608,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 0.220188897676375
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "nn_kan_11",
+      "m": 64,
+      "kernel_nmse": 0.8086768792691197,
+      "sample_normalized_idiv": 0.9228409449391248,
+      "sample_log_mae": 1.506495376391068,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 0.2481367615053248
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "nn_kan_29",
+      "m": 64,
+      "kernel_nmse": 0.8024208441370095,
+      "sample_normalized_idiv": 0.9369308582343524,
+      "sample_log_mae": 1.6523102598870127,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 0.1604936732469765
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "nn_kan_47",
+      "m": 64,
+      "kernel_nmse": 0.798173270611715,
+      "sample_normalized_idiv": 0.9536940660632204,
+      "sample_log_mae": 1.709659725865722,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 0.19357773742962295
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "nn_mulkan_11",
+      "m": 64,
+      "kernel_nmse": 0.8102830772514554,
+      "sample_normalized_idiv": 0.835370930404283,
+      "sample_log_mae": 1.5053736017036434,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 0.5051665324227121
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "nn_mulkan_29",
+      "m": 64,
+      "kernel_nmse": 0.7635520543608816,
+      "sample_normalized_idiv": 0.890870209259327,
+      "sample_log_mae": 1.6811755550322751,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 0.26185448661243166
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "nn_mulkan_47",
+      "m": 64,
+      "kernel_nmse": 0.7395028562512151,
+      "sample_normalized_idiv": 0.8966701597713287,
+      "sample_log_mae": 1.7531482533580118,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 0.3768322088083212
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "favor_1009",
+      "m": 64,
+      "kernel_nmse": 1.000002910645852,
+      "sample_normalized_idiv": 16.46972552138196,
+      "sample_log_mae": 10.744026351549424,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 6.472387735975839e-06
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "favor_1046",
+      "m": 64,
+      "kernel_nmse": 1.003365288563544,
+      "sample_normalized_idiv": 16.009597873957507,
+      "sample_log_mae": 12.07423831826194,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 0.0033801056946021653
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "favor_1083",
+      "m": 64,
+      "kernel_nmse": 1.0034474402322697,
+      "sample_normalized_idiv": 14.812420869297265,
+      "sample_log_mae": 11.245883749524623,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 0.0038966630586332795
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "favor_1120",
+      "m": 64,
+      "kernel_nmse": 0.9999971208345567,
+      "sample_normalized_idiv": 15.490563366437772,
+      "sample_log_mae": 11.97589997941079,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 1.9516960589227443e-06
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "favor_1157",
+      "m": 64,
+      "kernel_nmse": 1.000085473787323,
+      "sample_normalized_idiv": 16.37838196985626,
+      "sample_log_mae": 12.544887703496412,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 9.717934457983797e-05
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "aderf_1009",
+      "m": 64,
+      "kernel_nmse": 2.0130122131198025,
+      "sample_normalized_idiv": 7.892166977021159,
+      "sample_log_mae": 3.3744864911035113,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 1.0188933019489
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "aderf_1046",
+      "m": 64,
+      "kernel_nmse": 1.2967763092815854,
+      "sample_normalized_idiv": 8.350877664128202,
+      "sample_log_mae": 3.7703467865020546,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 0.2993367077289389
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "aderf_1083",
+      "m": 64,
+      "kernel_nmse": 1.471174399982574,
+      "sample_normalized_idiv": 9.496571536025074,
+      "sample_log_mae": 4.231789698859251,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 0.4755503741522
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "aderf_1120",
+      "m": 64,
+      "kernel_nmse": 4.1300998255486325,
+      "sample_normalized_idiv": 9.149257041898588,
+      "sample_log_mae": 4.283992196404217,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 3.135386220342396
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "aderf_1157",
+      "m": 64,
+      "kernel_nmse": 8.729840882941785,
+      "sample_normalized_idiv": 9.987485966128098,
+      "sample_log_mae": 4.6682696030849815,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 7.745929396147213
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "favor_640",
+      "m": 640,
+      "kernel_nmse": 1.000486522918054,
+      "sample_normalized_idiv": 12.640385729199119,
+      "sample_log_mae": 9.206920914277465,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 0.0005873819791968218
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "nystrom",
+      "m": 64,
+      "kernel_nmse": 0.47905759268582737,
+      "sample_normalized_idiv": null,
+      "sample_log_mae": null,
+      "sample_negative_fraction": 0.18265533447265625,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 0.9113773829801929
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "spectral_pair",
+      "m": 64,
+      "kernel_nmse": 23909878408071.867,
+      "sample_normalized_idiv": 5366720.217046638,
+      "sample_log_mae": 15.16483720412857,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 23909884479309.195
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "avg_anchor",
+      "m": 64,
+      "kernel_nmse": 0.890107085466157,
+      "sample_normalized_idiv": 1.198965291341533,
+      "sample_log_mae": 1.8531840705944624,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 0.09066829290939434,
+      "span_risk": 0.7642396869703206,
+      "coefficient_excess": 0.1258673984958364,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "cone_anchor",
+      "m": 64,
+      "kernel_nmse": 0.8185892191731494,
+      "sample_normalized_idiv": 0.8930681832420422,
+      "sample_log_mae": 1.6107622532291108,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 0.20791129799010952,
+      "span_risk": 0.7642396869703206,
+      "coefficient_excess": 0.05434953220282879,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "avg_mlp",
+      "m": 64,
+      "kernel_nmse": 0.8075283584369592,
+      "sample_normalized_idiv": 0.9772233242908253,
+      "sample_log_mae": 1.7740667239195331,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 0.14906194850805018,
+      "span_risk": 0.660686075466912,
+      "coefficient_excess": 0.1468422829700472,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "cone_mlp",
+      "m": 64,
+      "kernel_nmse": 0.7424197693059725,
+      "sample_normalized_idiv": 0.7402999118001259,
+      "sample_log_mae": 1.4341720676495218,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 0.3171280501188659,
+      "span_risk": 0.660686075466912,
+      "coefficient_excess": 0.08173369383906048,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "avg_kan",
+      "m": 64,
+      "kernel_nmse": 0.8282768873874033,
+      "sample_normalized_idiv": 1.0855753043493088,
+      "sample_log_mae": 1.8487311933299866,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 0.12370638272925075,
+      "span_risk": 0.6178428995219802,
+      "coefficient_excess": 0.2104339878654231,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "cone_kan",
+      "m": 64,
+      "kernel_nmse": 0.7002844135131794,
+      "sample_normalized_idiv": 0.8017365364837481,
+      "sample_log_mae": 1.555645136433988,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 0.37645585472463977,
+      "span_risk": 0.6178428995219802,
+      "coefficient_excess": 0.08244151399119914,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "avg_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.8094545475438257,
+      "sample_normalized_idiv": 1.0759238188833444,
+      "sample_log_mae": 1.8527369542497611,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 0.12498884150876692,
+      "span_risk": 0.5531317533736204,
+      "coefficient_excess": 0.2563227941702053,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "cone_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.7165193595163782,
+      "sample_normalized_idiv": 0.8220712833856222,
+      "sample_log_mae": 1.6516135444169033,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 0.37447018328732457,
+      "span_risk": 0.5531317533736204,
+      "coefficient_excess": 0.16338760614275782,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "vq",
+      "m": 64,
+      "kernel_nmse": 0.8630599250448079,
+      "sample_normalized_idiv": 1.0709410121038931,
+      "sample_log_mae": 1.0616163437112167,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 0.04197402021401936
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "partition",
+      "m": 64,
+      "kernel_nmse": 0.6507764077958601,
+      "sample_normalized_idiv": 0.7884141696804827,
+      "sample_log_mae": 1.793967917690405,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 0.4022629805323406
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "galerkin",
+      "m": 64,
+      "kernel_nmse": 0.29475800216032194,
+      "sample_normalized_idiv": null,
+      "sample_log_mae": null,
+      "sample_negative_fraction": 0.20987319946289062,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 0.7428939720946509
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "nn_mlp_11",
+      "m": 64,
+      "kernel_nmse": 0.802435444718732,
+      "sample_normalized_idiv": 0.792352701837199,
+      "sample_log_mae": 1.363566135021376,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 0.2716241781855836
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "nn_mlp_29",
+      "m": 64,
+      "kernel_nmse": 0.7684562457470461,
+      "sample_normalized_idiv": 0.7436696706106638,
+      "sample_log_mae": 1.3556847266201435,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 0.16353765424544894
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "nn_mlp_47",
+      "m": 64,
+      "kernel_nmse": 0.7780671297147876,
+      "sample_normalized_idiv": 0.7535408370385617,
+      "sample_log_mae": 1.3080470785856033,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 0.1843219303611342
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "nn_kan_11",
+      "m": 64,
+      "kernel_nmse": 0.7783810951896407,
+      "sample_normalized_idiv": 0.8325055258020724,
+      "sample_log_mae": 1.5145644484932363,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 0.2041922072407303
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "nn_kan_29",
+      "m": 64,
+      "kernel_nmse": 0.763648111460027,
+      "sample_normalized_idiv": 0.8555076015971353,
+      "sample_log_mae": 1.6701909502349759,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 0.174871920515794
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "nn_kan_47",
+      "m": 64,
+      "kernel_nmse": 0.7740167330855989,
+      "sample_normalized_idiv": 0.832908439802168,
+      "sample_log_mae": 1.5768269452758819,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 0.15432058069156063
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "nn_mulkan_11",
+      "m": 64,
+      "kernel_nmse": 0.7193947037788768,
+      "sample_normalized_idiv": 0.7802092264652055,
+      "sample_log_mae": 1.4849525926839715,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 0.49617061416522756
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "nn_mulkan_29",
+      "m": 64,
+      "kernel_nmse": 0.6632804203702202,
+      "sample_normalized_idiv": 0.7808117962035788,
+      "sample_log_mae": 1.6469234879072365,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 0.3313268832926913
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "nn_mulkan_47",
+      "m": 64,
+      "kernel_nmse": 0.6807844692036752,
+      "sample_normalized_idiv": 0.7995316044386555,
+      "sample_log_mae": 1.6027149274753667,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 0.2646566958827414
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "favor_1009",
+      "m": 64,
+      "kernel_nmse": 1.0009300171105535,
+      "sample_normalized_idiv": 14.333682499628773,
+      "sample_log_mae": 10.343089615020025,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 0.0010023997065131203
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "favor_1046",
+      "m": 64,
+      "kernel_nmse": 1.00000368618553,
+      "sample_normalized_idiv": 18.757394663833985,
+      "sample_log_mae": 14.182182180123473,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 4.232154500012749e-06
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "favor_1083",
+      "m": 64,
+      "kernel_nmse": 1.0000016001901662,
+      "sample_normalized_idiv": 18.107303139534938,
+      "sample_log_mae": 13.889602196516664,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 1.750724896262262e-06
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "favor_1120",
+      "m": 64,
+      "kernel_nmse": 1.0000226737758529,
+      "sample_normalized_idiv": 13.266606289674487,
+      "sample_log_mae": 10.373371581398063,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 4.740609873813697e-05
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "favor_1157",
+      "m": 64,
+      "kernel_nmse": 0.9999992229562921,
+      "sample_normalized_idiv": 16.082031546282266,
+      "sample_log_mae": 12.458424418869235,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 1.6123346625385834e-07
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "aderf_1009",
+      "m": 64,
+      "kernel_nmse": 613.0847116083988,
+      "sample_normalized_idiv": 9.962643307254806,
+      "sample_log_mae": 5.326615641181604,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 612.1445360512784
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "aderf_1046",
+      "m": 64,
+      "kernel_nmse": 1.2488332694168462,
+      "sample_normalized_idiv": 11.219502788249235,
+      "sample_log_mae": 6.110020208472781,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 0.25008092415740585
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "aderf_1083",
+      "m": 64,
+      "kernel_nmse": 1.0080240123816713,
+      "sample_normalized_idiv": 12.894630173400387,
+      "sample_log_mae": 7.2358963159935055,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 0.008186459478200708
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "aderf_1120",
+      "m": 64,
+      "kernel_nmse": 1.000176702938398,
+      "sample_normalized_idiv": 13.696608051360254,
+      "sample_log_mae": 7.661220779681259,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 0.00021730032905814412
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "aderf_1157",
+      "m": 64,
+      "kernel_nmse": 2.163840025616408,
+      "sample_normalized_idiv": 12.403425404428967,
+      "sample_log_mae": 6.584755457360429,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 1.1648619669907352
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "favor_640",
+      "m": 640,
+      "kernel_nmse": 1.0043692518401626,
+      "sample_normalized_idiv": 11.949803269420933,
+      "sample_log_mae": 8.676400223220428,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 0.004440719070416242
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "cone_raw_mlp",
+      "m": 64,
+      "kernel_nmse": 0.2883175131781724,
+      "sample_normalized_idiv": 0.32170352530893426,
+      "sample_log_mae": 3.264510626971927,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 0.7132783360271794,
+      "span_risk": 0.2781119081612413,
+      "coefficient_excess": 0.010205605016931074,
+      "retained_basis_rank": 28,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "cone_raw_kan",
+      "m": 64,
+      "kernel_nmse": 0.2911316638744042,
+      "sample_normalized_idiv": 0.3639543516149462,
+      "sample_log_mae": 4.80237754906255,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 0.7110642722179712,
+      "span_risk": 0.22680351379169583,
+      "coefficient_excess": 0.06432815008270837,
+      "retained_basis_rank": 53,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "cone_raw_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.2814731097449774,
+      "sample_normalized_idiv": 0.24741555917765676,
+      "sample_log_mae": 3.3092700773453,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.3375077543215834,
+      "predicted_energy_ratio": 0.7214138356751015,
+      "span_risk": 0.23179322659597712,
+      "coefficient_excess": 0.04967988314900029,
+      "retained_basis_rank": 24,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "cone_raw_mlp",
+      "m": 64,
+      "kernel_nmse": 0.20790035520883635,
+      "sample_normalized_idiv": 0.5636750543735718,
+      "sample_log_mae": 2.6975294806634196,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 0.7952138195212421,
+      "span_risk": 0.20219319846064066,
+      "coefficient_excess": 0.005707156748195691,
+      "retained_basis_rank": 59,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "cone_raw_kan",
+      "m": 64,
+      "kernel_nmse": 0.20936505616238094,
+      "sample_normalized_idiv": 0.6327652913507282,
+      "sample_log_mae": 3.2533103462066517,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 0.7929415978380607,
+      "span_risk": 0.20499990371442756,
+      "coefficient_excess": 0.00436515244795338,
+      "retained_basis_rank": 62,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "cone_raw_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.20930749045912506,
+      "sample_normalized_idiv": 0.7001722771334002,
+      "sample_log_mae": 3.581477430229261,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.9320550641594014,
+      "predicted_energy_ratio": 0.792522089528941,
+      "span_risk": 0.20544122051919256,
+      "coefficient_excess": 0.0038662699399324985,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "cone_raw_mlp",
+      "m": 64,
+      "kernel_nmse": 0.6643811693407,
+      "sample_normalized_idiv": 0.6949589320593199,
+      "sample_log_mae": 1.3601738570968491,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 0.4134061490352875,
+      "span_risk": 0.5436042332557647,
+      "coefficient_excess": 0.12077693608493534,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "cone_raw_kan",
+      "m": 64,
+      "kernel_nmse": 0.7135972562323321,
+      "sample_normalized_idiv": 0.7725280200435415,
+      "sample_log_mae": 1.3947983418569136,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 0.36617022768272106,
+      "span_risk": 0.6168298613127423,
+      "coefficient_excess": 0.09676739491958974,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "cone_raw_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.6533967806430082,
+      "sample_normalized_idiv": 0.7140503806991043,
+      "sample_log_mae": 1.4161458098900885,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.183262029916587,
+      "predicted_energy_ratio": 0.4194740574131045,
+      "span_risk": 0.5755179240743629,
+      "coefficient_excess": 0.07787885656864535,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "cone_raw_mlp",
+      "m": 64,
+      "kernel_nmse": 0.5928850317352444,
+      "sample_normalized_idiv": 0.593135051879675,
+      "sample_log_mae": 1.3056775244453958,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 0.517231772745267,
+      "span_risk": 0.4798937163958459,
+      "coefficient_excess": 0.11299131533939855,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "cone_raw_kan",
+      "m": 64,
+      "kernel_nmse": 0.6324342378585825,
+      "sample_normalized_idiv": 0.7042770746314967,
+      "sample_log_mae": 1.368437075305488,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 0.481109515945355,
+      "span_risk": 0.5285324147010454,
+      "coefficient_excess": 0.10390182315753715,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "moment_train",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "cone_raw_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.5678803095481006,
+      "sample_normalized_idiv": 0.6454991401360997,
+      "sample_log_mae": 1.4185941745396695,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.168576138417166,
+      "predicted_energy_ratio": 0.6044417373298969,
+      "span_risk": 0.4583159684795193,
+      "coefficient_excess": 0.10956434106858137,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    }
+  ],
+  "seconds_current_stage": 1.6217850781977177,
+  "current_stage_methods": [
+    "cone_raw_mlp",
+    "cone_raw_kan",
+    "cone_raw_mulkan"
+  ],
+  "target": "Raw exp(q.k/sqrt(128)); exact full product relative squared risk, plus fixed independent pair Monte Carlo KL/log metrics.",
+  "split": "moment_train",
+  "empirical_only": true,
+  "selection": "All requested frozen candidates; no test fit."
+}

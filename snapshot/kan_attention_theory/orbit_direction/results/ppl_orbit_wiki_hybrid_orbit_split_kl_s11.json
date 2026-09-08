@@ -1,0 +1,331 @@
+{
+  "name": "orbit_split_kl_s11",
+  "mode": "hybrid",
+  "split": "orbit_wiki",
+  "ppl": 9.58777050418031,
+  "nll_per_token": 2.260488380551455,
+  "documents": [
+    {
+      "ordinal": 0,
+      "nll": 1723.6383056640625,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 1,
+      "nll": 2174.6436157226562,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 2,
+      "nll": 2232.026153564453,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 3,
+      "nll": 2291.1287841796875,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 4,
+      "nll": 2308.5548095703125,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 5,
+      "nll": 2309.1301879882812,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 6,
+      "nll": 2615.3914794921875,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 7,
+      "nll": 1759.2533569335938,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 8,
+      "nll": 2766.4404907226562,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 9,
+      "nll": 2494.2646484375,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 10,
+      "nll": 2214.422607421875,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 11,
+      "nll": 2339.0667724609375,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 12,
+      "nll": 2299.7876586914062,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 13,
+      "nll": 2191.0379638671875,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 14,
+      "nll": 1844.6156311035156,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 15,
+      "nll": 2739.12109375,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 16,
+      "nll": 2376.9139404296875,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 17,
+      "nll": 2328.3995056152344,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 18,
+      "nll": 1784.1802673339844,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 19,
+      "nll": 1972.9658203125,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 20,
+      "nll": 2507.3302001953125,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 21,
+      "nll": 1817.1204223632812,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 22,
+      "nll": 2343.4503173828125,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 23,
+      "nll": 2363.8677978515625,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 24,
+      "nll": 2297.63720703125,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 25,
+      "nll": 2584.107421875,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 26,
+      "nll": 2077.3134765625,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 27,
+      "nll": 2309.495849609375,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 28,
+      "nll": 1870.6371154785156,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 29,
+      "nll": 2501.0833129882812,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 30,
+      "nll": 2393.504150390625,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 31,
+      "nll": 2170.076416015625,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 32,
+      "nll": 1747.2557678222656,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 33,
+      "nll": 2150.8262329101562,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 34,
+      "nll": 2710.8828125,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 35,
+      "nll": 2373.248046875,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 36,
+      "nll": 2494.244384765625,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 37,
+      "nll": 2696.8369750976562,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 38,
+      "nll": 2470.4434814453125,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 39,
+      "nll": 2578.7523193359375,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 40,
+      "nll": 2415.5791015625,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 41,
+      "nll": 2564.7116088867188,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 42,
+      "nll": 2195.21826171875,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 43,
+      "nll": 2638.300048828125,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 44,
+      "nll": 2104.6151733398438,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 45,
+      "nll": 2114.6017150878906,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 46,
+      "nll": 2740.1859130859375,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 47,
+      "nll": 2075.0931091308594,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 48,
+      "nll": 2576.5933227539062,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 49,
+      "nll": 2381.0789794921875,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 50,
+      "nll": 2227.66796875,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 51,
+      "nll": 2329.598388671875,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 52,
+      "nll": 2639.2484741210938,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 53,
+      "nll": 2699.2528686523438,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 54,
+      "nll": 1978.4334106445312,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 55,
+      "nll": 2184.8373413085938,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 56,
+      "nll": 2297.239501953125,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 57,
+      "nll": 2516.9893798828125,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 58,
+      "nll": 2353.1884765625,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 59,
+      "nll": 1995.5645141601562,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 60,
+      "nll": 2392.8844604492188,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 61,
+      "nll": 2066.9063110351562,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 62,
+      "nll": 2580.240966796875,
+      "tokens": 1023
+    },
+    {
+      "ordinal": 63,
+      "nll": 2707.5691528320312,
+      "tokens": 1023
+    }
+  ],
+  "seconds": 5.313542548567057,
+  "scope": "New confirmation texts, frozen full model,24/336heads at the same two complete layers. No LLM training or confirmation-based hyperparameter changes."
+}

@@ -1,0 +1,20 @@
+{
+  "scope": "FP64 algebra and gradient diagnostic using current Matched(ad_raw), one synthetic head; no LLM training or performance experiment",
+  "max_attention_difference_after_query_rescaling": 2.7755575615628914e-17,
+  "attention_output_cross_entropy_gradient_norms": {
+    "query_amplitude_row": 1.6753697481550798e-16,
+    "query_direction_rows": 0.002140159429577126,
+    "query_shared_hidden": 0.00017537911255497112,
+    "key_amplitude_row": 1.2110655438930307,
+    "head_log_scale": 6.632606790180073e-17
+  },
+  "raw_I_gradient_norms": {
+    "query_amplitude_row": 0.24831240928876977,
+    "query_direction_rows": 0.0001982533837125578,
+    "query_shared_hidden": 0.02054400106668363,
+    "key_amplitude_row": 0.20477167363779294,
+    "head_log_scale": 0.2507504401091663
+  },
+  "query_amplitude_output_parameters": 192,
+  "raw_head_total_parameters": 73729
+}

@@ -1,0 +1,6 @@
+{
+  "seconds": 1.028153046965599,
+  "rank_checks": 384,
+  "rank_violations": 0,
+  "note": "Adaptive loss ablation; no model/checkpoint selection from these test scores."
+}

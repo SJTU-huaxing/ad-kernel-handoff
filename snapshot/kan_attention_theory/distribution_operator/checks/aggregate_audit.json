@@ -1,0 +1,15 @@
+{
+  "curve_rows": 176,
+  "spectral_bracket_checks": 176,
+  "rank_risk_lower_bound_checks": 320,
+  "nested_partition_projection_checks": 176,
+  "max_relative_pythagorean_error": 1.2043317731968983e-15,
+  "max_train_galerkin_projection_error": 6.38378239159465e-15,
+  "minimum_scaled_positive_coefficient": 5.64460447664245e-09,
+  "empty_moment_fit_cells": 0,
+  "train_calibration_and_moment_documents_disjoint": true,
+  "internal_pairs_per_head": 17179869184,
+  "internal_pairs_all_heads": 68719476736,
+  "status": "passed",
+  "scope": "Numerical empirical-operator and frozen-feature checks; not a population confidence certificate."
+}

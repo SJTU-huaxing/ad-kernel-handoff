@@ -1,0 +1,109 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "name": "product_i_reduced_plain_s11_lr0.002",
+      "params": 73536,
+      "matched_parent_protocol": "product_ad_raw_s11_lr0.002"
+    },
+    {
+      "name": "product_i_reduced_plain_s29_lr0.002",
+      "params": 73536,
+      "matched_parent_protocol": "product_ad_raw_s29_lr0.002"
+    },
+    {
+      "name": "product_i_reduced_plain_s47_lr0.002",
+      "params": 73536,
+      "matched_parent_protocol": "product_ad_raw_s47_lr0.002"
+    },
+    {
+      "name": "product_i_reduced_matched_s11_lr0.002",
+      "params": 73729,
+      "matched_parent_protocol": "product_ad_raw_s11_lr0.002"
+    },
+    {
+      "name": "product_i_reduced_matched_s29_lr0.002",
+      "params": 73729,
+      "matched_parent_protocol": "product_ad_raw_s29_lr0.002"
+    },
+    {
+      "name": "product_i_reduced_matched_s47_lr0.002",
+      "params": 73729,
+      "matched_parent_protocol": "product_ad_raw_s47_lr0.002"
+    },
+    {
+      "name": "causal_i_reduced_plain_s11_lr0.002",
+      "params": 73536,
+      "matched_parent_protocol": "ad_raw_s11_lr0.002"
+    },
+    {
+      "name": "causal_i_reduced_plain_s29_lr0.002",
+      "params": 73536,
+      "matched_parent_protocol": "ad_raw_s29_lr0.002"
+    },
+    {
+      "name": "causal_i_reduced_plain_s47_lr0.002",
+      "params": 73536,
+      "matched_parent_protocol": "ad_raw_s47_lr0.002"
+    },
+    {
+      "name": "causal_i_reduced_matched_s11_lr0.002",
+      "params": 73729,
+      "matched_parent_protocol": "ad_raw_s11_lr0.002"
+    },
+    {
+      "name": "causal_i_reduced_matched_s29_lr0.002",
+      "params": 73729,
+      "matched_parent_protocol": "ad_raw_s29_lr0.002"
+    },
+    {
+      "name": "causal_i_reduced_matched_s47_lr0.002",
+      "params": 73729,
+      "matched_parent_protocol": "ad_raw_s47_lr0.002"
+    },
+    {
+      "name": "causal_kl_reduced_plain_s11_lr0.002",
+      "params": 73536,
+      "matched_parent_protocol": "ad_kl_s11_lr0.002"
+    },
+    {
+      "name": "causal_kl_reduced_plain_s29_lr0.002",
+      "params": 73536,
+      "matched_parent_protocol": "ad_kl_s29_lr0.002"
+    },
+    {
+      "name": "causal_kl_reduced_plain_s47_lr0.002",
+      "params": 73536,
+      "matched_parent_protocol": "ad_kl_s47_lr0.002"
+    },
+    {
+      "name": "causal_kl_reduced_matched_s11_lr0.002",
+      "params": 73728,
+      "matched_parent_protocol": "ad_kl_s11_lr0.002"
+    },
+    {
+      "name": "causal_kl_reduced_matched_s29_lr0.002",
+      "params": 73728,
+      "matched_parent_protocol": "ad_kl_s29_lr0.002"
+    },
+    {
+      "name": "causal_kl_reduced_matched_s47_lr0.002",
+      "params": 73728,
+      "matched_parent_protocol": "ad_kl_s47_lr0.002"
+    }
+  ],
+  "teacher": [
+    {
+      "split": "confirm_wiki",
+      "ppl": 8.664559867077683,
+      "absolute_difference": 0.0
+    },
+    {
+      "split": "confirm_long",
+      "ppl": 9.066278957389708,
+      "absolute_difference": 0.0
+    }
+  ],
+  "budgets": "Matched rawI73729 and KL73728; pure deletion73536. Original KL AD contains192 query-amplitude weights invisible to KL.",
+  "scope": "No certificate for population optimality or new blind testing."
+}

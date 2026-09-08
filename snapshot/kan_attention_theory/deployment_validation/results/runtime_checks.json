@@ -1,0 +1,42 @@
+[
+  {
+    "method": "partition",
+    "dense_relative_l2": 1.1689860133117548e-15,
+    "recurrent_relative_l2": 2.1697599595078724e-16,
+    "prefix_relative_l2": 0.0,
+    "fp32_relative_l2": 1.0981500192168782e-07,
+    "fp32_recurrent_relative_l2": 8.19664206198879e-08,
+    "nonfinite_fp32": 0,
+    "nonpositive_denominators": 0
+  },
+  {
+    "method": "galerkin",
+    "dense_relative_l2": 1.0476454570086838e-15,
+    "recurrent_relative_l2": 5.439479727444948e-16,
+    "prefix_relative_l2": 0.0,
+    "fp32_relative_l2": 5.208200365352971e-06,
+    "fp32_recurrent_relative_l2": 3.079275378804443e-07,
+    "nonfinite_fp32": 0,
+    "nonpositive_denominators": 2
+  },
+  {
+    "method": "favor_plus",
+    "dense_relative_l2": 7.329266183373057e-16,
+    "recurrent_relative_l2": 1.1091696971974498e-15,
+    "prefix_relative_l2": 2.3288999085924626e-16,
+    "fp32_relative_l2": 9.547552676345643e-07,
+    "fp32_recurrent_relative_l2": 1.479022994438759e-06,
+    "nonfinite_fp32": 0,
+    "nonpositive_denominators": 0
+  },
+  {
+    "method": "favor_plus_640",
+    "dense_relative_l2": 1.2298832540396417e-15,
+    "recurrent_relative_l2": 1.8837355079938716e-15,
+    "prefix_relative_l2": 7.079368845094315e-16,
+    "fp32_relative_l2": 1.3084924964565621e-06,
+    "fp32_recurrent_relative_l2": 1.18246870033894e-06,
+    "nonfinite_fp32": 0,
+    "nonpositive_denominators": 0
+  }
+]

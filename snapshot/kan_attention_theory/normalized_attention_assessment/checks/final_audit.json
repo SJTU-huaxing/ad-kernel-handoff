@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "max_recomputed_metric_errors": [
+    4.440892098500626e-15,
+    8.881784197001252e-15
+  ],
+  "favor_ppl_recheck_exact": true,
+  "toy": {
+    "kl_a": 0.6364828379064437,
+    "kl_b": 0.005025167926750729,
+    "output_error_a": 0.0,
+    "output_error_b": 0.050000000000000044
+  },
+  "scope": "Existing heldout pilot only; conditional document uncertainty, not population certification."
+}

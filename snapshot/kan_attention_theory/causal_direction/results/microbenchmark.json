@@ -1,0 +1,180 @@
+{
+  "results": [
+    {
+      "name": "favor_s11",
+      "component": "features",
+      "microseconds_per_layer": 2.4166400730609894,
+      "samples_us": [
+        2.4371199309825897,
+        2.4268800020217896,
+        2.4166400730609894,
+        2.4166400730609894,
+        2.4166400730609894,
+        2.4166400730609894,
+        2.4268800020217896
+      ]
+    },
+    {
+      "name": "favor_s11",
+      "component": "state",
+      "microseconds_per_layer": 3.3686399459838867,
+      "samples_us": [
+        3.3792001008987427,
+        3.3689600229263306,
+        3.3587199449539185,
+        3.3689600229263306,
+        3.3686399459838867,
+        3.3587199449539185,
+        3.3587199449539185
+      ]
+    },
+    {
+      "name": "favor_s11",
+      "component": "features_and_state",
+      "microseconds_per_layer": 5.734400153160095,
+      "samples_us": [
+        5.744640231132507,
+        5.765119791030884,
+        5.734400153160095,
+        5.734400153160095,
+        5.724160075187683,
+        5.734400153160095,
+        5.734400153160095
+      ]
+    },
+    {
+      "name": "exp_kl_s11",
+      "component": "features",
+      "microseconds_per_layer": 6.533120274543762,
+      "samples_us": [
+        6.512640118598938,
+        6.543359756469727,
+        6.533120274543762,
+        6.512640118598938,
+        6.52288019657135,
+        6.533120274543762,
+        6.533120274543762
+      ]
+    },
+    {
+      "name": "exp_kl_s11",
+      "component": "state",
+      "microseconds_per_layer": 3.2969599962234497,
+      "samples_us": [
+        3.306240141391754,
+        3.2870399951934814,
+        3.2969599962234497,
+        3.2870399951934814,
+        3.2972800731658936,
+        3.2870399951934814,
+        3.3164799213409424
+      ]
+    },
+    {
+      "name": "exp_kl_s11",
+      "component": "features_and_state",
+      "microseconds_per_layer": 9.707199931144714,
+      "samples_us": [
+        9.707199931144714,
+        9.707520008087158,
+        9.70624029636383,
+        9.738240242004395,
+        9.697279930114746,
+        9.697279930114746,
+        9.738240242004395
+      ]
+    },
+    {
+      "name": "split_01_s11",
+      "component": "features",
+      "microseconds_per_layer": 6.584320068359375,
+      "samples_us": [
+        6.584320068359375,
+        6.584320068359375,
+        6.594560146331787,
+        6.584320068359375,
+        6.563839912414551,
+        6.594560146331787,
+        6.584320068359375
+      ]
+    },
+    {
+      "name": "split_01_s11",
+      "component": "state",
+      "microseconds_per_layer": 3.3587199449539185,
+      "samples_us": [
+        3.3587199449539185,
+        3.3587199449539185,
+        3.3587199449539185,
+        3.3792001008987427,
+        3.3587199449539185,
+        3.3484798669815063,
+        3.3587199449539185
+      ]
+    },
+    {
+      "name": "split_01_s11",
+      "component": "features_and_state",
+      "microseconds_per_layer": 9.902080297470093,
+      "samples_us": [
+        9.902080297470093,
+        9.932479858398438,
+        9.902080297470093,
+        9.881600141525269,
+        9.912319779396057,
+        9.89184021949768,
+        9.912319779396057
+      ]
+    },
+    {
+      "name": "softplus_kl_s11",
+      "component": "features",
+      "microseconds_per_layer": 7.567359805107117,
+      "samples_us": [
+        7.598080039024353,
+        7.567359805107117,
+        7.567359805107117,
+        7.54688024520874,
+        7.587839961051941,
+        7.54688024520874,
+        7.567359805107117
+      ]
+    },
+    {
+      "name": "softplus_kl_s11",
+      "component": "state",
+      "microseconds_per_layer": 3.2972800731658936,
+      "samples_us": [
+        3.2972800731658936,
+        3.317759931087494,
+        3.2972800731658936,
+        3.2870399951934814,
+        3.2870399951934814,
+        3.2870399951934814,
+        3.307519853115082
+      ]
+    },
+    {
+      "name": "softplus_kl_s11",
+      "component": "features_and_state",
+      "microseconds_per_layer": 10.833920240402222,
+      "samples_us": [
+        10.842880010604858,
+        10.833920240402222,
+        10.844160318374634,
+        10.833920240402222,
+        10.792959928512573,
+        10.82368016242981,
+        10.833920240402222
+      ]
+    }
+  ],
+  "protocol": "Real heldout Q/K/V,12 heads of one layer, batch1 decode. Same fused projection and state implementations used in full-model benchmark. CUDA graph containing100 operations replayed7times after warmup, removes Python per-op dispatch. Repeated hot-cache microbenchmark, not full-model speed.",
+  "arithmetic": {
+    "mlp_feature_flops_per_head": 147456,
+    "favor_feature_flops_per_head": 32768,
+    "state_dominant_flops_per_head": 32768,
+    "combined_mlp_to_favor_flop_ratio": 2.75,
+    "note": "FMA counted as2, excludes scalar activations/normalizations; fixed m64,d128,hidden192."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "gaussian_variance": 0.2,
+  "gaussian_HS_valid": true,
+  "gaussian_second_moment": 1.0910894511799618,
+  "gaussian_rank1_relative_floor": 0.0435607626104,
+  "discrete_distributions": [
+    {
+      "epsilon": 1.0,
+      "variance": 0.2,
+      "support": [
+        0.0,
+        -0.4472135954999579,
+        0.4472135954999579
+      ],
+      "kernel_second_moment": 1.0810723718384547,
+      "rank1_relative_floor": 0.03749627404712251,
+      "singular_values": [
+        1.020066755619076,
+        0.20133600254109404,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 0.1,
+      "variance": 0.2,
+      "support": [
+        0.0,
+        -1.4142135623730951,
+        1.4142135623730951
+      ],
+      "kernel_second_moment": 1.263082328360165,
+      "rank1_relative_floor": 0.14970034912054855,
+      "singular_values": [
+        1.0363389710112483,
+        0.36268604078470196,
+        0.2398805980971149
+      ]
+    },
+    {
+      "epsilon": 0.01,
+      "variance": 0.2,
+      "support": [
+        0.0,
+        -4.47213595499958,
+        4.47213595499958
+      ],
+      "kernel_second_moment": 11769263341852.086,
+      "rank1_relative_floor": 0.5000000000000407,
+      "singular_values": [
+        2425825.9770489642,
+        2425825.97704896,
+        0.9899999959189142
+      ]
+    }
+  ]
+}

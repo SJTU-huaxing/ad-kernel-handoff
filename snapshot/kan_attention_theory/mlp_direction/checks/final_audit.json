@@ -1,0 +1,107 @@
+{
+  "passed": true,
+  "fits": 38,
+  "primary_single_pass_fits": 29,
+  "calibrated_readout_fits": 3,
+  "closed_form_global_calibrations": 6,
+  "fitted_network_parameter_budgets_verified": true,
+  "ppl_cases": 234,
+  "ppl_token_weighting_verified": true,
+  "no_invalid_ppl_outputs": true,
+  "ppl_round3_gauge_changes": [
+    {
+      "dataset": "fresh_wiki3",
+      "seed": 11,
+      "nll_change": 0.0,
+      "ppl_change": 0.0,
+      "max_document_nll_change": 0.0
+    },
+    {
+      "dataset": "fresh_wiki3",
+      "seed": 29,
+      "nll_change": 0.0,
+      "ppl_change": 0.0,
+      "max_document_nll_change": 0.0
+    },
+    {
+      "dataset": "fresh_wiki3",
+      "seed": 47,
+      "nll_change": 0.0,
+      "ppl_change": 0.0,
+      "max_document_nll_change": 0.0
+    },
+    {
+      "dataset": "swde3",
+      "seed": 11,
+      "nll_change": 0.0,
+      "ppl_change": 0.0,
+      "max_document_nll_change": 0.0
+    },
+    {
+      "dataset": "swde3",
+      "seed": 29,
+      "nll_change": 0.0,
+      "ppl_change": 0.0,
+      "max_document_nll_change": 0.0
+    },
+    {
+      "dataset": "swde3",
+      "seed": 47,
+      "nll_change": 0.0,
+      "ppl_change": 0.0,
+      "max_document_nll_change": 0.0
+    }
+  ],
+  "projection_relative_error": 1.4799489760614012e-15,
+  "moment_energy_relative_error": 7.375785265868014e-16,
+  "full_empirical_products": [
+    {
+      "dataset": "fresh_wiki3",
+      "pairs_per_head": 4294967296,
+      "methods": 7
+    },
+    {
+      "dataset": "swde3",
+      "pairs_per_head": 104857600,
+      "methods": 7
+    }
+  ],
+  "split_counts": {
+    "train": 4096,
+    "validation": 128,
+    "test": 256,
+    "official": 20,
+    "fda": 96,
+    "fresh_wiki": 128,
+    "fresh_wiki2": 128,
+    "swde": 96,
+    "fresh_wiki3": 128,
+    "swde3": 40
+  },
+  "swde_source_files_disjoint": true,
+  "sources_sha256": {
+    "assess.py": "7264fee0ad86d3d4791979f2802855e1269fe7fa4d8cf987b99fb791b2593ab7",
+    "baselines.py": "e45d1f9a3fcd5b3285a4c1c2a2a0221b9fec1081f6a6796d59befc828c827e07",
+    "benchmark.py": "5eaf9af6ef445038c813ad0baf8576db228d728c2bd80528efa2fbf94a0437fc",
+    "benchmark_gauge.py": "aa2681a0b63e42359648afc36a0ba752576ec2669909093efc91d6b137f9ef5b",
+    "calibrate.py": "62c71652ffb1e5b8004c8c8c11a472d50048b2d3ebfa08392ab08f7a3baa6b39",
+    "core.py": "d31357b36ee885ff8c27bcfad3fe8549ea4386566cb5783224f389a2e4227b0f",
+    "extend.py": "ee6d4f7226d96639b756b62154287961d8441db1ce14fbf0f3973e6f6c7f034f",
+    "finalaudit.py": "6316072cca0e9140a73af1ddde4470aac019af86f98abf62f449e23db0921243",
+    "finalize.py": "e58ca4d3023465bc8b137816f222cc0f6604b1e4c1f5a08c6b571c51836bce4d",
+    "finish.py": "b8173f63b1d3bd5f8e3f49f1518ccde064825c6a8959e1ba1c6a512ca291631f",
+    "finish2.py": "8cce5a76f3ce0dc9f696409c902d96cefe5bd99df268af74e973031e7d68d41b",
+    "finish3.py": "a42a7d49fc34769e1b741737116b00c1bd2ceb29a9dd2e3f9eab8f2adccd6c31",
+    "fresh_data.py": "3a74d6f9262c1075e04c9c8e104a6cd268578e593ec7d199608f5ff90350b33a",
+    "gauge_assess.py": "a83ee69e4d7f13fd5b59fedf20f835b209208f3d2fb730f94ff76c0ddc16b7cc",
+    "information.py": "0aeeb7d5552e9ed55a87ea9039be89839ba815b216ccf6fa9aa9ff0a5d701f75",
+    "product.py": "45cacc22829e632f482b78f4df62136a530011d0a46df171165222fe0702ae74",
+    "report.py": "059fb9ef770df96f54bb117e73d85c22e59dff393b70964abe3e9c2b8f44baad",
+    "runtime_new.py": "0d5ffe97f2044b554cc5c8bcaa4ff86f1900322c88a2e6e2f3f6b464daeefe40",
+    "spectrum.py": "9a1b17fdc63bad93798a36e742628fc995947d86dd93296417ccd767cf47f1b0",
+    "train.py": "4d823f098c04fc7421fbc987837635a7e61f1ca67095244775e0a246fbba9b07",
+    "value_experiment.py": "3a707d3a13d0057d80a0cc410e1e165f05885e31d6a31c5bae5a1f3013237d8a",
+    "verify.py": "bb42017c7d893121b8e7ec1818fb37c59e6430ed8f9762796bcadc1515d6f204"
+  },
+  "scope": "Only four frozen-model heads; hash disjointness does not prove absence of all semantic duplicates or population convergence."
+}

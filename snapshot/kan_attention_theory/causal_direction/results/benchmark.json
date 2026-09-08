@@ -1,0 +1,656 @@
+{
+  "hardware": "NVIDIA GeForce RTX 3090",
+  "torch_version": "2.13.0+cu130",
+  "results": [
+    {
+      "mode": "pure",
+      "name": "teacher",
+      "prompt_tokens": 1024,
+      "prefill_ms": 59.282432556152344,
+      "prefill_samples_ms": [
+        59.22099304199219,
+        59.22304153442383,
+        59.29983901977539,
+        59.5865592956543,
+        59.282432556152344
+      ],
+      "decode_ms_per_token": 20.909019470214844,
+      "decode_samples_ms": [
+        20.880767822265625,
+        20.887264251708984,
+        20.909019470214844,
+        21.913341522216797,
+        21.280927658081055
+      ],
+      "wall_ms_per_token": 20.914204069413245,
+      "prefill_incremental_peak_bytes": 98574336,
+      "kv_bytes": 29360128,
+      "state_bytes": 0,
+      "total_bytes": 29360128,
+      "window_bytes": 0
+    },
+    {
+      "mode": "pure",
+      "name": "favor_s11",
+      "prompt_tokens": 1024,
+      "prefill_ms": 59.986881256103516,
+      "prefill_samples_ms": [
+        60.44569778442383,
+        59.833343505859375,
+        60.047359466552734,
+        59.866111755371094,
+        59.986881256103516
+      ],
+      "decode_ms_per_token": 21.37603187561035,
+      "decode_samples_ms": [
+        21.488895416259766,
+        21.37603187561035,
+        21.360000610351562,
+        21.25872039794922,
+        21.447776794433594
+      ],
+      "wall_ms_per_token": 21.38103259494528,
+      "prefill_incremental_peak_bytes": 101696512,
+      "kv_bytes": 27262976,
+      "state_bytes": 798720,
+      "total_bytes": 28061696,
+      "window_bytes": 0
+    },
+    {
+      "mode": "pure",
+      "name": "exp_kl_s11",
+      "prompt_tokens": 1024,
+      "prefill_ms": 60.326942443847656,
+      "prefill_samples_ms": [
+        60.431358337402344,
+        60.09036636352539,
+        60.47334289550781,
+        60.326942443847656,
+        60.29414367675781
+      ],
+      "decode_ms_per_token": 21.37059211730957,
+      "decode_samples_ms": [
+        21.2509765625,
+        21.233152389526367,
+        21.37059211730957,
+        22.500831604003906,
+        21.781471252441406
+      ],
+      "wall_ms_per_token": 21.375409909524024,
+      "prefill_incremental_peak_bytes": 102482944,
+      "kv_bytes": 27262976,
+      "state_bytes": 798720,
+      "total_bytes": 28061696,
+      "window_bytes": 0
+    },
+    {
+      "mode": "pure",
+      "name": "split_01_s11",
+      "prompt_tokens": 1024,
+      "prefill_ms": 60.252159118652344,
+      "prefill_samples_ms": [
+        60.252159118652344,
+        60.2869758605957,
+        60.2786865234375,
+        60.23680114746094,
+        60.137569427490234
+      ],
+      "decode_ms_per_token": 21.601760864257812,
+      "decode_samples_ms": [
+        22.477344512939453,
+        21.369312286376953,
+        21.425216674804688,
+        21.944576263427734,
+        21.601760864257812
+      ],
+      "wall_ms_per_token": 21.60670008743182,
+      "prefill_incremental_peak_bytes": 101696512,
+      "kv_bytes": 27262976,
+      "state_bytes": 798720,
+      "total_bytes": 28061696,
+      "window_bytes": 0
+    },
+    {
+      "mode": "hybrid",
+      "name": "favor_s11",
+      "prompt_tokens": 1024,
+      "prefill_ms": 70.37542724609375,
+      "prefill_samples_ms": [
+        70.53823852539062,
+        70.150146484375,
+        70.3795166015625,
+        70.37542724609375,
+        70.34060668945312
+      ],
+      "decode_ms_per_token": 22.845760345458984,
+      "decode_samples_ms": [
+        22.770368576049805,
+        22.845760345458984,
+        22.81395149230957,
+        22.924991607666016,
+        24.728063583374023
+      ],
+      "wall_ms_per_token": 22.85086619667709,
+      "prefill_incremental_peak_bytes": 162334208,
+      "kv_bytes": 27262976,
+      "state_bytes": 798720,
+      "total_bytes": 28192768,
+      "window_bytes": 131072
+    },
+    {
+      "mode": "hybrid",
+      "name": "calibrated_s11",
+      "prompt_tokens": 1024,
+      "prefill_ms": 71.16492462158203,
+      "prefill_samples_ms": [
+        71.24479675292969,
+        71.18335723876953,
+        71.16492462158203,
+        71.06559753417969,
+        71.05741119384766
+      ],
+      "decode_ms_per_token": 23.935903549194336,
+      "decode_samples_ms": [
+        24.495935440063477,
+        24.19932746887207,
+        23.935903549194336,
+        23.919391632080078,
+        23.663040161132812
+      ],
+      "wall_ms_per_token": 23.941104707773775,
+      "prefill_incremental_peak_bytes": 163120640,
+      "kv_bytes": 27262976,
+      "state_bytes": 798720,
+      "total_bytes": 28192768,
+      "window_bytes": 131072
+    },
+    {
+      "mode": "hybrid",
+      "name": "gate_s11",
+      "prompt_tokens": 1024,
+      "prefill_ms": 71.09222412109375,
+      "prefill_samples_ms": [
+        70.97856140136719,
+        71.09222412109375,
+        71.1720962524414,
+        71.07891082763672,
+        71.23251342773438
+      ],
+      "decode_ms_per_token": 23.980384826660156,
+      "decode_samples_ms": [
+        23.980384826660156,
+        23.88755226135254,
+        23.616416931152344,
+        24.493791580200195,
+        23.981216430664062
+      ],
+      "wall_ms_per_token": 23.98557000560686,
+      "prefill_incremental_peak_bytes": 162334208,
+      "kv_bytes": 27262976,
+      "state_bytes": 798720,
+      "total_bytes": 28192768,
+      "window_bytes": 131072
+    },
+    {
+      "mode": "window",
+      "name": "swa448_sink4",
+      "prompt_tokens": 1024,
+      "prefill_ms": 62.19366455078125,
+      "prefill_samples_ms": [
+        62.0318717956543,
+        61.91001510620117,
+        62.425086975097656,
+        62.4824333190918,
+        62.19366455078125
+      ],
+      "decode_ms_per_token": 21.830944061279297,
+      "decode_samples_ms": [
+        21.642080307006836,
+        22.360607147216797,
+        21.643903732299805,
+        21.830944061279297,
+        22.18511962890625
+      ],
+      "wall_ms_per_token": 21.836096711922437,
+      "prefill_incremental_peak_bytes": 97402880,
+      "kv_bytes": 27262976,
+      "state_bytes": 0,
+      "total_bytes": 28188672,
+      "window_bytes": 925696
+    },
+    {
+      "mode": "pure",
+      "name": "teacher",
+      "prompt_tokens": 4096,
+      "prefill_ms": 225.79721069335938,
+      "prefill_samples_ms": [
+        225.915771484375,
+        225.68345642089844,
+        225.85752868652344,
+        225.623046875,
+        225.79721069335938
+      ],
+      "decode_ms_per_token": 21.11020851135254,
+      "decode_samples_ms": [
+        20.94131088256836,
+        20.90880012512207,
+        23.589792251586914,
+        21.11020851135254,
+        21.51420783996582
+      ],
+      "wall_ms_per_token": 21.11657860223204,
+      "prefill_incremental_peak_bytes": 392069120,
+      "kv_bytes": 117440512,
+      "state_bytes": 0,
+      "total_bytes": 117440512,
+      "window_bytes": 0
+    },
+    {
+      "mode": "pure",
+      "name": "favor_s11",
+      "prompt_tokens": 4096,
+      "prefill_ms": 228.0775604248047,
+      "prefill_samples_ms": [
+        227.74485778808594,
+        228.5905303955078,
+        228.4646453857422,
+        228.0325164794922,
+        228.0775604248047
+      ],
+      "decode_ms_per_token": 21.18560028076172,
+      "decode_samples_ms": [
+        21.906463623046875,
+        22.59760093688965,
+        21.18560028076172,
+        21.050975799560547,
+        21.01171112060547
+      ],
+      "wall_ms_per_token": 21.190408675465733,
+      "prefill_incremental_peak_bytes": 407544832,
+      "kv_bytes": 109051904,
+      "state_bytes": 798720,
+      "total_bytes": 109850624,
+      "window_bytes": 0
+    },
+    {
+      "mode": "pure",
+      "name": "exp_kl_s11",
+      "prompt_tokens": 4096,
+      "prefill_ms": 229.4292449951172,
+      "prefill_samples_ms": [
+        229.4517822265625,
+        229.35244750976562,
+        229.69036865234375,
+        229.4292449951172,
+        229.38931274414062
+      ],
+      "decode_ms_per_token": 21.119680404663086,
+      "decode_samples_ms": [
+        21.11078453063965,
+        21.062847137451172,
+        21.129695892333984,
+        21.189855575561523,
+        21.119680404663086
+      ],
+      "wall_ms_per_token": 21.124643739312887,
+      "prefill_incremental_peak_bytes": 406365184,
+      "kv_bytes": 109051904,
+      "state_bytes": 798720,
+      "total_bytes": 109850624,
+      "window_bytes": 0
+    },
+    {
+      "mode": "pure",
+      "name": "split_01_s11",
+      "prompt_tokens": 4096,
+      "prefill_ms": 229.74362182617188,
+      "prefill_samples_ms": [
+        229.37088012695312,
+        229.74362182617188,
+        229.950439453125,
+        229.9207305908203,
+        229.66680908203125
+      ],
+      "decode_ms_per_token": 21.120771408081055,
+      "decode_samples_ms": [
+        21.631391525268555,
+        21.032480239868164,
+        21.120771408081055,
+        21.287456512451172,
+        21.046688079833984
+      ],
+      "wall_ms_per_token": 21.126555337104946,
+      "prefill_incremental_peak_bytes": 407020544,
+      "kv_bytes": 109051904,
+      "state_bytes": 798720,
+      "total_bytes": 109850624,
+      "window_bytes": 0
+    },
+    {
+      "mode": "hybrid",
+      "name": "favor_s11",
+      "prompt_tokens": 4096,
+      "prefill_ms": 269.4563903808594,
+      "prefill_samples_ms": [
+        269.2761535644531,
+        269.3150939941406,
+        269.4563903808594,
+        269.8137512207031,
+        269.65093994140625
+      ],
+      "decode_ms_per_token": 22.597408294677734,
+      "decode_samples_ms": [
+        22.552799224853516,
+        22.566877365112305,
+        22.696256637573242,
+        22.599519729614258,
+        22.597408294677734
+      ],
+      "wall_ms_per_token": 22.602601966354996,
+      "prefill_incremental_peak_bytes": 431001088,
+      "kv_bytes": 109051904,
+      "state_bytes": 798720,
+      "total_bytes": 109981696,
+      "window_bytes": 131072
+    },
+    {
+      "mode": "hybrid",
+      "name": "calibrated_s11",
+      "prompt_tokens": 4096,
+      "prefill_ms": 271.29754638671875,
+      "prefill_samples_ms": [
+        271.29754638671875,
+        271.0599670410156,
+        271.48492431640625,
+        271.58526611328125,
+        270.95245361328125
+      ],
+      "decode_ms_per_token": 22.93891143798828,
+      "decode_samples_ms": [
+        22.6732120513916,
+        22.66582489013672,
+        23.537120819091797,
+        22.93891143798828,
+        23.50409507751465
+      ],
+      "wall_ms_per_token": 22.944576106965542,
+      "prefill_incremental_peak_bytes": 429821440,
+      "kv_bytes": 109051904,
+      "state_bytes": 798720,
+      "total_bytes": 109981696,
+      "window_bytes": 131072
+    },
+    {
+      "mode": "hybrid",
+      "name": "gate_s11",
+      "prompt_tokens": 4096,
+      "prefill_ms": 271.0148620605469,
+      "prefill_samples_ms": [
+        271.17156982421875,
+        271.0148620605469,
+        270.91455078125,
+        271.1388244628906,
+        270.84698486328125
+      ],
+      "decode_ms_per_token": 22.803232192993164,
+      "decode_samples_ms": [
+        23.050111770629883,
+        23.16642951965332,
+        22.648191452026367,
+        22.803232192993164,
+        22.571392059326172
+      ],
+      "wall_ms_per_token": 22.80845824861899,
+      "prefill_incremental_peak_bytes": 430476800,
+      "kv_bytes": 109051904,
+      "state_bytes": 798720,
+      "total_bytes": 109981696,
+      "window_bytes": 131072
+    },
+    {
+      "mode": "window",
+      "name": "swa448_sink4",
+      "prompt_tokens": 4096,
+      "prefill_ms": 238.0247039794922,
+      "prefill_samples_ms": [
+        238.08511352539062,
+        237.80543518066406,
+        238.0247039794922,
+        237.71136474609375,
+        238.09432983398438
+      ],
+      "decode_ms_per_token": 21.53667449951172,
+      "decode_samples_ms": [
+        21.572959899902344,
+        21.34566307067871,
+        21.735807418823242,
+        21.4748477935791,
+        21.53667449951172
+      ],
+      "wall_ms_per_token": 21.54170209541917,
+      "prefill_incremental_peak_bytes": 384606208,
+      "kv_bytes": 109051904,
+      "state_bytes": 0,
+      "total_bytes": 109977600,
+      "window_bytes": 925696
+    },
+    {
+      "mode": "pure",
+      "name": "teacher",
+      "prompt_tokens": 8192,
+      "prefill_ms": 468.5537414550781,
+      "prefill_samples_ms": [
+        468.5537414550781,
+        469.42413330078125,
+        468.4071350097656,
+        467.67205810546875,
+        469.30023193359375
+      ],
+      "decode_ms_per_token": 21.32032012939453,
+      "decode_samples_ms": [
+        21.39904022216797,
+        21.32032012939453,
+        21.32499122619629,
+        21.206811904907227,
+        21.290847778320312
+      ],
+      "wall_ms_per_token": 21.32608345709741,
+      "prefill_incremental_peak_bytes": 781254656,
+      "kv_bytes": 234881024,
+      "state_bytes": 0,
+      "total_bytes": 234881024,
+      "window_bytes": 0
+    },
+    {
+      "mode": "pure",
+      "name": "favor_s11",
+      "prompt_tokens": 8192,
+      "prefill_ms": 471.1536560058594,
+      "prefill_samples_ms": [
+        469.49273681640625,
+        471.1536560058594,
+        471.0697021484375,
+        471.4168395996094,
+        472.6507568359375
+      ],
+      "decode_ms_per_token": 21.606016159057617,
+      "decode_samples_ms": [
+        21.606016159057617,
+        22.31692886352539,
+        21.283004760742188,
+        21.414499282836914,
+        22.77948760986328
+      ],
+      "wall_ms_per_token": 21.611267642583698,
+      "prefill_incremental_peak_bytes": 811803648,
+      "kv_bytes": 218103808,
+      "state_bytes": 798720,
+      "total_bytes": 218902528,
+      "window_bytes": 0
+    },
+    {
+      "mode": "pure",
+      "name": "exp_kl_s11",
+      "prompt_tokens": 8192,
+      "prefill_ms": 473.7679443359375,
+      "prefill_samples_ms": [
+        474.21746826171875,
+        473.7679443359375,
+        474.6342468261719,
+        473.13818359375,
+        472.8636474609375
+      ],
+      "decode_ms_per_token": 21.280704498291016,
+      "decode_samples_ms": [
+        21.619295120239258,
+        21.206655502319336,
+        21.280704498291016,
+        21.504575729370117,
+        21.26995277404785
+      ],
+      "wall_ms_per_token": 21.285890019498765,
+      "prefill_incremental_peak_bytes": 810755072,
+      "kv_bytes": 218103808,
+      "state_bytes": 798720,
+      "total_bytes": 218902528,
+      "window_bytes": 0
+    },
+    {
+      "mode": "pure",
+      "name": "split_01_s11",
+      "prompt_tokens": 8192,
+      "prefill_ms": 473.965576171875,
+      "prefill_samples_ms": [
+        473.965576171875,
+        473.1494445800781,
+        475.2138366699219,
+        474.7888488769531,
+        473.62969970703125
+      ],
+      "decode_ms_per_token": 21.228960037231445,
+      "decode_samples_ms": [
+        21.433120727539062,
+        21.072864532470703,
+        21.228960037231445,
+        21.185344696044922,
+        21.282495498657227
+      ],
+      "wall_ms_per_token": 21.234191430266947,
+      "prefill_incremental_peak_bytes": 810755072,
+      "kv_bytes": 218103808,
+      "state_bytes": 798720,
+      "total_bytes": 218902528,
+      "window_bytes": 0
+    },
+    {
+      "mode": "hybrid",
+      "name": "favor_s11",
+      "prompt_tokens": 8192,
+      "prefill_ms": 553.977783203125,
+      "prefill_samples_ms": [
+        554.3741455078125,
+        553.977783203125,
+        555.0572509765625,
+        552.7581787109375,
+        552.941650390625
+      ],
+      "decode_ms_per_token": 23.22982406616211,
+      "decode_samples_ms": [
+        23.22982406616211,
+        23.61762809753418,
+        23.001184463500977,
+        22.7825927734375,
+        23.30745506286621
+      ],
+      "wall_ms_per_token": 23.235255968756974,
+      "prefill_incremental_peak_bytes": 859835904,
+      "kv_bytes": 218103808,
+      "state_bytes": 798720,
+      "total_bytes": 219033600,
+      "window_bytes": 131072
+    },
+    {
+      "mode": "hybrid",
+      "name": "calibrated_s11",
+      "prompt_tokens": 8192,
+      "prefill_ms": 556.5296630859375,
+      "prefill_samples_ms": [
+        557.138916015625,
+        556.4835815429688,
+        557.0560302734375,
+        556.5296630859375,
+        555.931640625
+      ],
+      "decode_ms_per_token": 23.401952743530273,
+      "decode_samples_ms": [
+        24.02854347229004,
+        23.701215744018555,
+        22.93948745727539,
+        23.11497688293457,
+        23.401952743530273
+      ],
+      "wall_ms_per_token": 23.407503380440176,
+      "prefill_incremental_peak_bytes": 858787328,
+      "kv_bytes": 218103808,
+      "state_bytes": 798720,
+      "total_bytes": 219033600,
+      "window_bytes": 131072
+    },
+    {
+      "mode": "hybrid",
+      "name": "gate_s11",
+      "prompt_tokens": 8192,
+      "prefill_ms": 556.5960693359375,
+      "prefill_samples_ms": [
+        556.5960693359375,
+        557.0005493164062,
+        557.3816528320312,
+        556.2623901367188,
+        556.5307006835938
+      ],
+      "decode_ms_per_token": 23.06105613708496,
+      "decode_samples_ms": [
+        24.07379150390625,
+        22.754302978515625,
+        23.06105613708496,
+        23.100383758544922,
+        22.780866622924805
+      ],
+      "wall_ms_per_token": 23.066424764692783,
+      "prefill_incremental_peak_bytes": 859377152,
+      "kv_bytes": 218103808,
+      "state_bytes": 798720,
+      "total_bytes": 219033600,
+      "window_bytes": 131072
+    },
+    {
+      "mode": "window",
+      "name": "swa448_sink4",
+      "prompt_tokens": 8192,
+      "prefill_ms": 492.5941467285156,
+      "prefill_samples_ms": [
+        493.2178039550781,
+        493.2147216796875,
+        491.95416259765625,
+        491.4923400878906,
+        492.5941467285156
+      ],
+      "decode_ms_per_token": 21.645023345947266,
+      "decode_samples_ms": [
+        21.645023345947266,
+        21.995771408081055,
+        21.792896270751953,
+        21.4583683013916,
+        21.443838119506836
+      ],
+      "wall_ms_per_token": 21.650574868544936,
+      "prefill_incremental_peak_bytes": 765403136,
+      "kv_bytes": 218103808,
+      "state_bytes": 0,
+      "total_bytes": 219029504,
+      "window_bytes": 925696
+    }
+  ],
+  "protocol": "No concurrent GPU workload. BF16 frozen model, FP32 learned features/state, TF32 disabled. Batch1, unpadded. Three prefill warmups; six paired prefill+32 decode trials, discard first for both. CUDA events plus wall clock. Fixed teacher-forced continuation for timing. Only24/336 heads, two complete GQA layers. HF eager execution; neither compiled serving engine nor full linearized model.",
+  "precision_note": "MLP and FAVOR both use Triton fused log-feature projection plus the same fused state update. Observed timings characterize these implementations, not intrinsic architecture optimality. Hybrid reference local path not fused."
+}

@@ -1,0 +1,110 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "name": "ad_raw_s11_lr0.002",
+      "params_per_head": 73729,
+      "m": 64,
+      "fp64_scan_relative_error": 7.979799965617121e-16,
+      "fp64_recurrence_relative_error": 7.979799965617121e-16
+    },
+    {
+      "name": "ad_raw_s29_lr0.002",
+      "params_per_head": 73729,
+      "m": 64,
+      "fp64_scan_relative_error": 9.305738681649892e-16,
+      "fp64_recurrence_relative_error": 9.305738681649892e-16
+    },
+    {
+      "name": "ad_raw_s47_lr0.002",
+      "params_per_head": 73729,
+      "m": 64,
+      "fp64_scan_relative_error": 6.934197467679279e-16,
+      "fp64_recurrence_relative_error": 6.934197467679279e-16
+    },
+    {
+      "name": "hh_raw_s11_lr0.002",
+      "params_per_head": 73729,
+      "m": 576,
+      "fp64_scan_relative_error": 2.136970633864963e-15,
+      "fp64_recurrence_relative_error": 1.6027279753987221e-15
+    },
+    {
+      "name": "hh_raw_s29_lr0.002",
+      "params_per_head": 73729,
+      "m": 576,
+      "fp64_scan_relative_error": 2.136970633864963e-15,
+      "fp64_recurrence_relative_error": 8.547882535459851e-16
+    },
+    {
+      "name": "hh_raw_s47_lr0.002",
+      "params_per_head": 73729,
+      "m": 576,
+      "fp64_scan_relative_error": 2.0835463680183388e-15,
+      "fp64_recurrence_relative_error": 1.3356066461656018e-15
+    },
+    {
+      "name": "ad_kl_s11_lr0.002",
+      "params_per_head": 73728,
+      "m": 64,
+      "fp64_scan_relative_error": 7.574380316579839e-16,
+      "fp64_recurrence_relative_error": 9.467975395724798e-16
+    },
+    {
+      "name": "ad_kl_s29_lr0.002",
+      "params_per_head": 73728,
+      "m": 64,
+      "fp64_scan_relative_error": 9.067544111182742e-16,
+      "fp64_recurrence_relative_error": 9.067544111182742e-16
+    },
+    {
+      "name": "ad_kl_s47_lr0.002",
+      "params_per_head": 73728,
+      "m": 64,
+      "fp64_scan_relative_error": 8.389023952943412e-16,
+      "fp64_recurrence_relative_error": 8.389023952943412e-16
+    },
+    {
+      "name": "hh_kl_s11_lr0.002",
+      "params_per_head": 73728,
+      "m": 576,
+      "fp64_scan_relative_error": 1.7060483360780621e-15,
+      "fp64_recurrence_relative_error": 8.530241680390311e-16
+    },
+    {
+      "name": "hh_kl_s29_lr0.002",
+      "params_per_head": 73728,
+      "m": 576,
+      "fp64_scan_relative_error": 1.90526151663629e-15,
+      "fp64_recurrence_relative_error": 8.227265640020342e-16
+    },
+    {
+      "name": "hh_kl_s47_lr0.002",
+      "params_per_head": 73728,
+      "m": 576,
+      "fp64_scan_relative_error": 2.021330006924936e-15,
+      "fp64_recurrence_relative_error": 6.737766689749786e-16
+    },
+    {
+      "name": "hh_softmax_kl_s11_lr0.002",
+      "params_per_head": 73728,
+      "m": 576,
+      "fp64_scan_relative_error": 1.9467259219154138e-15,
+      "fp64_recurrence_relative_error": 7.786903687661654e-16
+    },
+    {
+      "name": "hh_softmax_kl_s29_lr0.002",
+      "params_per_head": 73728,
+      "m": 576,
+      "fp64_scan_relative_error": 1.6625666538805905e-15,
+      "fp64_recurrence_relative_error": 9.236481410447726e-16
+    },
+    {
+      "name": "hh_softmax_kl_s47_lr0.002",
+      "params_per_head": 73728,
+      "m": 576,
+      "fp64_scan_relative_error": 1.7078359185603633e-15,
+      "fp64_recurrence_relative_error": 7.590381860268281e-16
+    }
+  ]
+}

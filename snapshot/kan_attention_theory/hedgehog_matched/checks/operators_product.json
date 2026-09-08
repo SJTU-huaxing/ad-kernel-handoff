@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "name": "product_ad_raw_s11_lr0.002",
+      "params_per_head": 73729,
+      "m": 64,
+      "fp64_scan_relative_error": 9.843824364423385e-16,
+      "fp64_recurrence_relative_error": 6.562549576282256e-16
+    },
+    {
+      "name": "product_ad_raw_s29_lr0.002",
+      "params_per_head": 73729,
+      "m": 64,
+      "fp64_scan_relative_error": 7.239182432768863e-16,
+      "fp64_recurrence_relative_error": 9.048978040961078e-16
+    },
+    {
+      "name": "product_ad_raw_s47_lr0.002",
+      "params_per_head": 73729,
+      "m": 64,
+      "fp64_scan_relative_error": 1.135391754519238e-15,
+      "fp64_recurrence_relative_error": 8.920935214079728e-16
+    },
+    {
+      "name": "product_hh_raw_s11_lr0.002",
+      "params_per_head": 73729,
+      "m": 576,
+      "fp64_scan_relative_error": 2.652113179899635e-15,
+      "fp64_recurrence_relative_error": 1.3260565899498175e-15
+    },
+    {
+      "name": "product_hh_raw_s29_lr0.002",
+      "params_per_head": 73729,
+      "m": 576,
+      "fp64_scan_relative_error": 2.1330174109302624e-15,
+      "fp64_recurrence_relative_error": 1.0131832701918745e-15
+    },
+    {
+      "name": "product_hh_raw_s47_lr0.002",
+      "params_per_head": 73729,
+      "m": 576,
+      "fp64_scan_relative_error": 2.2140377866217647e-15,
+      "fp64_recurrence_relative_error": 9.488733371236135e-16
+    }
+  ]
+}

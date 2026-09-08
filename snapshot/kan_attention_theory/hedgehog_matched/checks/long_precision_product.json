@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "name": "product_ad_raw_s11_lr0.002",
+      "n": 8192,
+      "selected_queries": 64,
+      "relative_max_output_error": 9.642731551727006e-07,
+      "zero_denominators": 0,
+      "scope": "FP32 full8k chunk scan against FP64 explicit real64Q x8192K,first12heads,firstheldoutlongdoc."
+    },
+    {
+      "name": "product_hh_raw_s11_lr0.002",
+      "n": 8192,
+      "selected_queries": 64,
+      "relative_max_output_error": 1.511035425909105e-06,
+      "zero_denominators": 0,
+      "scope": "FP32 full8k chunk scan against FP64 explicit real64Q x8192K,first12heads,firstheldoutlongdoc."
+    }
+  ]
+}

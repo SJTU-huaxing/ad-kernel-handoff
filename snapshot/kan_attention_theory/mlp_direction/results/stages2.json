@@ -1,0 +1,53 @@
+[
+  {
+    "script": "assess.py",
+    "args": [
+      "scenarios"
+    ],
+    "exit_code": 0,
+    "seconds": 261.51036131195724,
+    "log": "/root/autodl-tmp/kan_attention_theory/mlp_direction/round2_assess_scenarios.log"
+  },
+  {
+    "script": "fresh_data.py",
+    "args": [
+      "extract",
+      "--round2"
+    ],
+    "exit_code": 0,
+    "seconds": 17.82855487242341,
+    "log": "/root/autodl-tmp/kan_attention_theory/mlp_direction/round2_fresh_data_extract.log"
+  },
+  {
+    "script": "verify.py",
+    "args": [],
+    "exit_code": 0,
+    "seconds": 3.7168196998536587,
+    "log": "/root/autodl-tmp/kan_attention_theory/mlp_direction/round2_verify_run.log"
+  },
+  {
+    "script": "assess.py",
+    "args": [
+      "kernels"
+    ],
+    "exit_code": 0,
+    "seconds": 207.70518825389445,
+    "log": "/root/autodl-tmp/kan_attention_theory/mlp_direction/round2_assess_kernels.log"
+  },
+  {
+    "script": "assess.py",
+    "args": [
+      "ppl"
+    ],
+    "exit_code": 0,
+    "seconds": 768.3810668885708,
+    "log": "/root/autodl-tmp/kan_attention_theory/mlp_direction/round2_assess_ppl.log"
+  },
+  {
+    "script": "benchmark.py",
+    "args": [],
+    "exit_code": 0,
+    "seconds": 322.3742781020701,
+    "log": "/root/autodl-tmp/kan_attention_theory/mlp_direction/round2_benchmark_run.log"
+  }
+]

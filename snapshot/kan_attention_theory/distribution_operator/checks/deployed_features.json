@@ -1,0 +1,22 @@
+{
+  "checks": [
+    {
+      "m": 16,
+      "feature_product_relative_error": 4.084370667113624e-16
+    },
+    {
+      "m": 32,
+      "feature_product_relative_error": 4.2260996481300337e-16
+    },
+    {
+      "m": 64,
+      "feature_product_relative_error": 4.0675150611769824e-16
+    },
+    {
+      "m": 128,
+      "feature_product_relative_error": 4.2592314511819715e-16
+    }
+  ],
+  "optional_strictly_positive_features_verified": true,
+  "default": "epsilon=0 matches reported piecewise-constant kernel; epsilon>0 is an unevaluated smoothing option."
+}

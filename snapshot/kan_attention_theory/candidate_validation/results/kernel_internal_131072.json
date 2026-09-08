@@ -1,0 +1,1078 @@
+{
+  "results": [
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        0
+      ],
+      "method": "cone_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.3206171035452969,
+      "sample_normalized_idiv": 0.2806719891336624,
+      "sample_log_mae": 3.267207742234244,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.28035995217022247,
+      "predicted_energy_ratio": 0.6862320344163665,
+      "span_risk": 0.2989853257337789,
+      "coefficient_excess": 0.021631777811517983,
+      "retained_basis_rank": 41,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        0
+      ],
+      "method": "cone_mlp",
+      "m": 64,
+      "kernel_nmse": 0.35256716893169954,
+      "sample_normalized_idiv": 0.545895962362155,
+      "sample_log_mae": 3.8342073509232346,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.28035995217022247,
+      "predicted_energy_ratio": 0.6688967110673463,
+      "span_risk": 0.33895185891008195,
+      "coefficient_excess": 0.013615310021617588,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        0
+      ],
+      "method": "cone_kan",
+      "m": 64,
+      "kernel_nmse": 0.34120557420175407,
+      "sample_normalized_idiv": 0.44881893418867463,
+      "sample_log_mae": 5.055089906691608,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.28035995217022247,
+      "predicted_energy_ratio": 0.660513962590406,
+      "span_risk": 0.30359982678244435,
+      "coefficient_excess": 0.03760574741930972,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        0
+      ],
+      "method": "avg_mlp",
+      "m": 64,
+      "kernel_nmse": 0.4576214648313656,
+      "sample_normalized_idiv": 0.7787237270562563,
+      "sample_log_mae": 5.673351915391258,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.28035995217022247,
+      "predicted_energy_ratio": 0.23781373053460123,
+      "span_risk": 0.33895185891008195,
+      "coefficient_excess": 0.11866960592128367,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        0
+      ],
+      "method": "avg_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.33911782927995726,
+      "sample_normalized_idiv": 0.3744277319274025,
+      "sample_log_mae": 4.653046136576458,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.28035995217022247,
+      "predicted_energy_ratio": 0.5042804968082408,
+      "span_risk": 0.2989853257337789,
+      "coefficient_excess": 0.040132503546178366,
+      "retained_basis_rank": 41,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        0
+      ],
+      "method": "vq",
+      "m": 64,
+      "kernel_nmse": 0.9630435350322463,
+      "sample_normalized_idiv": 10.025369108985336,
+      "sample_log_mae": 1.792601067035203,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.28035995217022247,
+      "predicted_energy_ratio": 0.006254301092465069
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        0
+      ],
+      "method": "nn_mlp_11",
+      "m": 64,
+      "kernel_nmse": 0.3669999368427367,
+      "sample_normalized_idiv": 0.5471931611340565,
+      "sample_log_mae": 4.055978206663511,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.28035995217022247,
+      "predicted_energy_ratio": 0.7033410194726589
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        0
+      ],
+      "method": "nn_kan_11",
+      "m": 64,
+      "kernel_nmse": 0.3748262749532348,
+      "sample_normalized_idiv": 0.5533742306647804,
+      "sample_log_mae": 4.404772572327095,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.28035995217022247,
+      "predicted_energy_ratio": 0.6327926397289603
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        0
+      ],
+      "method": "nn_mulkan_11",
+      "m": 64,
+      "kernel_nmse": 0.35929435818493305,
+      "sample_normalized_idiv": 0.4857228977452367,
+      "sample_log_mae": 4.176935391746131,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.28035995217022247,
+      "predicted_energy_ratio": 0.6378875738637868
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        0
+      ],
+      "method": "nystrom",
+      "m": 64,
+      "kernel_nmse": 1.5310046844182743,
+      "sample_normalized_idiv": null,
+      "sample_log_mae": null,
+      "sample_negative_fraction": 0.130859375,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.28035995217022247,
+      "predicted_energy_ratio": 2.2629846063424153
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        6
+      ],
+      "method": "cone_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.4689597034829338,
+      "sample_normalized_idiv": 0.7223992474135216,
+      "sample_log_mae": 3.7857712520456936,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.6636806191881561,
+      "predicted_energy_ratio": 0.5341592204615745,
+      "span_risk": 0.4664962967222037,
+      "coefficient_excess": 0.0024634067607300913,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        6
+      ],
+      "method": "cone_mlp",
+      "m": 64,
+      "kernel_nmse": 0.46751050145814504,
+      "sample_normalized_idiv": 0.5759952886235605,
+      "sample_log_mae": 2.740981957319666,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.6636806191881561,
+      "predicted_energy_ratio": 0.5376657901565969,
+      "span_risk": 0.46395063157666305,
+      "coefficient_excess": 0.003559869881481992,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        6
+      ],
+      "method": "cone_kan",
+      "m": 64,
+      "kernel_nmse": 0.46759390727690586,
+      "sample_normalized_idiv": 0.6714701244017997,
+      "sample_log_mae": 3.164271190451358,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.6636806191881561,
+      "predicted_energy_ratio": 0.5348945410270584,
+      "span_risk": 0.46471645083785795,
+      "coefficient_excess": 0.0028774564390479096,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        6
+      ],
+      "method": "avg_mlp",
+      "m": 64,
+      "kernel_nmse": 0.5677949755046525,
+      "sample_normalized_idiv": 0.8519946774741329,
+      "sample_log_mae": 4.274920489672985,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.6636806191881561,
+      "predicted_energy_ratio": 0.17272778406437816,
+      "span_risk": 0.46395063157666305,
+      "coefficient_excess": 0.10384434392798947,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        6
+      ],
+      "method": "avg_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.7688197270759137,
+      "sample_normalized_idiv": 1.424370671618703,
+      "sample_log_mae": 4.782869699502141,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.6636806191881561,
+      "predicted_energy_ratio": 0.03492502588543897,
+      "span_risk": 0.4664962967222037,
+      "coefficient_excess": 0.30232343035371,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        6
+      ],
+      "method": "vq",
+      "m": 64,
+      "kernel_nmse": 0.997037596992953,
+      "sample_normalized_idiv": 5.96036963300371,
+      "sample_log_mae": 1.9578778855055399,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.6636806191881561,
+      "predicted_energy_ratio": 0.00034675345720734484
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        6
+      ],
+      "method": "nn_mlp_11",
+      "m": 64,
+      "kernel_nmse": 0.5210049478743561,
+      "sample_normalized_idiv": 1.0403070227238116,
+      "sample_log_mae": 3.3559596038010766,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.6636806191881561,
+      "predicted_energy_ratio": 0.5753322062722691
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        6
+      ],
+      "method": "nn_kan_11",
+      "m": 64,
+      "kernel_nmse": 0.523109411543371,
+      "sample_normalized_idiv": 1.056461942730862,
+      "sample_log_mae": 3.5952657446798364,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.6636806191881561,
+      "predicted_energy_ratio": 0.5368999229101505
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        6
+      ],
+      "method": "nn_mulkan_11",
+      "m": 64,
+      "kernel_nmse": 0.520787176578006,
+      "sample_normalized_idiv": 0.9916181684439324,
+      "sample_log_mae": 3.5999688958662714,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.6636806191881561,
+      "predicted_energy_ratio": 0.5149750274995022
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        6
+      ],
+      "method": "nystrom",
+      "m": 64,
+      "kernel_nmse": 0.48714982556619374,
+      "sample_normalized_idiv": null,
+      "sample_log_mae": null,
+      "sample_negative_fraction": 0.1888275146484375,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.6636806191881561,
+      "predicted_energy_ratio": 0.579884695891272
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        0
+      ],
+      "method": "cone_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.8133744174224233,
+      "sample_normalized_idiv": 0.7173300564504423,
+      "sample_log_mae": 1.3746863900078932,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.445413592801966,
+      "predicted_energy_ratio": 0.3997921718053768,
+      "span_risk": 0.7174430175001083,
+      "coefficient_excess": 0.09593139992231503,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        0
+      ],
+      "method": "cone_mlp",
+      "m": 64,
+      "kernel_nmse": 0.8492213775612509,
+      "sample_normalized_idiv": 0.8933215855804404,
+      "sample_log_mae": 1.6265385537714874,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.445413592801966,
+      "predicted_energy_ratio": 0.20421358079141552,
+      "span_risk": 0.7866420027178964,
+      "coefficient_excess": 0.06257937484335452,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        0
+      ],
+      "method": "cone_kan",
+      "m": 64,
+      "kernel_nmse": 0.8609794233728809,
+      "sample_normalized_idiv": 0.9708030679314982,
+      "sample_log_mae": 1.9258553750542482,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.445413592801966,
+      "predicted_energy_ratio": 0.18115587237951392,
+      "span_risk": 0.7904155821433538,
+      "coefficient_excess": 0.07056384122952708,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        0
+      ],
+      "method": "avg_mlp",
+      "m": 64,
+      "kernel_nmse": 0.8917607701222078,
+      "sample_normalized_idiv": 1.1605837040462574,
+      "sample_log_mae": 2.0004533329143555,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.445413592801966,
+      "predicted_energy_ratio": 0.08670886874367816,
+      "span_risk": 0.7866420027178964,
+      "coefficient_excess": 0.10511876740431136,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        0
+      ],
+      "method": "avg_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.8446516939753693,
+      "sample_normalized_idiv": 1.0874664083274228,
+      "sample_log_mae": 1.990797229051267,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.445413592801966,
+      "predicted_energy_ratio": 0.10132204217395319,
+      "span_risk": 0.7174430175001083,
+      "coefficient_excess": 0.12720867647526102,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        0
+      ],
+      "method": "vq",
+      "m": 64,
+      "kernel_nmse": 0.9220102988116706,
+      "sample_normalized_idiv": 1.2106948937118895,
+      "sample_log_mae": 1.1709258681556278,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.445413592801966,
+      "predicted_energy_ratio": 0.01764431394952835
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        0
+      ],
+      "method": "nn_mlp_11",
+      "m": 64,
+      "kernel_nmse": 0.904508608101852,
+      "sample_normalized_idiv": 0.8431976921939297,
+      "sample_log_mae": 1.3941935342168694,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.445413592801966,
+      "predicted_energy_ratio": 0.24788538642135954
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        0
+      ],
+      "method": "nn_kan_11",
+      "m": 64,
+      "kernel_nmse": 0.8718664165616975,
+      "sample_normalized_idiv": 0.8872842936530303,
+      "sample_log_mae": 1.4974272150193948,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.445413592801966,
+      "predicted_energy_ratio": 0.19270642396131027
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        0
+      ],
+      "method": "nn_mulkan_11",
+      "m": 64,
+      "kernel_nmse": 0.8640259636151548,
+      "sample_normalized_idiv": 0.7891629935914755,
+      "sample_log_mae": 1.4917593372021083,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.445413592801966,
+      "predicted_energy_ratio": 0.3418696312819348
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        0
+      ],
+      "method": "nystrom",
+      "m": 64,
+      "kernel_nmse": 0.7319921353476319,
+      "sample_normalized_idiv": null,
+      "sample_log_mae": null,
+      "sample_negative_fraction": 0.18962478637695312,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.445413592801966,
+      "predicted_energy_ratio": 0.8788773076405815
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        6
+      ],
+      "method": "cone_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.7638881001393864,
+      "sample_normalized_idiv": 0.8598351827818408,
+      "sample_log_mae": 1.6208913115425492,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.42094091290422,
+      "predicted_energy_ratio": 0.261820062613037,
+      "span_risk": 0.5885672143629282,
+      "coefficient_excess": 0.1753208857764581,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        6
+      ],
+      "method": "cone_mlp",
+      "m": 64,
+      "kernel_nmse": 0.7788022661937531,
+      "sample_normalized_idiv": 0.8006910649921979,
+      "sample_log_mae": 1.421227944124899,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.42094091290422,
+      "predicted_energy_ratio": 0.2462420313793989,
+      "span_risk": 0.7031200538113335,
+      "coefficient_excess": 0.07568221238241968,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        6
+      ],
+      "method": "cone_kan",
+      "m": 64,
+      "kernel_nmse": 0.7579042841957294,
+      "sample_normalized_idiv": 0.8472400249659304,
+      "sample_log_mae": 1.530565938339641,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.42094091290422,
+      "predicted_energy_ratio": 0.2684647198976591,
+      "span_risk": 0.6770336227835174,
+      "coefficient_excess": 0.080870661412212,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        6
+      ],
+      "method": "avg_mlp",
+      "m": 64,
+      "kernel_nmse": 0.8535938662488027,
+      "sample_normalized_idiv": 1.0324187463131342,
+      "sample_log_mae": 1.7464066353416101,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.42094091290422,
+      "predicted_energy_ratio": 0.10215767374188786,
+      "span_risk": 0.7031200538113335,
+      "coefficient_excess": 0.15047381243746927,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        6
+      ],
+      "method": "avg_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.8536824145351386,
+      "sample_normalized_idiv": 1.130627954229478,
+      "sample_log_mae": 1.8255472592784625,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.42094091290422,
+      "predicted_energy_ratio": 0.08487560493744663,
+      "span_risk": 0.5885672143629282,
+      "coefficient_excess": 0.26511520017221035,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        6
+      ],
+      "method": "vq",
+      "m": 64,
+      "kernel_nmse": 0.8654873068067768,
+      "sample_normalized_idiv": 1.0448662017738093,
+      "sample_log_mae": 1.0561427060110122,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.42094091290422,
+      "predicted_energy_ratio": 0.0340785167001704
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        6
+      ],
+      "method": "nn_mlp_11",
+      "m": 64,
+      "kernel_nmse": 0.8447431909505577,
+      "sample_normalized_idiv": 0.8224514652042821,
+      "sample_log_mae": 1.3593592781786046,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.42094091290422,
+      "predicted_energy_ratio": 0.19742438529603365
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        6
+      ],
+      "method": "nn_kan_11",
+      "m": 64,
+      "kernel_nmse": 0.8233079109395315,
+      "sample_normalized_idiv": 0.8519547349971416,
+      "sample_log_mae": 1.500718922165907,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.42094091290422,
+      "predicted_energy_ratio": 0.16105799115518485
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        6
+      ],
+      "method": "nn_mulkan_11",
+      "m": 64,
+      "kernel_nmse": 0.7649565464097492,
+      "sample_normalized_idiv": 0.8300079938876362,
+      "sample_log_mae": 1.4743998000313285,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.42094091290422,
+      "predicted_energy_ratio": 0.32095466838495784
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        6
+      ],
+      "method": "nystrom",
+      "m": 64,
+      "kernel_nmse": 0.4017431993753178,
+      "sample_normalized_idiv": null,
+      "sample_log_mae": null,
+      "sample_negative_fraction": 0.18258285522460938,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.42094091290422,
+      "predicted_energy_ratio": 0.7545844863376431
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        0
+      ],
+      "method": "cone_raw_mlp",
+      "m": 64,
+      "kernel_nmse": 0.3373532187335691,
+      "sample_normalized_idiv": 0.35007760659046316,
+      "sample_log_mae": 3.2093520976747056,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.28035995217022247,
+      "predicted_energy_ratio": 0.6654469997111018,
+      "span_risk": 0.32926107422519113,
+      "coefficient_excess": 0.008092144508377974,
+      "retained_basis_rank": 34,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        0
+      ],
+      "method": "cone_raw_kan",
+      "m": 64,
+      "kernel_nmse": 0.3396661282822023,
+      "sample_normalized_idiv": 0.3474917558105884,
+      "sample_log_mae": 4.731451336370499,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.28035995217022247,
+      "predicted_energy_ratio": 0.6619652875336536,
+      "span_risk": 0.27036719233920226,
+      "coefficient_excess": 0.06929893594300002,
+      "retained_basis_rank": 53,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        0
+      ],
+      "method": "cone_raw_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.32769919537628667,
+      "sample_normalized_idiv": 0.2639458978117766,
+      "sample_log_mae": 3.282061921298334,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.28035995217022247,
+      "predicted_energy_ratio": 0.6760955319837257,
+      "span_risk": 0.27051462333284226,
+      "coefficient_excess": 0.057184572043444404,
+      "retained_basis_rank": 26,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        6
+      ],
+      "method": "cone_raw_mlp",
+      "m": 64,
+      "kernel_nmse": 0.4657227812545105,
+      "sample_normalized_idiv": 0.49125400580825146,
+      "sample_log_mae": 2.6921953654207336,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.6636806191881561,
+      "predicted_energy_ratio": 0.5376968784176038,
+      "span_risk": 0.4616025831797873,
+      "coefficient_excess": 0.0041201980747231914,
+      "retained_basis_rank": 62,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        6
+      ],
+      "method": "cone_raw_kan",
+      "m": 64,
+      "kernel_nmse": 0.46685041875714656,
+      "sample_normalized_idiv": 0.553250571018134,
+      "sample_log_mae": 3.256579986591637,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.6636806191881561,
+      "predicted_energy_ratio": 0.5359024361326221,
+      "span_risk": 0.46390398293957436,
+      "coefficient_excess": 0.0029464358175722016,
+      "retained_basis_rank": 62,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        14,
+        6
+      ],
+      "method": "cone_raw_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.46676266417497597,
+      "sample_normalized_idiv": 0.6123818582708511,
+      "sample_log_mae": 3.5740418134494414,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -1.6636806191881561,
+      "predicted_energy_ratio": 0.535670663965235,
+      "span_risk": 0.4639566842900845,
+      "coefficient_excess": 0.002805979884891452,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        0
+      ],
+      "method": "cone_raw_mlp",
+      "m": 64,
+      "kernel_nmse": 0.7715213142992803,
+      "sample_normalized_idiv": 0.7044214586155985,
+      "sample_log_mae": 1.349813032791819,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.445413592801966,
+      "predicted_energy_ratio": 0.3384945623712742,
+      "span_risk": 0.6757325650815424,
+      "coefficient_excess": 0.09578874921773783,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        0
+      ],
+      "method": "cone_raw_kan",
+      "m": 64,
+      "kernel_nmse": 0.803949407537547,
+      "sample_normalized_idiv": 0.7808480395305951,
+      "sample_log_mae": 1.3856588212462397,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.445413592801966,
+      "predicted_energy_ratio": 0.2846510594611894,
+      "span_risk": 0.7170205139667066,
+      "coefficient_excess": 0.08692889357084033,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        0
+      ],
+      "method": "cone_raw_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.7736212286332342,
+      "sample_normalized_idiv": 0.7032844643538005,
+      "sample_log_mae": 1.4061595345553304,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 12.445413592801966,
+      "predicted_energy_ratio": 0.4032109619680398,
+      "span_risk": 0.6857574467229454,
+      "coefficient_excess": 0.08786378191028887,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        6
+      ],
+      "method": "cone_raw_mlp",
+      "m": 64,
+      "kernel_nmse": 0.6225601150228232,
+      "sample_normalized_idiv": 0.6231479694796984,
+      "sample_log_mae": 1.2956467869620776,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.42094091290422,
+      "predicted_energy_ratio": 0.4087751128415948,
+      "span_risk": 0.5136540774164702,
+      "coefficient_excess": 0.10890603760635298,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        6
+      ],
+      "method": "cone_raw_kan",
+      "m": 64,
+      "kernel_nmse": 0.6795933859535837,
+      "sample_normalized_idiv": 0.7748412913995975,
+      "sample_log_mae": 1.3537126273448346,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.42094091290422,
+      "predicted_energy_ratio": 0.3454501490163911,
+      "span_risk": 0.5610235213380339,
+      "coefficient_excess": 0.11856986461554975,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 131072,
+      "head": [
+        27,
+        6
+      ],
+      "method": "cone_raw_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.5857447284471615,
+      "sample_normalized_idiv": 0.6860878585197748,
+      "sample_log_mae": 1.40703849640821,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 17.42094091290422,
+      "predicted_energy_ratio": 0.43906052627453096,
+      "span_risk": 0.47041867571244567,
+      "coefficient_excess": 0.11532605273471586,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    }
+  ],
+  "seconds_current_stage": 106.60486375540495,
+  "current_stage_methods": [
+    "cone_raw_mlp",
+    "cone_raw_kan",
+    "cone_raw_mulkan"
+  ],
+  "target": "Raw exp(q.k/sqrt(128)); exact full product relative squared risk, plus fixed independent pair Monte Carlo KL/log metrics.",
+  "split": "internal",
+  "empirical_only": true,
+  "selection": "All requested frozen candidates; no test fit."
+}

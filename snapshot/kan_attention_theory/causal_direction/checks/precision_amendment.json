@@ -1,0 +1,5 @@
+{
+  "fixed": "raw NMSE aggregation cast to FP64; prior JSON float32 cast overflowed for uncalibrated KL at long context",
+  "files_backfilled": 66,
+  "fit_or_selection_changed": false
+}

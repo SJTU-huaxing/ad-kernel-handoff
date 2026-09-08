@@ -1,0 +1,766 @@
+{
+  "results": [
+    {
+      "method": "cone_mulkan",
+      "dataset": "internal",
+      "documents_count": 8,
+      "documents": [
+        {
+          "ordinal": 0,
+          "nll": 2.375227451324463,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 1,
+          "nll": 1.503100037574768,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 2,
+          "nll": 2.4736247062683105,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 3,
+          "nll": 2.626145124435425,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 4,
+          "nll": 2.074817180633545,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 5,
+          "nll": 2.0123045444488525,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 6,
+          "nll": 2.474355459213257,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 7,
+          "nll": 2.296226739883423,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        }
+      ],
+      "nll": 2.2294751554727554,
+      "perplexity": 9.294986376322425,
+      "nonpositive_denominators": 0,
+      "nonfinite_attention_rows": 0,
+      "seconds": 1.7451929356902838
+    },
+    {
+      "method": "cone_mulkan",
+      "dataset": "official",
+      "documents_count": 8,
+      "documents": [
+        {
+          "ordinal": 0,
+          "nll": 2.363029718399048,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 1,
+          "nll": 1.6656981706619263,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 2,
+          "nll": 2.0441455841064453,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 3,
+          "nll": 2.2357287406921387,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 4,
+          "nll": 2.1945886611938477,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 5,
+          "nll": 2.004662275314331,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 6,
+          "nll": 2.448507070541382,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 7,
+          "nll": 2.6094300746917725,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        }
+      ],
+      "nll": 2.1957237869501114,
+      "perplexity": 8.986503017129447,
+      "nonpositive_denominators": 0,
+      "nonfinite_attention_rows": 0,
+      "seconds": 0.8304956797510386
+    },
+    {
+      "method": "cone_mlp",
+      "dataset": "internal",
+      "documents_count": 8,
+      "documents": [
+        {
+          "ordinal": 0,
+          "nll": 2.3821616172790527,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 1,
+          "nll": 1.506656527519226,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 2,
+          "nll": 2.4707627296447754,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 3,
+          "nll": 2.628796100616455,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 4,
+          "nll": 2.0770156383514404,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 5,
+          "nll": 2.0148370265960693,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 6,
+          "nll": 2.4737908840179443,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 7,
+          "nll": 2.296520709991455,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        }
+      ],
+      "nll": 2.2313176542520523,
+      "perplexity": 9.312128164386758,
+      "nonpositive_denominators": 0,
+      "nonfinite_attention_rows": 0,
+      "seconds": 0.799458147957921
+    },
+    {
+      "method": "cone_mlp",
+      "dataset": "official",
+      "documents_count": 8,
+      "documents": [
+        {
+          "ordinal": 0,
+          "nll": 2.3633203506469727,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 1,
+          "nll": 1.6570576429367065,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 2,
+          "nll": 2.039461374282837,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 3,
+          "nll": 2.2353475093841553,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 4,
+          "nll": 2.191690683364868,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 5,
+          "nll": 2.007852077484131,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 6,
+          "nll": 2.448305368423462,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 7,
+          "nll": 2.6107234954833984,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        }
+      ],
+      "nll": 2.1942198127508163,
+      "perplexity": 8.972997706814612,
+      "nonpositive_denominators": 0,
+      "nonfinite_attention_rows": 0,
+      "seconds": 0.7974107228219509
+    },
+    {
+      "method": "cone_raw_mlp",
+      "dataset": "internal",
+      "documents_count": 8,
+      "documents": [
+        {
+          "ordinal": 0,
+          "nll": 2.3799731731414795,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 1,
+          "nll": 1.506344199180603,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 2,
+          "nll": 2.471188545227051,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 3,
+          "nll": 2.627305746078491,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 4,
+          "nll": 2.0737459659576416,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 5,
+          "nll": 2.011340379714966,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 6,
+          "nll": 2.4757163524627686,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 7,
+          "nll": 2.2970058917999268,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        }
+      ],
+      "nll": 2.230327531695366,
+      "perplexity": 9.30291257927266,
+      "nonpositive_denominators": 0,
+      "nonfinite_attention_rows": 0,
+      "seconds": 1.675895208492875
+    },
+    {
+      "method": "cone_raw_mlp",
+      "dataset": "official",
+      "documents_count": 8,
+      "documents": [
+        {
+          "ordinal": 0,
+          "nll": 2.364506483078003,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 1,
+          "nll": 1.662865161895752,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 2,
+          "nll": 2.0393226146698,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 3,
+          "nll": 2.232448101043701,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 4,
+          "nll": 2.189103841781616,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 5,
+          "nll": 2.005338191986084,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 6,
+          "nll": 2.4471189975738525,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 7,
+          "nll": 2.612762928009033,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        }
+      ],
+      "nll": 2.1941832900047302,
+      "perplexity": 8.972669994282253,
+      "nonpositive_denominators": 0,
+      "nonfinite_attention_rows": 0,
+      "seconds": 0.7982177268713713
+    },
+    {
+      "method": "cone_raw_kan",
+      "dataset": "internal",
+      "documents_count": 8,
+      "documents": [
+        {
+          "ordinal": 0,
+          "nll": 2.3775200843811035,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 1,
+          "nll": 1.5047717094421387,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 2,
+          "nll": 2.4708616733551025,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 3,
+          "nll": 2.626558780670166,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 4,
+          "nll": 2.0753138065338135,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 5,
+          "nll": 2.013068437576294,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 6,
+          "nll": 2.471925735473633,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 7,
+          "nll": 2.297172784805298,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        }
+      ],
+      "nll": 2.2296491265296936,
+      "perplexity": 9.296603575595395,
+      "nonpositive_denominators": 0,
+      "nonfinite_attention_rows": 0,
+      "seconds": 0.8385664243251085
+    },
+    {
+      "method": "cone_raw_kan",
+      "dataset": "official",
+      "documents_count": 8,
+      "documents": [
+        {
+          "ordinal": 0,
+          "nll": 2.362072706222534,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 1,
+          "nll": 1.664430022239685,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 2,
+          "nll": 2.03922176361084,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 3,
+          "nll": 2.235008955001831,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 4,
+          "nll": 2.1919164657592773,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 5,
+          "nll": 2.0039093494415283,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 6,
+          "nll": 2.4479730129241943,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 7,
+          "nll": 2.6107866764068604,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        }
+      ],
+      "nll": 2.194414868950844,
+      "perplexity": 8.974748116358725,
+      "nonpositive_denominators": 0,
+      "nonfinite_attention_rows": 0,
+      "seconds": 0.8280466012656689
+    },
+    {
+      "method": "cone_raw_mulkan",
+      "dataset": "internal",
+      "documents_count": 8,
+      "documents": [
+        {
+          "ordinal": 0,
+          "nll": 2.3776297569274902,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 1,
+          "nll": 1.5031545162200928,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 2,
+          "nll": 2.4707469940185547,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 3,
+          "nll": 2.627408981323242,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 4,
+          "nll": 2.074993133544922,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 5,
+          "nll": 2.012531280517578,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 6,
+          "nll": 2.471372604370117,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 7,
+          "nll": 2.2987380027770996,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        }
+      ],
+      "nll": 2.229571908712387,
+      "perplexity": 9.295885739874134,
+      "nonpositive_denominators": 0,
+      "nonfinite_attention_rows": 0,
+      "seconds": 0.8300247900187969
+    },
+    {
+      "method": "cone_raw_mulkan",
+      "dataset": "official",
+      "documents_count": 8,
+      "documents": [
+        {
+          "ordinal": 0,
+          "nll": 2.3642306327819824,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 1,
+          "nll": 1.6685634851455688,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 2,
+          "nll": 2.0438742637634277,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 3,
+          "nll": 2.2354278564453125,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 4,
+          "nll": 2.195291042327881,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 5,
+          "nll": 2.0057857036590576,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 6,
+          "nll": 2.4471654891967773,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        },
+        {
+          "ordinal": 7,
+          "nll": 2.6117258071899414,
+          "tokens": 1023,
+          "nonpositive_denominators": 0,
+          "nonfinite_attention_rows": 0
+        }
+      ],
+      "nll": 2.1965080350637436,
+      "perplexity": 8.993553429443699,
+      "nonpositive_denominators": 0,
+      "nonfinite_attention_rows": 0,
+      "seconds": 0.8422901164740324
+    }
+  ],
+  "model": "Qwen/Qwen2.5-1.5B",
+  "revision": "8faed761d45a263340a0528343f099c05c9a4323",
+  "replaced_heads": [
+    [
+      14,
+      0
+    ],
+    [
+      14,
+      6
+    ],
+    [
+      27,
+      0
+    ],
+    [
+      27,
+      6
+    ]
+  ],
+  "total_query_heads": 336,
+  "feature_dtype": "FP64",
+  "model_dtype": "BF16",
+  "scope": "Frozen BF16 model, FP64 feature/state diagnostic on first 8 internal and first 8 official 1024-token documents; only 4/336 query heads replaced. No fine-tuning. Not a full-dataset PPL benchmark.",
+  "selection": {
+    "rule": "Top two continuous positive candidates by mean across four heads of validation raw generalized-KL / target mass. Fixed Monte Carlo pairs; validation documents separate from both training and final evaluation. No selection on internal or official tests.",
+    "candidates": [
+      {
+        "method": "cone_mulkan",
+        "score": 0.7209014791882271
+      },
+      {
+        "method": "cone_mlp",
+        "score": 0.7737337382604382
+      },
+      {
+        "method": "cone_kan",
+        "score": 0.8239129906683307
+      },
+      {
+        "method": "avg_mlp",
+        "score": 1.0563663817688826
+      },
+      {
+        "method": "avg_mulkan",
+        "score": 1.0909827582593719
+      },
+      {
+        "method": "avg_kan",
+        "score": 1.4433908768636678
+      },
+      {
+        "method": "avg_anchor",
+        "score": 2.850217156694687
+      },
+      {
+        "method": "cone_anchor",
+        "score": 2.893203299831162
+      }
+    ],
+    "selected": [
+      "cone_mulkan",
+      "cone_mlp"
+    ],
+    "ppl_methods": [
+      "cone_mulkan",
+      "cone_mlp",
+      "vq",
+      "nn_mlp_11",
+      "nn_kan_11",
+      "nn_mulkan_11"
+    ],
+    "full_product_methods": [
+      "cone_mulkan",
+      "cone_mlp",
+      "vq",
+      "nn_mlp_11",
+      "nn_kan_11",
+      "nn_mulkan_11",
+      "nystrom"
+    ]
+  }
+}

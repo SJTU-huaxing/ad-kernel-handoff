@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "name": "standard_exp_s11_lr0.002",
+      "n": 8192,
+      "selected_queries": 64,
+      "relative_max_output_error": 1.6323563212791798e-06,
+      "zero_denominators": 0,
+      "scope": "FP32 full8k chunk scan against FP64 explicit real64Q x8192K,first12heads,firstheldoutlongdoc."
+    },
+    {
+      "name": "matched_zero_ad_s11_lr0.002",
+      "n": 8192,
+      "selected_queries": 64,
+      "relative_max_output_error": 1.6568597378349434e-06,
+      "zero_denominators": 0,
+      "scope": "FP32 full8k chunk scan against FP64 explicit real64Q x8192K,first12heads,firstheldoutlongdoc."
+    },
+    {
+      "name": "matched_zero_exp_s11_lr0.002",
+      "n": 8192,
+      "selected_queries": 64,
+      "relative_max_output_error": 1.958777599475133e-06,
+      "zero_denominators": 0,
+      "scope": "FP32 full8k chunk scan against FP64 explicit real64Q x8192K,first12heads,firstheldoutlongdoc."
+    }
+  ]
+}

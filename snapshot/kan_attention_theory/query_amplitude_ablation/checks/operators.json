@@ -1,0 +1,131 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "name": "product_i_reduced_plain_s11_lr0.002",
+      "params_per_head": 73536,
+      "m": 64,
+      "fp64_scan_relative_error": 9.26563978826413e-16,
+      "fp64_recurrence_relative_error": 1.0107970678106326e-15
+    },
+    {
+      "name": "product_i_reduced_plain_s29_lr0.002",
+      "params_per_head": 73536,
+      "m": 64,
+      "fp64_scan_relative_error": 7.595919343063167e-16,
+      "fp64_recurrence_relative_error": 9.494899178828957e-16
+    },
+    {
+      "name": "product_i_reduced_plain_s47_lr0.002",
+      "params_per_head": 73536,
+      "m": 64,
+      "fp64_scan_relative_error": 9.511456002530245e-16,
+      "fp64_recurrence_relative_error": 7.609164802024195e-16
+    },
+    {
+      "name": "product_i_reduced_matched_s11_lr0.002",
+      "params_per_head": 73729,
+      "m": 64,
+      "fp64_scan_relative_error": 8.328716024889201e-16,
+      "fp64_recurrence_relative_error": 6.662972819911361e-16
+    },
+    {
+      "name": "product_i_reduced_matched_s29_lr0.002",
+      "params_per_head": 73729,
+      "m": 64,
+      "fp64_scan_relative_error": 7.797395265251036e-16,
+      "fp64_recurrence_relative_error": 6.237916212200829e-16
+    },
+    {
+      "name": "product_i_reduced_matched_s47_lr0.002",
+      "params_per_head": 73729,
+      "m": 64,
+      "fp64_scan_relative_error": 7.011188954014135e-16,
+      "fp64_recurrence_relative_error": 7.011188954014135e-16
+    },
+    {
+      "name": "causal_i_reduced_plain_s11_lr0.002",
+      "params_per_head": 73536,
+      "m": 64,
+      "fp64_scan_relative_error": 7.692756689726301e-16,
+      "fp64_recurrence_relative_error": 9.615945862157876e-16
+    },
+    {
+      "name": "causal_i_reduced_plain_s29_lr0.002",
+      "params_per_head": 73536,
+      "m": 64,
+      "fp64_scan_relative_error": 9.47574490402565e-16,
+      "fp64_recurrence_relative_error": 1.1370893884830779e-15
+    },
+    {
+      "name": "causal_i_reduced_plain_s47_lr0.002",
+      "params_per_head": 73536,
+      "m": 64,
+      "fp64_scan_relative_error": 1.0987192278029888e-15,
+      "fp64_recurrence_relative_error": 1.0987192278029888e-15
+    },
+    {
+      "name": "causal_i_reduced_matched_s11_lr0.002",
+      "params_per_head": 73729,
+      "m": 64,
+      "fp64_scan_relative_error": 7.657179627786465e-16,
+      "fp64_recurrence_relative_error": 9.57147453473308e-16
+    },
+    {
+      "name": "causal_i_reduced_matched_s29_lr0.002",
+      "params_per_head": 73729,
+      "m": 64,
+      "fp64_scan_relative_error": 9.674129379600865e-16,
+      "fp64_recurrence_relative_error": 7.739303503680693e-16
+    },
+    {
+      "name": "causal_i_reduced_matched_s47_lr0.002",
+      "params_per_head": 73729,
+      "m": 64,
+      "fp64_scan_relative_error": 9.378055117522801e-16,
+      "fp64_recurrence_relative_error": 1.031586062927508e-15
+    },
+    {
+      "name": "causal_kl_reduced_plain_s11_lr0.002",
+      "params_per_head": 73536,
+      "m": 64,
+      "fp64_scan_relative_error": 1.3255533170133527e-15,
+      "fp64_recurrence_relative_error": 1.2782121271200186e-15
+    },
+    {
+      "name": "causal_kl_reduced_plain_s29_lr0.002",
+      "params_per_head": 73536,
+      "m": 64,
+      "fp64_scan_relative_error": 1.088070214298058e-15,
+      "fp64_recurrence_relative_error": 9.06725178581715e-16
+    },
+    {
+      "name": "causal_kl_reduced_plain_s47_lr0.002",
+      "params_per_head": 73536,
+      "m": 64,
+      "fp64_scan_relative_error": 8.388962256371547e-16,
+      "fp64_recurrence_relative_error": 8.388962256371547e-16
+    },
+    {
+      "name": "causal_kl_reduced_matched_s11_lr0.002",
+      "params_per_head": 73728,
+      "m": 64,
+      "fp64_scan_relative_error": 1.074717657503972e-15,
+      "fp64_recurrence_relative_error": 1.2148982215262293e-15
+    },
+    {
+      "name": "causal_kl_reduced_matched_s29_lr0.002",
+      "params_per_head": 73728,
+      "m": 64,
+      "fp64_scan_relative_error": 8.233986017212707e-16,
+      "fp64_recurrence_relative_error": 7.319098681966851e-16
+    },
+    {
+      "name": "causal_kl_reduced_matched_s47_lr0.002",
+      "params_per_head": 73728,
+      "m": 64,
+      "fp64_scan_relative_error": 1.155450995017197e-15,
+      "fp64_recurrence_relative_error": 1.1952941327764107e-15
+    }
+  ]
+}

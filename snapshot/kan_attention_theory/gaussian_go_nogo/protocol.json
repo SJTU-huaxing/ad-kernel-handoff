@@ -1,0 +1,186 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B",
+  "model_revision": "8faed761d45a263340a0528343f099c05c9a4323",
+  "head_labels": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      0,
+      9
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      7,
+      6
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      14,
+      0
+    ],
+    [
+      14,
+      3
+    ],
+    [
+      14,
+      6
+    ],
+    [
+      14,
+      9
+    ],
+    [
+      27,
+      0
+    ],
+    [
+      27,
+      3
+    ],
+    [
+      27,
+      6
+    ],
+    [
+      27,
+      9
+    ]
+  ],
+  "ranks": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "train_documents": [
+    "train_0191.pt",
+    "train_0361.pt",
+    "train_0557.pt",
+    "train_0523.pt",
+    "train_0615.pt",
+    "train_0253.pt",
+    "train_0143.pt",
+    "train_0172.pt",
+    "train_0436.pt",
+    "train_0286.pt",
+    "train_0026.pt",
+    "train_0386.pt",
+    "train_0105.pt",
+    "train_0433.pt",
+    "train_0493.pt",
+    "train_0331.pt",
+    "train_0142.pt",
+    "train_0477.pt",
+    "train_0131.pt",
+    "train_0066.pt",
+    "train_0271.pt",
+    "train_0019.pt",
+    "train_0488.pt",
+    "train_0084.pt",
+    "train_0109.pt",
+    "train_0452.pt",
+    "train_0188.pt",
+    "train_0123.pt",
+    "train_0343.pt",
+    "train_0537.pt",
+    "train_0024.pt",
+    "train_0368.pt",
+    "train_0373.pt",
+    "train_0589.pt",
+    "train_0545.pt",
+    "train_0073.pt",
+    "train_0137.pt",
+    "train_0403.pt",
+    "train_0186.pt",
+    "train_0359.pt",
+    "train_0596.pt",
+    "train_0325.pt",
+    "train_0357.pt",
+    "train_0555.pt",
+    "train_0410.pt",
+    "train_0498.pt",
+    "train_0602.pt",
+    "train_0274.pt",
+    "train_0226.pt",
+    "train_0294.pt",
+    "train_0171.pt",
+    "train_0608.pt",
+    "train_0269.pt",
+    "train_0313.pt",
+    "train_0103.pt",
+    "train_0036.pt",
+    "train_0552.pt",
+    "train_0469.pt",
+    "train_0154.pt",
+    "train_0583.pt",
+    "train_0529.pt",
+    "train_0255.pt",
+    "train_0179.pt",
+    "train_0468.pt"
+  ],
+  "test_documents": [
+    "test_0059.pt",
+    "test_0015.pt",
+    "test_0056.pt",
+    "test_0007.pt",
+    "test_0004.pt",
+    "test_0024.pt",
+    "test_0022.pt",
+    "test_0042.pt",
+    "test_0043.pt",
+    "test_0027.pt",
+    "test_0058.pt",
+    "test_0033.pt",
+    "test_0011.pt",
+    "test_0060.pt",
+    "test_0012.pt",
+    "test_0016.pt",
+    "test_0047.pt",
+    "test_0054.pt",
+    "test_0040.pt",
+    "test_0018.pt"
+  ],
+  "samples_per_covariance": 32768,
+  "matrix_size": 512,
+  "repetitions": 4,
+  "nmf_steps": 100,
+  "favor_seeds": [
+    1009,
+    1046
+  ],
+  "q_positions": [
+    512,
+    1023
+  ],
+  "k_positions": [
+    0,
+    511
+  ],
+  "primary": "Independent Q and K draws from held-out marginal pools; empirical product measure.",
+  "secondary": "Same-document legal rectangular blocks; different distribution from product of global marginals.",
+  "nmf": "Transductive Euclidean NMF, independent nonnegative W/H; best of NNDSVD, random and nested starts; not a neural model.",
+  "baseline": "FAVOR+ Gaussian orthogonal directions with chi_d radii; centered variant restores all linear and constant terms.",
+  "metric": "Relative raw kernel squared error, with log absolute MSE also available; no row normalization.",
+  "data_note": "Existing cached WikiText-2 article prefixes, official source train/test splits; selected subsets, not full benchmark."
+}

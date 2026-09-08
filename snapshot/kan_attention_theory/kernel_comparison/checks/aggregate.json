@@ -1,0 +1,39 @@
+{
+  "kernel_rows": 736,
+  "rf_seed_rows": 640,
+  "pooled_convexity_checks": 32,
+  "signed_rank_lower_bound_checks": 704,
+  "attention_rows": 208,
+  "benchmark_configurations": 168,
+  "max_reference_energy_error": 2.220446049250313e-16,
+  "implementation_checks": {
+    "rf_direct_moment_risk_checks": 80,
+    "max_log_feature_error": 1.4210854715202004e-14,
+    "max_relative_moment_risk_error": 1.0812328803504902e-15,
+    "deployed_maps": [
+      {
+        "m": 16,
+        "partition_routing_exact": true,
+        "galerkin_feature_relative_l2": 2.4357380251474255e-15
+      },
+      {
+        "m": 32,
+        "partition_routing_exact": true,
+        "galerkin_feature_relative_l2": 2.5049363499837644e-15
+      },
+      {
+        "m": 64,
+        "partition_routing_exact": true,
+        "galerkin_feature_relative_l2": 2.5286329072811744e-15
+      },
+      {
+        "m": 128,
+        "partition_routing_exact": true,
+        "galerkin_feature_relative_l2": 2.770608653668701e-15
+      }
+    ],
+    "max_independent_gaussian_quadrature_error": 2.220446049250313e-16
+  },
+  "pooled_direct_prediction_error": 2.9118713572267617e-15,
+  "passed": true
+}

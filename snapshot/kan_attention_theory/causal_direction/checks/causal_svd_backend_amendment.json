@@ -1,0 +1,1 @@
+{"change":"FP64 batched singular values moved from CUDA Jacobi to CPU LAPACK for speed; same matrices, full singular spectra and candidate fits; no sampling reduction"}

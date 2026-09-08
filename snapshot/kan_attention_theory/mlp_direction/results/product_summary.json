@@ -1,0 +1,142 @@
+[
+  {
+    "dataset": "fresh_wiki3",
+    "method": "raw",
+    "seed": 11,
+    "relative_squared_risk": 0.7121851206631385,
+    "relative_I_divergence": 0.8103759117078457,
+    "query_balanced_divergence": 0.6110190200684477,
+    "directional_kl": 0.4470089095440838,
+    "mass_divergence": 0.16401011052436396
+  },
+  {
+    "dataset": "fresh_wiki3",
+    "method": "factorized_both",
+    "seed": 11,
+    "relative_squared_risk": 0.572820935833,
+    "relative_I_divergence": 0.3956824715449551,
+    "query_balanced_divergence": 0.26105318272770095,
+    "directional_kl": 0.23081193469764671,
+    "mass_divergence": 0.030241248030054204
+  },
+  {
+    "dataset": "fresh_wiki3",
+    "method": "exp_control",
+    "seed": 11,
+    "relative_squared_risk": 259372044647.40308,
+    "relative_I_divergence": 14318.349864600921,
+    "query_balanced_divergence": 13924.21219792875,
+    "directional_kl": 0.20693057685402017,
+    "mass_divergence": 13924.005267351897
+  },
+  {
+    "dataset": "fresh_wiki3",
+    "method": "favor_plus",
+    "seed": 1009,
+    "relative_squared_risk": 1.088077037619239,
+    "relative_I_divergence": 15.259117787352727,
+    "query_balanced_divergence": 12.610086413703215,
+    "directional_kl": 2.3765293997249515,
+    "mass_divergence": 10.233557013978263
+  },
+  {
+    "dataset": "fresh_wiki3",
+    "method": "gauge_calibrated",
+    "seed": 11,
+    "relative_squared_risk": 0.5970192818606789,
+    "relative_I_divergence": 0.3604747426235556,
+    "query_balanced_divergence": 0.2333109613149675,
+    "directional_kl": 0.20693057685402017,
+    "mass_divergence": 0.02638038446094737
+  },
+  {
+    "dataset": "fresh_wiki3",
+    "method": "global_bal",
+    "seed": 11,
+    "relative_squared_risk": 19.805965599352188,
+    "relative_I_divergence": 2.3559062442899568,
+    "query_balanced_divergence": 2.0166929331544283,
+    "directional_kl": 0.20693057685402017,
+    "mass_divergence": 1.8097623563004082
+  },
+  {
+    "dataset": "fresh_wiki3",
+    "method": "global_raw",
+    "seed": 11,
+    "relative_squared_risk": 8.65790618138734,
+    "relative_I_divergence": 2.3408832209148787,
+    "query_balanced_divergence": 2.5618836116509014,
+    "directional_kl": 0.20693057685402017,
+    "mass_divergence": 2.3549530347968815
+  },
+  {
+    "dataset": "swde3",
+    "method": "raw",
+    "seed": 11,
+    "relative_squared_risk": 0.6311677686192253,
+    "relative_I_divergence": 0.85997201720251,
+    "query_balanced_divergence": 0.6151752638288874,
+    "directional_kl": 0.46993091723710767,
+    "mass_divergence": 0.14524434659177962
+  },
+  {
+    "dataset": "swde3",
+    "method": "factorized_both",
+    "seed": 11,
+    "relative_squared_risk": 0.4811839334302843,
+    "relative_I_divergence": 0.5902695246137966,
+    "query_balanced_divergence": 0.37060030260890386,
+    "directional_kl": 0.30824913107986057,
+    "mass_divergence": 0.062351171529043334
+  },
+  {
+    "dataset": "swde3",
+    "method": "exp_control",
+    "seed": 11,
+    "relative_squared_risk": 12463916769.50737,
+    "relative_I_divergence": 5812.9458436450095,
+    "query_balanced_divergence": 8365.405019234167,
+    "directional_kl": 0.2944962360331713,
+    "mass_divergence": 8365.110522998135
+  },
+  {
+    "dataset": "swde3",
+    "method": "favor_plus",
+    "seed": 1009,
+    "relative_squared_risk": 0.9994951733999765,
+    "relative_I_divergence": 14.273932537896407,
+    "query_balanced_divergence": 12.064969287065953,
+    "directional_kl": 2.0569088273914122,
+    "mass_divergence": 10.00806045967454
+  },
+  {
+    "dataset": "swde3",
+    "method": "gauge_calibrated",
+    "seed": 11,
+    "relative_squared_risk": 0.4871636656308864,
+    "relative_I_divergence": 0.6187692634317504,
+    "query_balanced_divergence": 0.3782746353337153,
+    "directional_kl": 0.2944962360331713,
+    "mass_divergence": 0.08377839930054409
+  },
+  {
+    "dataset": "swde3",
+    "method": "global_bal",
+    "seed": 11,
+    "relative_squared_risk": 1.6143182854078215,
+    "relative_I_divergence": 2.7323517168400864,
+    "query_balanced_divergence": 2.2368665515038844,
+    "directional_kl": 0.2944962360331713,
+    "mass_divergence": 1.942370315470713
+  },
+  {
+    "dataset": "swde3",
+    "method": "global_raw",
+    "seed": 11,
+    "relative_squared_risk": 2.1456106124988885,
+    "relative_I_divergence": 2.8432474969849344,
+    "query_balanced_divergence": 2.621460594218003,
+    "directional_kl": 0.2944962360331713,
+    "mass_divergence": 2.326964358184832
+  }
+]

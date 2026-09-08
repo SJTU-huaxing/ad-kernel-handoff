@@ -1,0 +1,12 @@
+{
+  "repository": "fla-hub/gla-340M-15B",
+  "revision": "6e04029dc090a2c55df712f18814db80aa39894f",
+  "loading": {
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "mismatched_keys": [],
+    "error_msgs": []
+  },
+  "parameter_count": 341707776,
+  "compatibility_patch": "GDN tied weight list -> explicit lm_head.weight:model.embeddings.weight mapping"
+}

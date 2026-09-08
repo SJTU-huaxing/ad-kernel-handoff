@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "layer": 10,
+      "kind": "native",
+      "chunk_relative_l2": 0.003169159279999776,
+      "recurrent_relative_l2": 0.0016490742701857635
+    },
+    {
+      "layer": 10,
+      "kind": "ad_norm",
+      "chunk_relative_l2": 0.004338421281199815,
+      "recurrent_relative_l2": 0.0016511141989771201
+    },
+    {
+      "layer": 10,
+      "kind": "ad_write",
+      "chunk_relative_l2": 0.004125028302783399,
+      "recurrent_relative_l2": 0.001667588687581312
+    },
+    {
+      "layer": 10,
+      "kind": "exp_mlp",
+      "chunk_relative_l2": 0.004216426722492801,
+      "recurrent_relative_l2": 0.0016512448807434103
+    },
+    {
+      "layer": 20,
+      "kind": "native",
+      "chunk_relative_l2": 0.0038912519411350784,
+      "recurrent_relative_l2": 0.0016668823409487466
+    },
+    {
+      "layer": 20,
+      "kind": "ad_norm",
+      "chunk_relative_l2": 0.007810114978133699,
+      "recurrent_relative_l2": 0.0016495745281026905
+    },
+    {
+      "layer": 20,
+      "kind": "ad_write",
+      "chunk_relative_l2": 0.007288892806737235,
+      "recurrent_relative_l2": 0.0016436922472396055
+    },
+    {
+      "layer": 20,
+      "kind": "exp_mlp",
+      "chunk_relative_l2": 0.006950122586175035,
+      "recurrent_relative_l2": 0.0016496873253513081
+    }
+  ],
+  "scope": "Actual native 128-token q/k/v/gates; BF16 FLA chunk and fused recurrence versus explicit CPU FP64 recurrence."
+}

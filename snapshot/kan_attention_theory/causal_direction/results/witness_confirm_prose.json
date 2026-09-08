@@ -1,0 +1,1739 @@
+{
+  "split": "confirm_prose",
+  "rows": [
+    {
+      "head": [
+        14,
+        0
+      ],
+      "mutual_information": 0.00014729174829100994,
+      "curves": [
+        {
+          "m": 16,
+          "balanced_empirical_lb": 1.597466714722769e-11,
+          "raw_empirical_lb": 1.4173802857854116e-11,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 32,
+          "balanced_empirical_lb": 1.9852324708934924e-12,
+          "raw_empirical_lb": 1.8440325279041875e-12,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 64,
+          "balanced_empirical_lb": 1.1812589280193748e-15,
+          "raw_empirical_lb": 8.521629041948952e-16,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 128,
+          "balanced_empirical_lb": 4.46327516755192e-75,
+          "raw_empirical_lb": 3.0570127358266047e-75,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        }
+      ],
+      "risk": {
+        "split_01_s11": {
+          "kl": 0.26081608112263416,
+          "raw_i": 0.48651821777887694,
+          "raw_nmse": 17.31201028288291
+        },
+        "exp_kl_s11": {
+          "kl": 0.6707451838840629,
+          "raw_i": 2496.1242271094184,
+          "raw_nmse": 616733639.4094731
+        },
+        "global_bal_s11": {
+          "kl": 0.6707451838840631,
+          "raw_i": 5.861121954672981,
+          "raw_nmse": 0.9974257131920291
+        },
+        "calibrated_s11": {
+          "kl": 0.6707451838840629,
+          "raw_i": 0.8739544247954987,
+          "raw_nmse": 14.52209469846316
+        },
+        "gate_s11": {
+          "kl": 0.670745183884063,
+          "raw_i": 1.3208073813048131,
+          "raw_nmse": 50.94748029174656
+        },
+        "favor_s11": {
+          "kl": 0.005515650552843122,
+          "raw_i": 8.665806887002907,
+          "raw_nmse": 1.0667639649690055
+        }
+      },
+      "confidence_nuclear_error": 3.861960393053911,
+      "occupied_q": 69,
+      "occupied_k": 202
+    },
+    {
+      "head": [
+        14,
+        1
+      ],
+      "mutual_information": 0.0005650665020386367,
+      "curves": [
+        {
+          "m": 16,
+          "balanced_empirical_lb": 1.846436703026319e-10,
+          "raw_empirical_lb": 1.928788352318527e-10,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 32,
+          "balanced_empirical_lb": 4.564052892552509e-11,
+          "raw_empirical_lb": 4.525019733023738e-11,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 64,
+          "balanced_empirical_lb": 2.3163635071072893e-12,
+          "raw_empirical_lb": 2.222024943893492e-12,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 128,
+          "balanced_empirical_lb": 1.247588105773601e-72,
+          "raw_empirical_lb": 1.8839336075549593e-72,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        }
+      ],
+      "risk": {
+        "split_01_s11": {
+          "kl": 0.16612788618681212,
+          "raw_i": 0.5647257270111627,
+          "raw_nmse": 112.07866129076223
+        },
+        "exp_kl_s11": {
+          "kl": 0.43277476827790795,
+          "raw_i": 27553.80072679756,
+          "raw_nmse": 1998586087564.6052
+        },
+        "global_bal_s11": {
+          "kl": 0.4327747682779081,
+          "raw_i": 3.4271997388078916,
+          "raw_nmse": 3668.243786642693
+        },
+        "calibrated_s11": {
+          "kl": 0.43277476827790806,
+          "raw_i": 0.5826489429027306,
+          "raw_nmse": 7.178493398273176
+        },
+        "gate_s11": {
+          "kl": 0.432774768277908,
+          "raw_i": 0.9838675504333649,
+          "raw_nmse": 55.1125119553008
+        },
+        "favor_s11": {
+          "kl": 0.010696749479734423,
+          "raw_i": 8.44723702902474,
+          "raw_nmse": 0.9910168078433749
+        }
+      },
+      "confidence_nuclear_error": 3.861960393053911,
+      "occupied_q": 114,
+      "occupied_k": 202
+    },
+    {
+      "head": [
+        14,
+        2
+      ],
+      "mutual_information": 0.00023878174579521836,
+      "curves": [
+        {
+          "m": 16,
+          "balanced_empirical_lb": 1.3826228872379951e-11,
+          "raw_empirical_lb": 1.2445656641709526e-11,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 32,
+          "balanced_empirical_lb": 2.3207433462784776e-12,
+          "raw_empirical_lb": 2.1907649293209773e-12,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 64,
+          "balanced_empirical_lb": 6.547333509279933e-14,
+          "raw_empirical_lb": 5.966580270306246e-14,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 128,
+          "balanced_empirical_lb": 2.0692180976072345e-74,
+          "raw_empirical_lb": 2.1101296895487e-74,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        }
+      ],
+      "risk": {
+        "split_01_s11": {
+          "kl": 0.01169995583797843,
+          "raw_i": 0.041675761210407836,
+          "raw_nmse": 0.07419974732200024
+        },
+        "exp_kl_s11": {
+          "kl": 0.009844308152595722,
+          "raw_i": 225.39311518212122,
+          "raw_nmse": 89877.69138459656
+        },
+        "global_bal_s11": {
+          "kl": 0.009844308152595682,
+          "raw_i": 1.1192029690226182,
+          "raw_nmse": 0.688730582422098
+        },
+        "calibrated_s11": {
+          "kl": 0.009844308152595694,
+          "raw_i": 0.014249107994885232,
+          "raw_nmse": 0.010971634151270775
+        },
+        "gate_s11": {
+          "kl": 0.00984430815259567,
+          "raw_i": 0.01538241742778828,
+          "raw_nmse": 0.01313836455751687
+        },
+        "favor_s11": {
+          "kl": 0.005568579501982401,
+          "raw_i": 6.521235954292468,
+          "raw_nmse": 0.9965562031845878
+        }
+      },
+      "confidence_nuclear_error": 3.861960393053911,
+      "occupied_q": 97,
+      "occupied_k": 202
+    },
+    {
+      "head": [
+        14,
+        3
+      ],
+      "mutual_information": 0.00031962012499220984,
+      "curves": [
+        {
+          "m": 16,
+          "balanced_empirical_lb": 6.187676029842912e-12,
+          "raw_empirical_lb": 4.10575348609515e-12,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 32,
+          "balanced_empirical_lb": 5.217307637311292e-14,
+          "raw_empirical_lb": 4.582906323334398e-14,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 64,
+          "balanced_empirical_lb": 4.00210424346658e-73,
+          "raw_empirical_lb": 2.2510719563662898e-73,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 128,
+          "balanced_empirical_lb": 2.0682184196569233e-77,
+          "raw_empirical_lb": 1.1662344261546157e-77,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        }
+      ],
+      "risk": {
+        "split_01_s11": {
+          "kl": 0.020617846508287876,
+          "raw_i": 0.20714249426801046,
+          "raw_nmse": 4.071621277314608
+        },
+        "exp_kl_s11": {
+          "kl": 0.029212090250703357,
+          "raw_i": 743797.0022058069,
+          "raw_nmse": 548501831649426.3
+        },
+        "global_bal_s11": {
+          "kl": 0.02921209025070338,
+          "raw_i": 3.514825446875076,
+          "raw_nmse": 2.537117536276204
+        },
+        "calibrated_s11": {
+          "kl": 0.029212090250703357,
+          "raw_i": 0.1170525266322702,
+          "raw_nmse": 0.24834346925313008
+        },
+        "gate_s11": {
+          "kl": 0.029212090250703353,
+          "raw_i": 0.18132070907291553,
+          "raw_nmse": 2.394944143447799
+        },
+        "favor_s11": {
+          "kl": 0.07216779079448793,
+          "raw_i": 12.563911758564712,
+          "raw_nmse": 0.9998298415014136
+        }
+      },
+      "confidence_nuclear_error": 3.861960393053911,
+      "occupied_q": 50,
+      "occupied_k": 202
+    },
+    {
+      "head": [
+        14,
+        4
+      ],
+      "mutual_information": 1.7839713454718288e-05,
+      "curves": [
+        {
+          "m": 16,
+          "balanced_empirical_lb": 4.30549041708127e-14,
+          "raw_empirical_lb": 3.4798985510469204e-14,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 32,
+          "balanced_empirical_lb": 1.3882796396568136e-15,
+          "raw_empirical_lb": 1.212638692453437e-15,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 64,
+          "balanced_empirical_lb": 1.0030033535063389e-75,
+          "raw_empirical_lb": 4.4112451240498083e-76,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 128,
+          "balanced_empirical_lb": 2.0866486598202272e-79,
+          "raw_empirical_lb": 1.1337069767582081e-79,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        }
+      ],
+      "risk": {
+        "split_01_s11": {
+          "kl": 0.0007259040790646823,
+          "raw_i": 0.017290487264690242,
+          "raw_nmse": 0.035414112705878804
+        },
+        "exp_kl_s11": {
+          "kl": 0.0009908306988254977,
+          "raw_i": 127375.60006868222,
+          "raw_nmse": 246599059664.44278
+        },
+        "global_bal_s11": {
+          "kl": 0.0009908306988254925,
+          "raw_i": 4.229134840288631,
+          "raw_nmse": 0.9569355614427918
+        },
+        "calibrated_s11": {
+          "kl": 0.0009908306988255038,
+          "raw_i": 0.012450968138510826,
+          "raw_nmse": 0.024174876143807884
+        },
+        "gate_s11": {
+          "kl": 0.000990830698825516,
+          "raw_i": 0.032403620183305455,
+          "raw_nmse": 0.07432069064681553
+        },
+        "favor_s11": {
+          "kl": 0.0005373403723780861,
+          "raw_i": 11.377486089669079,
+          "raw_nmse": 0.9996399292337399
+        }
+      },
+      "confidence_nuclear_error": 3.861960393053911,
+      "occupied_q": 55,
+      "occupied_k": 202
+    },
+    {
+      "head": [
+        14,
+        5
+      ],
+      "mutual_information": 2.6011977264228445e-06,
+      "curves": [
+        {
+          "m": 16,
+          "balanced_empirical_lb": 1.7522326800589072e-15,
+          "raw_empirical_lb": 1.5450116565022485e-15,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 32,
+          "balanced_empirical_lb": 4.8209859628392494e-17,
+          "raw_empirical_lb": 3.35686853459973e-17,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 64,
+          "balanced_empirical_lb": 2.742210254022798e-76,
+          "raw_empirical_lb": 2.180332316895105e-77,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 128,
+          "balanced_empirical_lb": 6.347656175141523e-82,
+          "raw_empirical_lb": 2.0921057238202578e-82,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        }
+      ],
+      "risk": {
+        "split_01_s11": {
+          "kl": 4.08572752776116e-05,
+          "raw_i": 0.006452858513393978,
+          "raw_nmse": 0.013403377492986568
+        },
+        "exp_kl_s11": {
+          "kl": 2.737353743806864e-05,
+          "raw_i": 31547210.6431877,
+          "raw_nmse": 4.5644204257296525e+17
+        },
+        "global_bal_s11": {
+          "kl": 2.7373537438052168e-05,
+          "raw_i": 6.344253392156704,
+          "raw_nmse": 5.84541603352138
+        },
+        "calibrated_s11": {
+          "kl": 2.7373537438046097e-05,
+          "raw_i": 0.021725392636212967,
+          "raw_nmse": 0.04605866206378525
+        },
+        "gate_s11": {
+          "kl": 2.737353743807125e-05,
+          "raw_i": 0.046218686226573415,
+          "raw_nmse": 0.11306284367749604
+        },
+        "favor_s11": {
+          "kl": 0.00017700471555069913,
+          "raw_i": 9.728428808533026,
+          "raw_nmse": 0.9976261233270656
+        }
+      },
+      "confidence_nuclear_error": 3.861960393053911,
+      "occupied_q": 49,
+      "occupied_k": 202
+    },
+    {
+      "head": [
+        14,
+        6
+      ],
+      "mutual_information": 8.682135232581182e-05,
+      "curves": [
+        {
+          "m": 16,
+          "balanced_empirical_lb": 9.564941804619414e-12,
+          "raw_empirical_lb": 8.901982218933415e-12,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 32,
+          "balanced_empirical_lb": 1.4813969898630383e-12,
+          "raw_empirical_lb": 1.3737273296732735e-12,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 64,
+          "balanced_empirical_lb": 3.5273710890206975e-14,
+          "raw_empirical_lb": 3.3797877476813906e-14,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 128,
+          "balanced_empirical_lb": 8.242617263209514e-75,
+          "raw_empirical_lb": 1.1022562653276764e-74,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        }
+      ],
+      "risk": {
+        "split_01_s11": {
+          "kl": 0.013858611839757175,
+          "raw_i": 0.039962531175833135,
+          "raw_nmse": 0.06241954390892459
+        },
+        "exp_kl_s11": {
+          "kl": 0.006862721768934788,
+          "raw_i": 551.0161949672635,
+          "raw_nmse": 1281876.4916335922
+        },
+        "global_bal_s11": {
+          "kl": 0.006862721768934762,
+          "raw_i": 2.519619683609736,
+          "raw_nmse": 0.8978948518495184
+        },
+        "calibrated_s11": {
+          "kl": 0.006862721768934774,
+          "raw_i": 0.018897044508397066,
+          "raw_nmse": 0.023710128715546102
+        },
+        "gate_s11": {
+          "kl": 0.006862721768934768,
+          "raw_i": 0.020399752578313734,
+          "raw_nmse": 0.027657182464425077
+        },
+        "favor_s11": {
+          "kl": 0.0035074956658607856,
+          "raw_i": 8.695692098871163,
+          "raw_nmse": 1.0513106835641652
+        }
+      },
+      "confidence_nuclear_error": 3.861960393053911,
+      "occupied_q": 93,
+      "occupied_k": 202
+    },
+    {
+      "head": [
+        14,
+        7
+      ],
+      "mutual_information": 0.0006108375550638921,
+      "curves": [
+        {
+          "m": 16,
+          "balanced_empirical_lb": 3.1338068721697696e-11,
+          "raw_empirical_lb": 2.9244111764116856e-11,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 32,
+          "balanced_empirical_lb": 2.1918067953422266e-12,
+          "raw_empirical_lb": 2.2404100564785874e-12,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 64,
+          "balanced_empirical_lb": 7.055315603543291e-15,
+          "raw_empirical_lb": 8.252996763910722e-15,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 128,
+          "balanced_empirical_lb": 1.9410327243215814e-74,
+          "raw_empirical_lb": 4.6005316860282926e-74,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        }
+      ],
+      "risk": {
+        "split_01_s11": {
+          "kl": 4.148436728210992,
+          "raw_i": 122.04915450777162,
+          "raw_nmse": 201660.91611260996
+        },
+        "exp_kl_s11": {
+          "kl": 3.8918364228493005,
+          "raw_i": 3837.3530210914755,
+          "raw_nmse": 170295182.35904902
+        },
+        "global_bal_s11": {
+          "kl": 3.891836422849299,
+          "raw_i": 10.671797123816322,
+          "raw_nmse": 0.9999822833651348
+        },
+        "calibrated_s11": {
+          "kl": 3.8918364228493005,
+          "raw_i": 22.54470980180664,
+          "raw_nmse": 3862.6853429840926
+        },
+        "gate_s11": {
+          "kl": 3.8918364228493005,
+          "raw_i": 28.13636551019257,
+          "raw_nmse": 7978.594017592058
+        },
+        "favor_s11": {
+          "kl": 0.028738553033385704,
+          "raw_i": 9.628180764915356,
+          "raw_nmse": 0.9992107410424051
+        }
+      },
+      "confidence_nuclear_error": 3.861960393053911,
+      "occupied_q": 77,
+      "occupied_k": 202
+    },
+    {
+      "head": [
+        14,
+        8
+      ],
+      "mutual_information": 0.002891616564778758,
+      "curves": [
+        {
+          "m": 16,
+          "balanced_empirical_lb": 6.257958391122237e-11,
+          "raw_empirical_lb": 6.260249952127062e-11,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 32,
+          "balanced_empirical_lb": 2.1187061908188564e-12,
+          "raw_empirical_lb": 2.2096677055573036e-12,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 64,
+          "balanced_empirical_lb": 9.783671026513415e-16,
+          "raw_empirical_lb": 1.1301988461630546e-15,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 128,
+          "balanced_empirical_lb": 1.4254085532817673e-73,
+          "raw_empirical_lb": 2.664304096150872e-73,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        }
+      ],
+      "risk": {
+        "split_01_s11": {
+          "kl": 6.267225592922893,
+          "raw_i": 1075.7971187968478,
+          "raw_nmse": 12333116.746930176
+        },
+        "exp_kl_s11": {
+          "kl": 7.426939740397949,
+          "raw_i": 199950.07599495677,
+          "raw_nmse": 1938605161366.138
+        },
+        "global_bal_s11": {
+          "kl": 7.426939740397949,
+          "raw_i": 11.374317049231411,
+          "raw_nmse": 1.0146248025000242
+        },
+        "calibrated_s11": {
+          "kl": 7.426939740397949,
+          "raw_i": 4951.0335070171295,
+          "raw_nmse": 462280070.75476545
+        },
+        "gate_s11": {
+          "kl": 7.42693974039795,
+          "raw_i": 8661.135722053668,
+          "raw_nmse": 1749553195.5313597
+        },
+        "favor_s11": {
+          "kl": 0.07666188382367829,
+          "raw_i": 12.803120624126734,
+          "raw_nmse": 0.9999593679035554
+        }
+      },
+      "confidence_nuclear_error": 3.861960393053911,
+      "occupied_q": 74,
+      "occupied_k": 202
+    },
+    {
+      "head": [
+        14,
+        9
+      ],
+      "mutual_information": 0.0008399057525245049,
+      "curves": [
+        {
+          "m": 16,
+          "balanced_empirical_lb": 6.374185215771142e-11,
+          "raw_empirical_lb": 6.323659405020854e-11,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 32,
+          "balanced_empirical_lb": 4.173334040697002e-12,
+          "raw_empirical_lb": 4.19916635367244e-12,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 64,
+          "balanced_empirical_lb": 1.825092528283557e-14,
+          "raw_empirical_lb": 1.9229203438001454e-14,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 128,
+          "balanced_empirical_lb": 1.9765157134016982e-74,
+          "raw_empirical_lb": 1.2827199320041036e-74,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        }
+      ],
+      "risk": {
+        "split_01_s11": {
+          "kl": 10.165279904896233,
+          "raw_i": 55694.8710673636,
+          "raw_nmse": 61176161933.39113
+        },
+        "exp_kl_s11": {
+          "kl": 11.995239259338275,
+          "raw_i": 39852572.933010496,
+          "raw_nmse": 8.192740665523766e+18
+        },
+        "global_bal_s11": {
+          "kl": 11.995239259338273,
+          "raw_i": 20.45306951876001,
+          "raw_nmse": 1.0166245614477987
+        },
+        "calibrated_s11": {
+          "kl": 11.995239259338275,
+          "raw_i": 4284951.034879802,
+          "raw_nmse": 1.0000501171245426e+17
+        },
+        "gate_s11": {
+          "kl": 11.995239259338275,
+          "raw_i": 13363608.746483427,
+          "raw_nmse": 1.016320376905014e+18
+        },
+        "favor_s11": {
+          "kl": 0.02804997951317214,
+          "raw_i": 5.927815723675302,
+          "raw_nmse": 0.98675548751018
+        }
+      },
+      "confidence_nuclear_error": 3.861960393053911,
+      "occupied_q": 85,
+      "occupied_k": 202
+    },
+    {
+      "head": [
+        14,
+        10
+      ],
+      "mutual_information": 0.0009246949856318513,
+      "curves": [
+        {
+          "m": 16,
+          "balanced_empirical_lb": 6.332150434782946e-11,
+          "raw_empirical_lb": 6.353519054739155e-11,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 32,
+          "balanced_empirical_lb": 3.4928105765543716e-12,
+          "raw_empirical_lb": 3.4815627058747432e-12,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 64,
+          "balanced_empirical_lb": 8.523770283762788e-17,
+          "raw_empirical_lb": 8.858473181824535e-17,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 128,
+          "balanced_empirical_lb": 5.67524817712432e-75,
+          "raw_empirical_lb": 2.599387301586415e-75,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        }
+      ],
+      "risk": {
+        "split_01_s11": {
+          "kl": 0.3859970561911705,
+          "raw_i": 0.5295422294513926,
+          "raw_nmse": 0.8091244045408569
+        },
+        "exp_kl_s11": {
+          "kl": 0.3613902820928937,
+          "raw_i": 240.30648882014668,
+          "raw_nmse": 260734.1839281299
+        },
+        "global_bal_s11": {
+          "kl": 0.3613902820928937,
+          "raw_i": 3.281680888599746,
+          "raw_nmse": 0.9564077848661617
+        },
+        "calibrated_s11": {
+          "kl": 0.36139028209289364,
+          "raw_i": 0.9787089406239261,
+          "raw_nmse": 4.039496114307423
+        },
+        "gate_s11": {
+          "kl": 0.3613902820928936,
+          "raw_i": 1.1135389761147363,
+          "raw_nmse": 4.988235186380805
+        },
+        "favor_s11": {
+          "kl": 0.051616771080318584,
+          "raw_i": 3.7643536170870906,
+          "raw_nmse": 0.9942408339916206
+        }
+      },
+      "confidence_nuclear_error": 3.861960393053911,
+      "occupied_q": 66,
+      "occupied_k": 202
+    },
+    {
+      "head": [
+        14,
+        11
+      ],
+      "mutual_information": 0.000698503939853719,
+      "curves": [
+        {
+          "m": 16,
+          "balanced_empirical_lb": 4.5896387096230024e-11,
+          "raw_empirical_lb": 4.4321483627400305e-11,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 32,
+          "balanced_empirical_lb": 2.1216224769091016e-12,
+          "raw_empirical_lb": 2.079977684605838e-12,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 64,
+          "balanced_empirical_lb": 2.0411905235625483e-71,
+          "raw_empirical_lb": 1.092704884693146e-71,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 128,
+          "balanced_empirical_lb": 5.262113101105458e-75,
+          "raw_empirical_lb": 9.347893976288502e-76,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        }
+      ],
+      "risk": {
+        "split_01_s11": {
+          "kl": 0.22472903363113916,
+          "raw_i": 0.36290680739604525,
+          "raw_nmse": 1.1779758644902176
+        },
+        "exp_kl_s11": {
+          "kl": 0.27842396928474644,
+          "raw_i": 317.2298668775989,
+          "raw_nmse": 1646037.9093708415
+        },
+        "global_bal_s11": {
+          "kl": 0.2784239692847464,
+          "raw_i": 4.371776186916791,
+          "raw_nmse": 0.9820676227965337
+        },
+        "calibrated_s11": {
+          "kl": 0.27842396928474633,
+          "raw_i": 0.440758788903766,
+          "raw_nmse": 0.7030840201941301
+        },
+        "gate_s11": {
+          "kl": 0.27842396928474633,
+          "raw_i": 0.49692807771121805,
+          "raw_nmse": 0.9149200812492139
+        },
+        "favor_s11": {
+          "kl": 0.036352023808463224,
+          "raw_i": 6.765185720446252,
+          "raw_nmse": 0.9933416929296054
+        }
+      },
+      "confidence_nuclear_error": 3.861960393053911,
+      "occupied_q": 61,
+      "occupied_k": 202
+    },
+    {
+      "head": [
+        27,
+        0
+      ],
+      "mutual_information": 0.05780197569727982,
+      "curves": [
+        {
+          "m": 16,
+          "balanced_empirical_lb": 2.6727725142439265e-08,
+          "raw_empirical_lb": 4.362451046069092e-09,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 32,
+          "balanced_empirical_lb": 1.1575245135978347e-09,
+          "raw_empirical_lb": 1.9124449077926217e-10,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 64,
+          "balanced_empirical_lb": 2.029195369505687e-68,
+          "raw_empirical_lb": 8.67750592558682e-70,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 128,
+          "balanced_empirical_lb": 3.1710475162635536e-72,
+          "raw_empirical_lb": 3.197187421361127e-73,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        }
+      ],
+      "risk": {
+        "split_01_s11": {
+          "kl": 2.1647025422352426,
+          "raw_i": 7.877671130447923,
+          "raw_nmse": 41.38496192335344
+        },
+        "exp_kl_s11": {
+          "kl": 3.293035957947021,
+          "raw_i": 48580.9412989424,
+          "raw_nmse": 61495320256.66256
+        },
+        "global_bal_s11": {
+          "kl": 3.293035957947021,
+          "raw_i": 41.31528683551878,
+          "raw_nmse": 43175.598765041286
+        },
+        "calibrated_s11": {
+          "kl": 3.293035957947021,
+          "raw_i": 15.731819155162665,
+          "raw_nmse": 4186.050566254243
+        },
+        "gate_s11": {
+          "kl": 3.293035957947021,
+          "raw_i": 19.03820358781244,
+          "raw_nmse": 6394.247003697845
+        },
+        "favor_s11": {
+          "kl": 1.5241993147669974,
+          "raw_i": 13.289327260031781,
+          "raw_nmse": 0.9999961161165787
+        }
+      },
+      "confidence_nuclear_error": 3.861960393053911,
+      "occupied_q": 54,
+      "occupied_k": 202
+    },
+    {
+      "head": [
+        27,
+        1
+      ],
+      "mutual_information": 0.04745464258106097,
+      "curves": [
+        {
+          "m": 16,
+          "balanced_empirical_lb": 1.5478153070474267e-08,
+          "raw_empirical_lb": 8.808428828104396e-09,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 32,
+          "balanced_empirical_lb": 6.868482490050802e-10,
+          "raw_empirical_lb": 2.9906248448821447e-10,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 64,
+          "balanced_empirical_lb": 3.4162153806915975e-69,
+          "raw_empirical_lb": 6.441023818671464e-70,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 128,
+          "balanced_empirical_lb": 1.6917877954401424e-73,
+          "raw_empirical_lb": 3.862222447258117e-74,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        }
+      ],
+      "risk": {
+        "split_01_s11": {
+          "kl": 2.1686441991457217,
+          "raw_i": 10.279878563816604,
+          "raw_nmse": 93.84884360014246
+        },
+        "exp_kl_s11": {
+          "kl": 3.5768309654594566,
+          "raw_i": 45078.41542790846,
+          "raw_nmse": 39188117011.25414
+        },
+        "global_bal_s11": {
+          "kl": 3.5768309654594566,
+          "raw_i": 70.74348769574193,
+          "raw_nmse": 94859.79055557492
+        },
+        "calibrated_s11": {
+          "kl": 3.5768309654594566,
+          "raw_i": 24.165218638488277,
+          "raw_nmse": 1044.9222266690776
+        },
+        "gate_s11": {
+          "kl": 3.5768309654594566,
+          "raw_i": 30.72040862398692,
+          "raw_nmse": 1710.5766203059725
+        },
+        "favor_s11": {
+          "kl": 1.584704812842219,
+          "raw_i": 10.322813222222914,
+          "raw_nmse": 1.0007277666295056
+        }
+      },
+      "confidence_nuclear_error": 3.861960393053911,
+      "occupied_q": 54,
+      "occupied_k": 202
+    },
+    {
+      "head": [
+        27,
+        2
+      ],
+      "mutual_information": 0.057527987930281216,
+      "curves": [
+        {
+          "m": 16,
+          "balanced_empirical_lb": 1.4468665785116754e-08,
+          "raw_empirical_lb": 4.104940590393076e-09,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 32,
+          "balanced_empirical_lb": 2.9754584969793023e-10,
+          "raw_empirical_lb": 9.421455894262618e-11,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 64,
+          "balanced_empirical_lb": 1.2612979072173291e-68,
+          "raw_empirical_lb": 2.1666066286857642e-69,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 128,
+          "balanced_empirical_lb": 2.9544532813688264e-73,
+          "raw_empirical_lb": 3.3844686378338924e-74,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        }
+      ],
+      "risk": {
+        "split_01_s11": {
+          "kl": 2.197460826405722,
+          "raw_i": 8.498030653013755,
+          "raw_nmse": 49.70300748796985
+        },
+        "exp_kl_s11": {
+          "kl": 4.306191624766447,
+          "raw_i": 13055.97444845775,
+          "raw_nmse": 562311161.1684915
+        },
+        "global_bal_s11": {
+          "kl": 4.306191624766447,
+          "raw_i": 12.057595772427772,
+          "raw_nmse": 397.1271028997509
+        },
+        "calibrated_s11": {
+          "kl": 4.306191624766447,
+          "raw_i": 46.226925231373,
+          "raw_nmse": 3542.9032304425546
+        },
+        "gate_s11": {
+          "kl": 4.306191624766447,
+          "raw_i": 63.42263761422599,
+          "raw_nmse": 7163.156642663099
+        },
+        "favor_s11": {
+          "kl": 0.7552484206854317,
+          "raw_i": 9.012764253598107,
+          "raw_nmse": 0.998491944001875
+        }
+      },
+      "confidence_nuclear_error": 3.861960393053911,
+      "occupied_q": 51,
+      "occupied_k": 202
+    },
+    {
+      "head": [
+        27,
+        3
+      ],
+      "mutual_information": 0.0558220422917095,
+      "curves": [
+        {
+          "m": 16,
+          "balanced_empirical_lb": 2.259179948199908e-08,
+          "raw_empirical_lb": 1.1615084746674686e-08,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 32,
+          "balanced_empirical_lb": 1.150810802619435e-09,
+          "raw_empirical_lb": 4.5713242480331604e-10,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 64,
+          "balanced_empirical_lb": 1.2443940633638715e-68,
+          "raw_empirical_lb": 3.466107659976333e-69,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 128,
+          "balanced_empirical_lb": 7.022931761975805e-73,
+          "raw_empirical_lb": 1.635942423280407e-73,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        }
+      ],
+      "risk": {
+        "split_01_s11": {
+          "kl": 2.4290921748708687,
+          "raw_i": 17.325665814191773,
+          "raw_nmse": 228.59518937275237
+        },
+        "exp_kl_s11": {
+          "kl": 4.030565121841722,
+          "raw_i": 43292.13150370378,
+          "raw_nmse": 11936713068.026419
+        },
+        "global_bal_s11": {
+          "kl": 4.030565121841722,
+          "raw_i": 55.353033287985106,
+          "raw_nmse": 19214.908997496197
+        },
+        "calibrated_s11": {
+          "kl": 4.030565121841722,
+          "raw_i": 88.58307182535933,
+          "raw_nmse": 24617.104443960143
+        },
+        "gate_s11": {
+          "kl": 4.030565121841722,
+          "raw_i": 119.27220946676978,
+          "raw_nmse": 48896.81788758667
+        },
+        "favor_s11": {
+          "kl": 0.9425067664904321,
+          "raw_i": 7.586250705458425,
+          "raw_nmse": 0.9908806104640769
+        }
+      },
+      "confidence_nuclear_error": 3.861960393053911,
+      "occupied_q": 56,
+      "occupied_k": 202
+    },
+    {
+      "head": [
+        27,
+        4
+      ],
+      "mutual_information": 0.05668170312408558,
+      "curves": [
+        {
+          "m": 16,
+          "balanced_empirical_lb": 2.348219103492657e-08,
+          "raw_empirical_lb": 7.908021638184835e-09,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 32,
+          "balanced_empirical_lb": 7.572788264764015e-10,
+          "raw_empirical_lb": 2.5359709362232e-10,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 64,
+          "balanced_empirical_lb": 6.938665446452839e-69,
+          "raw_empirical_lb": 5.2332267094989925e-70,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 128,
+          "balanced_empirical_lb": 1.3644583545987907e-72,
+          "raw_empirical_lb": 2.0735887646058012e-73,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        }
+      ],
+      "risk": {
+        "split_01_s11": {
+          "kl": 2.1933657969832163,
+          "raw_i": 15.907807352814846,
+          "raw_nmse": 273.01247330910917
+        },
+        "exp_kl_s11": {
+          "kl": 4.1677492729864625,
+          "raw_i": 8200.402145030905,
+          "raw_nmse": 246642199.3592822
+        },
+        "global_bal_s11": {
+          "kl": 4.167749272986463,
+          "raw_i": 15.02235113194601,
+          "raw_nmse": 674.0822602615191
+        },
+        "calibrated_s11": {
+          "kl": 4.167749272986463,
+          "raw_i": 65.2505390164668,
+          "raw_nmse": 11498.120956295123
+        },
+        "gate_s11": {
+          "kl": 4.167749272986463,
+          "raw_i": 81.74018270251592,
+          "raw_nmse": 16249.697085106205
+        },
+        "favor_s11": {
+          "kl": 1.081530194603149,
+          "raw_i": 5.107210912456059,
+          "raw_nmse": 0.9869476295689298
+        }
+      },
+      "confidence_nuclear_error": 3.861960393053911,
+      "occupied_q": 53,
+      "occupied_k": 202
+    },
+    {
+      "head": [
+        27,
+        5
+      ],
+      "mutual_information": 0.05212181908611466,
+      "curves": [
+        {
+          "m": 16,
+          "balanced_empirical_lb": 2.3309902364301783e-08,
+          "raw_empirical_lb": 8.07814942935918e-09,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 32,
+          "balanced_empirical_lb": 1.0163024270186915e-09,
+          "raw_empirical_lb": 2.790946788781066e-10,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 64,
+          "balanced_empirical_lb": 1.447076165721283e-68,
+          "raw_empirical_lb": 4.756208661463714e-69,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 128,
+          "balanced_empirical_lb": 1.2625445735457665e-72,
+          "raw_empirical_lb": 1.8180074471744252e-72,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        }
+      ],
+      "risk": {
+        "split_01_s11": {
+          "kl": 2.635873477975386,
+          "raw_i": 18.902435442200687,
+          "raw_nmse": 281.92682331322254
+        },
+        "exp_kl_s11": {
+          "kl": 4.369873306038375,
+          "raw_i": 4760.932244232515,
+          "raw_nmse": 45727029.68185829
+        },
+        "global_bal_s11": {
+          "kl": 4.369873306038375,
+          "raw_i": 9.073270839691933,
+          "raw_nmse": 90.2355078102173
+        },
+        "calibrated_s11": {
+          "kl": 4.369873306038375,
+          "raw_i": 69.18748973768987,
+          "raw_nmse": 9486.407853327022
+        },
+        "gate_s11": {
+          "kl": 4.369873306038375,
+          "raw_i": 88.38486897033286,
+          "raw_nmse": 15487.626833057906
+        },
+        "favor_s11": {
+          "kl": 1.5019227172997223,
+          "raw_i": 15.12953060431452,
+          "raw_nmse": 0.9999990252598775
+        }
+      },
+      "confidence_nuclear_error": 3.861960393053911,
+      "occupied_q": 56,
+      "occupied_k": 202
+    },
+    {
+      "head": [
+        27,
+        6
+      ],
+      "mutual_information": 0.054240347021330626,
+      "curves": [
+        {
+          "m": 16,
+          "balanced_empirical_lb": 2.3280590304040425e-08,
+          "raw_empirical_lb": 2.5783282833150834e-09,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 32,
+          "balanced_empirical_lb": 7.552469375644765e-10,
+          "raw_empirical_lb": 6.750552839050239e-11,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 64,
+          "balanced_empirical_lb": 2.6481898773654833e-68,
+          "raw_empirical_lb": 4.520328751372735e-70,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 128,
+          "balanced_empirical_lb": 2.491633946715132e-72,
+          "raw_empirical_lb": 5.924663586795728e-74,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        }
+      ],
+      "risk": {
+        "split_01_s11": {
+          "kl": 2.7534798175117077,
+          "raw_i": 18.75458532898066,
+          "raw_nmse": 122.09418196655011
+        },
+        "exp_kl_s11": {
+          "kl": 4.460350568332262,
+          "raw_i": 7128.7046083894365,
+          "raw_nmse": 137567507.11819202
+        },
+        "global_bal_s11": {
+          "kl": 4.460350568332262,
+          "raw_i": 7.840905267215748,
+          "raw_nmse": 95.83415458808808
+        },
+        "calibrated_s11": {
+          "kl": 4.460350568332262,
+          "raw_i": 112.4170318663578,
+          "raw_nmse": 34374.911863097564
+        },
+        "gate_s11": {
+          "kl": 4.460350568332262,
+          "raw_i": 155.23358911323257,
+          "raw_nmse": 78225.23383987143
+        },
+        "favor_s11": {
+          "kl": 2.168234179029281,
+          "raw_i": 18.269056012662862,
+          "raw_nmse": 1.0000042515204632
+        }
+      },
+      "confidence_nuclear_error": 3.861960393053911,
+      "occupied_q": 56,
+      "occupied_k": 202
+    },
+    {
+      "head": [
+        27,
+        7
+      ],
+      "mutual_information": 0.06537209739797567,
+      "curves": [
+        {
+          "m": 16,
+          "balanced_empirical_lb": 3.506517349635241e-08,
+          "raw_empirical_lb": 1.5998714864731711e-09,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 32,
+          "balanced_empirical_lb": 1.3845144080905216e-09,
+          "raw_empirical_lb": 3.8232318295515496e-11,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 64,
+          "balanced_empirical_lb": 4.660566629643206e-68,
+          "raw_empirical_lb": 1.3351853085650253e-70,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 128,
+          "balanced_empirical_lb": 3.68594388809066e-72,
+          "raw_empirical_lb": 2.316939085755625e-74,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        }
+      ],
+      "risk": {
+        "split_01_s11": {
+          "kl": 2.899869301768965,
+          "raw_i": 12.092925276112773,
+          "raw_nmse": 33.63213363615225
+        },
+        "exp_kl_s11": {
+          "kl": 3.2074534614195023,
+          "raw_i": 4547.766902394747,
+          "raw_nmse": 42657177.85731608
+        },
+        "global_bal_s11": {
+          "kl": 3.2074534614195023,
+          "raw_i": 3.070884204902372,
+          "raw_nmse": 7.371080905206331
+        },
+        "calibrated_s11": {
+          "kl": 3.207453461419502,
+          "raw_i": 6.322150657478447,
+          "raw_nmse": 11.227214033703829
+        },
+        "gate_s11": {
+          "kl": 3.207453461419502,
+          "raw_i": 7.933273759074921,
+          "raw_nmse": 23.726347457168615
+        },
+        "favor_s11": {
+          "kl": 2.562980338901808,
+          "raw_i": 19.621280193026102,
+          "raw_nmse": 0.9999999596247701
+        }
+      },
+      "confidence_nuclear_error": 3.861960393053911,
+      "occupied_q": 57,
+      "occupied_k": 202
+    },
+    {
+      "head": [
+        27,
+        8
+      ],
+      "mutual_information": 0.06322811973338016,
+      "curves": [
+        {
+          "m": 16,
+          "balanced_empirical_lb": 5.475490360077088e-08,
+          "raw_empirical_lb": 6.67935551023317e-09,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 32,
+          "balanced_empirical_lb": 2.568219632512921e-09,
+          "raw_empirical_lb": 2.145292168504131e-10,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 64,
+          "balanced_empirical_lb": 3.6685822877848798e-68,
+          "raw_empirical_lb": 1.276831614295238e-69,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 128,
+          "balanced_empirical_lb": 4.4156407808484564e-72,
+          "raw_empirical_lb": 1.5578570658679963e-73,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        }
+      ],
+      "risk": {
+        "split_01_s11": {
+          "kl": 3.246272506610471,
+          "raw_i": 35.805835058917346,
+          "raw_nmse": 451.03380994443967
+        },
+        "exp_kl_s11": {
+          "kl": 4.636608909770649,
+          "raw_i": 13950.516699316137,
+          "raw_nmse": 248145029.47826383
+        },
+        "global_bal_s11": {
+          "kl": 4.636608909770649,
+          "raw_i": 11.068343728952389,
+          "raw_nmse": 81.67644213100426
+        },
+        "calibrated_s11": {
+          "kl": 4.636608909770648,
+          "raw_i": 78.28246158819488,
+          "raw_nmse": 6022.67304047191
+        },
+        "gate_s11": {
+          "kl": 4.636608909770648,
+          "raw_i": 122.33656925095441,
+          "raw_nmse": 16261.464969264847
+        },
+        "favor_s11": {
+          "kl": 1.229449592510472,
+          "raw_i": 15.624446439125478,
+          "raw_nmse": 0.9999995996241513
+        }
+      },
+      "confidence_nuclear_error": 3.861960393053911,
+      "occupied_q": 58,
+      "occupied_k": 202
+    },
+    {
+      "head": [
+        27,
+        9
+      ],
+      "mutual_information": 0.1251616012056265,
+      "curves": [
+        {
+          "m": 16,
+          "balanced_empirical_lb": 9.74873560415101e-08,
+          "raw_empirical_lb": 2.953062073753877e-08,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 32,
+          "balanced_empirical_lb": 4.187084248420119e-09,
+          "raw_empirical_lb": 1.2474316271081713e-09,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 64,
+          "balanced_empirical_lb": 6.941193655853891e-14,
+          "raw_empirical_lb": 2.5355684416007978e-14,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 128,
+          "balanced_empirical_lb": 3.3178783011729204e-70,
+          "raw_empirical_lb": 9.595657767713875e-72,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        }
+      ],
+      "risk": {
+        "split_01_s11": {
+          "kl": 5.017407065484997,
+          "raw_i": 14689.75821699334,
+          "raw_nmse": 964436192.0456969
+        },
+        "exp_kl_s11": {
+          "kl": 5.204160586685353,
+          "raw_i": 48502.30342758761,
+          "raw_nmse": 47364503405.53547
+        },
+        "global_bal_s11": {
+          "kl": 5.204160586685353,
+          "raw_i": 8.038597511402445,
+          "raw_nmse": 1.264968824158106
+        },
+        "calibrated_s11": {
+          "kl": 5.204160586685353,
+          "raw_i": 8177.467132169974,
+          "raw_nmse": 7150568364.315425
+        },
+        "gate_s11": {
+          "kl": 5.204160586685353,
+          "raw_i": 13492.35668894342,
+          "raw_nmse": 27227487829.612907
+        },
+        "favor_s11": {
+          "kl": 3.3252688998428734,
+          "raw_i": 18.789695816433976,
+          "raw_nmse": 0.9999994653144109
+        }
+      },
+      "confidence_nuclear_error": 3.861960393053911,
+      "occupied_q": 66,
+      "occupied_k": 202
+    },
+    {
+      "head": [
+        27,
+        10
+      ],
+      "mutual_information": 0.13708342307747068,
+      "curves": [
+        {
+          "m": 16,
+          "balanced_empirical_lb": 5.7470538135522575e-08,
+          "raw_empirical_lb": 5.1068811389695225e-09,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 32,
+          "balanced_empirical_lb": 6.199799770586164e-10,
+          "raw_empirical_lb": 5.647350949670676e-11,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 64,
+          "balanced_empirical_lb": 4.2229299492975125e-68,
+          "raw_empirical_lb": 2.924139276333603e-70,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 128,
+          "balanced_empirical_lb": 5.642167972861965e-72,
+          "raw_empirical_lb": 4.052713674503263e-74,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        }
+      ],
+      "risk": {
+        "split_01_s11": {
+          "kl": 12.46501252105729,
+          "raw_i": 71626826337.52774,
+          "raw_nmse": 5.854616307210423e+24
+        },
+        "exp_kl_s11": {
+          "kl": 18.42268053695759,
+          "raw_i": 3055450592039.164,
+          "raw_nmse": 3.816338249420692e+28
+        },
+        "global_bal_s11": {
+          "kl": 18.42268053695759,
+          "raw_i": 63.74206182581282,
+          "raw_nmse": 7490147.4623218775
+        },
+        "calibrated_s11": {
+          "kl": 18.422680536957586,
+          "raw_i": 2.0502419699043092e+16,
+          "raw_nmse": 6.729330886725818e+36
+        },
+        "gate_s11": {
+          "kl": 18.422680536957586,
+          "raw_i": 1444935773624536.0,
+          "raw_nmse": 3.436300362771954e+34
+        },
+        "favor_s11": {
+          "kl": 2.671560892961819,
+          "raw_i": 15.56128872283047,
+          "raw_nmse": 0.9999889249109183
+        }
+      },
+      "confidence_nuclear_error": 3.861960393053911,
+      "occupied_q": 50,
+      "occupied_k": 202
+    },
+    {
+      "head": [
+        27,
+        11
+      ],
+      "mutual_information": 0.050564556492562585,
+      "curves": [
+        {
+          "m": 16,
+          "balanced_empirical_lb": 2.3218242680439094e-08,
+          "raw_empirical_lb": 2.4992020704194944e-09,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 32,
+          "balanced_empirical_lb": 3.492941119855911e-10,
+          "raw_empirical_lb": 3.410932428835326e-11,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 64,
+          "balanced_empirical_lb": 1.6484348066622385e-68,
+          "raw_empirical_lb": 1.6766917970131307e-70,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        },
+        {
+          "m": 128,
+          "balanced_empirical_lb": 6.060914779983554e-73,
+          "raw_empirical_lb": 5.41611409347103e-74,
+          "balanced_iid_document_95_lower_bound": 0.0,
+          "old_mi_lb": 0
+        }
+      ],
+      "risk": {
+        "split_01_s11": {
+          "kl": 2.745974909325338,
+          "raw_i": 11.75464296997325,
+          "raw_nmse": 39.014517457473005
+        },
+        "exp_kl_s11": {
+          "kl": 3.841837836756765,
+          "raw_i": 24937.0336702471,
+          "raw_nmse": 1840833500.4457338
+        },
+        "global_bal_s11": {
+          "kl": 3.8418378367567647,
+          "raw_i": 13.791487373496023,
+          "raw_nmse": 483.70293057222966
+        },
+        "calibrated_s11": {
+          "kl": 3.841837836756765,
+          "raw_i": 28.39106983585474,
+          "raw_nmse": 478.1980741214752
+        },
+        "gate_s11": {
+          "kl": 3.8418378367567647,
+          "raw_i": 49.118707297572875,
+          "raw_nmse": 2010.7973892038378
+        },
+        "favor_s11": {
+          "kl": 1.102831006761491,
+          "raw_i": 12.703260567029501,
+          "raw_nmse": 0.9997297713267265
+        }
+      },
+      "confidence_nuclear_error": 3.861960393053911,
+      "occupied_q": 51,
+      "occupied_k": 202
+    }
+  ],
+  "query_documents": 128,
+  "query_count": 2048,
+  "key_count": 4096,
+  "key_reference": "Fixed train-only bank: four keys of each of first1024 training documents",
+  "scope": "Complete selected empirical P_Q x fixed-P_K product. Not one-context matrix optimization, not a certificate for unknown full P_K. Confidence correction assumes iid documents; source dependencies can violate that assumption.",
+  "partition": "256 kmeans cells per side, 15 fixed iterations, learned only on training vectors; network itself has continuous features."
+}

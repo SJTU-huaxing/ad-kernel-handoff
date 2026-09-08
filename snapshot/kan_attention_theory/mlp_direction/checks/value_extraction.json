@@ -1,0 +1,326 @@
+{
+  "checks": [
+    {
+      "shard": "train_000.pt",
+      "q_relative_l2": 0.008327944204211235,
+      "k_relative_l2": 0.009730461053550243
+    },
+    {
+      "shard": "train_001.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_002.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_003.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_004.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_005.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_006.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_007.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_008.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_009.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_010.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_011.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_012.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_013.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_014.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_015.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_016.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_017.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_018.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_019.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_020.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_021.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_022.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_023.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_024.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_025.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_026.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_027.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_028.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_029.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_030.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_031.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_032.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_033.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_034.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_035.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_036.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_037.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_038.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_039.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_040.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_041.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_042.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_043.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_044.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_045.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_046.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_047.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_048.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_049.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_050.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_051.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_052.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_053.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_054.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_055.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_056.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_057.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_058.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_059.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_060.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_061.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_062.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    },
+    {
+      "shard": "train_063.pt",
+      "q_relative_l2": 0.0,
+      "k_relative_l2": 0.0
+    }
+  ],
+  "seconds": 224.03408129327,
+  "alignment": "Existing stored key_positions applied to separately captured V from identical frozen model and input IDs."
+}

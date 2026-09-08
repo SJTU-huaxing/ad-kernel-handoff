@@ -1,0 +1,22 @@
+{
+  "family": "gdn",
+  "name": "gdn_signed_residual_s11",
+  "prefill_512_ms": 59.043096378445625,
+  "decode_ms_per_token": 32.860219362191856,
+  "prefill_samples_ms": [
+    60.17990782856941,
+    59.043096378445625,
+    57.82557465136051
+  ],
+  "decode_samples_ms": [
+    32.73311676457524,
+    32.97496575396508,
+    32.860219362191856
+  ],
+  "state_bytes": [
+    22536192,
+    22536192,
+    22536192
+  ],
+  "scope": "Batch1 BF16 native full model, 512-token prefill then 32 fixed real continuation tokens; 3 hot runs; Python/FLA reference feature adapters. Not an optimized-fusion benchmark."
+}

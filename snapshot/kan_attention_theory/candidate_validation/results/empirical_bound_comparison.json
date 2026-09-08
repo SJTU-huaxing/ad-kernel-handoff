@@ -1,0 +1,482 @@
+[
+  {
+    "dataset": "internal",
+    "method": "cone_mulkan",
+    "head": [
+      14,
+      0
+    ],
+    "risk": 0.3206171035452969,
+    "oracle_lower": 0.010434209479149395,
+    "oracle_upper": 0.02209554960706983,
+    "ratio_at_least": 14.510483298533122
+  },
+  {
+    "dataset": "internal",
+    "method": "cone_mulkan",
+    "head": [
+      14,
+      6
+    ],
+    "risk": 0.4689597034829338,
+    "oracle_lower": 0.04969510279918641,
+    "oracle_upper": 0.08949084201024016,
+    "ratio_at_least": 5.240309432212876
+  },
+  {
+    "dataset": "internal",
+    "method": "cone_mulkan",
+    "head": [
+      27,
+      0
+    ],
+    "risk": 0.8133744174224233,
+    "oracle_lower": 0.04831054805673251,
+    "oracle_upper": 0.07388081523669765,
+    "ratio_at_least": 11.009277778223659
+  },
+  {
+    "dataset": "internal",
+    "method": "cone_mulkan",
+    "head": [
+      27,
+      6
+    ],
+    "risk": 0.7638881001393864,
+    "oracle_lower": 0.03964095823534699,
+    "oracle_upper": 0.05661070580947236,
+    "ratio_at_least": 13.493703871319143
+  },
+  {
+    "dataset": "internal",
+    "method": "cone_mlp",
+    "head": [
+      14,
+      0
+    ],
+    "risk": 0.35256716893169954,
+    "oracle_lower": 0.010434209479149395,
+    "oracle_upper": 0.02209554960706983,
+    "ratio_at_least": 15.956478802359817
+  },
+  {
+    "dataset": "internal",
+    "method": "cone_mlp",
+    "head": [
+      14,
+      6
+    ],
+    "risk": 0.46751050145814504,
+    "oracle_lower": 0.04969510279918641,
+    "oracle_upper": 0.08949084201024016,
+    "ratio_at_least": 5.224115573799711
+  },
+  {
+    "dataset": "internal",
+    "method": "cone_mlp",
+    "head": [
+      27,
+      0
+    ],
+    "risk": 0.8492213775612509,
+    "oracle_lower": 0.04831054805673251,
+    "oracle_upper": 0.07388081523669765,
+    "ratio_at_least": 11.494477623731346
+  },
+  {
+    "dataset": "internal",
+    "method": "cone_mlp",
+    "head": [
+      27,
+      6
+    ],
+    "risk": 0.7788022661937531,
+    "oracle_lower": 0.03964095823534699,
+    "oracle_upper": 0.05661070580947236,
+    "ratio_at_least": 13.757155206912124
+  },
+  {
+    "dataset": "internal",
+    "method": "cone_raw_mlp",
+    "head": [
+      14,
+      0
+    ],
+    "risk": 0.3373532187335691,
+    "oracle_lower": 0.010434209479149395,
+    "oracle_upper": 0.02209554960706983,
+    "ratio_at_least": 15.267926108777464
+  },
+  {
+    "dataset": "internal",
+    "method": "cone_raw_mlp",
+    "head": [
+      14,
+      6
+    ],
+    "risk": 0.4657227812545105,
+    "oracle_lower": 0.04969510279918641,
+    "oracle_upper": 0.08949084201024016,
+    "ratio_at_least": 5.204139002303937
+  },
+  {
+    "dataset": "internal",
+    "method": "cone_raw_mlp",
+    "head": [
+      27,
+      0
+    ],
+    "risk": 0.7715213142992803,
+    "oracle_lower": 0.04831054805673251,
+    "oracle_upper": 0.07388081523669765,
+    "ratio_at_least": 10.442782904161223
+  },
+  {
+    "dataset": "internal",
+    "method": "cone_raw_mlp",
+    "head": [
+      27,
+      6
+    ],
+    "risk": 0.6225601150228232,
+    "oracle_lower": 0.03964095823534699,
+    "oracle_upper": 0.05661070580947236,
+    "ratio_at_least": 10.997215210813598
+  },
+  {
+    "dataset": "internal",
+    "method": "cone_raw_kan",
+    "head": [
+      14,
+      0
+    ],
+    "risk": 0.3396661282822023,
+    "oracle_lower": 0.010434209479149395,
+    "oracle_upper": 0.02209554960706983,
+    "ratio_at_least": 15.372603728921074
+  },
+  {
+    "dataset": "internal",
+    "method": "cone_raw_kan",
+    "head": [
+      14,
+      6
+    ],
+    "risk": 0.46685041875714656,
+    "oracle_lower": 0.04969510279918641,
+    "oracle_upper": 0.08949084201024016,
+    "ratio_at_least": 5.216739593351086
+  },
+  {
+    "dataset": "internal",
+    "method": "cone_raw_kan",
+    "head": [
+      27,
+      0
+    ],
+    "risk": 0.803949407537547,
+    "oracle_lower": 0.04831054805673251,
+    "oracle_upper": 0.07388081523669765,
+    "ratio_at_least": 10.881707314163663
+  },
+  {
+    "dataset": "internal",
+    "method": "cone_raw_kan",
+    "head": [
+      27,
+      6
+    ],
+    "risk": 0.6795933859535837,
+    "oracle_lower": 0.03964095823534699,
+    "oracle_upper": 0.05661070580947236,
+    "ratio_at_least": 12.004679613796142
+  },
+  {
+    "dataset": "internal",
+    "method": "cone_raw_mulkan",
+    "head": [
+      14,
+      0
+    ],
+    "risk": 0.32769919537628667,
+    "oracle_lower": 0.010434209479149395,
+    "oracle_upper": 0.02209554960706983,
+    "ratio_at_least": 14.831004487502495
+  },
+  {
+    "dataset": "internal",
+    "method": "cone_raw_mulkan",
+    "head": [
+      14,
+      6
+    ],
+    "risk": 0.46676266417497597,
+    "oracle_lower": 0.04969510279918641,
+    "oracle_upper": 0.08949084201024016,
+    "ratio_at_least": 5.215758994887609
+  },
+  {
+    "dataset": "internal",
+    "method": "cone_raw_mulkan",
+    "head": [
+      27,
+      0
+    ],
+    "risk": 0.7736212286332342,
+    "oracle_lower": 0.04831054805673251,
+    "oracle_upper": 0.07388081523669765,
+    "ratio_at_least": 10.471205903111985
+  },
+  {
+    "dataset": "internal",
+    "method": "cone_raw_mulkan",
+    "head": [
+      27,
+      6
+    ],
+    "risk": 0.5857447284471615,
+    "oracle_lower": 0.03964095823534699,
+    "oracle_upper": 0.05661070580947236,
+    "ratio_at_least": 10.346889692888302
+  },
+  {
+    "dataset": "official",
+    "method": "cone_mulkan",
+    "head": [
+      14,
+      0
+    ],
+    "risk": 0.399202587613732,
+    "oracle_lower": 0.017273570025500756,
+    "oracle_upper": 0.021193509436961744,
+    "ratio_at_least": 18.836077564271527
+  },
+  {
+    "dataset": "official",
+    "method": "cone_mulkan",
+    "head": [
+      14,
+      6
+    ],
+    "risk": 0.9457154034396834,
+    "oracle_lower": 0.0032808528762775595,
+    "oracle_upper": 0.0037857313461826525,
+    "ratio_at_least": 249.81049022226495
+  },
+  {
+    "dataset": "official",
+    "method": "cone_mulkan",
+    "head": [
+      27,
+      0
+    ],
+    "risk": 0.6752460655093246,
+    "oracle_lower": 0.018302415843216784,
+    "oracle_upper": 0.022420313591125618,
+    "ratio_at_least": 30.117601288886508
+  },
+  {
+    "dataset": "official",
+    "method": "cone_mulkan",
+    "head": [
+      27,
+      6
+    ],
+    "risk": 0.7192398578982245,
+    "oracle_lower": 0.005764134657143899,
+    "oracle_upper": 0.00689743253302888,
+    "ratio_at_least": 104.27646148825521
+  },
+  {
+    "dataset": "official",
+    "method": "cone_mlp",
+    "head": [
+      14,
+      0
+    ],
+    "risk": 0.43047089129936517,
+    "oracle_lower": 0.017273570025500756,
+    "oracle_upper": 0.021193509436961744,
+    "ratio_at_least": 20.31144924722182
+  },
+  {
+    "dataset": "official",
+    "method": "cone_mlp",
+    "head": [
+      14,
+      6
+    ],
+    "risk": 0.945244268703188,
+    "oracle_lower": 0.0032808528762775595,
+    "oracle_upper": 0.0037857313461826525,
+    "ratio_at_least": 249.68604009799228
+  },
+  {
+    "dataset": "official",
+    "method": "cone_mlp",
+    "head": [
+      27,
+      0
+    ],
+    "risk": 0.7956442494200251,
+    "oracle_lower": 0.018302415843216784,
+    "oracle_upper": 0.022420313591125618,
+    "ratio_at_least": 35.48765034825187
+  },
+  {
+    "dataset": "official",
+    "method": "cone_mlp",
+    "head": [
+      27,
+      6
+    ],
+    "risk": 0.7123510780135829,
+    "oracle_lower": 0.005764134657143899,
+    "oracle_upper": 0.00689743253302888,
+    "ratio_at_least": 103.27771596205336
+  },
+  {
+    "dataset": "official",
+    "method": "cone_raw_mlp",
+    "head": [
+      14,
+      0
+    ],
+    "risk": 0.422603265354967,
+    "oracle_lower": 0.017273570025500756,
+    "oracle_upper": 0.021193509436961744,
+    "ratio_at_least": 19.94022116119861
+  },
+  {
+    "dataset": "official",
+    "method": "cone_raw_mlp",
+    "head": [
+      14,
+      6
+    ],
+    "risk": 0.945001431422409,
+    "oracle_lower": 0.0032808528762775595,
+    "oracle_upper": 0.0037857313461826525,
+    "ratio_at_least": 249.62189469025648
+  },
+  {
+    "dataset": "official",
+    "method": "cone_raw_mlp",
+    "head": [
+      27,
+      0
+    ],
+    "risk": 0.6701731921638505,
+    "oracle_lower": 0.018302415843216784,
+    "oracle_upper": 0.022420313591125618,
+    "ratio_at_least": 29.891338916379727
+  },
+  {
+    "dataset": "official",
+    "method": "cone_raw_mlp",
+    "head": [
+      27,
+      6
+    ],
+    "risk": 0.5067395136066569,
+    "oracle_lower": 0.005764134657143899,
+    "oracle_upper": 0.00689743253302888,
+    "ratio_at_least": 73.46784635878586
+  },
+  {
+    "dataset": "official",
+    "method": "cone_raw_kan",
+    "head": [
+      14,
+      0
+    ],
+    "risk": 0.4247477553711413,
+    "oracle_lower": 0.017273570025500756,
+    "oracle_upper": 0.021193509436961744,
+    "ratio_at_least": 20.041407329659897
+  },
+  {
+    "dataset": "official",
+    "method": "cone_raw_kan",
+    "head": [
+      14,
+      6
+    ],
+    "risk": 0.9453421081702682,
+    "oracle_lower": 0.0032808528762775595,
+    "oracle_upper": 0.0037857313461826525,
+    "ratio_at_least": 249.71188436905467
+  },
+  {
+    "dataset": "official",
+    "method": "cone_raw_kan",
+    "head": [
+      27,
+      0
+    ],
+    "risk": 0.7095819203225273,
+    "oracle_lower": 0.018302415843216784,
+    "oracle_upper": 0.022420313591125618,
+    "ratio_at_least": 31.649063133683963
+  },
+  {
+    "dataset": "official",
+    "method": "cone_raw_kan",
+    "head": [
+      27,
+      6
+    ],
+    "risk": 0.5729225000159239,
+    "oracle_lower": 0.005764134657143899,
+    "oracle_upper": 0.00689743253302888,
+    "ratio_at_least": 83.0631539014613
+  },
+  {
+    "dataset": "official",
+    "method": "cone_raw_mulkan",
+    "head": [
+      14,
+      0
+    ],
+    "risk": 0.4128068815144819,
+    "oracle_lower": 0.017273570025500756,
+    "oracle_upper": 0.021193509436961744,
+    "ratio_at_least": 19.47798606655213
+  },
+  {
+    "dataset": "official",
+    "method": "cone_raw_mulkan",
+    "head": [
+      14,
+      6
+    ],
+    "risk": 0.9453484686835726,
+    "oracle_lower": 0.0032808528762775595,
+    "oracle_upper": 0.0037857313461826525,
+    "ratio_at_least": 249.71356449707295
+  },
+  {
+    "dataset": "official",
+    "method": "cone_raw_mulkan",
+    "head": [
+      27,
+      0
+    ],
+    "risk": 0.640578358663596,
+    "oracle_lower": 0.018302415843216784,
+    "oracle_upper": 0.022420313591125618,
+    "ratio_at_least": 28.571338043958
+  },
+  {
+    "dataset": "official",
+    "method": "cone_raw_mulkan",
+    "head": [
+      27,
+      6
+    ],
+    "risk": 0.4442247534382724,
+    "oracle_lower": 0.005764134657143899,
+    "oracle_upper": 0.00689743253302888,
+    "ratio_at_least": 64.40436369780616
+  }
+]

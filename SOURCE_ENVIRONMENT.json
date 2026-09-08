@@ -1,0 +1,19 @@
+{
+  "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]",
+  "machine": "x86_64",
+  "torch": "2.13.0+cu130",
+  "cuda": "13.0",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "packages": {
+    "torch": "2.13.0",
+    "transformers": "5.16.1",
+    "triton": "3.7.1",
+    "numpy": "2.4.6",
+    "safetensors": "0.8.0",
+    "datasets": "5.0.1",
+    "huggingface-hub": "1.29.0",
+    "einops": "0.8.2",
+    "flash-linear-attention": "0.5.2"
+  },
+  "fla_commit": "8e84ed4a6727be082c34a3855c60623fd11411e9"
+}

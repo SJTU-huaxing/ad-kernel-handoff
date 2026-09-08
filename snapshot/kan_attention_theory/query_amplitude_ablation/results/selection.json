@@ -1,0 +1,11 @@
+{
+  "learning_rates": {
+    "product_i__reduced_plain": 0.002,
+    "product_i__reduced_matched": 0.002,
+    "causal_i__reduced_plain": 0.002,
+    "causal_i__reduced_matched": 0.002,
+    "causal_kl__reduced_plain": 0.002,
+    "causal_kl__reduced_matched": 0.002
+  },
+  "protocol_sha256": "6ebcc9c0fbf2c33bd32fb7493bd2275555490ba9a05d11cce12f02bc4ef96e73"
+}

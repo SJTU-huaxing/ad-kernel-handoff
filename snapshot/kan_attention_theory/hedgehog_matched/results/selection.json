@@ -1,0 +1,11 @@
+{
+  "learning_rates": {
+    "ad_raw": 0.002,
+    "hh_raw": 0.002,
+    "ad_kl": 0.002,
+    "hh_kl": 0.002,
+    "hh_softmax_kl": 0.002
+  },
+  "criterion": "Training objective on fixed first32 validation docs.",
+  "protocol_sha256": "d1d482a5d046358acc6a3ced017fd632e1a2fa77be2aa2d6c4fab8e323c75214"
+}

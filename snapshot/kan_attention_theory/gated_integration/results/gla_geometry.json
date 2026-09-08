@@ -1,0 +1,820 @@
+{
+  "rows": [
+    {
+      "name": "native",
+      "layer": 11,
+      "document": 0,
+      "mean_key_cosine": 0.6414839042259212,
+      "p95_key_cosine": 0.945126097504065,
+      "associative_recall_nmse": 1.5975407254208214,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "native",
+      "layer": 11,
+      "document": 1,
+      "mean_key_cosine": 0.639187803878313,
+      "p95_key_cosine": 0.9425702004028135,
+      "associative_recall_nmse": 1.5555893177678728,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "native",
+      "layer": 11,
+      "document": 2,
+      "mean_key_cosine": 0.643610620426153,
+      "p95_key_cosine": 0.9486503548480277,
+      "associative_recall_nmse": 1.5627620499194488,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "native",
+      "layer": 11,
+      "document": 3,
+      "mean_key_cosine": 0.6493290319569622,
+      "p95_key_cosine": 0.947923390167836,
+      "associative_recall_nmse": 1.53134110519612,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "native",
+      "layer": 11,
+      "document": 4,
+      "mean_key_cosine": 0.6458128977516683,
+      "p95_key_cosine": 0.9472958759296937,
+      "associative_recall_nmse": 1.4546403580224456,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "native",
+      "layer": 11,
+      "document": 5,
+      "mean_key_cosine": 0.6430105990014314,
+      "p95_key_cosine": 0.9442874914234808,
+      "associative_recall_nmse": 1.620099624668421,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "native",
+      "layer": 11,
+      "document": 6,
+      "mean_key_cosine": 0.6327902761569771,
+      "p95_key_cosine": 0.9411293950926565,
+      "associative_recall_nmse": 1.5279622694435755,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "native",
+      "layer": 11,
+      "document": 7,
+      "mean_key_cosine": 0.6427373697256181,
+      "p95_key_cosine": 0.9447365601161993,
+      "associative_recall_nmse": 1.6453618539165713,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "native",
+      "layer": 23,
+      "document": 0,
+      "mean_key_cosine": 0.6880215333381293,
+      "p95_key_cosine": 0.9267036142802387,
+      "associative_recall_nmse": 1.4751950005955832,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "native",
+      "layer": 23,
+      "document": 1,
+      "mean_key_cosine": 0.7081552311568966,
+      "p95_key_cosine": 0.9401750434188811,
+      "associative_recall_nmse": 1.4987351229732604,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "native",
+      "layer": 23,
+      "document": 2,
+      "mean_key_cosine": 0.7203929423330787,
+      "p95_key_cosine": 0.9310756243895538,
+      "associative_recall_nmse": 1.628700696454581,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "native",
+      "layer": 23,
+      "document": 3,
+      "mean_key_cosine": 0.6794898422294045,
+      "p95_key_cosine": 0.9265362020908618,
+      "associative_recall_nmse": 1.5744214320463124,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "native",
+      "layer": 23,
+      "document": 4,
+      "mean_key_cosine": 0.6921396438354602,
+      "p95_key_cosine": 0.9351275332269472,
+      "associative_recall_nmse": 1.6284318392349455,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "native",
+      "layer": 23,
+      "document": 5,
+      "mean_key_cosine": 0.6091878060027197,
+      "p95_key_cosine": 0.9137731969693952,
+      "associative_recall_nmse": 1.5356344802323831,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "native",
+      "layer": 23,
+      "document": 6,
+      "mean_key_cosine": 0.6814552605078954,
+      "p95_key_cosine": 0.9265818877088989,
+      "associative_recall_nmse": 1.4868401480519429,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "native",
+      "layer": 23,
+      "document": 7,
+      "mean_key_cosine": 0.6868063940402657,
+      "p95_key_cosine": 0.928987504634265,
+      "associative_recall_nmse": 1.4212445974703223,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_ad_shape_s11",
+      "layer": 11,
+      "document": 0,
+      "mean_key_cosine": 0.44961846261116534,
+      "p95_key_cosine": 0.9854831424214371,
+      "associative_recall_nmse": 1.7633534393553598,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 0.9967939853668213,
+      "amplitude_min": 0.7277058959007263,
+      "amplitude_max": 1.2554532289505005
+    },
+    {
+      "name": "gla_ad_shape_s11",
+      "layer": 11,
+      "document": 1,
+      "mean_key_cosine": 0.4240547760552374,
+      "p95_key_cosine": 0.9848583013427207,
+      "associative_recall_nmse": 1.7879389562194,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 0.9996315240859985,
+      "amplitude_min": 0.7334280610084534,
+      "amplitude_max": 1.3072493076324463
+    },
+    {
+      "name": "gla_ad_shape_s11",
+      "layer": 11,
+      "document": 2,
+      "mean_key_cosine": 0.4275688259744982,
+      "p95_key_cosine": 0.9874566395571166,
+      "associative_recall_nmse": 1.8418320022567367,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 0.9961080551147461,
+      "amplitude_min": 0.8281148672103882,
+      "amplitude_max": 1.2031793594360352
+    },
+    {
+      "name": "gla_ad_shape_s11",
+      "layer": 11,
+      "document": 3,
+      "mean_key_cosine": 0.4404716309488895,
+      "p95_key_cosine": 0.9868129680560815,
+      "associative_recall_nmse": 1.790184978773797,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 0.9910330772399902,
+      "amplitude_min": 0.7683101296424866,
+      "amplitude_max": 1.1968302726745605
+    },
+    {
+      "name": "gla_ad_shape_s11",
+      "layer": 11,
+      "document": 4,
+      "mean_key_cosine": 0.44137859195839757,
+      "p95_key_cosine": 0.9882915454660155,
+      "associative_recall_nmse": 1.8373062131681817,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 0.9963765144348145,
+      "amplitude_min": 0.7677099704742432,
+      "amplitude_max": 1.282159686088562
+    },
+    {
+      "name": "gla_ad_shape_s11",
+      "layer": 11,
+      "document": 5,
+      "mean_key_cosine": 0.43128526739581097,
+      "p95_key_cosine": 0.9842781001338028,
+      "associative_recall_nmse": 1.8459986495897687,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 0.9977447390556335,
+      "amplitude_min": 0.7268308401107788,
+      "amplitude_max": 1.2699506282806396
+    },
+    {
+      "name": "gla_ad_shape_s11",
+      "layer": 11,
+      "document": 6,
+      "mean_key_cosine": 0.4497324229958553,
+      "p95_key_cosine": 0.9866108118060202,
+      "associative_recall_nmse": 1.7530676686726725,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 1.0083732604980469,
+      "amplitude_min": 0.8448975086212158,
+      "amplitude_max": 1.3673774003982544
+    },
+    {
+      "name": "gla_ad_shape_s11",
+      "layer": 11,
+      "document": 7,
+      "mean_key_cosine": 0.43340540790902315,
+      "p95_key_cosine": 0.9874929271382894,
+      "associative_recall_nmse": 1.8667335099976936,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 0.9954321980476379,
+      "amplitude_min": 0.6867031455039978,
+      "amplitude_max": 1.17643141746521
+    },
+    {
+      "name": "gla_ad_shape_s11",
+      "layer": 23,
+      "document": 0,
+      "mean_key_cosine": 0.7137254947056845,
+      "p95_key_cosine": 0.9957816687164753,
+      "associative_recall_nmse": 1.7981562132699822,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 0.9863930940628052,
+      "amplitude_min": 0.8600797653198242,
+      "amplitude_max": 1.135805606842041
+    },
+    {
+      "name": "gla_ad_shape_s11",
+      "layer": 23,
+      "document": 1,
+      "mean_key_cosine": 0.6887485619630883,
+      "p95_key_cosine": 0.9954442682012158,
+      "associative_recall_nmse": 1.7721346113287861,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 0.9837120771408081,
+      "amplitude_min": 0.8430733680725098,
+      "amplitude_max": 1.1110695600509644
+    },
+    {
+      "name": "gla_ad_shape_s11",
+      "layer": 23,
+      "document": 2,
+      "mean_key_cosine": 0.7258939474047983,
+      "p95_key_cosine": 0.9955441486320427,
+      "associative_recall_nmse": 1.9519045741307914,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 0.9912683963775635,
+      "amplitude_min": 0.8463724255561829,
+      "amplitude_max": 1.1171008348464966
+    },
+    {
+      "name": "gla_ad_shape_s11",
+      "layer": 23,
+      "document": 3,
+      "mean_key_cosine": 0.7135561315865958,
+      "p95_key_cosine": 0.9955343318502072,
+      "associative_recall_nmse": 1.8945572770422616,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 0.9878658056259155,
+      "amplitude_min": 0.8878790140151978,
+      "amplitude_max": 1.1006016731262207
+    },
+    {
+      "name": "gla_ad_shape_s11",
+      "layer": 23,
+      "document": 4,
+      "mean_key_cosine": 0.686069043185891,
+      "p95_key_cosine": 0.995812135167033,
+      "associative_recall_nmse": 1.7747143889420858,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 0.9898542165756226,
+      "amplitude_min": 0.8632386326789856,
+      "amplitude_max": 1.1214594841003418
+    },
+    {
+      "name": "gla_ad_shape_s11",
+      "layer": 23,
+      "document": 5,
+      "mean_key_cosine": 0.676155632974484,
+      "p95_key_cosine": 0.994981344585088,
+      "associative_recall_nmse": 1.9260457718321686,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 0.9957410097122192,
+      "amplitude_min": 0.865238606929779,
+      "amplitude_max": 1.1543161869049072
+    },
+    {
+      "name": "gla_ad_shape_s11",
+      "layer": 23,
+      "document": 6,
+      "mean_key_cosine": 0.6835966640622693,
+      "p95_key_cosine": 0.9951052125900725,
+      "associative_recall_nmse": 1.9441054837831402,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 0.9881230592727661,
+      "amplitude_min": 0.8317791223526001,
+      "amplitude_max": 1.0989054441452026
+    },
+    {
+      "name": "gla_ad_shape_s11",
+      "layer": 23,
+      "document": 7,
+      "mean_key_cosine": 0.7172764015932647,
+      "p95_key_cosine": 0.9953534648930825,
+      "associative_recall_nmse": 1.6904158759179435,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 0.990773618221283,
+      "amplitude_min": 0.8353132009506226,
+      "amplitude_max": 1.110304355621338
+    },
+    {
+      "name": "gla_ad_full_s11",
+      "layer": 11,
+      "document": 0,
+      "mean_key_cosine": 0.5786448849342603,
+      "p95_key_cosine": 0.9900922556868431,
+      "associative_recall_nmse": 1.780322864279932,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 1.7866160869598389,
+      "amplitude_min": 0.024787545204162598,
+      "amplitude_max": 52.44387435913086
+    },
+    {
+      "name": "gla_ad_full_s11",
+      "layer": 11,
+      "document": 1,
+      "mean_key_cosine": 0.5548898453404992,
+      "p95_key_cosine": 0.989337532177617,
+      "associative_recall_nmse": 1.84098794327126,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 1.9072809219360352,
+      "amplitude_min": 0.024283459410071373,
+      "amplitude_max": 50.74995040893555
+    },
+    {
+      "name": "gla_ad_full_s11",
+      "layer": 11,
+      "document": 2,
+      "mean_key_cosine": 0.5511276534557622,
+      "p95_key_cosine": 0.9901910903515382,
+      "associative_recall_nmse": 1.8487357887850382,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 2.1749520301818848,
+      "amplitude_min": 0.029852518811821938,
+      "amplitude_max": 52.07624816894531
+    },
+    {
+      "name": "gla_ad_full_s11",
+      "layer": 11,
+      "document": 3,
+      "mean_key_cosine": 0.568298296364859,
+      "p95_key_cosine": 0.9912596026692239,
+      "associative_recall_nmse": 1.7876801341253274,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 1.9506094455718994,
+      "amplitude_min": 0.02851882576942444,
+      "amplitude_max": 51.86410903930664
+    },
+    {
+      "name": "gla_ad_full_s11",
+      "layer": 11,
+      "document": 4,
+      "mean_key_cosine": 0.5725587044613208,
+      "p95_key_cosine": 0.991386396305931,
+      "associative_recall_nmse": 1.7642507331385322,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 1.6617825031280518,
+      "amplitude_min": 0.03748710826039314,
+      "amplitude_max": 44.61372375488281
+    },
+    {
+      "name": "gla_ad_full_s11",
+      "layer": 11,
+      "document": 5,
+      "mean_key_cosine": 0.5753984993269747,
+      "p95_key_cosine": 0.9904999916464278,
+      "associative_recall_nmse": 1.7962940834030658,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 1.6327377557754517,
+      "amplitude_min": 0.02388840541243553,
+      "amplitude_max": 52.47106170654297
+    },
+    {
+      "name": "gla_ad_full_s11",
+      "layer": 11,
+      "document": 6,
+      "mean_key_cosine": 0.5907777332088551,
+      "p95_key_cosine": 0.9880386222483174,
+      "associative_recall_nmse": 1.7573264863719285,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 1.660317063331604,
+      "amplitude_min": 0.04664010554552078,
+      "amplitude_max": 51.89602279663086
+    },
+    {
+      "name": "gla_ad_full_s11",
+      "layer": 11,
+      "document": 7,
+      "mean_key_cosine": 0.5715011716420686,
+      "p95_key_cosine": 0.9883476352214775,
+      "associative_recall_nmse": 1.8722322482339064,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 1.4636105298995972,
+      "amplitude_min": 0.025431815534830093,
+      "amplitude_max": 52.54497528076172
+    },
+    {
+      "name": "gla_ad_full_s11",
+      "layer": 23,
+      "document": 0,
+      "mean_key_cosine": 0.7394316518001026,
+      "p95_key_cosine": 0.9940530558117487,
+      "associative_recall_nmse": 1.811670195169941,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 1.1776306629180908,
+      "amplitude_min": 0.05149105191230774,
+      "amplitude_max": 21.812345504760742
+    },
+    {
+      "name": "gla_ad_full_s11",
+      "layer": 23,
+      "document": 1,
+      "mean_key_cosine": 0.7122323381379454,
+      "p95_key_cosine": 0.993527873106775,
+      "associative_recall_nmse": 1.7462581715388041,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 1.3255038261413574,
+      "amplitude_min": 0.05044340714812279,
+      "amplitude_max": 22.6769962310791
+    },
+    {
+      "name": "gla_ad_full_s11",
+      "layer": 23,
+      "document": 2,
+      "mean_key_cosine": 0.7455609714437039,
+      "p95_key_cosine": 0.9941593148435005,
+      "associative_recall_nmse": 1.9322020991622253,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 1.110107183456421,
+      "amplitude_min": 0.06305898725986481,
+      "amplitude_max": 32.04729461669922
+    },
+    {
+      "name": "gla_ad_full_s11",
+      "layer": 23,
+      "document": 3,
+      "mean_key_cosine": 0.7390994837862495,
+      "p95_key_cosine": 0.9944615995639203,
+      "associative_recall_nmse": 1.9594232828656186,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 1.1710941791534424,
+      "amplitude_min": 0.051952823996543884,
+      "amplitude_max": 28.239274978637695
+    },
+    {
+      "name": "gla_ad_full_s11",
+      "layer": 23,
+      "document": 4,
+      "mean_key_cosine": 0.7067805385452343,
+      "p95_key_cosine": 0.9938846529869966,
+      "associative_recall_nmse": 1.7990682250588268,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 1.303352952003479,
+      "amplitude_min": 0.05604550614953041,
+      "amplitude_max": 17.25959014892578
+    },
+    {
+      "name": "gla_ad_full_s11",
+      "layer": 23,
+      "document": 5,
+      "mean_key_cosine": 0.7080030838987486,
+      "p95_key_cosine": 0.9925689168184483,
+      "associative_recall_nmse": 1.9097017555754154,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 1.2908470630645752,
+      "amplitude_min": 0.0321439653635025,
+      "amplitude_max": 29.533647537231445
+    },
+    {
+      "name": "gla_ad_full_s11",
+      "layer": 23,
+      "document": 6,
+      "mean_key_cosine": 0.7116921780891984,
+      "p95_key_cosine": 0.9939923044300188,
+      "associative_recall_nmse": 1.9532314666726525,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 1.6006965637207031,
+      "amplitude_min": 0.03520258143544197,
+      "amplitude_max": 29.491605758666992
+    },
+    {
+      "name": "gla_ad_full_s11",
+      "layer": 23,
+      "document": 7,
+      "mean_key_cosine": 0.7316807218833085,
+      "p95_key_cosine": 0.9937993436123531,
+      "associative_recall_nmse": 1.7676644569195843,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL.",
+      "amplitude_mean": 1.048577070236206,
+      "amplitude_min": 0.0461113415658474,
+      "amplitude_max": 16.836891174316406
+    },
+    {
+      "name": "gla_exp_mlp_s11",
+      "layer": 11,
+      "document": 0,
+      "mean_key_cosine": 0.7487490272792179,
+      "p95_key_cosine": 0.9948875137370601,
+      "associative_recall_nmse": 1.8138526240655446,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_exp_mlp_s11",
+      "layer": 11,
+      "document": 1,
+      "mean_key_cosine": 0.7551189414534892,
+      "p95_key_cosine": 0.9941497086354555,
+      "associative_recall_nmse": 1.8759286757712257,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_exp_mlp_s11",
+      "layer": 11,
+      "document": 2,
+      "mean_key_cosine": 0.7477589460965226,
+      "p95_key_cosine": 0.9954780984139445,
+      "associative_recall_nmse": 1.9052251058534166,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_exp_mlp_s11",
+      "layer": 11,
+      "document": 3,
+      "mean_key_cosine": 0.7438772342395777,
+      "p95_key_cosine": 0.9956420685128787,
+      "associative_recall_nmse": 1.9054814515991572,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_exp_mlp_s11",
+      "layer": 11,
+      "document": 4,
+      "mean_key_cosine": 0.7530900134304919,
+      "p95_key_cosine": 0.9955484347272875,
+      "associative_recall_nmse": 1.8238952423787809,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_exp_mlp_s11",
+      "layer": 11,
+      "document": 5,
+      "mean_key_cosine": 0.7496910789938696,
+      "p95_key_cosine": 0.9948462849280257,
+      "associative_recall_nmse": 1.9196941619581565,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_exp_mlp_s11",
+      "layer": 11,
+      "document": 6,
+      "mean_key_cosine": 0.7694070453356348,
+      "p95_key_cosine": 0.9940508268181735,
+      "associative_recall_nmse": 1.778555625175563,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_exp_mlp_s11",
+      "layer": 11,
+      "document": 7,
+      "mean_key_cosine": 0.742414456208612,
+      "p95_key_cosine": 0.9939052924829316,
+      "associative_recall_nmse": 1.9477811004283159,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_exp_mlp_s11",
+      "layer": 23,
+      "document": 0,
+      "mean_key_cosine": 0.7081357537569475,
+      "p95_key_cosine": 0.9940918567194859,
+      "associative_recall_nmse": 1.7906277517215186,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_exp_mlp_s11",
+      "layer": 23,
+      "document": 1,
+      "mean_key_cosine": 0.6682996468580575,
+      "p95_key_cosine": 0.992907555452458,
+      "associative_recall_nmse": 1.8808293600089212,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_exp_mlp_s11",
+      "layer": 23,
+      "document": 2,
+      "mean_key_cosine": 0.7054122876163614,
+      "p95_key_cosine": 0.9930654359622134,
+      "associative_recall_nmse": 1.9351830504926557,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_exp_mlp_s11",
+      "layer": 23,
+      "document": 3,
+      "mean_key_cosine": 0.7119715954127119,
+      "p95_key_cosine": 0.9936014175253793,
+      "associative_recall_nmse": 1.9704193398617555,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_exp_mlp_s11",
+      "layer": 23,
+      "document": 4,
+      "mean_key_cosine": 0.6838565366639698,
+      "p95_key_cosine": 0.9934533367052062,
+      "associative_recall_nmse": 1.9428307386602954,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_exp_mlp_s11",
+      "layer": 23,
+      "document": 5,
+      "mean_key_cosine": 0.657979538085349,
+      "p95_key_cosine": 0.9906438736893398,
+      "associative_recall_nmse": 1.9190793344339123,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_exp_mlp_s11",
+      "layer": 23,
+      "document": 6,
+      "mean_key_cosine": 0.6627526962924677,
+      "p95_key_cosine": 0.9935323920268756,
+      "associative_recall_nmse": 1.941984823971453,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_exp_mlp_s11",
+      "layer": 23,
+      "document": 7,
+      "mean_key_cosine": 0.6980982731014933,
+      "p95_key_cosine": 0.9917897581153875,
+      "associative_recall_nmse": 1.918865906739717,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_signed_residual_s11",
+      "layer": 11,
+      "document": 0,
+      "mean_key_cosine": 0.6104628692144236,
+      "p95_key_cosine": 0.9312701313989362,
+      "associative_recall_nmse": 1.6215109177928881,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_signed_residual_s11",
+      "layer": 11,
+      "document": 1,
+      "mean_key_cosine": 0.6108843829702676,
+      "p95_key_cosine": 0.9275782610120553,
+      "associative_recall_nmse": 1.534726096448797,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_signed_residual_s11",
+      "layer": 11,
+      "document": 2,
+      "mean_key_cosine": 0.6179482623138689,
+      "p95_key_cosine": 0.9358662716858963,
+      "associative_recall_nmse": 1.5496743643973343,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_signed_residual_s11",
+      "layer": 11,
+      "document": 3,
+      "mean_key_cosine": 0.6112039297376405,
+      "p95_key_cosine": 0.9315193159025685,
+      "associative_recall_nmse": 1.5245520134471555,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_signed_residual_s11",
+      "layer": 11,
+      "document": 4,
+      "mean_key_cosine": 0.6113221864117512,
+      "p95_key_cosine": 0.9328101691092683,
+      "associative_recall_nmse": 1.442722009198695,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_signed_residual_s11",
+      "layer": 11,
+      "document": 5,
+      "mean_key_cosine": 0.6139545466463703,
+      "p95_key_cosine": 0.9315218714352789,
+      "associative_recall_nmse": 1.6206254183147557,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_signed_residual_s11",
+      "layer": 11,
+      "document": 6,
+      "mean_key_cosine": 0.6070314888334772,
+      "p95_key_cosine": 0.9257319402584205,
+      "associative_recall_nmse": 1.5454618585956026,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_signed_residual_s11",
+      "layer": 11,
+      "document": 7,
+      "mean_key_cosine": 0.6171258910042594,
+      "p95_key_cosine": 0.9303499672023098,
+      "associative_recall_nmse": 1.6309654893814884,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_signed_residual_s11",
+      "layer": 23,
+      "document": 0,
+      "mean_key_cosine": 0.6679748040967962,
+      "p95_key_cosine": 0.919199659650255,
+      "associative_recall_nmse": 1.4893892389804064,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_signed_residual_s11",
+      "layer": 23,
+      "document": 1,
+      "mean_key_cosine": 0.6890564850486687,
+      "p95_key_cosine": 0.9333633708356237,
+      "associative_recall_nmse": 1.5139593546265058,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_signed_residual_s11",
+      "layer": 23,
+      "document": 2,
+      "mean_key_cosine": 0.7015998207967312,
+      "p95_key_cosine": 0.924797037529435,
+      "associative_recall_nmse": 1.643177546524321,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_signed_residual_s11",
+      "layer": 23,
+      "document": 3,
+      "mean_key_cosine": 0.6579329712414342,
+      "p95_key_cosine": 0.9190470512237688,
+      "associative_recall_nmse": 1.5726547427136786,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_signed_residual_s11",
+      "layer": 23,
+      "document": 4,
+      "mean_key_cosine": 0.6703442760080539,
+      "p95_key_cosine": 0.9284903327959826,
+      "associative_recall_nmse": 1.6333685100312256,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_signed_residual_s11",
+      "layer": 23,
+      "document": 5,
+      "mean_key_cosine": 0.5885303796598113,
+      "p95_key_cosine": 0.9055161694214691,
+      "associative_recall_nmse": 1.532713143254908,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_signed_residual_s11",
+      "layer": 23,
+      "document": 6,
+      "mean_key_cosine": 0.6625859168554674,
+      "p95_key_cosine": 0.9195901432849106,
+      "associative_recall_nmse": 1.487061098788003,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    },
+    {
+      "name": "gla_signed_residual_s11",
+      "layer": 23,
+      "document": 7,
+      "mean_key_cosine": 0.6703000194828781,
+      "p95_key_cosine": 0.920231159935801,
+      "associative_recall_nmse": 1.4270701728659798,
+      "scope": "128 heldout native keys; synthetic independent values; alpha=beta=1; key used for both writing and reading. Diagnoses geometry, not native-gate PPL."
+    }
+  ]
+}

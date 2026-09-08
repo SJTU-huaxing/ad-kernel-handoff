@@ -1,0 +1,98 @@
+{
+  "feature_checks": {
+    "favor_orf": {
+      "dot_identity_error": 5.329070518200751e-15,
+      "log_feature_product_relative_error": 2.0430891253813247e-15
+    },
+    "sderf_orf": {
+      "dot_identity_error": 1.2434497875801753e-14,
+      "log_feature_product_relative_error": 2.746368849675781e-15
+    },
+    "balanced_orf": {
+      "dot_identity_error": 8.881784197001252e-15,
+      "log_feature_product_relative_error": 1.3246719597220166e-15
+    },
+    "balanced_sderf_sobol": {
+      "dot_identity_error": 8.881784197001252e-15,
+      "log_feature_product_relative_error": 1.7505833294303554e-15
+    }
+  },
+  "independent_gauss_hermite": [
+    {
+      "lambda_sum": 0.01,
+      "x": 0.2,
+      "y": 0.7,
+      "relative_error": 0.0
+    },
+    {
+      "lambda_sum": 0.01,
+      "x": -0.4,
+      "y": 0.5,
+      "relative_error": 2.220446049250313e-16
+    },
+    {
+      "lambda_sum": 0.01,
+      "x": 0.6,
+      "y": 0.6,
+      "relative_error": 2.220446049250313e-16
+    },
+    {
+      "lambda_sum": 0.4,
+      "x": 0.2,
+      "y": 0.7,
+      "relative_error": 0.0
+    },
+    {
+      "lambda_sum": 0.4,
+      "x": -0.4,
+      "y": 0.5,
+      "relative_error": 2.220446049250313e-16
+    },
+    {
+      "lambda_sum": 0.4,
+      "x": 0.6,
+      "y": 0.6,
+      "relative_error": 0.0
+    },
+    {
+      "lambda_sum": 2.0,
+      "x": 0.2,
+      "y": 0.7,
+      "relative_error": 0.0
+    },
+    {
+      "lambda_sum": 2.0,
+      "x": -0.4,
+      "y": 0.5,
+      "relative_error": 2.220446049250313e-16
+    },
+    {
+      "lambda_sum": 2.0,
+      "x": 0.6,
+      "y": 0.6,
+      "relative_error": 2.220446049250313e-16
+    },
+    {
+      "lambda_sum": 5.0,
+      "x": 0.2,
+      "y": 0.7,
+      "relative_error": 2.220446049250313e-16
+    },
+    {
+      "lambda_sum": 5.0,
+      "x": -0.4,
+      "y": 0.5,
+      "relative_error": 2.220446049250313e-16
+    },
+    {
+      "lambda_sum": 5.0,
+      "x": 0.6,
+      "y": 0.6,
+      "relative_error": 6.661338147750939e-16
+    }
+  ],
+  "idiv_stationary_at_true_raw_kernel": true,
+  "beta15_stationary_at_true_raw_kernel": true,
+  "beta15_nonnegative_factorization_verified": true,
+  "restricted_variance_hessian_min_eigenvalue": 0.024933994838546695
+}

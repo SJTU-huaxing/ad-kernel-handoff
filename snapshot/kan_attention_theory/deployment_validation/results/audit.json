@@ -1,0 +1,93 @@
+{
+  "status": "passed",
+  "synthetic_exact_svd_checks": [
+    {
+      "case": 0,
+      "m": 4,
+      "lower": 0.2431906423057601,
+      "exact": 0.2747752382567038,
+      "upper": 0.2787696886327915,
+      "feasible_identity_error": 1.0547118733938987e-15
+    },
+    {
+      "case": 0,
+      "m": 8,
+      "lower": 0.11625088828618588,
+      "exact": 0.14376723680596948,
+      "upper": 0.15182993461321725,
+      "feasible_identity_error": 1.1379786002407855e-15
+    },
+    {
+      "case": 0,
+      "m": 16,
+      "lower": 0.030188623064102596,
+      "exact": 0.050379121804444524,
+      "upper": 0.06576766939113399,
+      "feasible_identity_error": 1.1102230246251565e-15
+    },
+    {
+      "case": 1,
+      "m": 4,
+      "lower": 0.0004917829834656823,
+      "exact": 0.0005495894796151903,
+      "upper": 0.0005575000514832507,
+      "feasible_identity_error": 8.679038390746463e-16
+    },
+    {
+      "case": 1,
+      "m": 8,
+      "lower": 0.0002229121719059753,
+      "exact": 0.0002745922579971737,
+      "upper": 0.0002886292399234547,
+      "feasible_identity_error": 9.568084172184577e-16
+    },
+    {
+      "case": 1,
+      "m": 16,
+      "lower": 5.2853277267606034e-05,
+      "exact": 9.245151670134482e-05,
+      "upper": 0.00011857034528506283,
+      "feasible_identity_error": 9.793869274604683e-16
+    },
+    {
+      "case": 2,
+      "m": 4,
+      "lower": 0.1996432345059516,
+      "exact": 0.22229722163693597,
+      "upper": 0.22678261251828624,
+      "feasible_identity_error": 2.7755575615628914e-17
+    },
+    {
+      "case": 2,
+      "m": 8,
+      "lower": 0.09567554571884014,
+      "exact": 0.11538349936818303,
+      "upper": 0.12281492373117475,
+      "feasible_identity_error": 9.71445146547012e-17
+    },
+    {
+      "case": 2,
+      "m": 16,
+      "lower": 0.023369895299634666,
+      "exact": 0.03798067874711081,
+      "upper": 0.050509273311969416,
+      "feasible_identity_error": 3.469446951953614e-17
+    }
+  ],
+  "empirical_spectral_brackets": 64,
+  "ppl_scenarios": 20,
+  "document_forwards": 2760,
+  "benchmark_rows": 15,
+  "source_sha256": {
+    "audit.py": "3d9a7329419c712d18341a0b3098ce1e65199219e164a814211b9affba322dc2",
+    "benchmark_model.py": "9529a6f8597112ea91226c7f145c36d0c027c2cf610a3f078be7cc42670268d0",
+    "benchmark_operators.py": "756fbce5387ce1ddd2e1490a980385e8c5c94dab8cfc41d32985beca0f67561b",
+    "evaluate_model.py": "be60f205a249d2cbb96be57afa0f7506e7528c0a28dadfd981ecd12da5272bef",
+    "runtime.py": "0bcb98ab599d69da7b22a77efa75fb980d090fbc3acb43f80c364477684c6a3e",
+    "summarize.py": "6bbdaae18779c88b9346aa93a9aa49e153893f0e3d0d89291cf5b518d4b54d7e",
+    "tighten_spectrum.py": "3128bd7fd579a6ed38e073ff417ec7e16239916c717e90b98b0b03111400353d",
+    "verify_runtime.py": "bf733168e004d79e8725a13935ad12673d2260a8addcffc11a9350c0d78866da",
+    "write_report.py": "798888f71101727fe733b6c3c4364742b0e23f008ec8fbb6047e8f5c23e37ad1"
+  },
+  "limitation": "Numeric consistency does not certify unknown-population inference or production-engine optimality."
+}

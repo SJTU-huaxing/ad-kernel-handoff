@@ -1,0 +1,2513 @@
+{
+  "results": [
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "nystrom",
+      "m": 64,
+      "kernel_nmse": 2.2247159543758497,
+      "sample_normalized_idiv": null,
+      "sample_log_mae": null,
+      "sample_negative_fraction": 0.13582992553710938,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 2.9596722463418215
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "spectral_pair",
+      "m": 64,
+      "kernel_nmse": 1.504849305995849e+16,
+      "sample_normalized_idiv": 166015338.4985761,
+      "sample_log_mae": 22.68458108867717,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 1.504849324494448e+16
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "avg_anchor",
+      "m": 64,
+      "kernel_nmse": 0.9789116890687433,
+      "sample_normalized_idiv": 4.6499036795033515,
+      "sample_log_mae": 7.388624192783482,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 0.007164495321907028,
+      "span_risk": 0.8986494315282207,
+      "coefficient_excess": 0.08026225754052252,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "cone_anchor",
+      "m": 64,
+      "kernel_nmse": 0.9739684133242403,
+      "sample_normalized_idiv": 5.239994629819045,
+      "sample_log_mae": 7.6443729301320325,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 0.22473062343982472,
+      "span_risk": 0.8986494315282207,
+      "coefficient_excess": 0.07531898179601959,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "avg_mlp",
+      "m": 64,
+      "kernel_nmse": 0.5268265593247005,
+      "sample_normalized_idiv": 0.9086376276506971,
+      "sample_log_mae": 5.677554664984582,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 0.2038277896683846,
+      "span_risk": 0.42204089852525006,
+      "coefficient_excess": 0.1047856607994504,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "cone_mlp",
+      "m": 64,
+      "kernel_nmse": 0.43049200070036286,
+      "sample_normalized_idiv": 0.6634035855634258,
+      "sample_log_mae": 3.823342990352966,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 0.5736383079761742,
+      "span_risk": 0.42204089852525006,
+      "coefficient_excess": 0.008451102175112801,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "avg_kan",
+      "m": 64,
+      "kernel_nmse": 0.6464314793582823,
+      "sample_normalized_idiv": 1.374499976941817,
+      "sample_log_mae": 7.036897864654161,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 0.08616287352989678,
+      "span_risk": 0.3609377547038104,
+      "coefficient_excess": 0.28549372465447187,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "cone_kan",
+      "m": 64,
+      "kernel_nmse": 0.42942010458581253,
+      "sample_normalized_idiv": 0.5962596009743301,
+      "sample_log_mae": 5.06839804178542,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 0.5719997353565072,
+      "span_risk": 0.3609377547038104,
+      "coefficient_excess": 0.06848234988200214,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "avg_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.42066409901164586,
+      "sample_normalized_idiv": 0.4893526723111058,
+      "sample_log_mae": 4.666739430614696,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 0.43911210538074774,
+      "span_risk": 0.3730747595601418,
+      "coefficient_excess": 0.047589339451504065,
+      "retained_basis_rank": 40,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "cone_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.40093567967096694,
+      "sample_normalized_idiv": 0.36004133057663085,
+      "sample_log_mae": 3.2641283666744196,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 0.6098467202197717,
+      "span_risk": 0.3730747595601418,
+      "coefficient_excess": 0.027860920110825138,
+      "retained_basis_rank": 40,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "vq",
+      "m": 64,
+      "kernel_nmse": 0.9489476619533097,
+      "sample_normalized_idiv": 9.972010135050358,
+      "sample_log_mae": 1.789860114370854,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 0.008097376198255749
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "partition",
+      "m": 64,
+      "kernel_nmse": 0.222263461177338,
+      "sample_normalized_idiv": 0.3778422358948996,
+      "sample_log_mae": 4.586967854206984,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 0.7418118750391931
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "galerkin",
+      "m": 64,
+      "kernel_nmse": 0.2034051696084782,
+      "sample_normalized_idiv": null,
+      "sample_log_mae": null,
+      "sample_negative_fraction": 0.19698333740234375,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 0.857228854236539
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "nn_mlp_11",
+      "m": 64,
+      "kernel_nmse": 0.45270788709760273,
+      "sample_normalized_idiv": 0.6838967537455837,
+      "sample_log_mae": 4.055565883703634,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 0.6112625676014897
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "nn_mlp_29",
+      "m": 64,
+      "kernel_nmse": 0.4518572133605117,
+      "sample_normalized_idiv": 0.7032405861460407,
+      "sample_log_mae": 4.099057475957821,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 0.5853074026820141
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "nn_mlp_47",
+      "m": 64,
+      "kernel_nmse": 0.4522685220611322,
+      "sample_normalized_idiv": 0.6721797285950724,
+      "sample_log_mae": 3.834377368142492,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 0.5508000394635344
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "nn_kan_11",
+      "m": 64,
+      "kernel_nmse": 0.4594446055767933,
+      "sample_normalized_idiv": 0.7044236228045445,
+      "sample_log_mae": 4.41756146036226,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 0.5486106036465092
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "nn_kan_29",
+      "m": 64,
+      "kernel_nmse": 0.45949772453258514,
+      "sample_normalized_idiv": 0.7647902447996925,
+      "sample_log_mae": 4.7954121585392695,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 0.5834171683949654
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "nn_kan_47",
+      "m": 64,
+      "kernel_nmse": 0.4564056380530102,
+      "sample_normalized_idiv": 0.7035372365689748,
+      "sample_log_mae": 4.744533603956672,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 0.5479345360531033
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "nn_mulkan_11",
+      "m": 64,
+      "kernel_nmse": 0.4459916444371107,
+      "sample_normalized_idiv": 0.606099508495185,
+      "sample_log_mae": 4.181264024295965,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 0.5548409558323479
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "nn_mulkan_29",
+      "m": 64,
+      "kernel_nmse": 0.4496733231672163,
+      "sample_normalized_idiv": 0.6402174879493733,
+      "sample_log_mae": 4.808773447202775,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 0.5724110798314195
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "nn_mulkan_47",
+      "m": 64,
+      "kernel_nmse": 0.4522795339258657,
+      "sample_normalized_idiv": 0.6023449290509497,
+      "sample_log_mae": 4.569330418874772,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 0.5436497861548923
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "favor_1009",
+      "m": 64,
+      "kernel_nmse": 0.9999212848243646,
+      "sample_normalized_idiv": 16.437526687034254,
+      "sample_log_mae": 18.799673731450902,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 3.6168346927779886e-06
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "favor_1046",
+      "m": 64,
+      "kernel_nmse": 0.9999707027235205,
+      "sample_normalized_idiv": 17.57254189258296,
+      "sample_log_mae": 19.063487276980137,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 3.389592201965063e-07
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "favor_1083",
+      "m": 64,
+      "kernel_nmse": 0.9999973006464925,
+      "sample_normalized_idiv": 19.663757509437495,
+      "sample_log_mae": 19.957200131403855,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 5.523431686922367e-09
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "favor_1120",
+      "m": 64,
+      "kernel_nmse": 0.9999320036894238,
+      "sample_normalized_idiv": 15.384025386762728,
+      "sample_log_mae": 18.109438124256265,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 1.0447715311539746e-06
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "favor_1157",
+      "m": 64,
+      "kernel_nmse": 0.9999934897634578,
+      "sample_normalized_idiv": 18.02279573847911,
+      "sample_log_mae": 18.838217329676375,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 1.1343570535042902e-08
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "aderf_1009",
+      "m": 64,
+      "kernel_nmse": 638.9230185814434,
+      "sample_normalized_idiv": 5.874909554989478,
+      "sample_log_mae": 7.085969739098391,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 639.6385210240788
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "aderf_1046",
+      "m": 64,
+      "kernel_nmse": 989.4885568673762,
+      "sample_normalized_idiv": 9.39022031561789,
+      "sample_log_mae": 7.3846216612164834,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 990.6061002114322
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "aderf_1083",
+      "m": 64,
+      "kernel_nmse": 2.172196974829794,
+      "sample_normalized_idiv": 8.452528823745446,
+      "sample_log_mae": 7.255045649094747,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 1.2078190112211036
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "aderf_1120",
+      "m": 64,
+      "kernel_nmse": 50.93386772389893,
+      "sample_normalized_idiv": 6.479421545921632,
+      "sample_log_mae": 6.700419006954143,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 50.370721341419326
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "aderf_1157",
+      "m": 64,
+      "kernel_nmse": 28.624049852635764,
+      "sample_normalized_idiv": 8.694522103516652,
+      "sample_log_mae": 6.929967834710423,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 27.677530142089292
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        0
+      ],
+      "method": "favor_640",
+      "m": 640,
+      "kernel_nmse": 0.9999601507468532,
+      "sample_normalized_idiv": 15.087182512107953,
+      "sample_log_mae": 15.902845489262244,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 0.21851374574271532,
+      "predicted_energy_ratio": 1.317896134957711e-07
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "nystrom",
+      "m": 64,
+      "kernel_nmse": 0.3307099034935321,
+      "sample_normalized_idiv": null,
+      "sample_log_mae": null,
+      "sample_negative_fraction": 0.190765380859375,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 0.7611369171963278
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "spectral_pair",
+      "m": 64,
+      "kernel_nmse": 494729983205408.4,
+      "sample_normalized_idiv": 25498691.419878572,
+      "sample_log_mae": 20.096180973540726,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 494730020333526.0
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "avg_anchor",
+      "m": 64,
+      "kernel_nmse": 0.9892560864408749,
+      "sample_normalized_idiv": 4.113678032359013,
+      "sample_log_mae": 4.996436729102395,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 0.005053256277529695,
+      "span_risk": 0.9234024591135798,
+      "coefficient_excess": 0.06585362732729516,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "cone_anchor",
+      "m": 64,
+      "kernel_nmse": 0.9430400129439559,
+      "sample_normalized_idiv": 3.2593341375441196,
+      "sample_log_mae": 5.056810918850003,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 0.05390328350653562,
+      "span_risk": 0.9234024591135798,
+      "coefficient_excess": 0.01963755383037613,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "avg_mlp",
+      "m": 64,
+      "kernel_nmse": 0.4349025547295452,
+      "sample_normalized_idiv": 1.0420943913115228,
+      "sample_log_mae": 4.2989001841127745,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 0.22820368084074535,
+      "span_risk": 0.29600211406443566,
+      "coefficient_excess": 0.13890044066510954,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "cone_mlp",
+      "m": 64,
+      "kernel_nmse": 0.30613283963789595,
+      "sample_normalized_idiv": 0.7479743312267384,
+      "sample_log_mae": 2.7574575444771448,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 0.7090815469176291,
+      "span_risk": 0.29600211406443566,
+      "coefficient_excess": 0.010130725573460286,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "avg_kan",
+      "m": 64,
+      "kernel_nmse": 0.7765147245210748,
+      "sample_normalized_idiv": 1.8507691391208332,
+      "sample_log_mae": 4.899386302478218,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 0.02486615842853007,
+      "span_risk": 0.2972675690191766,
+      "coefficient_excess": 0.4792471555018982,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "cone_kan",
+      "m": 64,
+      "kernel_nmse": 0.3020206294715101,
+      "sample_normalized_idiv": 0.8276239736554157,
+      "sample_log_mae": 3.170794734926575,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 0.7014336426908653,
+      "span_risk": 0.2972675690191766,
+      "coefficient_excess": 0.00475306045233348,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "avg_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.6970285358129948,
+      "sample_normalized_idiv": 1.6183131770525172,
+      "sample_log_mae": 4.805643025415377,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 0.0461471398329985,
+      "span_risk": 0.2987339511740511,
+      "coefficient_excess": 0.39829458463894374,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "cone_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.3029835102865329,
+      "sample_normalized_idiv": 0.8903576191217808,
+      "sample_log_mae": 3.8177663973752622,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 0.6996834604727452,
+      "span_risk": 0.2987339511740511,
+      "coefficient_excess": 0.0042495591124818155,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "vq",
+      "m": 64,
+      "kernel_nmse": 0.9961184147864073,
+      "sample_normalized_idiv": 5.917900256686539,
+      "sample_log_mae": 1.9505593652111197,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 0.00048743105007163746
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "partition",
+      "m": 64,
+      "kernel_nmse": 0.301679459237886,
+      "sample_normalized_idiv": 0.8645029306872531,
+      "sample_log_mae": 3.604755457910905,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 0.7000258121181938
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "galerkin",
+      "m": 64,
+      "kernel_nmse": 0.28329499282635023,
+      "sample_normalized_idiv": null,
+      "sample_log_mae": null,
+      "sample_negative_fraction": 0.2954673767089844,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 0.7235416674264085
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "nn_mlp_11",
+      "m": 64,
+      "kernel_nmse": 0.38868109814942897,
+      "sample_normalized_idiv": 1.352717413828016,
+      "sample_log_mae": 3.391302781333706,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 0.7700809913590911
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "nn_mlp_29",
+      "m": 64,
+      "kernel_nmse": 0.39128750332918527,
+      "sample_normalized_idiv": 1.410073413712206,
+      "sample_log_mae": 3.4922532696528634,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 0.8001514008064471
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "nn_mlp_47",
+      "m": 64,
+      "kernel_nmse": 0.3927125450713867,
+      "sample_normalized_idiv": 1.3166237741785085,
+      "sample_log_mae": 3.4584147029957935,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 0.7333628395409735
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "nn_kan_11",
+      "m": 64,
+      "kernel_nmse": 0.3868227220146453,
+      "sample_normalized_idiv": 1.3384588832938231,
+      "sample_log_mae": 3.6223802831474767,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 0.7173459051846685
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "nn_kan_29",
+      "m": 64,
+      "kernel_nmse": 0.4090870450852893,
+      "sample_normalized_idiv": 1.6328118164365897,
+      "sample_log_mae": 3.872425826497672,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 0.7486869793916155
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "nn_kan_47",
+      "m": 64,
+      "kernel_nmse": 0.3886535250031275,
+      "sample_normalized_idiv": 1.353783468327388,
+      "sample_log_mae": 3.7871257251450903,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 0.730153887541874
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "nn_mulkan_11",
+      "m": 64,
+      "kernel_nmse": 0.3808317977212206,
+      "sample_normalized_idiv": 1.2378576157107541,
+      "sample_log_mae": 3.628149646378782,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 0.6841426131073594
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "nn_mulkan_29",
+      "m": 64,
+      "kernel_nmse": 0.3922140588515671,
+      "sample_normalized_idiv": 1.5797754412817695,
+      "sample_log_mae": 3.8371997144226606,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 0.756297696935496
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "nn_mulkan_47",
+      "m": 64,
+      "kernel_nmse": 0.37309694503572916,
+      "sample_normalized_idiv": 1.342163209830308,
+      "sample_log_mae": 3.821878692814666,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 0.7612091648487885
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "favor_1009",
+      "m": 64,
+      "kernel_nmse": 0.9991420512550269,
+      "sample_normalized_idiv": 15.91168388545082,
+      "sample_log_mae": 16.148393468206677,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 0.002137989017935285
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "favor_1046",
+      "m": 64,
+      "kernel_nmse": 18.64350340881156,
+      "sample_normalized_idiv": 12.980947602797912,
+      "sample_log_mae": 13.68499290640324,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 17.740225707639294
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "favor_1083",
+      "m": 64,
+      "kernel_nmse": 1.1602906259070014,
+      "sample_normalized_idiv": 14.864070892965016,
+      "sample_log_mae": 16.030150972661616,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 0.17301983322527192
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "favor_1120",
+      "m": 64,
+      "kernel_nmse": 8.114799067530306,
+      "sample_normalized_idiv": 14.340459285125174,
+      "sample_log_mae": 14.524843882239663,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 7.127961874342962
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "favor_1157",
+      "m": 64,
+      "kernel_nmse": 1.024669042837583,
+      "sample_normalized_idiv": 15.402231500105295,
+      "sample_log_mae": 16.400941514781138,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 0.03384913962602957
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "aderf_1009",
+      "m": 64,
+      "kernel_nmse": 93.96605163970047,
+      "sample_normalized_idiv": 6.079581542638771,
+      "sample_log_mae": 6.022546512934274,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 93.18606881735857
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "aderf_1046",
+      "m": 64,
+      "kernel_nmse": 593.3574561720334,
+      "sample_normalized_idiv": 7.302686195410459,
+      "sample_log_mae": 6.183332568883639,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 592.3758888809504
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "aderf_1083",
+      "m": 64,
+      "kernel_nmse": 2.8901183181817824,
+      "sample_normalized_idiv": 5.8288578130054205,
+      "sample_log_mae": 5.921622624642485,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 1.9717519289381804
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "aderf_1120",
+      "m": 64,
+      "kernel_nmse": 263.9448958270041,
+      "sample_normalized_idiv": 6.696583396272726,
+      "sample_log_mae": 5.763595200951894,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 264.1677346747824
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "aderf_1157",
+      "m": 64,
+      "kernel_nmse": 1.7534557442165197,
+      "sample_normalized_idiv": 7.486974097377807,
+      "sample_log_mae": 6.00028810721868,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 0.8025727295544913
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        14,
+        6
+      ],
+      "method": "favor_640",
+      "m": 640,
+      "kernel_nmse": 1.24350227913893,
+      "sample_normalized_idiv": 11.030253523187405,
+      "sample_log_mae": 11.298971128325082,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": -2.1379768190931987,
+      "predicted_energy_ratio": 0.2605950639118204
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "nystrom",
+      "m": 64,
+      "kernel_nmse": 0.7482579522715466,
+      "sample_normalized_idiv": null,
+      "sample_log_mae": null,
+      "sample_negative_fraction": 0.19174575805664062,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 0.06814622873352821
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "spectral_pair",
+      "m": 64,
+      "kernel_nmse": 125637562069952.02,
+      "sample_normalized_idiv": 38636829.61892287,
+      "sample_log_mae": 16.674819995732385,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 125637568045667.42
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "avg_anchor",
+      "m": 64,
+      "kernel_nmse": 0.9933229682438234,
+      "sample_normalized_idiv": 1.3460773782565547,
+      "sample_log_mae": 2.1049282454529026,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 0.0055512522221657324,
+      "span_risk": 0.9825541731390857,
+      "coefficient_excess": 0.010768795104737716,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "cone_anchor",
+      "m": 64,
+      "kernel_nmse": 0.9890954576424191,
+      "sample_normalized_idiv": 1.0235060396758797,
+      "sample_log_mae": 1.8824077721470573,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 0.01625070780450867,
+      "span_risk": 0.9825541731390857,
+      "coefficient_excess": 0.0065412845033334666,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "avg_mlp",
+      "m": 64,
+      "kernel_nmse": 0.9880562712118741,
+      "sample_normalized_idiv": 1.1497164814114424,
+      "sample_log_mae": 2.0102055409123687,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 0.009639273637267963,
+      "span_risk": 0.9748694506697395,
+      "coefficient_excess": 0.013186820542134603,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "cone_mlp",
+      "m": 64,
+      "kernel_nmse": 0.983658188065193,
+      "sample_normalized_idiv": 0.8864511824997343,
+      "sample_log_mae": 1.6366753541900256,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 0.02537980147375807,
+      "span_risk": 0.9748694506697395,
+      "coefficient_excess": 0.008788737395453494,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "avg_kan",
+      "m": 64,
+      "kernel_nmse": 0.9909392656345396,
+      "sample_normalized_idiv": 1.2788767603626394,
+      "sample_log_mae": 2.102183019179659,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 0.00720785159176053,
+      "span_risk": 0.9667265105662847,
+      "coefficient_excess": 0.024212755068254932,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "cone_kan",
+      "m": 64,
+      "kernel_nmse": 0.9851355174803528,
+      "sample_normalized_idiv": 0.954151854952115,
+      "sample_log_mae": 1.9331932847607058,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 0.02305724722118327,
+      "span_risk": 0.9667265105662847,
+      "coefficient_excess": 0.018409006914068105,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "avg_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.9720368511312425,
+      "sample_normalized_idiv": 1.0630178269846324,
+      "sample_log_mae": 1.99865851164623,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 0.01345864790628321,
+      "span_risk": 0.873539504406726,
+      "coefficient_excess": 0.09849734672451649,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "cone_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.9113932646236469,
+      "sample_normalized_idiv": 0.7074139330962049,
+      "sample_log_mae": 1.3819752061258588,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 0.08953610712348974,
+      "span_risk": 0.873539504406726,
+      "coefficient_excess": 0.037853760216920884,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "vq",
+      "m": 64,
+      "kernel_nmse": 0.9956452182980898,
+      "sample_normalized_idiv": 1.229791191309921,
+      "sample_log_mae": 1.1792284882939454,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 0.0007956551955397502
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "partition",
+      "m": 64,
+      "kernel_nmse": 0.9844112591333133,
+      "sample_normalized_idiv": 0.9175039318185867,
+      "sample_log_mae": 1.922398951329075,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 0.008729891223675025
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "galerkin",
+      "m": 64,
+      "kernel_nmse": 0.8714491555707524,
+      "sample_normalized_idiv": null,
+      "sample_log_mae": null,
+      "sample_negative_fraction": 0.2279205322265625,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 0.03307761770363088
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "nn_mlp_11",
+      "m": 64,
+      "kernel_nmse": 0.9900502076125993,
+      "sample_normalized_idiv": 0.8422560142435949,
+      "sample_log_mae": 1.4062948099828736,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 0.008207302147777453
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "nn_mlp_29",
+      "m": 64,
+      "kernel_nmse": 0.9906908083377126,
+      "sample_normalized_idiv": 0.7626588212325623,
+      "sample_log_mae": 1.3842031711172627,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 0.004765435675148201
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "nn_mlp_47",
+      "m": 64,
+      "kernel_nmse": 0.988383995400778,
+      "sample_normalized_idiv": 0.7627783431690044,
+      "sample_log_mae": 1.3628464467207735,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 0.006200238032095989
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "nn_kan_11",
+      "m": 64,
+      "kernel_nmse": 0.9915289218689226,
+      "sample_normalized_idiv": 0.8895927086867809,
+      "sample_log_mae": 1.5068573752722627,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 0.006181182594386723
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "nn_kan_29",
+      "m": 64,
+      "kernel_nmse": 0.9916245779081421,
+      "sample_normalized_idiv": 0.8712802864592165,
+      "sample_log_mae": 1.6551573688793397,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 0.004058082001273933
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "nn_kan_47",
+      "m": 64,
+      "kernel_nmse": 0.9910307730358753,
+      "sample_normalized_idiv": 0.8969800433235079,
+      "sample_log_mae": 1.7103225321367863,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 0.0050162656549204675
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "nn_mulkan_11",
+      "m": 64,
+      "kernel_nmse": 0.9763157063545427,
+      "sample_normalized_idiv": 0.7916288317526954,
+      "sample_log_mae": 1.5024607467976092,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 0.012205843803852904
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "nn_mulkan_29",
+      "m": 64,
+      "kernel_nmse": 0.9831600111391621,
+      "sample_normalized_idiv": 0.8066763370328006,
+      "sample_log_mae": 1.680080022711509,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 0.006496808317350001
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "nn_mulkan_47",
+      "m": 64,
+      "kernel_nmse": 0.9731042522812146,
+      "sample_normalized_idiv": 0.860975937484264,
+      "sample_log_mae": 1.748127328929888,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 0.012792905517073409
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "favor_1009",
+      "m": 64,
+      "kernel_nmse": 1.0000004284046848,
+      "sample_normalized_idiv": 15.534798993815757,
+      "sample_log_mae": 10.598697374284754,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 5.682498397948628e-07
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "favor_1046",
+      "m": 64,
+      "kernel_nmse": 0.9999999869274413,
+      "sample_normalized_idiv": 15.332989310076423,
+      "sample_log_mae": 11.985420180294524,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 1.428693979123347e-07
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "favor_1083",
+      "m": 64,
+      "kernel_nmse": 1.0000541237761498,
+      "sample_normalized_idiv": 13.857017119836275,
+      "sample_log_mae": 11.176049680001995,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 6.589165237004562e-05
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "favor_1120",
+      "m": 64,
+      "kernel_nmse": 1.0000002929500722,
+      "sample_normalized_idiv": 15.005512031325853,
+      "sample_log_mae": 11.886251400124667,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 7.038104928943426e-07
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "favor_1157",
+      "m": 64,
+      "kernel_nmse": 1.0000011765213963,
+      "sample_normalized_idiv": 15.699834360610838,
+      "sample_log_mae": 12.505563764760366,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 1.3849418151466447e-06
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "aderf_1009",
+      "m": 64,
+      "kernel_nmse": 1.0975589841846813,
+      "sample_normalized_idiv": 7.35610666954642,
+      "sample_log_mae": 3.40233359688923,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 0.09770081850745693
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "aderf_1046",
+      "m": 64,
+      "kernel_nmse": 1.0074271365598757,
+      "sample_normalized_idiv": 8.01920434112134,
+      "sample_log_mae": 3.8211578586847814,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 0.0074963283861678885
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "aderf_1083",
+      "m": 64,
+      "kernel_nmse": 1.1485014872223582,
+      "sample_normalized_idiv": 8.617091335719593,
+      "sample_log_mae": 4.2422203329375385,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 0.14856707979561853
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "aderf_1120",
+      "m": 64,
+      "kernel_nmse": 2.1923277386254556,
+      "sample_normalized_idiv": 8.498108506227997,
+      "sample_log_mae": 4.237034560798858,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 1.1927645747070152
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "aderf_1157",
+      "m": 64,
+      "kernel_nmse": 1.040544835680607,
+      "sample_normalized_idiv": 9.236252949045383,
+      "sample_log_mae": 4.6687456995468235,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 0.041029980491183844
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        0
+      ],
+      "method": "favor_640",
+      "m": 640,
+      "kernel_nmse": 1.0000166166673756,
+      "sample_normalized_idiv": 12.017865814230555,
+      "sample_log_mae": 9.094808540654494,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 15.850827413575061,
+      "predicted_energy_ratio": 1.912186311296185e-05
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "nystrom",
+      "m": 64,
+      "kernel_nmse": 0.48651552567983014,
+      "sample_normalized_idiv": null,
+      "sample_log_mae": null,
+      "sample_negative_fraction": 0.18648910522460938,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 0.5668210602652248
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "spectral_pair",
+      "m": 64,
+      "kernel_nmse": 22879734006798.38,
+      "sample_normalized_idiv": 5963264.262300458,
+      "sample_log_mae": 15.127219345675972,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 22879739932856.047
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "avg_anchor",
+      "m": 64,
+      "kernel_nmse": 0.9319609235128632,
+      "sample_normalized_idiv": 1.2913188017242034,
+      "sample_log_mae": 1.8413676100156993,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 0.05228364617105489,
+      "span_risk": 0.8315272238290783,
+      "coefficient_excess": 0.1004336996837849,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "cone_anchor",
+      "m": 64,
+      "kernel_nmse": 0.878573099040228,
+      "sample_normalized_idiv": 0.9460820142269025,
+      "sample_log_mae": 1.5996612379926591,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 0.1441218526036826,
+      "span_risk": 0.8315272238290783,
+      "coefficient_excess": 0.04704587521114967,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "avg_mlp",
+      "m": 64,
+      "kernel_nmse": 0.8795267537386665,
+      "sample_normalized_idiv": 1.0733500118508104,
+      "sample_log_mae": 1.7598189057524227,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 0.08900446831852135,
+      "span_risk": 0.7433138798294422,
+      "coefficient_excess": 0.13621287390922432,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "cone_mlp",
+      "m": 64,
+      "kernel_nmse": 0.814204017804928,
+      "sample_normalized_idiv": 0.8091247239022903,
+      "sample_log_mae": 1.4313218701034665,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 0.21941875095422703,
+      "span_risk": 0.7433138798294422,
+      "coefficient_excess": 0.07089013797548582,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "avg_kan",
+      "m": 64,
+      "kernel_nmse": 0.8964008783440898,
+      "sample_normalized_idiv": 1.1778088008656216,
+      "sample_log_mae": 1.8341381208321073,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 0.07252024616517806,
+      "span_risk": 0.7137803642170637,
+      "coefficient_excess": 0.18262051412702607,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "cone_kan",
+      "m": 64,
+      "kernel_nmse": 0.7966343825111466,
+      "sample_normalized_idiv": 0.8688680998256205,
+      "sample_log_mae": 1.543142493216481,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 0.25359048590781674,
+      "span_risk": 0.7137803642170637,
+      "coefficient_excess": 0.0828540182940829,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "avg_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.8745915015940584,
+      "sample_normalized_idiv": 1.1616070767391566,
+      "sample_log_mae": 1.8386365600734973,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 0.07559833413658158,
+      "span_risk": 0.6395771205566367,
+      "coefficient_excess": 0.23501438103742167,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "cone_mulkan",
+      "m": 64,
+      "kernel_nmse": 0.8068388802110079,
+      "sample_normalized_idiv": 0.8831086179927149,
+      "sample_log_mae": 1.6291048001413224,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 0.2541565978935159,
+      "span_risk": 0.6395771205566367,
+      "coefficient_excess": 0.16726175965437118,
+      "retained_basis_rank": 64,
+      "decomposition_note": "Heldout span projection is diagnostic only. Coefficient excess includes positivity, train quadrature, and numerical solve errors; not a positivity-only lower bound."
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "vq",
+      "m": 64,
+      "kernel_nmse": 0.8962833601619851,
+      "sample_normalized_idiv": 1.0327797747352225,
+      "sample_log_mae": 1.062422345403978,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 0.02591556021515838
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "partition",
+      "m": 64,
+      "kernel_nmse": 0.6801364183599657,
+      "sample_normalized_idiv": 0.8049329861074505,
+      "sample_log_mae": 1.792573943259638,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 0.20523206955180331
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "galerkin",
+      "m": 64,
+      "kernel_nmse": 0.4367633959268034,
+      "sample_normalized_idiv": null,
+      "sample_log_mae": null,
+      "sample_negative_fraction": 0.21051788330078125,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 0.5421423083384115
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "nn_mlp_11",
+      "m": 64,
+      "kernel_nmse": 0.8756732376894125,
+      "sample_normalized_idiv": 0.8759788594767406,
+      "sample_log_mae": 1.3673343733588545,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 0.07612306104721524
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "nn_mlp_29",
+      "m": 64,
+      "kernel_nmse": 0.8743681792905359,
+      "sample_normalized_idiv": 0.8421141614443188,
+      "sample_log_mae": 1.362774917872898,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 0.05142762175992285
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "nn_mlp_47",
+      "m": 64,
+      "kernel_nmse": 0.8793417503131361,
+      "sample_normalized_idiv": 0.8612992878506642,
+      "sample_log_mae": 1.3155194540173956,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 0.053276353550391925
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "nn_kan_11",
+      "m": 64,
+      "kernel_nmse": 0.8712393350249023,
+      "sample_normalized_idiv": 0.9100525164310146,
+      "sample_log_mae": 1.5070837841042155,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 0.07418903586851706
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "nn_kan_29",
+      "m": 64,
+      "kernel_nmse": 0.8734739242513015,
+      "sample_normalized_idiv": 0.940277497021735,
+      "sample_log_mae": 1.6604931691679374,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 0.06315889875965873
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "nn_kan_47",
+      "m": 64,
+      "kernel_nmse": 0.8798692481899046,
+      "sample_normalized_idiv": 0.9275272619495216,
+      "sample_log_mae": 1.5711886480260338,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 0.05474177595557629
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "nn_mulkan_11",
+      "m": 64,
+      "kernel_nmse": 0.7580865975672956,
+      "sample_normalized_idiv": 0.8411394037003654,
+      "sample_log_mae": 1.4804817217473945,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 0.21881296896417762
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "nn_mulkan_29",
+      "m": 64,
+      "kernel_nmse": 0.768989324325157,
+      "sample_normalized_idiv": 0.8316983453534214,
+      "sample_log_mae": 1.6354334511754633,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 0.14488618341241066
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "nn_mulkan_47",
+      "m": 64,
+      "kernel_nmse": 0.7821978777851224,
+      "sample_normalized_idiv": 0.8725525934300264,
+      "sample_log_mae": 1.5959290052356212,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 0.12892360842689246
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "favor_1009",
+      "m": 64,
+      "kernel_nmse": 1.0001085135129313,
+      "sample_normalized_idiv": 14.928901749822263,
+      "sample_log_mae": 10.226039133647543,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 0.000151944229553428
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "favor_1046",
+      "m": 64,
+      "kernel_nmse": 1.0000000073228192,
+      "sample_normalized_idiv": 19.104518856787298,
+      "sample_log_mae": 14.153168398984734,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 7.895894177924463e-08
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "favor_1083",
+      "m": 64,
+      "kernel_nmse": 0.9999999578924919,
+      "sample_normalized_idiv": 18.107980549128236,
+      "sample_log_mae": 13.785635765058215,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 3.921882956041041e-09
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "favor_1120",
+      "m": 64,
+      "kernel_nmse": 1.0000471835906857,
+      "sample_normalized_idiv": 13.5572589072523,
+      "sample_log_mae": 10.36067796510758,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 5.455846727875232e-05
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "favor_1157",
+      "m": 64,
+      "kernel_nmse": 0.9999997803919008,
+      "sample_normalized_idiv": 16.305463191871734,
+      "sample_log_mae": 12.385005407116427,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 3.107174388735145e-09
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "aderf_1009",
+      "m": 64,
+      "kernel_nmse": 1.7406355303070278,
+      "sample_normalized_idiv": 9.714294230446836,
+      "sample_log_mae": 5.302478791992174,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 0.7445185989793254
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "aderf_1046",
+      "m": 64,
+      "kernel_nmse": 1.279949851772165,
+      "sample_normalized_idiv": 12.051309236030843,
+      "sample_log_mae": 6.075877153056947,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 0.2802340936276881
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "aderf_1083",
+      "m": 64,
+      "kernel_nmse": 1.0028733129887484,
+      "sample_normalized_idiv": 13.282456945223283,
+      "sample_log_mae": 7.226220048059652,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 0.002931646792843612
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "aderf_1120",
+      "m": 64,
+      "kernel_nmse": 1.0008614049031164,
+      "sample_normalized_idiv": 14.69899330928019,
+      "sample_log_mae": 7.675295426334298,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 0.0008771000266111882
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "aderf_1157",
+      "m": 64,
+      "kernel_nmse": 1.2667386437526287,
+      "sample_normalized_idiv": 13.248798487163084,
+      "sample_log_mae": 6.520139163006017,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 0.267206782556268
+    },
+    {
+      "dataset": "internal",
+      "n": 8192,
+      "head": [
+        27,
+        6
+      ],
+      "method": "favor_640",
+      "m": 640,
+      "kernel_nmse": 1.000727338385414,
+      "sample_normalized_idiv": 12.231763424797348,
+      "sample_log_mae": 8.594060770439375,
+      "sample_negative_fraction": 0.0,
+      "sample_zero_fraction": 0.0,
+      "sampled_pairs": 262144,
+      "log_squared_energy_mean": 18.366941143797337,
+      "predicted_energy_ratio": 0.0007616571378285143
+    }
+  ],
+  "seconds": 10.686656890437007,
+  "target": "Raw exp(q.k/sqrt(128)); exact full product relative squared risk, plus fixed independent pair Monte Carlo KL/log metrics.",
+  "split": "internal",
+  "empirical_only": true,
+  "selection": "All requested frozen candidates; no test fit."
+}

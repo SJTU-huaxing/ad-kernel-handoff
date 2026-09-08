@@ -1,0 +1,126 @@
+{
+  "theorem": "RMSNorm bounds projected Q/K norms; default orthogonal RoPE preserves them. Hence every raw-kernel moment exists for the fixed model.",
+  "numeric_bounds": [
+    {
+      "layer": 14,
+      "head": 0,
+      "conservative_log_kernel_cap": 45496.86091471213
+    },
+    {
+      "layer": 14,
+      "head": 1,
+      "conservative_log_kernel_cap": 63009.42979932875
+    },
+    {
+      "layer": 14,
+      "head": 2,
+      "conservative_log_kernel_cap": 37451.87111592508
+    },
+    {
+      "layer": 14,
+      "head": 3,
+      "conservative_log_kernel_cap": 54719.13986690368
+    },
+    {
+      "layer": 14,
+      "head": 4,
+      "conservative_log_kernel_cap": 43490.973229862706
+    },
+    {
+      "layer": 14,
+      "head": 5,
+      "conservative_log_kernel_cap": 41414.95689352441
+    },
+    {
+      "layer": 14,
+      "head": 6,
+      "conservative_log_kernel_cap": 44035.569358642046
+    },
+    {
+      "layer": 14,
+      "head": 7,
+      "conservative_log_kernel_cap": 31740.054462856115
+    },
+    {
+      "layer": 14,
+      "head": 8,
+      "conservative_log_kernel_cap": 31274.02644292165
+    },
+    {
+      "layer": 14,
+      "head": 9,
+      "conservative_log_kernel_cap": 30857.412413771402
+    },
+    {
+      "layer": 14,
+      "head": 10,
+      "conservative_log_kernel_cap": 31906.470523758904
+    },
+    {
+      "layer": 14,
+      "head": 11,
+      "conservative_log_kernel_cap": 36788.48056822233
+    },
+    {
+      "layer": 27,
+      "head": 0,
+      "conservative_log_kernel_cap": 25280.075469151507
+    },
+    {
+      "layer": 27,
+      "head": 1,
+      "conservative_log_kernel_cap": 23616.50757812826
+    },
+    {
+      "layer": 27,
+      "head": 2,
+      "conservative_log_kernel_cap": 22539.47194841551
+    },
+    {
+      "layer": 27,
+      "head": 3,
+      "conservative_log_kernel_cap": 23345.247024221368
+    },
+    {
+      "layer": 27,
+      "head": 4,
+      "conservative_log_kernel_cap": 23664.878042341952
+    },
+    {
+      "layer": 27,
+      "head": 5,
+      "conservative_log_kernel_cap": 26434.269445952057
+    },
+    {
+      "layer": 27,
+      "head": 6,
+      "conservative_log_kernel_cap": 24094.648710306614
+    },
+    {
+      "layer": 27,
+      "head": 7,
+      "conservative_log_kernel_cap": 24550.217394911873
+    },
+    {
+      "layer": 27,
+      "head": 8,
+      "conservative_log_kernel_cap": 24706.278729935773
+    },
+    {
+      "layer": 27,
+      "head": 9,
+      "conservative_log_kernel_cap": 26925.3766650758
+    },
+    {
+      "layer": 27,
+      "head": 10,
+      "conservative_log_kernel_cap": 27770.714437932416
+    },
+    {
+      "layer": 27,
+      "head": 11,
+      "conservative_log_kernel_cap": 23276.936219005038
+    }
+  ],
+  "scope": "Conservative Frobenius replacement for operator norm, not a tight support bound; finite moments do not validate an unbounded Gaussian approximation or a useful sample concentration rate."
+}

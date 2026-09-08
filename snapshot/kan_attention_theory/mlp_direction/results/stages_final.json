@@ -1,0 +1,46 @@
+[
+  {
+    "script": "gauge_assess.py",
+    "args": [
+      "ppl"
+    ],
+    "exit_code": 0,
+    "seconds": 43.42928431555629,
+    "log": "/root/autodl-tmp/kan_attention_theory/mlp_direction/final_gauge_assess.log"
+  },
+  {
+    "script": "baselines.py",
+    "args": [],
+    "exit_code": 0,
+    "seconds": 22.900174766778946,
+    "log": "/root/autodl-tmp/kan_attention_theory/mlp_direction/final_baselines.log"
+  },
+  {
+    "script": "product.py",
+    "args": [],
+    "exit_code": 0,
+    "seconds": 48.82691427320242,
+    "log": "/root/autodl-tmp/kan_attention_theory/mlp_direction/final_product.log"
+  },
+  {
+    "script": "benchmark_gauge.py",
+    "args": [],
+    "exit_code": 0,
+    "seconds": 149.55749817751348,
+    "log": "/root/autodl-tmp/kan_attention_theory/mlp_direction/final_benchmark_gauge.log"
+  },
+  {
+    "script": "verify.py",
+    "args": [],
+    "exit_code": 0,
+    "seconds": 4.097154403105378,
+    "log": "/root/autodl-tmp/kan_attention_theory/mlp_direction/final_verify.log"
+  },
+  {
+    "script": "finalaudit.py",
+    "args": [],
+    "exit_code": 0,
+    "seconds": 3.363033315166831,
+    "log": "/root/autodl-tmp/kan_attention_theory/mlp_direction/final_finalaudit.log"
+  }
+]

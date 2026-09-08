@@ -1,0 +1,24 @@
+{
+  "models": [
+    "standard_exp_s11_lr0.002",
+    "standard_exp_s29_lr0.002",
+    "standard_exp_s47_lr0.002",
+    "matched_zero_ad_s11_lr0.002",
+    "matched_zero_ad_s29_lr0.002",
+    "matched_zero_ad_s47_lr0.002",
+    "matched_zero_exp_s11_lr0.002",
+    "matched_zero_exp_s29_lr0.002",
+    "matched_zero_exp_s47_lr0.002"
+  ],
+  "learning_rates": {
+    "standard_exp": 0.002,
+    "matched_zero_ad": 0.002,
+    "matched_zero_exp": 0.002
+  },
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "scope": "9new selected models;3old standardAD references; fixed budget KL attribution"
+}

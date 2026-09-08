@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "gla_path_expansion_max_abs": 1.7763568394002505e-15,
+  "scalar_gated_I_homogeneity_max_abs": 1.7763568394002505e-15,
+  "positive_delta_negative_weight": -0.5000000000000001,
+  "skipped_l2_counterexample_gain": 3.465,
+  "real_native_vector_checks": [
+    {
+      "family": "gla",
+      "layer": 11,
+      "l2_query_amplitude_cancellation_max_abs": 2.220446049250313e-16,
+      "l2_key_amplitude_cancellation_max_abs": 2.220446049250313e-16,
+      "controlled_amplitude_sweep_log_range": [
+        -8,
+        8
+      ],
+      "unstable_fraction_if_skipping_l2_beta_half": 0.45703125
+    },
+    {
+      "family": "gla",
+      "layer": 23,
+      "l2_query_amplitude_cancellation_max_abs": 2.220446049250313e-16,
+      "l2_key_amplitude_cancellation_max_abs": 2.220446049250313e-16,
+      "controlled_amplitude_sweep_log_range": [
+        -8,
+        8
+      ],
+      "unstable_fraction_if_skipping_l2_beta_half": 0.45703125
+    },
+    {
+      "family": "gdn",
+      "layer": 10,
+      "l2_query_amplitude_cancellation_max_abs": 3.3306690738754696e-16,
+      "l2_key_amplitude_cancellation_max_abs": 2.220446049250313e-16,
+      "controlled_amplitude_sweep_log_range": [
+        -8,
+        8
+      ],
+      "unstable_fraction_if_skipping_l2_beta_half": 0.45703125
+    },
+    {
+      "family": "gdn",
+      "layer": 20,
+      "l2_query_amplitude_cancellation_max_abs": 4.440892098500626e-16,
+      "l2_key_amplitude_cancellation_max_abs": 3.3306690738754696e-16,
+      "controlled_amplitude_sweep_log_range": [
+        -8,
+        8
+      ],
+      "unstable_fraction_if_skipping_l2_beta_half": 0.45703125
+    }
+  ],
+  "identical_static_kernel_different_delta_outputs": {
+    "original": [
+      0.5,
+      0.25
+    ],
+    "rescaled": [
+      0.5,
+      -1.75
+    ]
+  },
+  "identical_unit_positive_cross_kernel_different_delta_outputs": {
+    "cross_kernel_max_difference": 0.0,
+    "keys_identical_outputs": [
+      0.9428090415820636,
+      -2.563950248511419e-16
+    ],
+    "keys_permuted_outputs": [
+      0.9428090415820636,
+      0.15713484026367697
+    ],
+    "key_key_second_dot": 0.8333333333333334
+  },
+  "scope": "Algebra and controlled perturbations of real vectors; not a new accuracy or population-optimality result."
+}

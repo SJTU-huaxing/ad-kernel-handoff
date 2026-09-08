@@ -1,0 +1,19 @@
+{
+  "favor_log_vs_direct_relative_l2": 2.5769197317760153e-16,
+  "mean_correction_max_absolute_error": 8.465450562766819e-16,
+  "nmf_exact_rank3_fixed_point_errors": [
+    1.1388377349862453e-32,
+    1.034077678440963e-32
+  ],
+  "nmf_rank3_cold_start_errors": [
+    3.4621112790213475e-05,
+    4.695782975099677e-06
+  ],
+  "nmf_rank3_initial_errors": [
+    0.007837557998278611,
+    0.012553519177882656
+  ],
+  "nmf_nonnegative": true,
+  "nmf_monotone": true,
+  "note": "NMF objective decrease and exact-factor fixed point verified; no global convergence guarantee."
+}

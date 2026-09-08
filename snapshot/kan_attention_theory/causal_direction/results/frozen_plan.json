@@ -1,0 +1,27 @@
+{
+  "kinds": [
+    "split_1",
+    "split_01",
+    "split_kl",
+    "exp_kl",
+    "softplus_kl",
+    "hedgehog",
+    "learned_prf"
+  ],
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "primary": "split_01",
+  "comparison": "All configurations reported; primary lambda selected on validation only.",
+  "scope": "24/336 heads at two complete layers.",
+  "calibration_kinds": [
+    "calibrated",
+    "gate",
+    "global_bal",
+    "global_raw"
+  ],
+  "window": 64,
+  "calibration_frozen": true
+}
