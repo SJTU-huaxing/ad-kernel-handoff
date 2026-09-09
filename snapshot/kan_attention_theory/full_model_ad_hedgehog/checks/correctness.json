@@ -1,0 +1,622 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "teacher",
+      "model_dtype": "bfloat16",
+      "total_tokens": 272,
+      "prefill_decode_logit_relative_l2": 0.02658083662390709,
+      "same_top1": true,
+      "explicit_kernel_checks": [],
+      "before": {
+        "kv_bytes": 7340032,
+        "state_bytes": 0,
+        "total_bytes": 7340032
+      },
+      "after": {
+        "kv_bytes": 7798784,
+        "state_bytes": 0,
+        "total_bytes": 7798784
+      }
+    },
+    {
+      "case": "teacher",
+      "model_dtype": "bfloat16",
+      "total_tokens": 8192,
+      "prefill_decode_logit_relative_l2": 0.012131254188716412,
+      "same_top1": true,
+      "explicit_kernel_checks": [],
+      "before": {
+        "kv_bytes": 234422272,
+        "state_bytes": 0,
+        "total_bytes": 234422272
+      },
+      "after": {
+        "kv_bytes": 234881024,
+        "state_bytes": 0,
+        "total_bytes": 234881024
+      }
+    },
+    {
+      "case": "ad_plain",
+      "model_dtype": "bfloat16",
+      "total_tokens": 272,
+      "prefill_decode_logit_relative_l2": 0.05367063358426094,
+      "same_top1": true,
+      "explicit_kernel_checks": [
+        {
+          "layer": 14,
+          "relative_l2": 1.7162500754942504e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 27,
+          "relative_l2": 1.2066197328330124e-07,
+          "tokens": 128
+        }
+      ],
+      "before": {
+        "kv_bytes": 6815744,
+        "state_bytes": 798720,
+        "total_bytes": 7614464
+      },
+      "after": {
+        "kv_bytes": 7241728,
+        "state_bytes": 798720,
+        "total_bytes": 8040448
+      }
+    },
+    {
+      "case": "ad_plain",
+      "model_dtype": "bfloat16",
+      "total_tokens": 8192,
+      "prefill_decode_logit_relative_l2": 0.016241446137428284,
+      "same_top1": true,
+      "explicit_kernel_checks": [
+        {
+          "layer": 14,
+          "relative_l2": 1.7162500754942504e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 27,
+          "relative_l2": 1.2066197328330124e-07,
+          "tokens": 128
+        }
+      ],
+      "before": {
+        "kv_bytes": 217677824,
+        "state_bytes": 798720,
+        "total_bytes": 218476544
+      },
+      "after": {
+        "kv_bytes": 218103808,
+        "state_bytes": 798720,
+        "total_bytes": 218902528
+      }
+    },
+    {
+      "case": "ad_matched",
+      "model_dtype": "bfloat16",
+      "total_tokens": 272,
+      "prefill_decode_logit_relative_l2": 0.019472219049930573,
+      "same_top1": true,
+      "explicit_kernel_checks": [
+        {
+          "layer": 14,
+          "relative_l2": 1.6767367077769813e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 27,
+          "relative_l2": 1.2221534487136406e-07,
+          "tokens": 128
+        }
+      ],
+      "before": {
+        "kv_bytes": 6815744,
+        "state_bytes": 798720,
+        "total_bytes": 7614464
+      },
+      "after": {
+        "kv_bytes": 7241728,
+        "state_bytes": 798720,
+        "total_bytes": 8040448
+      }
+    },
+    {
+      "case": "ad_matched",
+      "model_dtype": "bfloat16",
+      "total_tokens": 8192,
+      "prefill_decode_logit_relative_l2": 0.015969168394804,
+      "same_top1": true,
+      "explicit_kernel_checks": [
+        {
+          "layer": 14,
+          "relative_l2": 1.6767367077769813e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 27,
+          "relative_l2": 1.2221534487136406e-07,
+          "tokens": 128
+        }
+      ],
+      "before": {
+        "kv_bytes": 217677824,
+        "state_bytes": 798720,
+        "total_bytes": 218476544
+      },
+      "after": {
+        "kv_bytes": 218103808,
+        "state_bytes": 798720,
+        "total_bytes": 218902528
+      }
+    },
+    {
+      "case": "hh_exp",
+      "model_dtype": "bfloat16",
+      "total_tokens": 272,
+      "prefill_decode_logit_relative_l2": 0.02503167651593685,
+      "same_top1": true,
+      "explicit_kernel_checks": [
+        {
+          "layer": 14,
+          "relative_l2": 5.257688428659692e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 27,
+          "relative_l2": 2.6107199849324236e-07,
+          "tokens": 128
+        }
+      ],
+      "before": {
+        "kv_bytes": 6815744,
+        "state_bytes": 7188480,
+        "total_bytes": 14004224
+      },
+      "after": {
+        "kv_bytes": 7241728,
+        "state_bytes": 7188480,
+        "total_bytes": 14430208
+      }
+    },
+    {
+      "case": "hh_exp",
+      "model_dtype": "bfloat16",
+      "total_tokens": 8192,
+      "prefill_decode_logit_relative_l2": 0.011074362322688103,
+      "same_top1": true,
+      "explicit_kernel_checks": [
+        {
+          "layer": 14,
+          "relative_l2": 5.257688428659692e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 27,
+          "relative_l2": 2.6107199849324236e-07,
+          "tokens": 128
+        }
+      ],
+      "before": {
+        "kv_bytes": 217677824,
+        "state_bytes": 7188480,
+        "total_bytes": 224866304
+      },
+      "after": {
+        "kv_bytes": 218103808,
+        "state_bytes": 7188480,
+        "total_bytes": 225292288
+      }
+    },
+    {
+      "case": "hh_softmax",
+      "model_dtype": "bfloat16",
+      "total_tokens": 272,
+      "prefill_decode_logit_relative_l2": 0.017634371295571327,
+      "same_top1": true,
+      "explicit_kernel_checks": [
+        {
+          "layer": 14,
+          "relative_l2": 3.6273782521914307e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 27,
+          "relative_l2": 2.5101522192663854e-07,
+          "tokens": 128
+        }
+      ],
+      "before": {
+        "kv_bytes": 6815744,
+        "state_bytes": 7188480,
+        "total_bytes": 14004224
+      },
+      "after": {
+        "kv_bytes": 7241728,
+        "state_bytes": 7188480,
+        "total_bytes": 14430208
+      }
+    },
+    {
+      "case": "hh_softmax",
+      "model_dtype": "bfloat16",
+      "total_tokens": 8192,
+      "prefill_decode_logit_relative_l2": 0.013753755018115044,
+      "same_top1": true,
+      "explicit_kernel_checks": [
+        {
+          "layer": 14,
+          "relative_l2": 3.6273782521914307e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 27,
+          "relative_l2": 2.5101522192663854e-07,
+          "tokens": 128
+        }
+      ],
+      "before": {
+        "kv_bytes": 217677824,
+        "state_bytes": 7188480,
+        "total_bytes": 224866304
+      },
+      "after": {
+        "kv_bytes": 218103808,
+        "state_bytes": 7188480,
+        "total_bytes": 225292288
+      }
+    },
+    {
+      "case": "teacher",
+      "model_dtype": "float32",
+      "total_tokens": 272,
+      "prefill_decode_logit_relative_l2": 1.1560588291104068e-06,
+      "same_top1": true,
+      "explicit_kernel_checks": [],
+      "before": {
+        "kv_bytes": 14680064,
+        "state_bytes": 0,
+        "total_bytes": 14680064
+      },
+      "after": {
+        "kv_bytes": 15597568,
+        "state_bytes": 0,
+        "total_bytes": 15597568
+      }
+    },
+    {
+      "case": "teacher",
+      "model_dtype": "float32",
+      "total_tokens": 8192,
+      "prefill_decode_logit_relative_l2": 2.257527512483648e-06,
+      "same_top1": true,
+      "explicit_kernel_checks": [],
+      "before": {
+        "kv_bytes": 468844544,
+        "state_bytes": 0,
+        "total_bytes": 468844544
+      },
+      "after": {
+        "kv_bytes": 469762048,
+        "state_bytes": 0,
+        "total_bytes": 469762048
+      }
+    },
+    {
+      "case": "ad_plain",
+      "model_dtype": "float32",
+      "total_tokens": 272,
+      "prefill_decode_logit_relative_l2": 1.4371302086146898e-06,
+      "same_top1": true,
+      "explicit_kernel_checks": [
+        {
+          "layer": 14,
+          "relative_l2": 1.7162500754942504e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 27,
+          "relative_l2": 1.2066197328330124e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 14,
+          "relative_l2": 1.7138921431217953e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 27,
+          "relative_l2": 1.2073984371244682e-07,
+          "tokens": 128
+        }
+      ],
+      "before": {
+        "kv_bytes": 13631488,
+        "state_bytes": 798720,
+        "total_bytes": 14430208
+      },
+      "after": {
+        "kv_bytes": 14483456,
+        "state_bytes": 798720,
+        "total_bytes": 15282176
+      }
+    },
+    {
+      "case": "ad_plain",
+      "model_dtype": "float32",
+      "total_tokens": 8192,
+      "prefill_decode_logit_relative_l2": 1.99214332496922e-06,
+      "same_top1": true,
+      "explicit_kernel_checks": [
+        {
+          "layer": 14,
+          "relative_l2": 1.7162500754942504e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 27,
+          "relative_l2": 1.2066197328330124e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 14,
+          "relative_l2": 1.7138921431217953e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 27,
+          "relative_l2": 1.2073984371244682e-07,
+          "tokens": 128
+        }
+      ],
+      "before": {
+        "kv_bytes": 435355648,
+        "state_bytes": 798720,
+        "total_bytes": 436154368
+      },
+      "after": {
+        "kv_bytes": 436207616,
+        "state_bytes": 798720,
+        "total_bytes": 437006336
+      }
+    },
+    {
+      "case": "ad_matched",
+      "model_dtype": "float32",
+      "total_tokens": 272,
+      "prefill_decode_logit_relative_l2": 1.0948810995614622e-06,
+      "same_top1": true,
+      "explicit_kernel_checks": [
+        {
+          "layer": 14,
+          "relative_l2": 1.6767367077769813e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 27,
+          "relative_l2": 1.2221534487136406e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 14,
+          "relative_l2": 1.6649598453660557e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 27,
+          "relative_l2": 1.2011679731201787e-07,
+          "tokens": 128
+        }
+      ],
+      "before": {
+        "kv_bytes": 13631488,
+        "state_bytes": 798720,
+        "total_bytes": 14430208
+      },
+      "after": {
+        "kv_bytes": 14483456,
+        "state_bytes": 798720,
+        "total_bytes": 15282176
+      }
+    },
+    {
+      "case": "ad_matched",
+      "model_dtype": "float32",
+      "total_tokens": 8192,
+      "prefill_decode_logit_relative_l2": 3.1215483886626316e-06,
+      "same_top1": true,
+      "explicit_kernel_checks": [
+        {
+          "layer": 14,
+          "relative_l2": 1.6767367077769813e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 27,
+          "relative_l2": 1.2221534487136406e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 14,
+          "relative_l2": 1.6649598453660557e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 27,
+          "relative_l2": 1.2011679731201787e-07,
+          "tokens": 128
+        }
+      ],
+      "before": {
+        "kv_bytes": 435355648,
+        "state_bytes": 798720,
+        "total_bytes": 436154368
+      },
+      "after": {
+        "kv_bytes": 436207616,
+        "state_bytes": 798720,
+        "total_bytes": 437006336
+      }
+    },
+    {
+      "case": "hh_exp",
+      "model_dtype": "float32",
+      "total_tokens": 272,
+      "prefill_decode_logit_relative_l2": 1.559677571094653e-06,
+      "same_top1": true,
+      "explicit_kernel_checks": [
+        {
+          "layer": 14,
+          "relative_l2": 5.257688428659692e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 27,
+          "relative_l2": 2.6107199849324236e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 14,
+          "relative_l2": 5.127952723415789e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 27,
+          "relative_l2": 2.6007332134986685e-07,
+          "tokens": 128
+        }
+      ],
+      "before": {
+        "kv_bytes": 13631488,
+        "state_bytes": 7188480,
+        "total_bytes": 20819968
+      },
+      "after": {
+        "kv_bytes": 14483456,
+        "state_bytes": 7188480,
+        "total_bytes": 21671936
+      }
+    },
+    {
+      "case": "hh_exp",
+      "model_dtype": "float32",
+      "total_tokens": 8192,
+      "prefill_decode_logit_relative_l2": 3.083653382418561e-06,
+      "same_top1": true,
+      "explicit_kernel_checks": [
+        {
+          "layer": 14,
+          "relative_l2": 5.257688428659692e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 27,
+          "relative_l2": 2.6107199849324236e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 14,
+          "relative_l2": 5.127952723415789e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 27,
+          "relative_l2": 2.6007332134986685e-07,
+          "tokens": 128
+        }
+      ],
+      "before": {
+        "kv_bytes": 435355648,
+        "state_bytes": 7188480,
+        "total_bytes": 442544128
+      },
+      "after": {
+        "kv_bytes": 436207616,
+        "state_bytes": 7188480,
+        "total_bytes": 443396096
+      }
+    },
+    {
+      "case": "hh_softmax",
+      "model_dtype": "float32",
+      "total_tokens": 272,
+      "prefill_decode_logit_relative_l2": 1.3592463119493914e-06,
+      "same_top1": true,
+      "explicit_kernel_checks": [
+        {
+          "layer": 14,
+          "relative_l2": 3.6273782521914307e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 27,
+          "relative_l2": 2.5101522192663854e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 14,
+          "relative_l2": 3.544742347266806e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 27,
+          "relative_l2": 2.487205675973854e-07,
+          "tokens": 128
+        }
+      ],
+      "before": {
+        "kv_bytes": 13631488,
+        "state_bytes": 7188480,
+        "total_bytes": 20819968
+      },
+      "after": {
+        "kv_bytes": 14483456,
+        "state_bytes": 7188480,
+        "total_bytes": 21671936
+      }
+    },
+    {
+      "case": "hh_softmax",
+      "model_dtype": "float32",
+      "total_tokens": 8192,
+      "prefill_decode_logit_relative_l2": 2.0704223970824387e-06,
+      "same_top1": true,
+      "explicit_kernel_checks": [
+        {
+          "layer": 14,
+          "relative_l2": 3.6273782521914307e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 27,
+          "relative_l2": 2.5101522192663854e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 14,
+          "relative_l2": 3.544742347266806e-07,
+          "tokens": 128
+        },
+        {
+          "layer": 27,
+          "relative_l2": 2.487205675973854e-07,
+          "tokens": 128
+        }
+      ],
+      "before": {
+        "kv_bytes": 435355648,
+        "state_bytes": 7188480,
+        "total_bytes": 442544128
+      },
+      "after": {
+        "kv_bytes": 436207616,
+        "state_bytes": 7188480,
+        "total_bytes": 443396096
+      }
+    }
+  ],
+  "tolerance_note": "Explicit kernel vs FP32 scan relative L2<2e-4; FP32 whole-model one-shot vs prefill+decode relative logits L2<1e-3 at 272 and8192 tokens. BF16 differences reported as diagnostics, not gated by a relaxed threshold: an initial BF16-only 0.03 gate failed on AD (0.05367) and teacher was already0.02658, motivating independent FP32 validation. Original BF16 parameters preserved exactly for actual timing."
+}

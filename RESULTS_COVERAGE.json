@@ -1,7 +1,7 @@
 {
   "source_root": "/root/autodl-tmp/kan_attention_theory",
   "all_results_json_csv_included": true,
-  "results_metric_count": 911,
+  "results_metric_count": 916,
   "added_metric_count": 186,
   "added_bytes": 340583813,
   "files": [
@@ -1828,6 +1828,36 @@
       "repository_path": "snapshot/kan_attention_theory/distribution_operator/results/train_galerkin_results.json",
       "bytes": 40266,
       "sha256": "55f5d632d3f9513d94aa4f6baac464f3be7a4bd309214565b622aca0d33272c0"
+    },
+    {
+      "source_path": "full_model_ad_hedgehog/results/dispatch_diagnostic.json",
+      "repository_path": "snapshot/kan_attention_theory/full_model_ad_hedgehog/results/dispatch_diagnostic.json",
+      "bytes": 8730,
+      "sha256": "89d7e6b579af208ac9e00f943ed12cd88e23d05fbfbb060c126e140c28308146"
+    },
+    {
+      "source_path": "full_model_ad_hedgehog/results/protocol.json",
+      "repository_path": "snapshot/kan_attention_theory/full_model_ad_hedgehog/results/protocol.json",
+      "bytes": 7317,
+      "sha256": "93f77499e478cbd685a271e352f9aa6fd7f15966c47f74335e71a64ebc8250b5"
+    },
+    {
+      "source_path": "full_model_ad_hedgehog/results/raw.json",
+      "repository_path": "snapshot/kan_attention_theory/full_model_ad_hedgehog/results/raw.json",
+      "bytes": 140525,
+      "sha256": "c65ae028984209fac1d5029e24f1bf912b3c470b69d3ac9406ab52ca07c3a1a6"
+    },
+    {
+      "source_path": "full_model_ad_hedgehog/results/summary.json",
+      "repository_path": "snapshot/kan_attention_theory/full_model_ad_hedgehog/results/summary.json",
+      "bytes": 30271,
+      "sha256": "61d7be43d2834dd702bc8bc452b9e3d8d6649d9474e774622e4c0668ac7f94ec"
+    },
+    {
+      "source_path": "full_model_ad_hedgehog/results/timing.csv",
+      "repository_path": "snapshot/kan_attention_theory/full_model_ad_hedgehog/results/timing.csv",
+      "bytes": 2003,
+      "sha256": "910f6c94a3e8fa2d26354e4c46c3b2c12c2319c8693ff9ee6f2eed8cbe3ca7ed"
     },
     {
       "source_path": "gated_integration/results/balanced_timing_gdn.json",
@@ -5472,5 +5502,7 @@
       "sha256": "296a6c9c9967bdc892195045100994dc5507bc9a55a017331d330fd2bbe61d2c"
     }
   ],
-  "scope": "All project results-directory JSON/CSV files at this snapshot. Does not include all stdout logs, intermediate tensors, historical checkpoints, raw datasets or base-model weights. Original ARTIFACT_INVENTORY.json describes the earlier smaller handoff; use this file for expanded result coverage."
+  "scope": "All project results-directory JSON/CSV files through the 2026-09-09 full-model AD/Hedgehog timing experiment. Old added_metric_count/added_bytes describe the earlier186-file coverage expansion; latest_added_metric_count describes this update. Excludes raw data, base weights, large intermediate tensors and exhaustive historical checkpoints.",
+  "latest_experiment": "full_model_ad_hedgehog",
+  "latest_added_metric_count": 5
 }

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "timing_trials": 180,
+  "paired_blocks": 36,
+  "timing_conditions": 15,
+  "correctness_cases": 20,
+  "code_sha256_matches_executed": true,
+  "all_state_sizes_constant": true,
+  "all_kv_sizes_match_actual_layer_count": true,
+  "all_measured_trials_retained": true,
+  "scope": "RTX3090 batch1,24/336 heads replaced; no new PPL evaluation or full-head conversion."
+}

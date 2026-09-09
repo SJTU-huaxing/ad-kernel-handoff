@@ -6,9 +6,9 @@
 h(q,k)=e^{s_K(k)}\operatorname{softmax}([z_Q(q),0])^\top\operatorname{softmax}([z_K(k),0]).
 \]
 
-包含完整研究文档、40份历史原文、183份项目Python源码、已审计结果及21个AD/EXP/Hedgehog/FAVOR检查点。**按用户要求，不上传原始数据、QKV缓存或基础LLM权重，只保留获取方式、版本与逐文件校验信息。**
+保留原交接的完整研究文档、40份历史原文、183份项目Python源码、已审计结果及21个AD/EXP/Hedgehog/FAVOR检查点；另外收录2026-09-09新增完整模型推理计时的3份Python源码、协议、报告和原始结果。**按用户要求，不上传原始数据、QKV缓存或基础LLM权重，只保留获取方式、版本与逐文件校验信息。**
 
-已补齐旧精简包未带的186份较大指标文件：当前仓库包括原项目各阶段`results/`目录中的**全部911份JSON/CSV结果文件**，包括全部17份`summary.json`及逐文档指标。精确范围、大小与SHA256见[RESULTS_COVERAGE.json](RESULTS_COVERAGE.json)。原`ARTIFACT_INVENTORY.json`描述的是补齐前的交接包；判断当前结果覆盖范围请使用新清单。
+已补齐旧精简包未带的186份较大指标文件：原交接覆盖原项目各阶段`results/`目录中的**全部911份JSON/CSV结果文件**；新增推理计时后共有916份，包括全部17份`summary.json`及逐文档指标。精确范围、大小与SHA256见[RESULTS_COVERAGE.json](RESULTS_COVERAGE.json)。原`ARTIFACT_INVENTORY.json`描述的是补齐前的交接包；判断当前结果覆盖范围请使用新清单。
 
 这不表示全部运行产物都已上传：大型中间特征/矩阵、所有历史检查点及完整终端日志仍未全部收录。报告、结果指标与原始激活数据是不同的材料。
 
@@ -39,6 +39,10 @@ python inspect_target.py > work/target_environment.json
 ```
 
 这会复制源码和检查点到`work/kan_attention_theory/`，保留`snapshot/`作为原始证据。`work/`不进入Git。旧代码存在CUDA和绝对路径依赖，须按迁移文档改造后运行；仅复制文件不代表NPU移植已完成。
+
+**2026-09-09 新增完整模型速度对比**
+
+AD在已测局部替换中prefill更快，逐token解码没有稳定优势。8k输入+64步解码总时间相对两种Hedgehog约省0.8%～1.3%；没有超过原模型速度。见[最新计时结论与下载后的复现入口](FULL_MODEL_INFERENCE_20260909.zh.md)。原始180次计时、缓存和FP32核验均已收录；没有新增基础模型或原始数据。
 
 **当前证据范围**
 
