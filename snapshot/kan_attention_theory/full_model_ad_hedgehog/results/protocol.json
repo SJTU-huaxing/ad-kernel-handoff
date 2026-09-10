@@ -1,0 +1,334 @@
+{
+  "utc_created": "2026-09-09T06:18:06Z",
+  "model": "Qwen/Qwen2.5-1.5B",
+  "revision": "8faed761d45a263340a0528343f099c05c9a4323",
+  "hardware": "NVIDIA GeForce RTX 3090",
+  "torch": "2.13.0+cu130",
+  "transformers": "5.16.1",
+  "cuda": "13.0",
+  "python": "3.11.16",
+  "cpu_threads": 4,
+  "base_model_parameters": 1543714304,
+  "batch_size": 1,
+  "model_dtype": "bfloat16",
+  "feature_state_dtype": "float32",
+  "tf32": false,
+  "layers": [
+    14,
+    27
+  ],
+  "replaced_heads": 24,
+  "total_heads": 336,
+  "cases": {
+    "teacher": {
+      "case": "teacher",
+      "checkpoint": null
+    },
+    "ad_plain": {
+      "case": "ad_plain",
+      "checkpoint": "causal_kl_reduced_plain_s11_lr0.002",
+      "m": 64,
+      "parameters_per_head": 73536,
+      "checkpoint_sha256": "ea084fdd6a9af6037e5401d72af1210175a0799df68e54e5a1f92c97b590aa50"
+    },
+    "ad_matched": {
+      "case": "ad_matched",
+      "checkpoint": "causal_kl_reduced_matched_s11_lr0.002",
+      "m": 64,
+      "parameters_per_head": 73728,
+      "checkpoint_sha256": "1017d923c5d6c02f5336475668ff0d83108e95659787f089c5ddfea04b47a52b"
+    },
+    "hh_exp": {
+      "case": "hh_exp",
+      "checkpoint": "hh_kl_s11_lr0.002",
+      "m": 576,
+      "parameters_per_head": 73728,
+      "checkpoint_sha256": "1860e743db091dde9dc75f9be6110b3071b679ad4e68a09780f4ddeb65b3544d"
+    },
+    "hh_softmax": {
+      "case": "hh_softmax",
+      "checkpoint": "hh_softmax_kl_s11_lr0.002",
+      "m": 576,
+      "parameters_per_head": 73728,
+      "checkpoint_sha256": "e3dd28603f59333b2d993288d8050661a23535ad0bf315a65b3f736874fd3839"
+    }
+  },
+  "script_sha256": "ddcf20fafeac47efd0e68194d9c3a4ce31506040e43e4ee48437dc5cad1d5963",
+  "manifest_sha256": "e2be0e3bb91e4e14ed80a62eeada4663f4fcaeb66438131d8de879b38784958d",
+  "operator_sha256": "f51a84e7011656549aaf6040151c6cfd062552fe3881da53e720868200c2e237",
+  "cache_runtime_sha256": "cbb9a59173749226fc9f032ed01fdf99f17a8109a1f9aa6bdde4763915e59bae",
+  "token_sha256": [
+    "a76993a34c89ed00c3608ad41101a719e8faccaf5fdaccc042d42dd563193574",
+    "9bfd3ba217f4ad43ef457d31836b48dd75d73b57b52563cfdc7e0be47d784a58",
+    "cbbfdc5c1fb5da4eabcdb380294d3cfc5f8e18012c26b4bef33fa9e8c84d389f"
+  ],
+  "protocol": "HF eager model execution with SDPA for unchanged layers; identical FP32 reference linear prefill/step for AD and Hedgehog; no per-token diagnostic synchronization. Full model forward including LM head, logits_to_keep=1, actual DynamicCache plus StateOnlyLayer at both replaced layers. Fixed-token continuation for fair shapes/content, no text tokenization, sampling, request scheduling or network IO. Not a full-head conversion, pretraining study, CUDA-graph serving engine, or NPU result.",
+  "blocks_per_length": 12,
+  "decode_tokens": 64,
+  "lengths": [
+    1024,
+    4096,
+    8192
+  ],
+  "schedule": {
+    "1024": [
+      [
+        "ad_matched",
+        "hh_exp",
+        "teacher",
+        "ad_plain",
+        "hh_softmax"
+      ],
+      [
+        "hh_exp",
+        "ad_plain",
+        "teacher",
+        "ad_matched",
+        "hh_softmax"
+      ],
+      [
+        "teacher",
+        "hh_exp",
+        "hh_softmax",
+        "ad_matched",
+        "ad_plain"
+      ],
+      [
+        "teacher",
+        "hh_softmax",
+        "ad_plain",
+        "hh_exp",
+        "ad_matched"
+      ],
+      [
+        "hh_softmax",
+        "hh_exp",
+        "ad_plain",
+        "ad_matched",
+        "teacher"
+      ],
+      [
+        "teacher",
+        "hh_exp",
+        "hh_softmax",
+        "ad_matched",
+        "ad_plain"
+      ],
+      [
+        "ad_matched",
+        "teacher",
+        "ad_plain",
+        "hh_exp",
+        "hh_softmax"
+      ],
+      [
+        "teacher",
+        "ad_matched",
+        "ad_plain",
+        "hh_softmax",
+        "hh_exp"
+      ],
+      [
+        "hh_softmax",
+        "ad_matched",
+        "ad_plain",
+        "teacher",
+        "hh_exp"
+      ],
+      [
+        "hh_softmax",
+        "ad_plain",
+        "ad_matched",
+        "hh_exp",
+        "teacher"
+      ],
+      [
+        "ad_matched",
+        "hh_softmax",
+        "hh_exp",
+        "teacher",
+        "ad_plain"
+      ],
+      [
+        "hh_exp",
+        "teacher",
+        "ad_plain",
+        "hh_softmax",
+        "ad_matched"
+      ]
+    ],
+    "4096": [
+      [
+        "hh_softmax",
+        "ad_plain",
+        "teacher",
+        "hh_exp",
+        "ad_matched"
+      ],
+      [
+        "hh_softmax",
+        "hh_exp",
+        "teacher",
+        "ad_matched",
+        "ad_plain"
+      ],
+      [
+        "hh_exp",
+        "ad_matched",
+        "teacher",
+        "hh_softmax",
+        "ad_plain"
+      ],
+      [
+        "ad_matched",
+        "teacher",
+        "ad_plain",
+        "hh_softmax",
+        "hh_exp"
+      ],
+      [
+        "ad_plain",
+        "ad_matched",
+        "hh_exp",
+        "hh_softmax",
+        "teacher"
+      ],
+      [
+        "ad_matched",
+        "hh_softmax",
+        "teacher",
+        "hh_exp",
+        "ad_plain"
+      ],
+      [
+        "hh_exp",
+        "hh_softmax",
+        "ad_plain",
+        "teacher",
+        "ad_matched"
+      ],
+      [
+        "ad_plain",
+        "teacher",
+        "hh_exp",
+        "ad_matched",
+        "hh_softmax"
+      ],
+      [
+        "hh_softmax",
+        "hh_exp",
+        "ad_plain",
+        "teacher",
+        "ad_matched"
+      ],
+      [
+        "teacher",
+        "ad_plain",
+        "hh_softmax",
+        "hh_exp",
+        "ad_matched"
+      ],
+      [
+        "hh_exp",
+        "ad_plain",
+        "ad_matched",
+        "hh_softmax",
+        "teacher"
+      ],
+      [
+        "hh_softmax",
+        "hh_exp",
+        "ad_matched",
+        "ad_plain",
+        "teacher"
+      ]
+    ],
+    "8192": [
+      [
+        "teacher",
+        "ad_plain",
+        "hh_exp",
+        "hh_softmax",
+        "ad_matched"
+      ],
+      [
+        "hh_softmax",
+        "teacher",
+        "ad_plain",
+        "hh_exp",
+        "ad_matched"
+      ],
+      [
+        "ad_matched",
+        "teacher",
+        "hh_softmax",
+        "hh_exp",
+        "ad_plain"
+      ],
+      [
+        "ad_plain",
+        "teacher",
+        "hh_exp",
+        "hh_softmax",
+        "ad_matched"
+      ],
+      [
+        "ad_matched",
+        "hh_exp",
+        "teacher",
+        "ad_plain",
+        "hh_softmax"
+      ],
+      [
+        "ad_matched",
+        "teacher",
+        "ad_plain",
+        "hh_exp",
+        "hh_softmax"
+      ],
+      [
+        "hh_exp",
+        "hh_softmax",
+        "ad_matched",
+        "teacher",
+        "ad_plain"
+      ],
+      [
+        "ad_matched",
+        "hh_softmax",
+        "ad_plain",
+        "hh_exp",
+        "teacher"
+      ],
+      [
+        "hh_softmax",
+        "ad_matched",
+        "hh_exp",
+        "ad_plain",
+        "teacher"
+      ],
+      [
+        "ad_plain",
+        "hh_exp",
+        "teacher",
+        "ad_matched",
+        "hh_softmax"
+      ],
+      [
+        "ad_matched",
+        "hh_softmax",
+        "hh_exp",
+        "ad_plain",
+        "teacher"
+      ],
+      [
+        "ad_matched",
+        "hh_exp",
+        "teacher",
+        "hh_softmax",
+        "ad_plain"
+      ]
+    ]
+  },
+  "warmup": "Each method: two prompt+8decode warmups at each length. Three documents cycle by paired block; randomized method order within block. All measured blocks retained; CUDA events and synchronized wall clock."
+}

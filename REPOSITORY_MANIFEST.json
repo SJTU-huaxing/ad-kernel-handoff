@@ -37,8 +37,8 @@
     },
     {
       "path": "CURRENT_RESULTS.zh.md",
-      "bytes": 12864,
-      "sha256": "658c6244d4804daef30fd9be35d6c65983b1d5082ca974cca3fdc6ed6e55e44b"
+      "bytes": 14830,
+      "sha256": "74c34569fc7c3ce05c471e9a4f0efcb7446daa86bda58f83351f38a6f35a8b98"
     },
     {
       "path": "EXTERNAL_DATA_MANIFEST.json",
@@ -49,6 +49,11 @@
       "path": "EXTERNAL_MODEL_MANIFEST.json",
       "bytes": 2518,
       "sha256": "7202250c71bc9c466b9fca6e3617d4d4ebc094692388fcdf8db1275120359e24"
+    },
+    {
+      "path": "FULL_MODEL_INFERENCE_20260909.zh.md",
+      "bytes": 1802,
+      "sha256": "32395caf78feaf3e044d1c87149b8607637b28bea38a6b46e394ef826e1bd19c"
     },
     {
       "path": "HANDOFF_AUDIT.json",
@@ -72,13 +77,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 3157,
-      "sha256": "854a990d3a9498b754990880881e8e022cd61d455ffe53a45b02940d72e49a71"
+      "bytes": 3721,
+      "sha256": "1ca85be0197ddb3a1871f5dad97cad5bae89c0f0d6767e685c6e29de2063dc68"
     },
     {
       "path": "RESULTS_COVERAGE.json",
-      "bytes": 302783,
-      "sha256": "b4d54b578bd9ad73f04ee51e026ea41b06679a68768e1ff87a9bef849efb1a2b"
+      "bytes": 304364,
+      "sha256": "d2ddaa252de3760fd7b5a0645cebb7b2c2ef575d652c7111faa47f62bf00a5d4"
     },
     {
       "path": "SNAPSHOT_SUMMARY.json",
@@ -2354,6 +2359,91 @@
       "path": "snapshot/kan_attention_theory/distribution_operator/verify.py",
       "bytes": 2501,
       "sha256": "6bb2d515b90919183dcd99bcac6436711c02ec359315408fbfcade5aaeaab78e"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/full_model_ad_hedgehog/PROTOCOL.zh.md",
+      "bytes": 3911,
+      "sha256": "1ec68248820bd19e5e4b36654989a82ec5193908cb9e1f202ae5bf9192cb4658"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/full_model_ad_hedgehog/REPORT.zh.md",
+      "bytes": 10906,
+      "sha256": "d1b280623c2091cb011c31e1b6215374da1b90541ca42137f92e86982e870c5d"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/full_model_ad_hedgehog/benchmark.py",
+      "bytes": 18482,
+      "sha256": "ddcf20fafeac47efd0e68194d9c3a4ce31506040e43e4ee48437dc5cad1d5963"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/full_model_ad_hedgehog/checks/correctness.json",
+      "bytes": 15417,
+      "sha256": "1e5a05ad34353e85fe9e55d619bd116f5c3002018f9004048f968a77d25cb12c"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/full_model_ad_hedgehog/checks/environment.json",
+      "bytes": 2707,
+      "sha256": "391b869db5c4736a1f00cb8286c93079a14142e40580370d970aa708702358dd"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/full_model_ad_hedgehog/checks/final_audit.json",
+      "bytes": 385,
+      "sha256": "09204e895b87f00223eda3d426577172f35800e4e160e457ca413c08a23d3990"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/full_model_ad_hedgehog/dispatch_diagnostic.py",
+      "bytes": 3632,
+      "sha256": "0c340ee298a7adaa2b480e582ed5f892747a722c18220d4dcf3d1fad914c89ac"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/full_model_ad_hedgehog/figures/full_model_timing.pdf",
+      "bytes": 21655,
+      "sha256": "f36a821cd5edc3850ecae07292a47991f1b253ffd5981e23622993dd6d888672"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/full_model_ad_hedgehog/figures/full_model_timing.png",
+      "bytes": 68162,
+      "sha256": "a7c2fef216cec341e0ae9c5d13597ae0b440f62a3fb78b7e4b26c90b707e21f5"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/full_model_ad_hedgehog/logs/benchmark.log",
+      "bytes": 138202,
+      "sha256": "ef93e12f7bdc47b32821771695a0f1d639c08c6c5efdd617510961a5fa3b94d4"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/full_model_ad_hedgehog/logs/dispatch_diagnostic.log",
+      "bytes": 6523,
+      "sha256": "95a8fccdc51e7890a8f83b0a2fdf04eff52e37f272e0687ae52f66e7d144dd60"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/full_model_ad_hedgehog/make_report.py",
+      "bytes": 10415,
+      "sha256": "a83a33d930d3b4e1c917e6c020014ca38867d8fc2ec65363931eed4dc460a9d7"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/full_model_ad_hedgehog/results/dispatch_diagnostic.json",
+      "bytes": 8730,
+      "sha256": "89d7e6b579af208ac9e00f943ed12cd88e23d05fbfbb060c126e140c28308146"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/full_model_ad_hedgehog/results/protocol.json",
+      "bytes": 7317,
+      "sha256": "93f77499e478cbd685a271e352f9aa6fd7f15966c47f74335e71a64ebc8250b5"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/full_model_ad_hedgehog/results/raw.json",
+      "bytes": 140525,
+      "sha256": "c65ae028984209fac1d5029e24f1bf912b3c470b69d3ac9406ab52ca07c3a1a6"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/full_model_ad_hedgehog/results/summary.json",
+      "bytes": 30271,
+      "sha256": "61d7be43d2834dd702bc8bc452b9e3d8d6649d9474e774622e4c0668ac7f94ec"
+    },
+    {
+      "path": "snapshot/kan_attention_theory/full_model_ad_hedgehog/results/timing.csv",
+      "bytes": 2003,
+      "sha256": "910f6c94a3e8fa2d26354e4c46c3b2c12c2319c8693ff9ee6f2eed8cbe3ca7ed"
     },
     {
       "path": "snapshot/kan_attention_theory/gated_integration/PROTOCOL.zh.md",
@@ -7676,6 +7766,11 @@
       "sha256": "d1569834a545d56a157bd57f111ed71e05f84cc4fc07928c3c4292f403d1daf8"
     },
     {
+      "path": "snapshot/kan_attention_theory/real_llm_pilot/raw_importance.py",
+      "bytes": 3731,
+      "sha256": "837d9d137fb7d3aa2c64b00edd5bafc4c6587a054a8fba1aec9f45309ffc186e"
+    },
+    {
       "path": "snapshot/kan_attention_theory/real_llm_pilot/raw_importance/raw_kan_positive_m64_s11.json",
       "bytes": 108912,
       "sha256": "0ee959643330fec58fd84e7d87c8845397bbb046a8cf8232a7681ea1e9761445"
@@ -7704,11 +7799,6 @@
       "path": "snapshot/kan_attention_theory/real_llm_pilot/raw_importance/raw_mlp_positive_m64_s47.json",
       "bytes": 108572,
       "sha256": "e1d33e4a9f432d99179d9b739123a9efd9d7f1ed95eb00e29ca1d27863557a9f"
-    },
-    {
-      "path": "snapshot/kan_attention_theory/real_llm_pilot/raw_importance.py",
-      "bytes": 3731,
-      "sha256": "837d9d137fb7d3aa2c64b00edd5bafc4c6587a054a8fba1aec9f45309ffc186e"
     },
     {
       "path": "snapshot/kan_attention_theory/real_llm_pilot/raw_longer/raw_kan_positive_m64_s11.json",
@@ -8074,5 +8164,5 @@
     "__pycache__",
     "work"
   ],
-  "version": "Combined handoff with all 911 results JSON/CSV files; original reports unchanged."
+  "version": "Combined handoff with916 results JSON/CSV files including180 paired full-model timing trials; original experimental reports preserved."
 }

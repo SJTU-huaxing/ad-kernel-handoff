@@ -1,0 +1,391 @@
+{
+  "rows": [
+    {
+      "case": "ad_matched",
+      "block": 0,
+      "mode": "host",
+      "cuda_us": 633.0722570419312,
+      "wall_us": 635.4766665026546
+    },
+    {
+      "case": "ad_matched",
+      "block": 0,
+      "mode": "graph",
+      "cuda_us": 66.87799841165543,
+      "wall_us": 67.38537922501564
+    },
+    {
+      "case": "hh_softmax",
+      "block": 0,
+      "mode": "graph",
+      "cuda_us": 103.15199941396713,
+      "wall_us": 104.55920710228384
+    },
+    {
+      "case": "hh_softmax",
+      "block": 0,
+      "mode": "host",
+      "cuda_us": 553.4560084342957,
+      "wall_us": 555.1166977966204
+    },
+    {
+      "case": "hh_exp",
+      "block": 0,
+      "mode": "graph",
+      "cuda_us": 97.9200005531311,
+      "wall_us": 99.09889195114374
+    },
+    {
+      "case": "hh_exp",
+      "block": 0,
+      "mode": "host",
+      "cuda_us": 541.5754914283752,
+      "wall_us": 543.2004400063306
+    },
+    {
+      "case": "ad_plain",
+      "block": 0,
+      "mode": "graph",
+      "cuda_us": 64.31999802589417,
+      "wall_us": 65.50049874931574
+    },
+    {
+      "case": "ad_plain",
+      "block": 0,
+      "mode": "host",
+      "cuda_us": 621.2245225906372,
+      "wall_us": 623.0753497220576
+    },
+    {
+      "case": "hh_softmax",
+      "block": 1,
+      "mode": "graph",
+      "cuda_us": 103.15199941396713,
+      "wall_us": 104.42652273923159
+    },
+    {
+      "case": "hh_softmax",
+      "block": 1,
+      "mode": "host",
+      "cuda_us": 558.2320094108582,
+      "wall_us": 559.8947609541938
+    },
+    {
+      "case": "hh_exp",
+      "block": 1,
+      "mode": "host",
+      "cuda_us": 541.0400032997131,
+      "wall_us": 542.849869816564
+    },
+    {
+      "case": "hh_exp",
+      "block": 1,
+      "mode": "graph",
+      "cuda_us": 104.5600026845932,
+      "wall_us": 105.24076060391963
+    },
+    {
+      "case": "ad_plain",
+      "block": 1,
+      "mode": "host",
+      "cuda_us": 624.5599985122681,
+      "wall_us": 626.6528653213754
+    },
+    {
+      "case": "ad_plain",
+      "block": 1,
+      "mode": "graph",
+      "cuda_us": 64.41599875688553,
+      "wall_us": 64.94336412288249
+    },
+    {
+      "case": "ad_matched",
+      "block": 1,
+      "mode": "host",
+      "cuda_us": 634.3119740486145,
+      "wall_us": 636.4383589243516
+    },
+    {
+      "case": "ad_matched",
+      "block": 1,
+      "mode": "graph",
+      "cuda_us": 66.97549670934677,
+      "wall_us": 67.4476323183626
+    },
+    {
+      "case": "ad_matched",
+      "block": 2,
+      "mode": "graph",
+      "cuda_us": 65.36000221967697,
+      "wall_us": 67.65863508917391
+    },
+    {
+      "case": "ad_matched",
+      "block": 2,
+      "mode": "host",
+      "cuda_us": 637.2640132904053,
+      "wall_us": 639.285848592408
+    },
+    {
+      "case": "hh_softmax",
+      "block": 2,
+      "mode": "host",
+      "cuda_us": 554.4000267982483,
+      "wall_us": 556.324957869947
+    },
+    {
+      "case": "hh_softmax",
+      "block": 2,
+      "mode": "graph",
+      "cuda_us": 108.19149762392044,
+      "wall_us": 108.75845327973366
+    },
+    {
+      "case": "ad_plain",
+      "block": 2,
+      "mode": "host",
+      "cuda_us": 626.5119910240173,
+      "wall_us": 628.6319840000942
+    },
+    {
+      "case": "ad_plain",
+      "block": 2,
+      "mode": "graph",
+      "cuda_us": 64.46299701929092,
+      "wall_us": 64.92037209682167
+    },
+    {
+      "case": "hh_exp",
+      "block": 2,
+      "mode": "host",
+      "cuda_us": 540.3599739074707,
+      "wall_us": 542.3165421234444
+    },
+    {
+      "case": "hh_exp",
+      "block": 2,
+      "mode": "graph",
+      "cuda_us": 104.47999835014343,
+      "wall_us": 105.05388490855694
+    },
+    {
+      "case": "ad_matched",
+      "block": 3,
+      "mode": "host",
+      "cuda_us": 641.5119767189026,
+      "wall_us": 643.6705443775281
+    },
+    {
+      "case": "ad_matched",
+      "block": 3,
+      "mode": "graph",
+      "cuda_us": 66.94400310516357,
+      "wall_us": 67.42880214005709
+    },
+    {
+      "case": "ad_plain",
+      "block": 3,
+      "mode": "graph",
+      "cuda_us": 64.27200138568878,
+      "wall_us": 65.43257040902972
+    },
+    {
+      "case": "ad_plain",
+      "block": 3,
+      "mode": "host",
+      "cuda_us": 618.2960271835327,
+      "wall_us": 619.9606432346627
+    },
+    {
+      "case": "hh_softmax",
+      "block": 3,
+      "mode": "host",
+      "cuda_us": 550.0959753990173,
+      "wall_us": 551.964229089208
+    },
+    {
+      "case": "hh_softmax",
+      "block": 3,
+      "mode": "graph",
+      "cuda_us": 108.24000090360641,
+      "wall_us": 108.80373883992434
+    },
+    {
+      "case": "hh_exp",
+      "block": 3,
+      "mode": "host",
+      "cuda_us": 548.1119751930237,
+      "wall_us": 549.9585240613669
+    },
+    {
+      "case": "hh_exp",
+      "block": 3,
+      "mode": "graph",
+      "cuda_us": 104.76800054311752,
+      "wall_us": 105.32676242291927
+    },
+    {
+      "case": "hh_exp",
+      "block": 4,
+      "mode": "host",
+      "cuda_us": 595.8889722824097,
+      "wall_us": 597.9243433102965
+    },
+    {
+      "case": "hh_exp",
+      "block": 4,
+      "mode": "graph",
+      "cuda_us": 105.103999376297,
+      "wall_us": 105.74993211776018
+    },
+    {
+      "case": "ad_matched",
+      "block": 4,
+      "mode": "graph",
+      "cuda_us": 65.40799885988235,
+      "wall_us": 67.08872388117015
+    },
+    {
+      "case": "ad_matched",
+      "block": 4,
+      "mode": "host",
+      "cuda_us": 642.2240138053894,
+      "wall_us": 644.1158038796857
+    },
+    {
+      "case": "ad_plain",
+      "block": 4,
+      "mode": "graph",
+      "cuda_us": 64.27200138568878,
+      "wall_us": 65.54578430950642
+    },
+    {
+      "case": "ad_plain",
+      "block": 4,
+      "mode": "host",
+      "cuda_us": 612.608015537262,
+      "wall_us": 614.2576166894287
+    },
+    {
+      "case": "hh_softmax",
+      "block": 4,
+      "mode": "host",
+      "cuda_us": 551.2319803237915,
+      "wall_us": 553.0585185624659
+    },
+    {
+      "case": "hh_softmax",
+      "block": 4,
+      "mode": "graph",
+      "cuda_us": 108.20700228214264,
+      "wall_us": 108.74794679693878
+    },
+    {
+      "case": "hh_exp",
+      "block": 5,
+      "mode": "graph",
+      "cuda_us": 98.14400225877762,
+      "wall_us": 99.85751239582896
+    },
+    {
+      "case": "hh_exp",
+      "block": 5,
+      "mode": "host",
+      "cuda_us": 539.1520261764526,
+      "wall_us": 540.5695701483637
+    },
+    {
+      "case": "ad_plain",
+      "block": 5,
+      "mode": "host",
+      "cuda_us": 616.2800192832947,
+      "wall_us": 618.1992794154212
+    },
+    {
+      "case": "ad_plain",
+      "block": 5,
+      "mode": "graph",
+      "cuda_us": 64.35199826955795,
+      "wall_us": 64.80244337581098
+    },
+    {
+      "case": "ad_matched",
+      "block": 5,
+      "mode": "graph",
+      "cuda_us": 65.32800197601318,
+      "wall_us": 66.56371988356113
+    },
+    {
+      "case": "ad_matched",
+      "block": 5,
+      "mode": "host",
+      "cuda_us": 636.0402703285217,
+      "wall_us": 637.6790843205526
+    },
+    {
+      "case": "hh_softmax",
+      "block": 5,
+      "mode": "host",
+      "cuda_us": 562.175989151001,
+      "wall_us": 564.0134186251089
+    },
+    {
+      "case": "hh_softmax",
+      "block": 5,
+      "mode": "graph",
+      "cuda_us": 110.71900278329849,
+      "wall_us": 111.28047481179237
+    }
+  ],
+  "aggregates": [
+    {
+      "case": "ad_plain",
+      "mode": "host",
+      "cuda_us": 619.760274887085,
+      "wall_us": 621.5179964783601
+    },
+    {
+      "case": "ad_plain",
+      "mode": "graph",
+      "cuda_us": 64.33599814772606,
+      "wall_us": 65.1879672659561
+    },
+    {
+      "case": "ad_matched",
+      "mode": "host",
+      "cuda_us": 636.6521418094635,
+      "wall_us": 638.4824664564803
+    },
+    {
+      "case": "ad_matched",
+      "mode": "graph",
+      "cuda_us": 66.14299863576889,
+      "wall_us": 67.40709068253636
+    },
+    {
+      "case": "hh_exp",
+      "mode": "host",
+      "cuda_us": 541.3077473640442,
+      "wall_us": 543.0251549114473
+    },
+    {
+      "case": "hh_exp",
+      "mode": "graph",
+      "cuda_us": 104.52000051736832,
+      "wall_us": 105.14732275623828
+    },
+    {
+      "case": "hh_softmax",
+      "mode": "host",
+      "cuda_us": 553.928017616272,
+      "wall_us": 555.7208278332837
+    },
+    {
+      "case": "hh_softmax",
+      "mode": "graph",
+      "cuda_us": 108.19924995303154,
+      "wall_us": 108.75320003833622
+    }
+  ],
+  "scope": "One layer/12heads, actual cached QKV, FP32, same feature+reference step. Six shuffled-order blocks. Host dispatch128calls versus graph64calls. Hot state/weights, fixed repeated token, not complete-model latency. Difference includes dispatch, allocation and graph execution effects; does not isolate Python alone or predict a compiled full-model speedup."
+}
