@@ -1,0 +1,30 @@
+{
+  "protocol_id": "ascend-public-wikitext-v1",
+  "scope": "New public-data reproduction; original GPU token manifest and QKV were not supplied",
+  "model_revision": "8faed761d45a263340a0528343f099c05c9a4323",
+  "dataset": "EleutherAI/wikitext_document_level",
+  "dataset_revision": "647234772b9554e208af6c826f23b99e3cac88c8",
+  "dataset_config": "wikitext-103-raw-v1",
+  "selection_seed": 9092026,
+  "splits": {
+    "train": {"source_split": "train", "count": 4096, "tokens": 1024},
+    "validation": {"source_split": "train", "count": 128, "tokens": 1024},
+    "confirm_wiki": {"source_split": "train", "count": 128, "tokens": 1024},
+    "confirm_long": {"source_split": "train", "count": 24, "tokens": 8192}
+  },
+  "queries_per_document": 64,
+  "query_position_seed": 81000,
+  "layers": [14, 27],
+  "num_query_heads_per_layer": 12,
+  "num_key_heads_per_layer": 2,
+  "head_dim": 128,
+  "shard_documents": 32,
+  "feature_seeds": [11, 29, 47],
+  "learning_rate_candidates": [0.002, 0.0005],
+  "selection": "Seed 11, first 32 validation documents only; other seeds reuse selected lr",
+  "methods": ["ad", "exp", "matched_zero_ad", "matched_zero_exp", "hh_exp", "hh_softmax", "favor"],
+  "training": {"epochs": 1, "optimizer": "AdamW", "weight_decay": 0.0001, "head_gradient_clip": 10, "scheduler": "cosine", "min_lr_ratio": 0.1, "document_order_seed_offset": 85000, "loss": "causal attention KL"},
+  "normalization": "Training-only mean/std, every 8 cached positions, CPU FP64 reduction, std floor 0.03",
+  "evaluation": "Per-document causal KL/TV/coefficient L2/output NMSE, all-next-token local-replacement NLL/PPL, teacher remeasured on NPU",
+  "frozen_before_confirmation_metrics": true
+}

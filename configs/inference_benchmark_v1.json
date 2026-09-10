@@ -1,0 +1,16 @@
+{
+  "protocol_id": "ascend-lm-inference-benchmark-v1",
+  "checkpoints": "Primary seed 11, all methods, fixed final step 16384",
+  "batches": [1, 4],
+  "lengths": [1024, 4096, 8192],
+  "decode_tokens": 128,
+  "warmups": 3,
+  "measurements": 7,
+  "precision": "Same FP32 master weights and BF16 autocast as quality evaluation; linear feature and state arithmetic FP32, softmax K/V BF16",
+  "inputs": "First four disjoint 8321-token spans from the frozen packed test stream, truncated to each context length; fixed teacher-forced continuation for identical input tokens across models",
+  "prefill": "Includes all attention layers, final normalization, final-position vocabulary projection and construction of compact inference caches",
+  "decode": "128 sequential single-token steps including vocabulary projection; prefill excluded from decode timer; no sampling or tokenization in the timer",
+  "memory": "Report actual retained cache tensor storage and peak PyTorch allocated bytes, including weights and transient allocations; allocator-reserved bytes separately",
+  "exclusivity": "No training or quality job may run during timing. B1 and B4 may run on separate exclusive NPUs; record physical visibility and NPU process snapshot.",
+  "scope": "Eager CANN execution. No graph capture, weight quantization or generation sampling. Report medians and all samples; timing is specific to these checkpoints, inputs, software and devices."
+}

@@ -1,0 +1,6 @@
+torch>=2.7
+numpy
+safetensors
+transformers>=4.45
+datasets
+pyarrow

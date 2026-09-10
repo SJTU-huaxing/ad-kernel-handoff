@@ -1,0 +1,120 @@
+{
+  "protocol_id": "ascend-all-layer-linear-lm-v2",
+  "scope": "Conventional all-layer causal LM pretraining from random backbone initialization",
+  "data_manifest_sha256": "9976b25b1d3e54c50d7e20b926be6cd1c16fd52aae28e999629639cacd4d0d96",
+  "architecture": {
+    "vocab_size": 50257,
+    "width": 768,
+    "layers": 12,
+    "heads": 12,
+    "intermediate": 2048,
+    "feature_hidden": 96,
+    "rope_theta": 10000.0,
+    "norm_eps": 1e-06
+  },
+  "methods": {
+    "ad64": {
+      "method": "ad",
+      "feature_dim": 64
+    },
+    "exp64": {
+      "method": "exp",
+      "feature_dim": 64
+    },
+    "hh_exp128": {
+      "method": "hh_exp",
+      "feature_dim": 128
+    },
+    "hh_softmax128": {
+      "method": "hh_softmax",
+      "feature_dim": 128
+    },
+    "hh_exp384": {
+      "method": "hh_exp",
+      "feature_dim": 384
+    },
+    "favor64": {
+      "method": "favor",
+      "feature_dim": 64
+    },
+    "favor256": {
+      "method": "favor",
+      "feature_dim": 256
+    },
+    "elu64": {
+      "method": "elu",
+      "feature_dim": 64
+    },
+    "softplus64": {
+      "method": "softplus",
+      "feature_dim": 64
+    },
+    "softmax": {
+      "method": "softmax",
+      "feature_dim": 64
+    }
+  },
+  "parameter_comparison": "Identical shared backbone and tokenizer; AD/EXP exactly match learned feature parameters and state. HH variants have their own explicit parameter/state budgets, including biases. FAVOR matrices are fixed buffers.",
+  "precision": {
+    "backbone": "BF16 autocast with FP32 master parameters",
+    "features_and_attention": "FP32",
+    "attention_backend": "torch",
+    "loss": "FLA Ascend fused linear cross entropy; no auxiliary loss"
+  },
+  "backend_choice": "Updated independent same-card reversed-order full-model benchmarks retain CANN native torch chunk attention. About 0.381s versus 0.538s for fresh AD, 0.973s versus 1.360s for fresh HH m384, and 0.415s versus 0.577s for the actual pre-failure AD weights/input with safe subdivision. Evidence: work/reproduction/backend_benchmark_stable_v2.json and backend_benchmark_stable_trained_v2.json.",
+  "sequence_length": 1024,
+  "global_batch_sequences": 64,
+  "world_size": 2,
+  "primary_seed": 11,
+  "additional_seeds": [
+    29,
+    47
+  ],
+  "total_schedule_steps": 16384,
+  "primary_tokens": 1073741824,
+  "additional_seed_steps": 1600,
+  "multi_seed_milestone_tokens": 104857600,
+  "seed_scope": "All three seeds use the same full 1.074B-token LR schedule. Seeds 29/47 stop at the common 104.858M-token milestone; seed 11 continues to 1.074B. Early milestone is explicitly an early-training comparison, not converged 100M-token training.",
+  "optimizer": {
+    "type": "AdamW",
+    "lr": 0.0006,
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0.1,
+    "no_decay": "parameters with ndim < 2",
+    "gradient_clip": 1.0
+  },
+  "schedule": {
+    "warmup_steps": 128,
+    "decay": "cosine",
+    "minimum_lr_ratio": 0.1
+  },
+  "data_order": "Random permutation of nonoverlapping 1024-target-token blocks, seed 85000+model_seed. No repeated target block within a run. Identical order for every method at a given seed.",
+  "checkpoint_steps": 256,
+  "evaluation_steps": 1600,
+  "milestones": [
+    1600,
+    16384
+  ],
+  "selection": "Final fixed-budget checkpoints; no method, seed, LR or token-budget selection using the test set",
+  "evaluation": "Token-weighted NLL/PPL on held-out domains, length extension, new-domain text and associative recall; per-seed and paired-document statistics where applicable",
+  "limitations": "Single seed at the final 1.074B-token budget; three seeds at the 104.858M-token milestone. Hardware throughput must be measured separately from concurrent quality jobs.",
+  "numerical_execution": "Preserve the original positive kernel and all causal history. If a globally scaled causal denominator falls below sqrt(finfo(dtype).tiny), subdivide the execution span and carry complete differentiable S/z/scale state. No denominator floor, epsilon, amplitude clamp, window or gate. Count numerical subdivisions per process.",
+  "revision_reason": "v1 AD failed at step 348 due to FP32 subnormal denominators; v1 sources, complete softmax and failed AD trajectories are archived under work/pretraining/archive/protocol_v1_global_scaling. All formal v2 methods start again from their unchanged seed initialization; no old trajectory is resumed into this protocol.",
+  "job_order": [
+    "ad64",
+    "exp64",
+    "softmax",
+    "hh_softmax128",
+    "hh_exp128",
+    "favor256",
+    "favor64",
+    "elu64",
+    "softplus64",
+    "hh_exp384"
+  ],
+  "quality_evaluation_order": "After each fixed milestone, run both manual evaluation shards before the next training job. Quality metrics never select learning rate, seed, method or training budget."
+}

@@ -1,0 +1,18 @@
+{
+  "protocol_id": "matched-target-context-control-v1",
+  "status": "Supplementary diagnostic defined after observing the AD seed11 104.858M prefix results; no training settings or model selection depend on this diagnostic",
+  "checkpoints": "All ten methods, seed11, fixed final step16384 (1.074B tokens)",
+  "data": "All 64 documents from the existing frozen long_v1 manifest; no new document selection",
+  "target": "For every condition and document, exactly the same 1024 global target tokens at document indices7169..8192 inclusive (zero-based token indices)",
+  "conditions": [
+    {"context_tokens": 1024, "position_offset": 0, "name": "context1024_reset"},
+    {"context_tokens": 4096, "position_offset": 0, "name": "context4096_reset"},
+    {"context_tokens": 8192, "position_offset": 0, "name": "context8192_full"},
+    {"context_tokens": 1024, "position_offset": 7168, "name": "context1024_document_positions"},
+    {"context_tokens": 4096, "position_offset": 4096, "name": "context4096_document_positions"}
+  ],
+  "interpretation": "Reset-position conditions measure usable context extension on identical targets. Document-position conditions retain the full-document absolute RoPE positions while removing earlier context. Comparing reset/document positions at the same context size diagnoses sensitivity to absolute position separately from target difficulty.",
+  "implementation": "Same frozen model blocks, BF16 backbone and FP32 linear attention. Explicit RoPE offset is the only forward change; final vocabulary projection scores only the fixed target band.",
+  "statistics": "Per-document paired NLL differences; both document and hostname-cluster bootstrap intervals, conditional on one trained final-budget seed",
+  "limitations": "Exploratory single-seed diagnostic, not a preregistered primary endpoint. Longer context also changes intermediate hidden representations. This diagnostic does not tune RoPE, alter models or establish universal architectural claims."
+}

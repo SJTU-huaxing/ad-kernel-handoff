@@ -1,0 +1,27 @@
+{
+  "dataset": "HuggingFaceFW/fineweb-edu",
+  "revision": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+  "files": {
+    "000_00000.parquet": "b1ba7b2ce4cb5ea6ef42dca40263eabb85f37700d01693a68e9b30a31d78e871",
+    "001_00000.parquet": "3fcf2dc69cd52503986276d3d2d26a8c356d0f2ea28a0de4fdbda8cf87755693",
+    "002_00000.parquet": "547ae182d132c9f06b6ce63149567208ea9f57630bfd9b1a2938e504f0c9ebd7",
+    "003_00000.parquet": "22184e6eb25759ddd97783751ffc73e1705dfa2542e630dae1f2a8bac8ee6ddb"
+  },
+  "tokenizer": "openai-community/gpt2",
+  "tokenizer_revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "vocab_size": 50257,
+  "eos_token_id": 50256,
+  "quality": {"language": "en", "min_language_score": 0.8, "min_int_score": 3, "min_characters": 200, "min_words": 50},
+  "deduplication": {
+    "exact": "SHA256 of NFKC, lowercase, whitespace-collapsed text",
+    "near": "Bottom-32 sketch of word 5-gram hashes; candidates share one of 4 smallest hashes; estimated Jaccard >= 0.8",
+    "max_bucket": 256,
+    "large_bucket_policy": "discard new document as repetitive; log separately",
+    "limitations": "Approximate near-duplicate filtering, not a proof of zero residual overlap"
+  },
+  "split": "BLAKE2b(hostname without www., person=ad-split-v1) mod 1000: 0..4 validation, 5..9 test, remainder train; same normalized hostname stays in one split",
+  "maximum_tokens": {"train": 2000100000, "validation": 2000000, "test": 2000000},
+  "ordering": "Fixed parquet order and original row order; sample/10BT is the dataset's pre-randomized sample",
+  "storage": "uint16 little-endian GPT-2 IDs; EOS after each document; document offsets and hashes in JSONL",
+  "packing": "Training uses contiguous fixed-length sequences from EOS-separated stream, with attention across document boundaries inside a sequence; all methods share exactly the same stream. Evaluation can use recorded document boundaries."
+}

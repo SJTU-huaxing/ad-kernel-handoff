@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: ad-kernel-ascend
+Version: 0.1.0
+Summary: Auditable amplitude-direction linear attention and Ascend experiments
+Requires-Python: >=3.11
+Requires-Dist: torch>=2.7
+Requires-Dist: numpy
+Requires-Dist: safetensors
+Requires-Dist: transformers>=4.45
+Requires-Dist: datasets
+Requires-Dist: pyarrow

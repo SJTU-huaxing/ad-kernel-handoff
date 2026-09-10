@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/ad_kernel/__init__.py
+src/ad_kernel/features.py
+src/ad_kernel_ascend.egg-info/PKG-INFO
+src/ad_kernel_ascend.egg-info/SOURCES.txt
+src/ad_kernel_ascend.egg-info/dependency_links.txt
+src/ad_kernel_ascend.egg-info/requires.txt
+src/ad_kernel_ascend.egg-info/top_level.txt

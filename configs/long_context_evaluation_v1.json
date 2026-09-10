@@ -1,0 +1,11 @@
+{
+  "dataset": "HuggingFaceFW/fineweb-edu",
+  "revision": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+  "documents": 64,
+  "prefix_target_lengths": [1024, 4096, 8192],
+  "selection": "First 64 unique qualifying documents in fixed parquet/row order, restricted to predeclared test hostname hash buckets 5..9; no model scores used",
+  "filters": "en, language_score >= 0.8, int_score >= 3, at least 8193 GPT-2 tokens; exclude exact normalized-text matches to retained training documents; bottom-32 5-gram sketch deduplication within this cohort",
+  "training_isolation": "The hostname split rule is identical to the training data protocol, so these hostnames cannot occur in the training split",
+  "limitations": "Exact cross-training deduplication and hostname isolation do not prove absence of all semantic/near-duplicate overlap across different websites; within-cohort near deduplication is approximate",
+  "scope": "Coherent-document length extension; the same documents are evaluated at all three lengths, separately from the main packed test stream"
+}

@@ -1,0 +1,29 @@
+{
+  "protocol_id": "all-layer-lm-evaluation-v1",
+  "checkpoints": "Every method and seed at step 1600; every primary-seed method at step 16384. Fixed budgets, no test-based selection.",
+  "precision": "Same as training: BF16 backbone/softmax SDPA, FP32 linear features and attention; no weight quantization",
+  "packed_test": {"length": 1024, "tokens_available": 2000000, "aggregation": "Token-weighted NLL over complete nonoverlapping target blocks; at most 1023 tail tokens excluded"},
+  "long_documents": {"protocol": "configs/long_context_evaluation_v1.json", "lengths": [1024, 4096, 8192], "aggregation": "Per-document prefix NLL on the same 64 documents, plus disjoint 0:1024, 1024:4096 and 4096:8192 target-position bands"},
+  "new_domain": {
+    "source": "EleutherAI/wikitext_document_level",
+    "revision": "647234772b9554e208af6c826f23b99e3cac88c8",
+    "split": "wikitext-103-raw-v1 test",
+    "length": 1024,
+    "handling": "Reset between documents and between 1024-target blocks, retain the final partial block. Tokenize original page text without cleaning. Exclude exact normalized-text matches to retained training documents.",
+    "limitation": "A corpus/style transfer check; historical Wikipedia text can overlap web training through quotations or near duplicates. Exact document filtering does not establish full decontamination."
+  },
+  "associative_recall": {
+    "seed": 91371,
+    "pairs": [8, 32, 64],
+    "lengths": [1024, 4096, 8192],
+    "trials_per_pair_count": 24,
+    "target_positions": ["first", "middle", "last"],
+    "format": "Item NNN: single-token value, followed by neutral filler and a repeated queried Item NNN:",
+    "metrics": ["accuracy restricted to distinct values appearing in the table", "gold next-token log probability", "gold rank among table values", "unrestricted next-token accuracy"],
+    "chance": "1 / number of pairs for candidate-restricted accuracy",
+    "limitation": "Zero-shot table lookup measures both format comprehension and retrieval after ordinary LM pretraining. Chance-level performance is not evidence that an architecture cannot learn associative recall."
+  },
+  "statistics": "Paired document bootstrap conditional on trained checkpoints; report each seed, and distinguish 3-seed early-training results from single-seed full-budget results.",
+  "cache": "Verify full-forward, continued-prefill and token-decode logits; measure actual retained tensor storage, including numerical scale; exclude allocator reserves and weights from cache bytes.",
+  "timing": "Quality evaluation may share NPU resources with training, but such timings are not efficiency results. Final latency/throughput benchmarks require exclusive cards."
+}
